@@ -5,7 +5,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:12:06.242408Z",
+      "updatedAt": "2026-07-03T23:13:15.379140Z",
       "notes": "",
       "documents": []
     },
@@ -14,7 +14,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:12:06.242655Z",
+      "updatedAt": "2026-07-03T23:13:15.379380Z",
       "notes": "",
       "documents": []
     },
@@ -23,7 +23,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:12:06.242664Z",
+      "updatedAt": "2026-07-03T23:13:15.379388Z",
       "notes": "",
       "documents": []
     },
@@ -32,7 +32,7 @@
       "isMock": false,
       "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CE809",
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:12:06.242672Z",
+      "updatedAt": "2026-07-03T23:13:15.379396Z",
       "notes": "",
       "documents": [
         {
@@ -222,7 +222,7 @@
       "isMock": false,
       "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1234/345",
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:12:06.242727Z",
+      "updatedAt": "2026-07-03T23:13:15.379449Z",
       "notes": "",
       "documents": [
         {

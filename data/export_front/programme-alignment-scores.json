@@ -2,48 +2,78 @@
   "programmes": [
     {
       "programmeCode": "421",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:12:06.243982Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.85,
+      "updatedAt": "2026-07-03T23:28:43.750715+00:00Z",
+      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "data": {
+        "overallScore": 0.0,
+        "dimensions": {
+          "politicalAttention": 0,
+          "financialWeight": 4.38
+        }
+      }
     },
     {
       "programmeCode": "422",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:12:06.243983Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.85,
+      "updatedAt": "2026-07-03T23:28:43.751258+00:00Z",
+      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "data": {
+        "overallScore": 0.0,
+        "dimensions": {
+          "politicalAttention": 0,
+          "financialWeight": 4.864
+        }
+      }
     },
     {
       "programmeCode": "423",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:12:06.243984Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.85,
+      "updatedAt": "2026-07-03T23:28:43.751282+00:00Z",
+      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "data": {
+        "overallScore": 0.0,
+        "dimensions": {
+          "politicalAttention": 0,
+          "financialWeight": 3.7152000000000003
+        }
+      }
     },
     {
       "programmeCode": "424",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:12:06.243985Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.85,
+      "updatedAt": "2026-07-03T23:28:43.751342+00:00Z",
+      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "data": {
+        "overallScore": 41.2,
+        "dimensions": {
+          "politicalAttention": 90,
+          "financialWeight": 87.46811797999999
+        }
+      }
     },
     {
       "programmeCode": "425",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:12:06.243985Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.85,
+      "updatedAt": "2026-07-03T23:28:43.751361+00:00Z",
+      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "data": {
+        "overallScore": 77.1,
+        "dimensions": {
+          "politicalAttention": 30,
+          "financialWeight": 15.572682019999998
+        }
+      }
     }
   ]
 }

@@ -922,5 +922,258 @@
     ],
     "synonyms": [],
     "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-valorisation-de-la-recherche",
+    "label": "valorisation de la recherche",
+    "type": "concept",
+    "relatedThemeId": "valorisation-de-la-recherche-publique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-transfert-technologique",
+    "label": "transfert technologique",
+    "type": "technology",
+    "relatedThemeId": "valorisation-de-la-recherche-publique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-propriete-intellectuelle",
+    "label": "propriété intellectuelle",
+    "type": "concept",
+    "relatedThemeId": "valorisation-de-la-recherche-publique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-brevet",
+    "label": "brevet",
+    "type": "concept",
+    "relatedThemeId": "valorisation-de-la-recherche-publique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-satt",
+    "label": "SATT",
+    "type": "concept",
+    "relatedThemeId": "transfert-technologique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-transfert-de-technologie",
+    "label": "transfert de technologie",
+    "type": "technology",
+    "relatedThemeId": "transfert-technologique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-recherche-appliquee",
+    "label": "recherche appliquée",
+    "type": "concept",
+    "relatedThemeId": "transfert-technologique",
+    "relatedProgrammes": [
+      "422"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-modernisation-des-entreprises",
+    "label": "modernisation des entreprises",
+    "type": "concept",
+    "relatedThemeId": "modernisation-de-l-outil-de-production",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-industrie-4.0",
+    "label": "industrie 4.0",
+    "type": "concept",
+    "relatedThemeId": "modernisation-de-l-outil-de-production",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-robotisation",
+    "label": "robotisation",
+    "type": "concept",
+    "relatedThemeId": "modernisation-de-l-outil-de-production",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-automatisation",
+    "label": "automatisation",
+    "type": "concept",
+    "relatedThemeId": "modernisation-de-l-outil-de-production",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-numerique",
+    "label": "numérique",
+    "type": "concept",
+    "relatedThemeId": "digitalisation-des-pme-eti",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-pme",
+    "label": "PME",
+    "type": "concept",
+    "relatedThemeId": "digitalisation-des-pme-eti",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-eti",
+    "label": "ETI",
+    "type": "concept",
+    "relatedThemeId": "digitalisation-des-pme-eti",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-transformation-numerique",
+    "label": "transformation numérique",
+    "type": "concept",
+    "relatedThemeId": "digitalisation-des-pme-eti",
+    "relatedProgrammes": [
+      "423"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-recherche",
+    "label": "recherche",
+    "type": "concept",
+    "relatedThemeId": "soutien-de-la-recherche-fondamentale",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-enseignement-superieur",
+    "label": "enseignement supérieur",
+    "type": "concept",
+    "relatedThemeId": "soutien-de-la-recherche-fondamentale",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-laboratoire",
+    "label": "laboratoire",
+    "type": "concept",
+    "relatedThemeId": "soutien-de-la-recherche-fondamentale",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-anr",
+    "label": "ANR",
+    "type": "concept",
+    "relatedThemeId": "soutien-de-la-recherche-fondamentale",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-doctorat",
+    "label": "doctorat",
+    "type": "concept",
+    "relatedThemeId": "formation-aux-metiers-d-avenir",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-universite",
+    "label": "université",
+    "type": "concept",
+    "relatedThemeId": "formation-aux-metiers-d-avenir",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-formation",
+    "label": "formation",
+    "type": "concept",
+    "relatedThemeId": "formation-aux-metiers-d-avenir",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-competences",
+    "label": "compétences",
+    "type": "concept",
+    "relatedThemeId": "formation-aux-metiers-d-avenir",
+    "relatedProgrammes": [
+      "421"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
   }
 ]

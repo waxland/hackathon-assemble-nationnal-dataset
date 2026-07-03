@@ -1,6 +1,6 @@
 # Bilan Final - Points de Blocages Résiduels
 
-La majorité des actions critiques listées dans la roadmap (`BILAN_TODO.md`) ont été traitées, permettant d'obtenir une architecture robuste (UUIDs déterministes, base SQLite en Upsert, retry sur les APIs, déploiement Docker).
+La majorité des actions critiques listées dans la roadmap (`BILAN_TODO.md`) ont été traitées, permettant d'obtenir une architecture robuste (UUIDs déterministes, base SQLite en Upsert, retry sur les APIs, taxonomie externalisée, filtrage NLP basique, scores dynamiques et export Neo4j pondéré).
 
 Cependant, il reste des **points de blocages profonds** nécessitant soit un arbitrage métier, soit une refonte technique majeure que nous ne pouvions pas adresser dans le temps imparti.
 
@@ -9,20 +9,25 @@ Voici les checkboxes des chantiers ouverts (blocages identifiés) pour l'équipe
 ## 1. 🌐 Blocages Réseaux (Scraping & Ingestion)
 
 - [ ] **L'Anti-Bot Cloudflare sur Info.gouv.fr (`06_scrape_calls_for_projects.py`)** :
-  - **Le problème** : Impossible de scraper la liste des Appels à Candidatures via de simples requêtes `requests` ou `curl`, le portail du gouvernement bloque les requêtes non-humaines avec un challenge Cloudflare.
-  - **La solution** : Il faudra mettre en place `Playwright` ou `Puppeteer` avec des configurations anti-détection (ex: `playwright-stealth`) pour simuler un vrai navigateur.
+  - **Le problème** : Impossible de scraper la liste des Appels à Candidatures via de simples requêtes HTTP. Le portail du gouvernement bloque les requêtes non-humaines avec un challenge Cloudflare. Les données actuelles sont donc un mock partiel réaliste.
+  - **La solution** : Il faudra mettre en place `Playwright` ou `Puppeteer` avec des configurations anti-détection (ex: `playwright-stealth`) pour simuler un vrai navigateur et valider le challenge JS.
+  
 - [ ] **L'absence d'historique budgétaire unifié (`02_extract_budget_lines.py`)** :
-  - **Le problème** : Les montants de 2024 (Exécuté) et 2026 (Prévu) ne figurent pas dans le même export CSV Open Data que le budget PLF 2025. Le format des CSV de data.economie.gouv.fr change souvent d'une année sur l'autre.
+  - **Le problème** : Les montants de 2024 (Exécuté) et 2026 (Prévu) ne figurent pas dans le même export CSV Open Data que le budget PLF 2025. Le format des CSV de `data.economie.gouv.fr` change souvent d'une année sur l'autre, empêchant un script générique.
   - **La solution** : Télécharger manuellement les CSV de chaque année, harmoniser les noms de colonnes et faire une jointure externe complexe dans Pandas.
 
-## 2. 🤖 Blocages Métiers (NLP)
+## 2. 🤖 Blocages Métiers (NLP & Croisement)
 
-- [ ] **Les "Faux Positifs" à l'Assemblée Nationale (`07_fetch_parliament_mentions.py`)** :
-  - **Le problème** : La recherche "Full Text" est trop basique. Un député peut parler d'une "Startup" ou de "l'Université" sans que cela n'ait aucun rapport avec le programme *France 2030* (créant du bruit dans le Front-End).
-  - **La solution** : Introduire une solution de Natural Language Processing (NLP). Soit un filtre NLTK de proximité (le mot "France 2030" doit être proche du mot "Startup"), soit confier la phrase à un LLM (Ollama) pour qu'il retourne un booléen (`is_related_to_france_2030: true`).
+- [ ] **Faux Positifs résiduels à l'Assemblée Nationale (`07_fetch_parliament_mentions.py`)** :
+  - **Le problème** : Bien qu'un filtre de proximité ait été implémenté (vérifiant la présence des mots "France 2030", "milliard" etc. dans la même phrase), certains discours fleuves peuvent passer au travers du filet.
+  - **La solution** : Confier la phrase à un LLM local (Ollama) pour qu'il retourne un booléen (`is_related_to_france_2030: true`) ou utiliser un modèle de classification pré-entraîné.
 
-## 3. 🎨 Blocages Front-End (Outils de Dataviz)
+- [ ] **Enrichissement croisé (Sirene x AAP) manquant** :
+  - **Le problème** : Actuellement, les entreprises sont liées à un thème (ex: "Hydrogène"), mais il est très difficile de les lier à l'Appel à Projet exact (ex: "Briques technologiques H2") de manière automatisée sans un identifiant commun dans l'Open Data.
+  - **La solution** : Récupérer les identifiants de subvention (numéro de convention) pour créer une table de correspondance stricte.
 
-- [ ] **Le Calcul du Score d'Alignement (`13_export_to_front_contract.py`)** :
-  - **Le problème** : Le Front-End (Minerve.fr) s'attend à recevoir un score d'alignement pour chaque programme dans `programme-alignment-scores.json`. Mais ce score n'a pas encore de formule mathématique validée par le métier (Faut-il compter le nombre d'entreprises financées ? Le volume financier divisé par le nombre de discours parlementaires ?).
-  - **La solution** : Développer l'outil de pondération interactif via les `st.slider` de Streamlit pour que les Product Owners définissent empiriquement la bonne formule avant de l'injecter en dur dans le code Python.
+## 3. 🎨 Blocages Front-End (Dashboard & Dataviz)
+
+- [ ] **Outil de Pondération dans Streamlit absent (`dashboard.py`)** :
+  - **Le problème** : Bien que le score soit désormais calculé dynamiquement en Python (Mentions * 10 / Budget), le Dashboard Streamlit n'offre pas encore de *sliders* interactifs pour permettre aux Product Owners d'ajuster ce ratio et de voir l'impact en direct.
+  - **La solution** : Ajouter `st.slider` dans l'onglet "Data Quality" du `dashboard.py` et sauvegarder la configuration choisie par l'utilisateur pour l'export JSON.
