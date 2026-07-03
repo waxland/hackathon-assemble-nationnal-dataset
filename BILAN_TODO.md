@@ -10,7 +10,7 @@ Ce document centralise, ordonne et priorise les actions restantes à accomplir s
 - [x] **Étape 1.1 : Industrialiser l'API Sirene** 
   - *Action* : Dans `09_fetch_companies.py`, remplacer le `time.sleep()` par un algorithme de *Retry Exponential Backoff* pour gérer les HTTP 429.
   - *Critère de succès* : Pouvoir ingérer une liste de 500 entreprises lauréates sans erreur HTTP 429.
-- [ ] **Étape 1.2 : Compléter l'historique budgétaire**
+- [x] **Étape 1.2 : Compléter l'historique budgétaire**
   - *Action* : Dans `02_extract_budget_lines.py`, croiser le CSV du PLF 2025 avec ceux des PLF 2024 et PLF 2023 pour avoir une série temporelle complète sur les 3 ans.
   - *Critère de succès* : Les clés `amount2024` et `amount2026` ne sont plus `null`.
 - [ ] **Étape 1.3 : Scraping dynamique des AAP**

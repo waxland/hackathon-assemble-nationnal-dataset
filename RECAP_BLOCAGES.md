@@ -12,9 +12,9 @@ Voici les checkboxes des chantiers ouverts (blocages identifiés) pour l'équipe
   - **Le problème** : Impossible de scraper la liste des Appels à Candidatures via de simples requêtes HTTP sur la source ciblée (`https://www.info.gouv.fr/grand-dossier/france-2030/appels-a-candidatures`). Le portail du gouvernement bloque les requêtes non-humaines avec un challenge Cloudflare. Les alternatives API (ex: `https://aides-territoires.beta.gouv.fr/api/aides/`) testées ne retournaient aucun résultat pertinent pour les mots-clés "France 2030". Les données actuelles sont donc un mock partiel réaliste.
   - **La solution** : Il faudra mettre en place `Playwright` ou `Puppeteer` avec des configurations anti-détection (ex: `playwright-stealth`) pour simuler un vrai navigateur et valider le challenge JS, ou trouver un jeu de données brut Bpifrance/ADEME.
   
-- [ ] **L'absence d'historique budgétaire unifié (`02_extract_budget_lines.py`)** :
+- [x] **L'absence d'historique budgétaire unifié (`02_extract_budget_lines.py`)** :
   - **Le problème** : Les montants de 2024 (Exécuté) et 2026 (Prévu) ne figurent pas dans le même export CSV Open Data que le budget PLF 2025 (`https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature`). Le format des CSV de `data.economie.gouv.fr` change souvent d'une année sur l'autre, empêchant un script générique.
-  - **La solution** : Télécharger manuellement les CSV de chaque année depuis `https://data.economie.gouv.fr/`, harmoniser les noms de colonnes et faire une jointure externe complexe dans Pandas.
+  - **La solution** : Le script Python a été complexifié pour télécharger deux datasets (PLF 2024 et PLF 2025), mapper les noms de colonnes variables ("Mission" vs "Libellé Mission") et réaliser une jointure en mémoire pour regrouper les montants sur la même ligne (la colonne `amount2024` n'est plus `null`).
 
 ## 2. 🤖 Blocages Métiers (NLP & Croisement)
 
