@@ -9,7 +9,7 @@ COLOR_ROUGE_MARIANNE = "#e1000f"
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
-    st.image("app/content/icon-minerve.png", width=80)
+    st.image("app/content/favicon.svg", width=80)
 with col_text:
     st.header("3. Rapport par Programme")
 

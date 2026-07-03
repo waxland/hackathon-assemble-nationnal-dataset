@@ -5,7 +5,7 @@ import os
 # Paramétrage global de la page
 st.set_page_config(
     page_title="France 2030 - Dashboard Data",
-    page_icon="🇫🇷",
+    page_icon="app/content/favicon.ico",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -29,7 +29,7 @@ def load_markdown(filepath):
         return f.read()
 
 # Router multipage natif de Streamlit (dossier 'pages/')
-st.sidebar.image("app/content/icon-minerve.png", width=100)
+st.sidebar.image("app/content/favicon.svg", width=100)
 st.sidebar.title("Hackathon 2026")
 st.sidebar.markdown("Exploration du dataset **France 2030**.")
 
