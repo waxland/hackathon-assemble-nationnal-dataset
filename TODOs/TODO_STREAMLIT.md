@@ -1,6 +1,6 @@
-# TODO - Dashboard Streamlit (Miroir du Front "minerve.gouv.fr")
+# TODO - Dashboard Streamlit (Miroir du Front "Minerve")
 
-Ce document dresse la feuille de route pour aligner l'outil d'exploration Data interne (`dashboard.py` sous Streamlit) avec la vision Produit officielle du frontend `minerve.gouv.fr` (telle que définie dans le projet principal React/Next.js).
+Ce document dresse la feuille de route pour aligner l'outil d'exploration Data interne (`dashboard.py` sous Streamlit) avec la vision Produit officielle du frontend `Minerve` (telle que définie dans le projet principal React/Next.js, visible ici : [https://minerve-zeta.vercel.app/](https://minerve-zeta.vercel.app/)).
 
 L'objectif est que le Streamlit ne soit pas juste un "dump de la BDD", mais une véritable interface miroir du front-end, avec la même philosophie de navigation et d'UX, afin de servir de bac à sable pour l'équipe Data.
 
@@ -56,4 +56,4 @@ Puisque Streamlit est d'abord un outil d'exploration Data pour préparer le Fron
   - Créer une interface permettant à un Data Scientist de jouer avec des pondérations (ex: poids des débats vs poids des subventions) pour observer le "Score France 2030" changer en temps réel avant de le figer en JSON pour le Front.
 
 ---
-*Ce TODO garantit que l'outil Streamlit n'avance pas à l'aveugle, mais reste le brouillon Data parfait pour le rendu final sur minerve.gouv.fr.*
+*Ce TODO garantit que l'outil Streamlit n'avance pas à l'aveugle, mais reste le brouillon Data parfait pour le rendu final sur Minerve.*

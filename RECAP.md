@@ -46,9 +46,9 @@ La base est structurée pour répondre immédiatement, via de simples requêtes 
 
 ---
 
-## 🚀 Prochaines étapes suggérées (Pour l'équipe Data-Viz / Front-End minerve.gouv.fr)
+## 🚀 Prochaines étapes suggérées (Pour l'équipe Data-Viz / Front-End Minerve)
 
-Maintenant que le socle de données est robuste et prêt, l'équipe technique peut se concentrer sur l'interface :
+Maintenant que le socle de données est robuste et prêt, l'équipe technique peut se concentrer sur l'interface (projet [Minerve](https://minerve-zeta.vercel.app/)) :
 
 1. **Dashboard Interactif** : Brancher `Metabase`, `Superset` ou un script `Streamlit` directement sur le fichier `data/france2030.sqlite`.
 2. **Visualisation de Graphe** : Utiliser les données de la table `correlations` avec une librairie comme `D3.js` ou `Cytoscape.js` pour afficher la toile d'araignée liant un Député -> à un Mot Clé -> à une Entreprise -> à un Budget.

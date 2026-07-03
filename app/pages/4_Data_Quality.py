@@ -14,7 +14,7 @@ programs_data = load_front_dataset("catalog/investment-programmes.json")
 parliament_data = load_front_dataset("sources/parliamentary-documents.json")
 companies_data = load_front_dataset("sources/sirene-companies.json")
 
-st.subheader("Statut des fichiers (Contrat minerve.gouv.fr)")
+st.subheader("Statut des fichiers (Contrat Minerve)")
 
 def check_mock(data_array):
     if not data_array: return "🔴 Introuvable"
