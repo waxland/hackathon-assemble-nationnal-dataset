@@ -3,7 +3,11 @@ import pandas as pd
 import plotly.express as px
 from app import load_front_dataset
 
-st.header("1. Vue Macro France 2030")
+col_img, col_text = st.columns([1, 10])
+with col_img:
+    st.image("app/content/icon-minerve.png", width=80)
+with col_text:
+    st.header("1. Vue Macro France 2030")
 
 budget_data = load_front_dataset("budget/france-2030-budget-lines.json")
 parliament_data = load_front_dataset("sources/parliamentary-documents.json")

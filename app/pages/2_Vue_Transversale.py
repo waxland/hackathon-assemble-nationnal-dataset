@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 from app import load_front_dataset
 
-st.header("2. Liste des Investissements France 2030")
+col_img, col_text = st.columns([1, 10])
+with col_img:
+    st.image("app/content/icon-minerve.png", width=80)
+with col_text:
+    st.header("2. Liste des Investissements France 2030")
 
 programs_data = load_front_dataset("catalog/investment-programmes.json")
 budget_data = load_front_dataset("budget/france-2030-budget-lines.json")

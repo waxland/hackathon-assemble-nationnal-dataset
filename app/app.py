@@ -29,7 +29,7 @@ def load_markdown(filepath):
         return f.read()
 
 # Router multipage natif de Streamlit (dossier 'pages/')
-st.sidebar.image("https://upload.wikimedia.org/wikipedia/fr/thumb/5/53/Marque_de_l%27%C3%89tat_fran%C3%A7ais.svg/512px-Marque_de_l%27%C3%89tat_fran%C3%A7ais.svg.png", width=100)
+st.sidebar.image("app/content/icon-minerve.png", width=100)
 st.sidebar.title("Hackathon 2026")
 st.sidebar.markdown("Exploration du dataset **France 2030**.")
 

@@ -1,7 +1,12 @@
 import streamlit as st
 from app import load_front_dataset
 
-st.header("🛠️ Validation Métier (Data Quality)")
+col_img, col_text = st.columns([1, 10])
+with col_img:
+    st.image("app/content/icon-minerve.png", width=80)
+with col_text:
+    st.header("🛠️ Validation Métier (Data Quality)")
+
 st.markdown("Vue dédiée à l'équipe Data pour s'assurer que le Front-End ne va pas crasher et analyser la maturité du dataset.")
 
 budget_data = load_front_dataset("budget/france-2030-budget-lines.json")
