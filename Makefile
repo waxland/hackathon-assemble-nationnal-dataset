@@ -2,7 +2,6 @@
 
 .PHONY: help install run-scraping export-front export-neo4j clean run-dashboard
 
-# Dossier d'export pour le frontend
 EXPORT_DIR=dataset
 
 help: ## Affiche l'aide
@@ -55,7 +54,7 @@ export-neo4j: ## Génère les fichiers CSV structurés pour un import Neo4j / Ge
 
 run-dashboard: ## Lance le dashboard interactif Streamlit en local
 	@echo "📊 Lancement du Dashboard Streamlit..."
-	./venv/bin/streamlit run dashboard.py
+	./venv/bin/streamlit run app/app.py
 
 clean: ## Supprime l'environnement virtuel, les caches et le dossier data/
 	@echo "🧹 Nettoyage du projet..."
