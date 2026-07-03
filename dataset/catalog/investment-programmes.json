@@ -1,0 +1,108 @@
+{
+  "programmes": [
+    {
+      "programmeCode": "421",
+      "isMock": false,
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-performance-de-la-depense-pap",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.377496Z",
+      "notes": "",
+      "programmeName": "Soutien des progrès de l'enseignement et de la recherche",
+      "missionName": "Investir pour la France de 2030",
+      "objectives": [
+        "Développer l'innovation pédagogique",
+        "Ouvrir les établissements à de nouveaux modes de gestion"
+      ],
+      "actions": [
+        "Action 04 - Soutien des grandes universités de recherche",
+        "Action 03 - Équipements structurants de recherche",
+        "Action 01 - Nouveaux cursus à l'université",
+        "Action 02 - Programmes prioritaires de recherche",
+        "Action 05 - Constitution d'écoles universitaires de recherche",
+        "Action 07 - Territoires d'innovation pédagogique"
+      ]
+    },
+    {
+      "programmeCode": "422",
+      "isMock": false,
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-performance-de-la-depense-pap",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.377887Z",
+      "notes": "",
+      "programmeName": "Valorisation de la recherche",
+      "missionName": "Investir pour la France de 2030",
+      "objectives": [
+        "Faciliter l'appropriation de l'innovation",
+        "Soutenir les investissements dans le parc industriel concourant au renforcement de la performance environnementale"
+      ],
+      "actions": [
+        "Action 03 - Démonstrateurs et territoires d'innovation de grande ambition",
+        "Action 05 - Accélération du développement des écosystèmes d'innovation performants",
+        "Action 02 - Fonds national post-maturation \"Frontier venture\""
+      ]
+    },
+    {
+      "programmeCode": "423",
+      "isMock": false,
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-performance-de-la-depense-pap",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.377940Z",
+      "notes": "",
+      "programmeName": "Accélération de la modernisation des entreprises",
+      "missionName": "Investir pour la France de 2030",
+      "objectives": [
+        "Accélérer la croissance des PME et des ETI",
+        "Soutenir la modernisation des entreprises françaises"
+      ],
+      "actions": [
+        "Action 02 - Accompagnement et transformation des filières",
+        "Action 04 - Adaptation et qualification de la main d'oeuvre",
+        "Action 01 - Soutien à l'innovation collaborative",
+        "Action 09 - Grands défis"
+      ]
+    },
+    {
+      "programmeCode": "424",
+      "isMock": false,
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-performance-de-la-depense-pap",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.378151Z",
+      "notes": "",
+      "programmeName": "Financement des investissements stratégiques",
+      "missionName": "Investir pour la France de 2030",
+      "objectives": [
+        "Adapter le capital humain aux filières d'avenir",
+        "Favoriser les transferts de technologies et la valorisation de la recherche dans les filières d'avenir",
+        "Accélérer les démonstrateurs et le déploiement des innovations technologiques",
+        "Soutenir l'industrialisation dans les filières d'avenir"
+      ],
+      "actions": [
+        "Action 01 - Programmes et équipements prioritaires de recherche",
+        "Action 03 - Démonstration en conditions réelles, amorçage et premières commerciales",
+        "Action 02 - Maturation de technologies, R&D, valorisation de la recherche",
+        "Action 04 - Soutien au déploiement",
+        "Action 05 - Accélération de la croissance (fonds propres)",
+        "Action 06 - Industrialisation et déploiement"
+      ]
+    },
+    {
+      "programmeCode": "425",
+      "isMock": false,
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-performance-de-la-depense-pap",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.378214Z",
+      "notes": "",
+      "programmeName": "Financement structurel des écosystèmes d'innovation",
+      "missionName": "Investir pour la France de 2030",
+      "objectives": [
+        "S’appuyer sur l’excellence des écosystèmes de l’ESR et contribuer à son rayonnement dans un contexte international compétitif",
+        "Soutenir l'émergence et le développement des start-ups et nouveaux sites industriels"
+      ],
+      "actions": [
+        "Action 01 - Financements de l'écosystème ESRI et valorisation",
+        "Action 03 - Aides à l’innovation « bottom-up » (fonds propres)",
+        "Action 02 - Aides à l'innovation « bottom-up » (subventions et prêts)"
+      ]
+    }
+  ]
+}

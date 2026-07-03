@@ -1,0 +1,291 @@
+{
+  "programmes": [
+    {
+      "programmeCode": "421",
+      "isMock": true,
+      "sourceUrl": null,
+      "confidence": 0.9,
+      "updatedAt": "2026-07-03T23:13:15.379140Z",
+      "notes": "",
+      "documents": []
+    },
+    {
+      "programmeCode": "422",
+      "isMock": true,
+      "sourceUrl": null,
+      "confidence": 0.9,
+      "updatedAt": "2026-07-03T23:13:15.379380Z",
+      "notes": "",
+      "documents": []
+    },
+    {
+      "programmeCode": "423",
+      "isMock": true,
+      "sourceUrl": null,
+      "confidence": 0.9,
+      "updatedAt": "2026-07-03T23:13:15.379388Z",
+      "notes": "",
+      "documents": []
+    },
+    {
+      "programmeCode": "424",
+      "isMock": false,
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CE809",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-03T23:13:15.379396Z",
+      "notes": "",
+      "documents": [
+        {
+          "id": "an-amendement-26976",
+          "date": "2022-11-19",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Bassire",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>Cet amendement supprime le mot « bas-carbone » à partir du moment où l’hydrogène peut être produit par des énergies fossiles et du nucléaire<br/>Lorsqu’on parle d’hydrogène dans le cadre de la transition écologique, on fait référence à l’hydrogène produit par électrolyse de l’eau, qu’on appelle « hydrogène vert ». Le procédé n’est « durable » que si l’électricité utilisée pour produire de l’hydrogène est elle-même « durable ». Produire de l’hydrogène avec de l’électricité provenant de central...",
+          "url": "https://www.nosdeputes.fr/16/amendement/443/CE809"
+        },
+        {
+          "id": "an-amendement-27059",
+          "date": "2022-11-19",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Bassire",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>Lorsqu’on parle d’hydrogène dans le cadre de la transition écologique, on fait référence à l’hydrogène produit par électrolyse de l’eau, qu’on appelle « hydrogène vert ». Le procédé n’est « durable » que si l’électricité utilisée pour produire de l’hydrogène est elle-même « durable ». Produire de l’hydrogène avec de l’électricité provenant de centrales à charbon ou du fuel revient à émettre beaucoup de CO2 et de polluants. S’il est souhaitable de renforcer la filière de l’hydrogène « vert » i...",
+          "url": "https://www.nosdeputes.fr/16/amendement/443/CE810"
+        },
+        {
+          "id": "an-amendement-93518",
+          "date": "2023-07-12",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Battistel",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Plusieurs dispositifs coexistent pour accélérer la décarbonation de l’industrie (dispositifs ADEME, France 2030, France Nation Verte…), chacun avec leur propre périmètre et modalités d'attribution. Or, une politique ambitieuse de décarbonation de l’industrie nécessite de mettre en œuvre une action publique cohérente, avec des dispositifs de soutien adaptés et lisibles pour les acteurs. Le rapport demandé doit ainsi permettre d’évaluer la cohérence, l’adéquation et la lisibilité de l’ensemble ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1512/1380"
+        },
+        {
+          "id": "an-amendement-148194",
+          "date": "2024-04-25",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Villedieu",
+          "politicalGroup": "RN",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Si le lien entre la souveraineté agricole française et la production durable de biomasse sur le territoire peut être fait, il est bien plus difficile de l’établir entre la souveraineté agricole et la contribution du secteur à la décarbonation de l’économie. La souveraineté agricole s’apprécie par son aspect de production alimentaire et n’a pas pour vocation de devenir une variable d’ajustement des objectifs de décarbonation. Les agriculteurs sont parmi les premiers écologistes et respectent d...",
+          "url": "https://www.nosdeputes.fr/16/amendement/2436/CE1575"
+        },
+        {
+          "id": "an-amendement-144421",
+          "date": "2024-04-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jean-Louis Bricout",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "véhicule électrique",
+          "text": "<p>Cet amendement vise à prolonger la possibilité de comptabiliser les véhicules hybrides rechargeables comme des véhicules \"verts\" en cas de renouvellement du parc, jusqu'en 2028. A compter de 2028, seuls les véhicules les à très faibles émissions seront concernés.</p><p>Les auteurs de cet amendement sont conscients des limites des véhicules hybrides rechargeables (utilisation ponctuelle du mode électrique, véhicules plus lourds, etc). Ils estiment néanmoins que le maillage territoriale des bor...",
+          "url": "https://www.nosdeputes.fr/16/amendement/2126/CD50"
+        },
+        {
+          "id": "an-amendement-18066",
+          "date": "2022-10-27",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "véhicule électrique",
+          "text": "<p>Face aux velléités d'augmentation du parc de voitures électriques en France, il faut rappeler qu'une batterie pour voiture électrique nécessite environ 5 kg de lithium. Or, la demande mondiale en lithium pourrait être multipliée par quatre ou par six d’ici à 2030 pour dépasser les 500 kilotonnes par an, selon les estimations de l’Agence internationale de l’énergie.</p><p>Le présent amendement propose de créer un nouvel indicateur au sein du programme 174 intitulé : « Importations de lithium p...",
+          "url": "https://www.nosdeputes.fr/16/amendement/273/2407C"
+        },
+        {
+          "id": "an-amendement-118594",
+          "date": "2023-10-18",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "véhicule électrique",
+          "text": "<p>Face aux velléités d’augmentation du parc de voitures électriques en France, il faut rappeler qu’une batterie pour voiture électrique nécessite environ 5 kg de lithium. Or, la demande mondiale en lithium pourrait être multipliée par quatre ou par six d’ici à 2030 pour dépasser les 500 kilotonnes par an, selon les estimations de l’Agence internationale de l’énergie.</p><p>Le présent amendement propose de créer un nouvel indicateur au sein du programme 174 intitulé : « Importations de lithium p...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF325C"
+        },
+        {
+          "id": "an-amendement-79331",
+          "date": "2023-05-25",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Delautrette, Mme Jourdan, M. Leseul, M. Bertrand Petit, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "avion bas-carbone",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à préciser la définition des services express régionaux métropolitains qui doivent être de nature ferroviaire.</p><p>Le ferroviaire est un mode de transport particulièrement performant d’un point de vue environnemental : il transporte 11 % des passagers et 9 % des marchandises pour seulement 0,3 % des émissions de gaz à effet de serre du secteur des transports. C’est aussi un mode de transport pourvoyeur de nombreux emplois non délocalis...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1166/CD60"
+        },
+        {
+          "id": "an-amendement-18282",
+          "date": "2022-10-27",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Ruffin",
+          "politicalGroup": "LFI",
+          "matchedKeyword": "avion bas-carbone",
+          "text": "<p>Cet amendement d’appel propose de prélever 40 millions € en AE et CP de l’action 52 « Transport aérien » du programme 203 « Infrastructures et services de transport », au profit d’un nouveau programme « Fonds d’investissement pour le développement ferroviaire d’avenir » au sein de la mission « Ecologie, développement et mobilité durables ».</p><p>Le fret ferroviaire est le moyen de transport de marchandises le plus viable. 55 camions de 32 tonnes sont nécessaires pour transporter le chargemen...",
+          "url": "https://www.nosdeputes.fr/16/amendement/273/2318C"
+        },
+        {
+          "id": "an-amendement-6071",
+          "date": "2022-09-30",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Sas, M. Bayou, Mme Arrighi, M. Ben Cheikh, Mme Batho, Mme Belluco, Mme Chatelain, M. Fournier, Mme Garin, M. Iordanoff, M. Julien-Laferrière, Mme Laernoes, M. Lucas, Mme Pasquini, M. Peytavie, Mme Pochon, M. Raux, Mme Regol, Mme Rousseau, Mme Sebaihi, M. Taché, Mme Taillé-Polian, M. Thierry",
+          "politicalGroup": "ECO",
+          "matchedKeyword": "avion bas-carbone",
+          "text": "<p>Cet amendement reprend la demande des citoyens de la Convention Citoyenne pour le Climat concernant l’adoption d’une écocontribution renforcée sur les billets d’avion. Par ailleurs, en Europe, plusieurs pays ont déjà mis en place ce type de taxe : le Royaume-Uni, l’Allemagne, l’Autriche, l’Italie, la Suède et la Norvège.</p><p>D’après l’ADEME, le transport aérien émet 14 à 40 fois plus de CO2 que le train par kilomètre parcouru et personne transportée. D’autre part, hormis les émissions de CO...",
+          "url": "https://www.nosdeputes.fr/16/amendement/273/CF1361A"
+        },
+        {
+          "id": "an-amendement-149629",
+          "date": "2024-04-29",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Le Feur",
+          "politicalGroup": null,
+          "matchedKeyword": "alimentation durable",
+          "text": "<p>Cet amendement vise à introduire la notion de droit universel à l'alimentation dans la loi. L'objectif est de reconnaître les liens directs entre agriculture et alimentation et de faire valoir l'exhaustivité de la notion de souveraineté alimentaire \"de la fourche à la fourchette\".</p> <p>À l’alinéa 5, substituer aux mots :</p><p>« fournir à l’ensemble de la population une alimentation saine, sûre, diversifiée, nutritive, accessible à tous tout au long de l’année et issue d’aliments produits d...",
+          "url": "https://www.nosdeputes.fr/16/amendement/2436/CE3414"
+        },
+        {
+          "id": "an-amendement-144859",
+          "date": "2024-04-25",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Pochon, Mme Belluco",
+          "politicalGroup": "ECO",
+          "matchedKeyword": "alimentation durable",
+          "text": "<p>Cet amendement rappelle que l’agriculture et la souveraineté alimentaire doivent en priorité avoir pour objectif de fournir une alimentation durable aux citoyens.</p> <p>À l’alinéa 7, après le mot :</p><p>« territoire »</p><p>insérer les mots :</p><p>« aux fins prioritaires de l’alimentation durable des citoyens ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2436/CD470"
+        },
+        {
+          "id": "an-amendement-148340",
+          "date": "2024-04-26",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Pochon, Mme Belluco",
+          "politicalGroup": "ECO",
+          "matchedKeyword": "alimentation durable",
+          "text": "<p>Cet amendement rappelle que l’agriculture et la souveraineté alimentaire doivent en priorité avoir pour objectif de fournir une alimentation durable aux citoyens.</p> <p>À l’alinéa 7, après le mot :</p><p>« territoire »,</p><p>insérer les mots :</p><p>« aux fins prioritaires de l’alimentation durable des citoyens ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2436/CE2972"
+        },
+        {
+          "id": "an-amendement-121025",
+          "date": "2023-10-27",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Seitlinger, Mme Petex-Levet, M. Ray, M. Kamardine, Mme Bazin-Malgras",
+          "politicalGroup": "LR",
+          "matchedKeyword": "biomédicament",
+          "text": "<p>Le plan \"Innovation Santé 2030\" ambitionne de faire de la France un leader mondial dans le domaine des biothérapies. Toutefois, le budget alloué de près de 800 millions d'euros jusqu'en 2025 est largement insuffisant pour atteindre l'objectif de produire 20 biomédicaments d'ici 2030. Pour hausser nos moyens à hauteur de nos ambitions, il est impératif de revoir à la hausse ce budget.</p><p>Selon la Cour des Comptes, ce marché, qui était de près de 200 milliards d'euros en 2019, devrait croîtr...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/1602C"
+        },
+        {
+          "id": "an-amendement-116449",
+          "date": "2023-10-20",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Dalloz",
+          "politicalGroup": "LR",
+          "matchedKeyword": "biomédicament",
+          "text": "<p>La Loi de financement de la sécurité sociale pour 2022 a autorisé la substitution par les pharmaciens des médicaments biologiques par leur biosimilaire au sein d’un même groupe permettant.</p><p>A ce jour, sur les 13 groupes biosimilarisables, les pharmaciens ne sont en revanche autorisés à substituer que 2 groupes de médicaments biologiques. <br/>Alors que la Cour des comptes estime que les biosimilaires permettraient de générer 680 millions d’euros d’économies, la limitation de cette liste ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1682/2105"
+        },
+        {
+          "id": "an-amendement-143797",
+          "date": "2024-03-30",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Marion, M. Pierre Cazeneuve, M. Armand, Mme Bregeon, Mme Berete, Mme Givernet, M. Mendes, M. Izard, M. Rodwell, M. Mournet, M. Weissberg",
+          "politicalGroup": "REN",
+          "matchedKeyword": "industries culturelles et créatives",
+          "text": "<p>La Direction générale des médias et des industries créatives définit, met en œuvre et évalue la politique de l’État en faveur du développement et du pluralisme des médias, de l’industrie musicale, du livre et de la lecture et de l’économie culturelle<br/>Cet amendement vise donc à ce que les entreprises bénéficiant de tout ou partie des aides publiques, directes et indirectes, avertissent la Direction générale des médias et des industries créatives une fois le processus de nomination enclench...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1638/46"
+        },
+        {
+          "id": "an-amendement-141195",
+          "date": "2024-01-25",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Lopez-Liguori, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "spatial",
+          "text": "<p>La France occupe dans le paysage spatial européen une place essentielle. La politique spatiale européenne est ainsi largement portée par l'industrie spatiale française. En France, l'observatoire spatial du CNES estime que l'industrie spatiale française compte 32 000 emplois au sein de 260 établissements, pour un chiffre d'affaires consolidés de plus de 3 milliards d'euros. C’est bien la France qui abrite les deux principaux acteurs de l’industrie spatiale européenne : Airbus et Thales. De plu...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1991/35"
+        },
+        {
+          "id": "an-amendement-141164",
+          "date": "2024-01-25",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Mélin, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "spatial",
+          "text": "<p>Ces dernières années, le secteur de l'aérospatial connait une accélération de la concurrence intra-européenne à mesure que les opportunités du spatial se font plus lucratives.<br/>Nous soulignons avec cet amendement que cette concurrence est d'abord institutionnelle, avec un jeu de pouvoir qui oppose l'historique Agence Spatiale Européenne (ESA) et la plus récente Agence pour le Programme Spatial Européen (EUSPA) à qui la Commission européenne confie une part croissante des tâches de commerci...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1991/30"
+        }
+      ]
+    },
+    {
+      "programmeCode": "425",
+      "isMock": false,
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1234/345",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-03T23:13:15.379449Z",
+      "notes": "",
+      "documents": [
+        {
+          "id": "an-amendement-78169",
+          "date": "2023-05-17",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jacobelli, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "startup",
+          "text": "<p>Nos ETI sont un maillon essentiel de la BITD française. Disposant souvent de capacités d'innovation comparables à des PME voire à des startups, elles ont en outre des capacités de production supérieures à ces dernières. Trop petites pour bénéficier de l'attention des grands groupes, trop grandes pour profiter des dispositifs de financement ouverts aux PME/startups, elles sont actuellement dans une zone grise. Cet amendement vise donc à une meilleure prise en compte de ces entreprise dans le c...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1234/345"
+        },
+        {
+          "id": "an-amendement-77825",
+          "date": "2023-05-17",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jacobelli, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "startup",
+          "text": "<p>Nos ETI sont un maillon essentiel de la BITD française. Disposant souvent de capacités d'innovation comparables à des PME voire à des startups, elles ont en outre des capacités de production supérieures à ces dernières. Trop petites pour bénéficier de l'attention des grands groupes, trop grandes pour profiter des dispositifs de financement ouverts aux PME/startups, elles sont actuellement dans une zone grise. Cet amendement vise donc à une meilleure prise en compte de ces entreprises.</p> <p>...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1234/371"
+        },
+        {
+          "id": "an-amendement-78249",
+          "date": "2023-05-17",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Saintoul, M. Laisney, M. Le Gall, Mme Leboucher, Mme Leduc, Mme Legrain, Mme Lepvraud, M. Léaument, Mme Pascale Martin, Mme Élisa Martin, M. Martinet, M. Mathieu, M. Maudet, Mme Maximi, Mme Manon Meunier, M. Nilor, Mme Obono, Mme Oziol, Mme Panot, M. Pilato, M. Piquemal, M. Portes, M. Prud'homme, M. Quatennens, M. Ratenon, M. Rome, M. Ruffin, M. Sala, Mme Simonnet, Mme Soudais, Mme Stambach-Terrenoir, Mme Taurinya, M. Tavel, Mme Trouvé, M. Vannier, M. Walter",
+          "politicalGroup": "LFI",
+          "matchedKeyword": "pôles de compétitivité",
+          "text": "<p>Par cet amendement, le groupe LFI-NUPES demande un rapport du gouvernement sur les changements géostratégiques à prévoir à l’approche de l’ouverture de nouvelles voies de navigation au pôle Nord et au pôle Sud.</p><p>Les glaciers fondent et le niveau de la mer monte. Pour la première fois de l'histoire de l'humanité, de nouveaux couloirs de navigation s'ouvrent dans des zones entières du pôle Nord et du pôle Sud. Ainsi, les transformations que subissent les zones polaires et leurs impacts éco...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1234/748"
+        },
+        {
+          "id": "an-amendement-123728",
+          "date": "2023-11-06",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Midy",
+          "politicalGroup": "REN",
+          "matchedKeyword": "French Tech",
+          "text": "<p>Conformément à la recommandation du rapport pour Soutenir l'investissement dans les start-ups, PME innovantes et PME de croissance, le présent amendement vise à renforcer la commande publique et privée en faveur des entreprises de la French Tech. Plus précisément, cet amendement d'appel vise à soutenir et à valoriser l'initiative \"Je choisis la French Tech\" présentés par Jean-Noël Barrot à Viva Tech le 16 juin dernier et pilotée par la Mission French Tech.</p><p>\"Je choisis la French Tech\" po...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/4236C"
+        },
+        {
+          "id": "an-amendement-123492",
+          "date": "2023-11-06",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Midy",
+          "politicalGroup": "REN",
+          "matchedKeyword": "French Tech",
+          "text": "<p>Conformément à la recommandation du rapport pour <i>Soutenir l'investissement dans les start-ups, PME innovantes et PME de croissance</i>, le présent amendement vise à augmenter les crédits du programme 134 et plus particulièrement les moyens alloués au programme French Tech Tremplin.</p><p>Lancé en 2019 à l’initiative de la Mission French Tech, le programme French Tech Tremplin permet à des personnes éloignées de l’entrepreneuriat de créer leur start-up grâce à l’accompagnement de structures...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/4232C"
+        },
+        {
+          "id": "an-amendement-18590",
+          "date": "2022-10-28",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Lecamp",
+          "politicalGroup": "MODEM",
+          "matchedKeyword": "French Tech",
+          "text": "<p>Cet amendement du rapporteur spécial transfère 15 millions d'euros (hors titre 2) en autorisations d'engagement et en crédits de paiement :</p><p>- depuis l'action 4 <i>Moyens communs</i> du programme 215 <i>Conduite et pilotage des politiques de l'agriculture</i> ;</p><p>- vers l'action 23 <i>Appui au renouvellement et à la modernisation des exploitations agricoles</i> du programme 149 <i>Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt</i>.</p><p>Il propose ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/273/2736C"
+        }
+      ]
+    }
+  ]
+}

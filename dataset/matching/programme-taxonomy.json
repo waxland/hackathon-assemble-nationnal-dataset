@@ -1,0 +1,252 @@
+{
+  "programmes": [
+    {
+      "programmeCode": "421",
+      "isMock": false,
+      "sourceUrl": null,
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.379752Z",
+      "notes": "",
+      "themes": [
+        {
+          "themeId": "soutien-de-la-recherche-fondamentale",
+          "themeName": "Soutien de la recherche fondamentale",
+          "keywords": []
+        },
+        {
+          "themeId": "formation-aux-metiers-d-avenir",
+          "themeName": "Formation aux métiers d'avenir",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "programmeCode": "422",
+      "isMock": false,
+      "sourceUrl": null,
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.379927Z",
+      "notes": "",
+      "themes": [
+        {
+          "themeId": "valorisation-de-la-recherche-publique",
+          "themeName": "Valorisation de la recherche publique",
+          "keywords": []
+        },
+        {
+          "themeId": "transfert-technologique",
+          "themeName": "Transfert technologique",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "programmeCode": "423",
+      "isMock": false,
+      "sourceUrl": null,
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.379949Z",
+      "notes": "",
+      "themes": [
+        {
+          "themeId": "modernisation-de-l-outil-de-production",
+          "themeName": "Modernisation de l'outil de production",
+          "keywords": []
+        },
+        {
+          "themeId": "digitalisation-des-pme-eti",
+          "themeName": "Digitalisation des PME-ETI",
+          "keywords": []
+        }
+      ]
+    },
+    {
+      "programmeCode": "424",
+      "isMock": false,
+      "sourceUrl": null,
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.379971Z",
+      "notes": "",
+      "themes": [
+        {
+          "themeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+          "themeName": "1. Petits réacteurs nucléaires innovants (SMR)",
+          "keywords": [
+            "SMR",
+            "petits réacteurs modulaires",
+            "nucléaire",
+            "EPR",
+            "réacteur nucléaire",
+            "gestion des déchets radioactifs"
+          ]
+        },
+        {
+          "themeId": "2.-leader-de-l-hydrogene-vert",
+          "themeName": "2. Leader de l'hydrogène vert",
+          "keywords": [
+            "hydrogène vert",
+            "hydrogène décarboné",
+            "électrolyseur",
+            "pile à combustible",
+            "gigafactory hydrogène",
+            "H2"
+          ]
+        },
+        {
+          "themeId": "3.-decarbonation-de-l-industrie",
+          "themeName": "3. Décarbonation de l'industrie",
+          "keywords": [
+            "décarbonation",
+            "industrie bas-carbone",
+            "capture carbone",
+            "efficacité énergétique industrielle",
+            "chaleur bas-carbone",
+            "CCUS"
+          ]
+        },
+        {
+          "themeId": "4.-vehicules-electriques-et-hybrides",
+          "themeName": "4. Véhicules électriques et hybrides",
+          "keywords": [
+            "véhicule électrique",
+            "batteries",
+            "gigafactory de batteries",
+            "borne de recharge",
+            "véhicule hybride",
+            "mobilité durable"
+          ]
+        },
+        {
+          "themeId": "5.-premier-avion-bas-carbone",
+          "themeName": "5. Premier avion bas-carbone",
+          "keywords": [
+            "avion bas-carbone",
+            "aéronautique décarbonée",
+            "carburant d'aviation durable",
+            "SAF",
+            "moteur à hydrogène"
+          ]
+        },
+        {
+          "themeId": "6.-alimentation-saine-durable-et-tracable",
+          "themeName": "6. Alimentation saine, durable et traçable",
+          "keywords": [
+            "alimentation durable",
+            "agriculture de précision",
+            "agroécologie",
+            "foodtech",
+            "agritech",
+            "protéines alternatives",
+            "traçabilité alimentaire"
+          ]
+        },
+        {
+          "themeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+          "themeName": "7. Production de biomédicaments et dispositifs médicaux",
+          "keywords": [
+            "biomédicament",
+            "biothérapie",
+            "santé numérique",
+            "dispositif médical",
+            "thérapie génique",
+            "healthtech"
+          ]
+        },
+        {
+          "themeId": "8.-production-de-contenus-culturels-et-creatifs",
+          "themeName": "8. Production de contenus culturels et créatifs",
+          "keywords": [
+            "industries culturelles et créatives",
+            "ICC",
+            "métavers",
+            "studios de tournage",
+            "effets visuels",
+            "jeux vidéo",
+            "billetterie"
+          ]
+        },
+        {
+          "themeId": "9.-nouvelle-aventure-spatiale",
+          "themeName": "9. Nouvelle aventure spatiale",
+          "keywords": [
+            "spatial",
+            "micro-lanceurs",
+            "constellation de satellites",
+            "new space",
+            "orbite",
+            "CNES"
+          ]
+        },
+        {
+          "themeId": "10.-exploration-des-fonds-marins",
+          "themeName": "10. Exploration des fonds marins",
+          "keywords": [
+            "fonds marins",
+            "grands fonds marins",
+            "exploration océanique",
+            "robotique sous-marine",
+            "AUV",
+            "ROV"
+          ]
+        },
+        {
+          "themeId": "levier-:-composants-cloud-ia-et-quantique",
+          "themeName": "Levier : Composants, Cloud, IA et Quantique",
+          "keywords": [
+            "intelligence artificielle",
+            "IA",
+            "quantique",
+            "ordinateur quantique",
+            "cloud souverain",
+            "semi-conducteurs",
+            "composants électroniques",
+            "puces électroniques"
+          ]
+        }
+      ]
+    },
+    {
+      "programmeCode": "425",
+      "isMock": false,
+      "sourceUrl": null,
+      "confidence": 1.0,
+      "updatedAt": "2026-07-03T23:13:15.380070Z",
+      "notes": "",
+      "themes": [
+        {
+          "themeId": "soutien-aux-startups-et-deeptech",
+          "themeName": "Soutien aux startups et DeepTech",
+          "keywords": [
+            "startup",
+            "deeptech",
+            "licorne",
+            "innovation de rupture",
+            "levée de fonds"
+          ]
+        },
+        {
+          "themeId": "poles-et-territoires-d-innovation",
+          "themeName": "Pôles et territoires d'innovation",
+          "keywords": [
+            "pôles de compétitivité",
+            "territoires d'innovation",
+            "incubateur",
+            "SATT",
+            "écosystème d'innovation"
+          ]
+        },
+        {
+          "themeId": "soutien-a-la-french-tech",
+          "themeName": "Soutien à la French Tech",
+          "keywords": [
+            "French Tech",
+            "mission French Tech",
+            "French Tech 2030",
+            "Next40",
+            "FT120"
+          ]
+        }
+      ]
+    }
+  ]
+}
