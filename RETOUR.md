@@ -1,51 +1,53 @@
-# Retour d'Expérience et Points de Friction (RETOUR.md)
+# Retour d'Expérience et Points de Friction (RETOUR.md) - V2 (Analyse Profonde)
 
-Ce document dresse un bilan critique de l'architecture et du code générés pour le POC France 2030. Il met en lumière les **points de friction potentiels** (limites techniques, dette technique, qualité de la donnée) qui devront être adressés pour passer de ce Proof of Concept (POC) à un produit en production.
-
----
-
-## 🌐 1. Extraction, Scraping & API (Limites Réseau)
-
-- [ ] **Friction - Blocage Cloudflare sur les Appels à Projets (AAP)** : Le site `info.gouv.fr` bloque les requêtes automatisées. *Solution de contournement actuelle : Données mockées.*
-  - *Action* : Trouver le jeu de données officiel des AAP sur `data.gouv.fr` ou utiliser un scraper avec navigateur headless (ex: Playwright/Selenium) pour contourner la protection.
-- [ ] **Friction - Rate Limiting API Sirene** : L'API `recherche-entreprises` est limitée à 7 requêtes/seconde. Le script `09_fetch_companies.py` utilise un simple `time.sleep(0.5)`. 
-  - *Action* : Implémenter un vrai mécanisme de `Retry-After` avec `Tenacity` ou `requests.adapters.Retry` pour gérer les montées en charge sur des milliers d'entreprises.
-- [ ] **Friction - Lenteur & Pagination NosDéputés.fr** : Le script `07_fetch_parliament_mentions.py` est bridé volontairement (15 mots-clés, 3 résultats max) pour éviter de surcharger l'API ou de prendre des heures.
-  - *Action* : Passer sur une ingestion asynchrone (ex: `asyncio` + `aiohttp`) et gérer la pagination complète pour rapatrier tout l'historique d'une législature.
+Suite à une relecture exhaustive de la base de code et de l'architecture du projet, ce document dresse un bilan critique complet des **points de friction potentiels** et de la **dette technique** qui devront être adressés pour passer de ce Proof of Concept (POC) à un produit en production.
 
 ---
 
-## 🧹 2. Qualité et Fiabilisation de la Donnée
+## 🌐 1. Extraction, Scraping & APIs (Risques d'Ingestion)
 
-- [ ] **Friction - Homonymie sur l'API Sirene** : Rechercher une entreprise par son "Nom" est dangereux (ex: chercher "GreenTech" peut retourner 50 entreprises). 
-  - *Action* : Obtenir obligatoirement le SIREN exact depuis le jeu de données source des lauréats, plutôt que de deviner par le nom.
-- [ ] **Friction - Faux Positifs dans les Débats Parlementaires** : La recherche textuelle est "bête". Si un député dit le mot "Nucléaire" ou "Hydrogène", ce n'est pas forcément lié au plan *France 2030*.
-  - *Action* : Ajouter un filtre strict (ex: n'accepter la mention que si "France 2030" ou "Milliard" est aussi présent dans un rayon de 50 mots) ou utiliser un LLM (Ollama/OpenAI) pour valider le contexte.
-- [ ] **Friction - Historique Budgétaire (2024 / 2026)** : Le fichier actuel "PLF 2025" donne les Crédits de Paiement (CP) de 2025. Les colonnes 2024 et 2026 sont vides dans notre BDD.
-  - *Action* : Télécharger, parser et faire une jointure avec les fichiers PLF 2024 (Exécuté) et la programmation pluriannuelle pour combler les trous.
-
----
-
-## 🏗️ 3. Architecture et Scripts Python
-
-- [ ] **Friction - Scripts Synchrones et Séquentiels** : Si un script plante à 99%, toutes les données de la session en cours sont perdues car l'écriture du JSON se fait tout à la fin.
-  - *Action* : Sauvegarder les données de manière incrémentale (ex: mode `append` sur un fichier JSONL - JSON Lines) ou écrire directement dans SQLite au fil de l'eau.
-- [ ] **Friction - Destruction de la base SQLite (`11_export_to_sqlite.py`)** : Le script fait un `os.remove(db_path)` à chaque exécution. C'est idéal pour un POC, mais catastrophique en production.
-  - *Action* : Utiliser des `INSERT OR REPLACE` (Upsert) basés sur les clés primaires sans supprimer les tables pour permettre des mises à jour incrémentales.
-- [ ] **Friction - Couplage fort des ID générés** : Les identifiants (ex: `corr-af2591db`) sont regénérés aléatoirement (`uuid4()`) à chaque exécution.
-  - *Action* : Générer des hash déterministes (ex: `md5(source_id + target_id)`) pour que les ID des corrélations soient stables entre deux exécutions des scripts.
+- [ ] **Friction - Blocage Cloudflare sur les Appels à Projets (AAP) (`script 06`)** : Le site `info.gouv.fr` bloque les requêtes automatisées. Le script actuel utilise un mock de 4 AAP. 
+  - *Action* : Utiliser un scraper headless (Playwright/Puppeteer) ou trouver un jeu de données officiel des AAP sur `data.gouv.fr` (ex: API Aides-Territoires, si elle intègre France 2030).
+- [ ] **Friction - Instabilité des URLs sources (`scripts 01, 02, 03`)** : Les URLs des fichiers CSV de `data.economie.gouv.fr` sont hardcodées. Si le jeu de données change d'ID pour le PLF 2027, les scripts casseront.
+  - *Action* : Utiliser l'API de recherche du catalogue (par mot-clé) pour résoudre dynamiquement l'URL du dernier millésime avant de le télécharger.
+- [ ] **Friction - Rate Limiting API Sirene (`script 09`)** : L'API `recherche-entreprises` est limitée à 7 requêtes/seconde. Le script utilise un fragile `time.sleep(0.5)`. 
+  - *Action* : Implémenter un vrai mécanisme de `Retry-After` (via la librairie `tenacity` ou `urllib3.util.Retry`).
+- [ ] **Friction - Lenteur & Pagination NosDéputés.fr (`script 07`)** : Le script est bridé volontairement (15 mots-clés, 3 résultats max) pour éviter de bloquer l'API.
+  - *Action* : Passer sur une ingestion asynchrone (`asyncio` + `aiohttp`) et gérer la pagination (attribut `next_page` de l'API) pour rapatrier tout l'historique d'une législature en tâche de fond.
 
 ---
 
-## 🚢 4. Déploiement & Interface (Streamlit / Docker)
+## 🧹 2. Qualité et Fiabilisation de la Donnée (Risques Métier)
 
-- [ ] **Friction - Dépendance à l'ordre d'exécution sous Docker** : Le `docker-compose.yml` monte le dossier `./data`. Si on lance Docker *avant* d'avoir exécuté les scripts Python locaux, Streamlit plantera car `france2030.sqlite` n'existera pas.
-  - *Action* : Ajouter une logique dans `dashboard.py` (ou via un `entrypoint.sh`) qui vérifie la présence de la base SQLite, affiche un message convivial si elle manque, ou lance la génération de base (mock) automatiquement.
-- [ ] **Friction - Scalabilité du Dashboard** : Streamlit charge le `pd.read_sql` en mémoire (`RAM`). Si la base contient 2 millions d'amendements, l'app plantera.
-  - *Action* : Ne jamais faire de `SELECT *`. Toujours paginer les résultats affichés dans Streamlit ou utiliser des requêtes SQL d'agrégation.
+- [ ] **Friction - Homonymie sur l'API Sirene (`script 09`)** : Rechercher une entreprise par son "Nom complet" est dangereux (chercher "Alan" ou "GreenTech" peut retourner 50 entreprises). 
+  - *Action* : Obtenir le SIREN exact depuis le jeu de données source des lauréats Bpifrance/ADEME, plutôt que d'utiliser l'endpoint `/search`.
+- [ ] **Friction - Faux Positifs dans les Débats Parlementaires (`script 07`)** : La recherche textuelle est littérale. Si un député prononce le mot "Hydrogène" dans un débat sur l'énergie, ce n'est pas forcément lié aux financements *France 2030*.
+  - *Action* : Ajouter un filtre de proximité (ex: "France 2030" doit être prononcé dans les 50 mots précédents) ou utiliser un LLM (via API ou modèle local) pour classifier la pertinence de la mention.
+- [ ] **Friction - Dictionnaire statique et hardcodé (`scripts 04, 05`)** : Les taxonomies (`THEMES_MAPPING` et `KEYWORDS_RICH_MAPPING`) sont définies en dur dans le code Python.
+  - *Action* : Déporter ces configurations dans des fichiers YAML ou un Back-Office (CMS) pour que les experts métiers puissent ajouter des mots-clés sans toucher au code.
+
+---
+
+## 🏗️ 3. Architecture et Scripts Python (Dette Technique)
+
+- [ ] **Friction - Scripts Synchrones et Séquentiels** : Si un script plante à 99% (ex: timeout API), toutes les données en RAM sont perdues car l'écriture JSON se fait à la fin du process.
+  - *Action* : Sauvegarder les données de manière incrémentale (mode `append` JSONL) ou écrire dans SQLite au fil de l'eau.
+- [ ] **Friction - Destruction systématique de la base SQLite (`script 11`)** : Le script fait un `os.remove(db_path)` à chaque exécution. C'est parfait pour un POC, mais inacceptable en production.
+  - *Action* : Utiliser la commande `INSERT OR REPLACE` (Upsert) sur les clés primaires sans `DROP TABLE` pour permettre des mises à jour incrémentales.
+- [ ] **Friction - Couplage fort et instabilité des IDs (`script 10`)** : Les identifiants de corrélation sont générés avec `uuid.uuid4()`. À chaque exécution, les IDs changent, rendant impossible la synchronisation avec des systèmes tiers (ex: Neo4j).
+  - *Action* : Générer des hash déterministes basés sur le contenu : `hash(sourceEntityId + targetEntityId + correlationType)`.
+
+---
+
+## 🚢 4. Déploiement & Interface (Limites Front-End)
+
+- [ ] **Friction - Dépendance de montage sous Docker (`docker-compose.yml`)** : Si on lance `docker-compose up` sur une machine vierge avant d'avoir exécuté les scripts Python, le `dashboard.py` plantera car `france2030.sqlite` n'existera pas.
+  - *Action* : Créer un fichier `entrypoint.sh` pour le conteneur Docker qui vérifie la présence de la BDD et lance le pipeline d'ingestion automatiquement si elle est absente.
+- [ ] **Friction - Scalabilité du Dashboard Streamlit** : L'interface charge les DataFrames en mémoire vive via `pd.read_sql`. Si la table `parliament_mentions` grandit massivement, l'application crashera (OOM).
+  - *Action* : Paginer les requêtes SQL côté backend (utilisation de `LIMIT` et `OFFSET`) et éviter les `SELECT *` massifs.
 
 ---
 
 ## 🎯 Conclusion pour l'équipe technique
 
-Ce POC démontre la **faisabilité technique** du croisement de données entre Budget, Parlement et Entreprises. Cependant, le passage à l'échelle nécessitera de robustifier l'ingestion (asynchronisme, gestion d'erreurs API) et d'affiner l'intelligence métier (NLP) pour nettoyer les faux-positifs.
+Ce POC valide magistralement l'approche d'agrégation de multiples sources Open Data (Budget, Assemblée, Sirene). Néanmoins, le passage à un outil industriel ("Scale-up") nécessitera l'introduction d'un orchestrateur de tâches (comme **Apache Airflow** ou **Prefect**) pour remplacer l'exécution manuelle des 11 scripts, gérer les retries d'API, et consolider les données dans une vraie base PostgreSQL ou Neo4j.
