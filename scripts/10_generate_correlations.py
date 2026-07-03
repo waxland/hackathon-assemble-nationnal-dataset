@@ -1,6 +1,11 @@
 import json
 import os
-import uuid
+import hashlib
+
+def get_hash_id(source_id, target_id, ctype):
+    """Génère un UUID MD5 déterministe pour éviter les doublons instables."""
+    s = f"{source_id}_{target_id}_{ctype}".encode('utf-8')
+    return "corr-" + hashlib.md5(s).hexdigest()[:8]
 
 def load_json(filepath):
     if os.path.exists(filepath):
@@ -9,9 +14,8 @@ def load_json(filepath):
     return []
 
 def main():
-    print("Génération de la table plate des corrélations...")
+    print("Génération de la table plate des corrélations (IDs déterministes)...")
     
-    # Charger les référentiels
     budget_lines = load_json("data/budget_lines.json")
     themes = load_json("data/themes.json")
     calls = load_json("data/calls_for_projects.json")
@@ -20,10 +24,10 @@ def main():
     
     correlations = []
     
-    # Corrélation: Programme -> Budget Line
     for bl in budget_lines:
+        cid = get_hash_id(bl.get("programmeCode"), bl.get("id"), "finance")
         correlations.append({
-            "correlationId": f"corr-{uuid.uuid4().hex[:8]}",
+            "correlationId": cid,
             "sourceEntityType": "programme",
             "sourceEntityId": bl.get("programmeCode"),
             "targetEntityType": "budgetLine",
@@ -34,11 +38,11 @@ def main():
             "validationStatus": "validated"
         })
         
-    # Corrélation: Programme -> Theme
     for t in themes:
         for prog in t.get("relatedProgrammes", []):
+            cid = get_hash_id(prog, t.get("themeId"), "thematic_mapping")
             correlations.append({
-                "correlationId": f"corr-{uuid.uuid4().hex[:8]}",
+                "correlationId": cid,
                 "sourceEntityType": "programme",
                 "sourceEntityId": prog,
                 "targetEntityType": "theme",
@@ -49,11 +53,11 @@ def main():
                 "validationStatus": "validated"
             })
             
-    # Corrélation: Call -> Theme & Programme
     for call in calls:
         if call.get("themeId"):
+            cid = get_hash_id(call.get("callId"), call.get("themeId"), "call_classification")
             correlations.append({
-                "correlationId": f"corr-{uuid.uuid4().hex[:8]}",
+                "correlationId": cid,
                 "sourceEntityType": "callForProject",
                 "sourceEntityId": call.get("callId"),
                 "targetEntityType": "theme",
@@ -63,24 +67,12 @@ def main():
                 "evidenceSource": "calls_for_projects.json",
                 "validationStatus": "validated"
             })
-        for prog in call.get("relatedProgrammes", []):
-            correlations.append({
-                "correlationId": f"corr-{uuid.uuid4().hex[:8]}",
-                "sourceEntityType": "callForProject",
-                "sourceEntityId": call.get("callId"),
-                "targetEntityType": "programme",
-                "targetEntityId": prog,
-                "correlationType": "call_funding",
-                "confidenceScore": 0.8,
-                "evidenceSource": "calls_for_projects.json",
-                "validationStatus": "to_validate"
-            })
             
-    # Corrélation: Mention -> Theme & Programme
     for m in mentions:
         if m.get("relatedThemeId"):
+            cid = get_hash_id(m.get("mentionId"), m.get("relatedThemeId"), "parliamentary_debate")
             correlations.append({
-                "correlationId": f"corr-{uuid.uuid4().hex[:8]}",
+                "correlationId": cid,
                 "sourceEntityType": "parliamentMention",
                 "sourceEntityId": m.get("mentionId"),
                 "targetEntityType": "theme",
@@ -91,11 +83,11 @@ def main():
                 "validationStatus": "validated"
             })
             
-    # Corrélation: Company -> Theme & Programme
     for c in companies:
         for tid in c.get("relatedThemeIds", []):
+            cid = get_hash_id(c.get("companyId"), tid, "company_activity")
             correlations.append({
-                "correlationId": f"corr-{uuid.uuid4().hex[:8]}",
+                "correlationId": cid,
                 "sourceEntityType": "company",
                 "sourceEntityId": c.get("companyId"),
                 "targetEntityType": "theme",
@@ -109,10 +101,13 @@ def main():
     os.makedirs("data", exist_ok=True)
     output_path = "data/correlations.json"
     
+    # Éliminer d'éventuels doublons
+    unique_correlations = {c["correlationId"]: c for c in correlations}.values()
+    
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(correlations, f, indent=2, ensure_ascii=False)
+        json.dump(list(unique_correlations), f, indent=2, ensure_ascii=False)
         
-    print(f"✅ {len(correlations)} corrélations générées dans {output_path}")
+    print(f"✅ {len(unique_correlations)} corrélations générées dans {output_path}")
 
 if __name__ == "__main__":
     main()
