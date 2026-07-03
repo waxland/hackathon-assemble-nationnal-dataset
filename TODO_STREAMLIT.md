@@ -6,7 +6,7 @@ L'objectif est que le Streamlit ne soit pas juste un "dump de la BDD", mais une 
 
 ## 🎯 Vision Globale & Design System
 
-- [ ] **Cohérence visuelle (UI/UX)** :
+- [x] **Cohérence visuelle (UI/UX)** :
   - Appliquer un thème sobre inspiré du standard de l'État (`sites.beta.gouv.fr` / DSFR).
   - Configurer `st.set_page_config` avec les bonnes couleurs (Bleu France) via un fichier `.streamlit/config.toml`.
   - Intégrer le logo ou l'icône `icon-minerve.png` dans la barre latérale.
@@ -15,29 +15,30 @@ L'objectif est que le Streamlit ne soit pas juste un "dump de la BDD", mais une 
 
 Le Streamlit doit refléter l'arborescence à 3 niveaux du Frontend Minerve :
 
-- [ ] **1. Route `/` -> "Accueil / Vue Macro"** :
+- [x] **1. Route `/` -> "Accueil / Vue Macro"** :
   - Créer une page d'accueil d'atterrissage (Landing page de présentation du POC).
   - Afficher les macro-métriques (Budget global France 2030, nombre total de mentions à l'Assemblée, nombre d'entreprises).
   - Inclure le **Camembert de répartition des investissements 2026** (comme requis sur le Front).
 
-- [ ] **2. Route `/investissements` -> "Vue Transversale"** :
+- [x] **2. Route `/investissements` -> "Vue Transversale"** :
   - Créer un onglet listant les grands programmes (421 à 425) sous forme de tableau ou de "Cards".
   - Afficher un tableau croisé dynamique comparant les programmes sur différentes dimensions : Budget vs Appels à projets vs Startups financées.
 
-- [ ] **3. Routes `/investissements/[programmeCode]` -> "Rapports par Programme"** :
+- [x] **3. Routes `/investissements/[programmeCode]` -> "Rapports par Programme"** :
   - Implémenter un sélecteur dans la sidebar : *"Sélectionnez un Programme (421, 422, 423, 424, 425)"*.
   - Créer une vue "Rapport façon slide" pour le programme sélectionné.
   - La vue doit agréger, pour UN programme donné :
-    - [ ] Son budget précis (CP 2024, 2025, 2026).
-    - [ ] Sa taxonomie / ses mots-clés associés.
-    - [ ] L'écho parlementaire ciblé (ex: les débats liés au 424 uniquement).
-    - [ ] Les entreprises / startups de la French Tech financées (avec leur code NAF).
+    - [x] Son budget précis (CP 2024, 2025, 2026).
+    - [x] Sa taxonomie / ses mots-clés associés.
+    - [x] L'écho parlementaire ciblé (ex: les débats liés au 424 uniquement).
+    - [x] Les entreprises / startups de la French Tech financées (avec leur code NAF).
 
-## 📊 Dataviz & Intégration Data (SQLite)
+## 📊 Dataviz & Intégration Data (SQLite / JSON)
 
-- [ ] **Remplacement des requêtes "brutes"** :
+- [x] **Remplacement des requêtes "brutes"** :
   - Actuellement, le `dashboard.py` fait des requêtes SQL très génériques. Il faut créer des fonctions Python (ex: `get_program_metrics(prog_id)`) qui interrogent `france2030.sqlite` pour calculer les scores d'alignement attendus par le Front (ex: score de couverture Parlementaire vs Budget).
-- [ ] **Composants Dataviz "Miroir"** :
+  - *Fait : Branché en lecture directe sur le contrat JSON (dossier dataset/).*
+- [x] **Composants Dataviz "Miroir"** :
   - Re-créer les graphiques attendus sur le Front en utilisant `plotly` ou `altair` dans Streamlit (plus esthétique et interactif que `st.bar_chart`).
   - Graphiques attendus :
     - Répartition des lignes budgétaires (Titre 3 vs Titre 6).
@@ -47,7 +48,7 @@ Le Streamlit doit refléter l'arborescence à 3 niveaux du Frontend Minerve :
 
 Puisque Streamlit est d'abord un outil d'exploration Data pour préparer le Front, il doit apporter des fonctionnalités de validation métier :
 
-- [ ] **Onglet "Qualité de la donnée"** :
+- [x] **Onglet "Qualité de la donnée"** :
   - Afficher les pourcentages de `isMock: true` vs `isMock: false` dans la BDD.
   - Lister les entreprises pour lesquelles le SIREN n'a pas été trouvé.
   - Afficher les "trous" (ex: "Aucune mention parlementaire trouvée pour le programme 421").
