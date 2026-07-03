@@ -26,7 +26,7 @@ def get_base_program_skeleton(prog_code):
     }
 
 def main():
-    print("🚀 Démarrage de la passerelle d'export vers le contrat Front...")
+    print("🚀 Démarrage de la passerelle d'export vers le contrat Front (minerve.gouv.fr)...")
     db_path = "data/france2030.sqlite"
     if not os.path.exists(db_path):
         return

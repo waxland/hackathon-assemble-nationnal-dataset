@@ -46,7 +46,7 @@ La base est structurée pour répondre immédiatement, via de simples requêtes 
 
 ---
 
-## 🚀 Prochaines étapes suggérées (Pour l'équipe Data-Viz / Front-End)
+## 🚀 Prochaines étapes suggérées (Pour l'équipe Data-Viz / Front-End minerve.gouv.fr)
 
 Maintenant que le socle de données est robuste et prêt, l'équipe technique peut se concentrer sur l'interface :
 
