@@ -5,7 +5,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:13:15.379140Z",
+      "updatedAt": "2026-07-03T23:51:10.018477+00:00Z",
       "notes": "",
       "documents": []
     },
@@ -14,7 +14,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:13:15.379380Z",
+      "updatedAt": "2026-07-03T23:51:10.018530+00:00Z",
       "notes": "",
       "documents": []
     },
@@ -23,18 +23,38 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:13:15.379388Z",
+      "updatedAt": "2026-07-03T23:51:10.018540+00:00Z",
       "notes": "",
       "documents": []
     },
     {
       "programmeCode": "424",
       "isMock": false,
-      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CE809",
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/917/169",
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:13:15.379396Z",
+      "updatedAt": "2026-07-03T23:51:10.018549+00:00Z",
       "notes": "",
       "documents": [
+        {
+          "id": "an-amendement-68847",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Ménard",
+          "politicalGroup": "NI",
+          "matchedKeyword": "gigafactory hydrogène",
+          "text": "<p>L’objectif de cet amendement est de simplifier l’implantation de nouvelles gigafactory dans le but de faciliter le déploiement industriel d’une technologie de rupture de production d’hydrogène essentielle pour atteindre nos objectifs en matière de transition énergétique.</p> <p>Rétablir le III de l’alinéa 15 dans la rédaction suivante :</p><p>« III. – L’artificialisation des sols ou la consommation d’espaces naturels, agricoles ou forestiers résultant des constructions, aménagements, installations et travaux visant au développement et au déploiement industriel de la technologie d’électrolyseur d’oxyde solide à haute performance, développée par le Commissariat de l’énergie atomique, pour la production d’hydrogène décarboné n’est pas comptabilisée pour évaluer l’atteinte des objectifs de ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/169"
+        },
+        {
+          "id": "an-amendement-66544",
+          "date": "2023-02-24",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Jourdan, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "nucléaire",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à élargir l’audit recensant les besoins prévisionnels en cas de relance du nucléaire à l’Institut de Radioprotection et de Sûreté Nucléaire (IRSN).</p><p>Le champ de compétences de l’IRSN couvre l’ensemble des risques liés aux rayonnements ionisants, utilisés dans l’industrie ou la médecine, ou encore les rayonnements naturels</p><p>Nous réaffirmons également le principe d’une organisation duale de la sécurité nucléaire composée de l’Autorité de sûreté nucléaire (ASN) d’une part et de l’Institut de radioprotection et de sûreté nucléaire d’autre part. Cette organisation garantit l’indépendance entre d’une part, les activités de contrôle de la sûreté nucléaire, de la radioprotection et des activités nucléaires mentionnées à l’article...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE485"
+        },
         {
           "id": "an-amendement-26976",
           "date": "2022-11-19",
@@ -42,7 +62,7 @@
           "speakerName": "Mme Bassire",
           "politicalGroup": "LIOT",
           "matchedKeyword": "hydrogène vert",
-          "text": "<p>Cet amendement supprime le mot « bas-carbone » à partir du moment où l’hydrogène peut être produit par des énergies fossiles et du nucléaire<br/>Lorsqu’on parle d’hydrogène dans le cadre de la transition écologique, on fait référence à l’hydrogène produit par électrolyse de l’eau, qu’on appelle « hydrogène vert ». Le procédé n’est « durable » que si l’électricité utilisée pour produire de l’hydrogène est elle-même « durable ». Produire de l’hydrogène avec de l’électricité provenant de central...",
+          "text": "<p>Cet amendement supprime le mot « bas-carbone » à partir du moment où l’hydrogène peut être produit par des énergies fossiles et du nucléaire<br/>Lorsqu’on parle d’hydrogène dans le cadre de la transition écologique, on fait référence à l’hydrogène produit par électrolyse de l’eau, qu’on appelle « hydrogène vert ». Le procédé n’est « durable » que si l’électricité utilisée pour produire de l’hydrogène est elle-même « durable ». Produire de l’hydrogène avec de l’électricité provenant de centrales à charbon ou du fuel revient à émettre beaucoup de CO2 et de polluants. S’il est souhaitable de renforcer la filière de l’hydrogène « vert » issue de sources renouvelables, l’hydrogène bas carbone est aussi produit par électrolyse et par le nucléaire. Afin d’éviter toute ambiguïté, Il faut donc q...",
           "url": "https://www.nosdeputes.fr/16/amendement/443/CE809"
         },
         {
@@ -52,8 +72,288 @@
           "speakerName": "Mme Bassire",
           "politicalGroup": "LIOT",
           "matchedKeyword": "hydrogène vert",
-          "text": "<p>Lorsqu’on parle d’hydrogène dans le cadre de la transition écologique, on fait référence à l’hydrogène produit par électrolyse de l’eau, qu’on appelle « hydrogène vert ». Le procédé n’est « durable » que si l’électricité utilisée pour produire de l’hydrogène est elle-même « durable ». Produire de l’hydrogène avec de l’électricité provenant de centrales à charbon ou du fuel revient à émettre beaucoup de CO2 et de polluants. S’il est souhaitable de renforcer la filière de l’hydrogène « vert » i...",
+          "text": "<p>Lorsqu’on parle d’hydrogène dans le cadre de la transition écologique, on fait référence à l’hydrogène produit par électrolyse de l’eau, qu’on appelle « hydrogène vert ». Le procédé n’est « durable » que si l’électricité utilisée pour produire de l’hydrogène est elle-même « durable ». Produire de l’hydrogène avec de l’électricité provenant de centrales à charbon ou du fuel revient à émettre beaucoup de CO2 et de polluants. S’il est souhaitable de renforcer la filière de l’hydrogène « vert » issue de sources renouvelables, l’hydrogène bas carbone est aussi produit par électrolyse et par le nucléaire. Afin d’éviter toute ambiguïté, Il faut donc que l’électricité utilisée ait été elle-même produite via des sources bas carbone comme les énergies renouvelables.</p> <p>Aux alinéas 5, 7, 13, 2...",
           "url": "https://www.nosdeputes.fr/16/amendement/443/CE810"
+        },
+        {
+          "id": "an-amendement-93360",
+          "date": "2023-07-12",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Olive, M. Vojetta, Mme Agresti-Roubache, M. Fugit, M. Ghomi, Mme Brulebois, M. Lamirault, M. Patrier-Leitus, M. Ledoux, Mme Félicie Gérard, M. Pellerin, M. Buchou, M. Abad, M. Cosson, M. Pacquot, M. Lovisolo, Mme Pouzyreff, Mme Spillebout",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>Ce projet de loi industrie verte promeut le développement de la production des énergies décarbonées afin de répondre aux enjeux de la réindustrialisation verte de notre pays.</p><p>Alors que l’Europe, et plus particulièrement la France, s’est engagée dans le développement de l’hydrogène vert, ce projet de loi vise à faciliter le développement d’une filière hydrogène fiable et robuste.</p><p>Pour ce faire, des infrastructures de stockage d’hydrogène seront nécessaires dans les chaînes de valeur des technologies favorables au développement durable pour réimplanter et développer les activités industrielles et garantir notre souveraineté nationale pour transition énergétique.</p><p>Comme le précise l’étude d’impact, « le développement de ces énergies nécessite la maîtrise de l’ensemble de l...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1512/508"
+        },
+        {
+          "id": "an-amendement-31431",
+          "date": "2022-12-01",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Pouzyreff",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>Cet amendement émane d'une forte demande de la part des entreprises du secteur de l'hydrogène vert et a été travaillé avec l'entreprise Lhyfe.</p><p>Le présent amendement propose une mesure permettant d’accélérer la construction d’installations de production d’hydrogène renouvelable dans nos territoires, à savoir la mise en place d’un raccordement indirect pour faciliter leur raccordement au réseau public d’électricité.</p><p>Cette mesure vise à réduire les coûts de production de l’hydrogène renouvelable, réduire les délais de raccordement des installations de production, ou encore garantir la traçabilité de l’hydrogène produit et son caractère renouvelable.</p><p>Pour ces mêmes raisons, la Commission européenne prévoit la mise en place de la « connexion directe » de ces installations d...",
+          "url": "https://www.nosdeputes.fr/16/amendement/526/2713"
+        },
+        {
+          "id": "an-amendement-33207",
+          "date": "2022-12-01",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Meynier-Millefert, M. Reda, M. Vuilletet, M. Vojetta",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>L’hydrogène renouvelable est un vecteur énergétique clé pour décarboner l’industrie et la mobilité, qui plus est dans le contexte d’urgence climatique et énergétique du moment.</p><p>C’est pourquoi le présent amendement propose une mesure concrète permettant d’accélérer dès aujourd’hui la construction d’installations de production d’hydrogène renouvelable dans nos territoires, à savoir la mise en place d’un raccordement indirect pour faciliter leur raccordement au réseau public d’électricité.</p><p>Il s’agit là d’une mesure indispensable pour réduire les coûts de production de l’hydrogène renouvelable, réduire les délais de raccordement des installations de production, ou encore garantir la traçabilité de l’hydrogène produit et son caractère renouvelable.</p><p>C’est d’ailleurs pour ces...",
+          "url": "https://www.nosdeputes.fr/16/amendement/526/1246"
+        },
+        {
+          "id": "an-amendement-26307",
+          "date": "2022-11-19",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Pouzyreff",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>Cet amendement a été travaillé avec l'entreprise Lhyfe.</p><p>Le présent amendement propose une mesure permettant d'accélérer la construction d'installations de production d'hydrogène renouvelable dans nos territoires, à savoir la possibilité de se raccorder indirectement aux installations d'énergies renouvelables, notamment afin de participer à des opérations d'autoconsommation.</p><p>Il s'agit d'une mesure indispensable pour réduire les coûts de production de l'hydrogène renouvelable, réduire les délais de raccordement des installations de production, ou encore garantir la traçabilité de l'hydrogène produit et son caractère renouvelable.</p><p>A l'image des cadres existants pour l'autoconsommation solaire, éolienne ou encore pour les bornes de recharge électrique, cet amendement propo...",
+          "url": "https://www.nosdeputes.fr/16/amendement/443/CE1043"
+        },
+        {
+          "id": "an-amendement-24354",
+          "date": "2022-11-17",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Castellani, Mme Bassire, M. Guy Bricout, M. Jean-Louis Bricout, M. Molac, M. Saint-Huile, M. Taupiac",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>Cet amendement vise à créer les bases de l’introduction de l’hydrogène vert dans les Zones Non Interconnectées, à savoir la Corse et les territoires ultramarins.</p><p>Une réflexion approfondie doit avoir lieu pour définir toute les possibilités de création et de développement de la filière dans ces territoires souvent insulaires et encore très dépendant des énergies fossiles.</p><p>Il s’agit en conséquence d’explorer les voies et moyens disponibles pour s’assurer d’une transition énergétique d’ampleur dans ces territoires tout en répondant aux impératifs de plus en plus prégnants que sont : le renforcement de l’autonomie énergétique, la sécurité des approvisionnements et la maitrise des coûts.</p><p>Il s’agirait ainsi d’étudier les possibilités qu’offre l’hydrogène en matière de transi...",
+          "url": "https://www.nosdeputes.fr/16/amendement/443/CD503"
+        },
+        {
+          "id": "an-amendement-31673",
+          "date": "2022-11-30",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Pancher, Mme Bassire, M. Castellani, Mme Descamps, M. Mathiasin, M. Molac, M. Morel-À-L'Huissier, M. Panifous, Mme Youssouffa",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "hydrogène vert",
+          "text": "<p>L’hydrogène renouvelable est un vecteur énergétique clé pour décarboner l’industrie et la mobilité, qui plus est dans le contexte d’urgence climatique et énergétique du moment.</p><p>C’est pourquoi le présent amendement propose une mesure concrète permettant d’accélérer dès aujourd’hui la construction d’installations de production d’hydrogène renouvelable dans nos territoires, à savoir la mise en place d’un raccordement indirect pour faciliter leur raccordement au réseau public d’électricité.</p><p>Il s’agit là d’une mesure indispensable pour réduire les coûts de production de l’hydrogène renouvelable, réduire les délais de raccordement des installations de production, ou encore garantir la traçabilité de l’hydrogène produit et son caractère renouvelable.</p><p>C’est d’ailleurs pour ces...",
+          "url": "https://www.nosdeputes.fr/16/amendement/526/311"
+        },
+        {
+          "id": "an-amendement-101636",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Lacresse",
+          "politicalGroup": "REN",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>Le présent amendement a pour objet d’élargir le crédit d’impôt dédié aux investissements dans l’industrie verte, en englobant la fabrication des composants essentiels au développement de l’industrie manufacturière française dans le domaine crucial de l’hydrogène, notamment les électrolyseurs et les piles à combustible, ainsi que l’approvisionnement en matières premières critiques associées.</p><p>Cette initiative vise à encourager la localisation en France d’une plus grande part de la chaîne de valeur liée à l’hydrogène, en mettant spécialement l’accent sur les activités de transformation et de recyclage des matières premières critiques associées. Cet amendement s’inscrit dans le contexte des discussions actuellement en cours au sein de l’Union européenne concernant la législation sur l...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF2948A"
+        },
+        {
+          "id": "an-amendement-103818",
+          "date": "2023-10-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Fugit",
+          "politicalGroup": null,
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>Le présent article propose d’élargir le crédit d’impôt au titre des investissements dans l’industrie verte à la fabrication des composants (incluant l’approvisionnement en matières premières critiques liées) nécessaires au développement d’une industrie manufacturière française sur les technologies clés de l’hydrogène : électrolyseurs et piles à combustible.<br/>L’Etat soutient déjà le développement de cette chaîne de valeur par des aides directes à des gigafactories d’électrolyseurs et de piles à combustible dans le cadre de la 1ère vague du PIIEC. Un soutien complémentaire aux filières amont à ces gigafactories apparaît notamment nécessaire au regard des fortes tensions anticipées à horizon 2030 sur l’approvisionnement en platine et iridium, deux métaux stratégiques pour le développeme...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF2985A"
+        },
+        {
+          "id": "an-amendement-103926",
+          "date": "2023-10-08",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Fugit",
+          "politicalGroup": "REN",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>Le présent article propose d’élargir le crédit d’impôt au titre des investissements dans l’industrie verte à la fabrication des composants (incluant l’approvisionnement en matières premières critiques liées) nécessaires au développement d’une industrie manufacturière française sur les technologies clés de l’hydrogène : électrolyseurs et piles à combustible.<br/>L’Etat soutient déjà le développement de cette chaîne de valeur par des aides directes à des gigafactories d’électrolyseurs et de piles à combustible dans le cadre de la 1ère vague du PIIEC. Un soutien complémentaire aux filières amont à ces gigafactories apparaît notamment nécessaire au regard des fortes tensions anticipées à horizon 2030 sur l’approvisionnement en platine et iridium, deux métaux stratégiques pour le développeme...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CD449A"
+        },
+        {
+          "id": "an-amendement-102447",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Guy Bricout",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95.</p><p>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.</p><p>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.</p><p>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se développe à tr...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CD136A"
+        },
+        {
+          "id": "an-amendement-103768",
+          "date": "2023-10-04",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Taite, Mme Périgault, M. Neuder, M. Kamardine, Mme Bazin-Malgras, Mme Anthoine, M. Vatin",
+          "politicalGroup": "LR",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95.<br/>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.<br/>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.<br/>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se développe à travers ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF403A"
+        },
+        {
+          "id": "an-amendement-102764",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Louwagie, Mme Genevard, M. Gosselin, M. Ray, M. Vincendet",
+          "politicalGroup": "LR",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95.<br/>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.<br/>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.<br/>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se développe à travers ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF1103A"
+        },
+        {
+          "id": "an-amendement-110493",
+          "date": "2023-10-10",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Corneloup, M. Bony, M. Brigand, M. Bourgeaux, M. Descoeur, M. Cinieri, Mme Duby-Muller, Mme Gruet, M. Dubois, Mme Frédérique Meunier, M. Ray, M. Vatin",
+          "politicalGroup": "LR",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95.</p><p>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.</p><p>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.</p><p>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se développe à tr...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/802A"
+        },
+        {
+          "id": "an-amendement-111648",
+          "date": "2023-10-10",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Valentin, M. Jean-Pierre Vigier, Mme Périgault, M. Brigand, M. Taite, M. Ray",
+          "politicalGroup": "LR",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95.</p><p>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.</p><p>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.</p><p>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se développe à tr...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/689A"
+        },
+        {
+          "id": "an-amendement-112931",
+          "date": "2023-10-13",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Taupiac, M. Saint-Huile, M. Panifous, Mme Froger, M. Jean-Louis Bricout",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95.</p><p>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.</p><p>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.</p><p>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se développe à tr...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/3794A"
+        },
+        {
+          "id": "an-amendement-5560",
+          "date": "2022-09-30",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Fugit",
+          "politicalGroup": "REN",
+          "matchedKeyword": "pile à combustible",
+          "text": "<p>La loi de finances pour 2019 a étendu aux véhicules équipés d’une motorisation électrique ou à pile à hydrogène, GNV/bioGNV, le dispositif de déduction fiscale exceptionnelle déjà en vigueur pour les véhicules de plus de 3,5 tonnes fonctionnant au gaz naturel, au biométhane ou qui utilisent le carburant ED95. <br/>La loi « Climat et Résilience » est venue prorogée cette déduction jusqu’au 31 décembre 2030.</p><p>S’inscrivant dans la droite ligne du renforcement des incitations fiscales à l’utilisation d’énergies vertes dans les transports, cet amendement étend le dispositif de suramortissement aux véhicules rétrofités.</p><p>Depuis plusieurs années, l’activité de rétrofit, qui consiste à convertir un véhicule thermique en véhicule électrique à batterie ou à pile à combustible se dévelop...",
+          "url": "https://www.nosdeputes.fr/16/amendement/273/CF1004A"
+        },
+        {
+          "id": "an-amendement-1679",
+          "date": "2022-07-15",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Ménard",
+          "politicalGroup": "NI",
+          "matchedKeyword": "réacteur nucléaire",
+          "text": "<p>Véritable enjeu de notre souveraineté énergétique, le nucléaire est notre avenir. Malheureusement, la majorité des réacteurs en fonction actuellement en France est issue du plan de développement intensif du parc nucléaire dans les années 80. Ces réacteurs arrivent aujourd’hui au terme de leur durée d’exploitation maximale, établie initialement à 40 ans.<br/>Au total 37 réacteurs, mis en service entre 1976 et 1985, arrivent au terme de leur exploitation, soit 66 % de notre parc nucléaire. Autant de réacteurs qui devaient rejoindre en 2020 les 12 réacteurs déjà arrêtés, actuellement en cours de démantèlement.<br/>Grâce au travail de maintenance, il a été possible d’allonger de 10 ans la durée d’exploitation de ces centrales.<br/>Mais cette situation n’est pas éternellement viable. Il conv...",
+          "url": "https://www.nosdeputes.fr/16/amendement/144/368"
+        },
+        {
+          "id": "an-amendement-66312",
+          "date": "2023-02-24",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Florence Goulet, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "réacteur nucléaire",
+          "text": "<p>Le groupe Rassemblement national soutient l’effort de construction de nouveaux réacteurs, mesure qui figurait de manière beaucoup plus ambitieuse dans son Plan Marie Curie - qu’on pourrait aussi dénommer Messmer II -destiné à réarmer la filière nucléaire française.</p><p>Afin de relancer au plus vite le secteur nucléaire, le Rassemblement National propose de nouvelles constructions d’EPR 1 et de EPR 2 selon le phasage suivant :</p><p>- 5 paires d’EPR 1 entre 2031 à 2036</p><p>- 5 paires d’EPR 2 entre 2036 à 2040</p><p>- Entre 3 et 5 paires d’EPR supplémentaires d’ici 2050.</p><p>En complément, il propose la construction de SMR dès 2023, la remise en service de la centrale de Fessenheim et la relance du projet de réacteur français de 4<sup>ème</sup> génération dénommé Astrid.</p> <p>À l’...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE359"
+        },
+        {
+          "id": "an-amendement-87721",
+          "date": "2023-06-13",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jumel, M. Chassaigne, M. Monnet",
+          "politicalGroup": "GDR",
+          "matchedKeyword": "réacteur nucléaire",
+          "text": "<p>Le présent sous-amendement de replis vise à intégrer à la liste des projet d'intérêt national, exclus de la comptabilisation du ZAN, les projets de construction d'un réacteur nucléaire.</p><p>La construction d'un réacteur nucléaire implique une série de conséquences importantes pour un territoire en matière d'aménagement : l'exemple du futur projet d'EPR à Penly exige pour les seules installations de base une consommation de foncier agricole équivalente à 48 hectares. Nous avons besoin de rassurer les territoires impactés en garantissant que les réacteurs de nucléaires ne seront pas intégrés à la comptabilité locale des objectifs d'artificialisation.</p> <p>Après le dixième alinéa, insérer l'alinéa suivant :</p><p>« <i>h)</i> La réalisation d’un réacteur électronucléaire au sens de la l...",
+          "url": "https://www.nosdeputes.fr/16/amendement/958/CE463"
+        },
+        {
+          "id": "an-amendement-68773",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Dupont-Aignan",
+          "politicalGroup": "NI",
+          "matchedKeyword": "réacteur nucléaire",
+          "text": "<p>Le Gouvernement souhaite construire de nouveaux réacteurs nucléaires, cet effort est salué tant il est indispensable.<br/>Indispensable d’une part, puisque Emmanuel Macron a amplement participé à la destruction de la filière nucléaire française lors de son premier quinquennat.<br/>Indispensable d’autre part, lorsque l’on observe les conséquences catastrophiques de la guerre en Ukraine sur la souveraineté énergétique française. Un seul conflit suffit à mettre un pays à genoux.<br/>Cet amendement vise donc à porter le nombre de réacteurs nucléaires supplémentaires à 30 à l’horizon 2050.</p> <p>I. – À l’alinéa 1, supprimer le mot :</p><p>« prochain ».</p><p>II. – En conséquence, au même alinéa, substituer aux mots :</p><p>« les conséquences »</p><p>les mots :</p><p>« l’impact ».</p><p>III....",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/180"
+        },
+        {
+          "id": "an-amendement-67135",
+          "date": "2023-02-27",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Bregeon",
+          "politicalGroup": "REN",
+          "matchedKeyword": "réacteur nucléaire",
+          "text": "<p>Coordination juridique.</p> <p>I. – À l’alinéa 1, substituer aux mots :</p><p>« construction d’un réacteur électronucléaire ou d’une installation d’entreposage de combustibles nucléaires mentionnés à l’article 1<sup>er</sup> de la présente loi » ,</p><p>les mots :</p><p>« réalisation d’un réacteur électronucléaire ».</p><p>II. – En conséquence, à l’alinéa 3, supprimer les mots :</p><p>« projet de construction de ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE633"
+        },
+        {
+          "id": "an-amendement-66518",
+          "date": "2023-02-21",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Marleix, M. Nury, Mme Blin, M. Bourgeaux, M. Cinieri, M. Dive, Mme Duby-Muller, M. Rolland, M. Jean-Pierre Vigier",
+          "politicalGroup": "LR",
+          "matchedKeyword": "réacteur nucléaire",
+          "text": "<p>A travers cet amendement, le groupe LR vise à encourager un renforcement de la recherche dans le domaine des réacteurs nucléaires à sels fondus utilisant le thorium.</p><p>En effet, il est possible d’utiliser le thorium dans son entièreté contrairement à l'uranium et il faut ajouter à cela qu’il n'y a pas besoin de l'enrichir. Des réacteurs expérimentaux avaient été construits en France dès le milieu des années 1950, mais les recherches mises entre parenthèses au profit de l'uranium.</p><p>Étant une ressource abondante à fort potentiel énergétique et avec une moindre quantité de déchets, le thorium pourrait soutenir le développement d'une nouvelle filière nucléaire</p><p>Ce procédé serait d’autant plus intéressant qu'il est trois à quatre fois plus abondant dans la croûte terrestre que ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE59"
+        },
+        {
+          "id": "an-amendement-134677",
+          "date": "2023-12-13",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Lefèvre",
+          "politicalGroup": "REN",
+          "matchedKeyword": "électrolyseur",
+          "text": "<p>Cet amendement vise à revenir sur l’extension de l’assiette du crédit d’impôt au titre des investissements dans l’industrie verte adoptée par le Sénat.</p><p>Le coût de cette extension serait compris entre 100 et 500 millions pour les équipements de capture et de stockage de carbone, et s’élèverait à 80 millions d’euros pour les électrolyseurs.</p><p>Par ailleurs, l’assiette de ce crédit d’impôt doit rester suffisamment ciblée pour soutenir le développement de technologies arrivées à maturité et pouvant faire l’objet d’une industrialisation à grande échelle dans les délais d’application de l’encadrement temporaire de crise et de transition. Il apparaît donc inopportun d’inclure dans l’assiette du crédit d’impôt les équipements de capture et de stockage de carbone.</p><p>Les électrolyseu...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1985/CF427"
+        },
+        {
+          "id": "an-amendement-103793",
+          "date": "2023-10-03",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Sitzenstuhl",
+          "politicalGroup": "REN",
+          "matchedKeyword": "électrolyseur",
+          "text": "<p>Amendement d’appel. Le soutien aux électrolyseurs et équipements pour le piégeage, l’utilisation et le stockage du dioxyde de carbone est permis par la Commission européenne, or n’a pas été permis par le PLF.</p> <p>I. À l’alinéa 6, après le mot :</p><p>« éoliennes »,</p><p>insérer les mots :</p><p>« , des électrolyseurs et des équipements pour le piégeage, l’utilisation et le stockage du dioxyde de carbone ».</p><p>II. – Compléter cet article par les deux alinéas suivants :</p><p>« II. – La perte de recettes pour l’État est compensée à due concurrence par la création d’une taxe additionnelle à l’accise sur les tabacs prévue au chapitre IV du titre Ier du livre III du code des impositions sur les biens et services. »</p><p>« III. – Le I n’est applicable qu’aux sommes venant en déduction...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF301A"
+        },
+        {
+          "id": "an-amendement-68942",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Engrand, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "électrolyseur",
+          "text": "<p>La réindustrialisation française ne pourra pas se faire sans une révision de la politique énergétique<br/>gouvernementale. Les prévisions du Réseau de transport d'électricité (RTE) indiquent toutes dans<br/>son rapport futurs énergétiques 2050 qu'avec l'objectif de réduction de la consommation<br/>énergétique de 40% et avec le mix énergétique envisagé par le gouvernement, il ne sera pas possible<br/>de repasser au delà des dix points de production industrielle quand nos voisins italiens touchent<br/>presque du doigt les 30 points.<br/>Pour réindustrialiser il faut non seulement renouveler en profondeur notre parc nucléaire, se délester<br/>du fardeau économique et énergétique que sont les énergies renouvelables intermittentes mais aussi<br/>réviser complétement les interactions possible...",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/589"
+        },
+        {
+          "id": "an-amendement-100921",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Vatin, M. Emmanuel Maquet, M. Bony, M. Descoeur, Mme Petex-Levet, M. Ray, M. Taite, M. Vermorel-Marques",
+          "politicalGroup": "LR",
+          "matchedKeyword": "électrolyseur",
+          "text": "<p>Cet amendement vise à élargir l’éligibilité du crédit d’impôt au titre des investissements en faveur de l’industrie verte à l’ensemble des équipements autorisés par le nouvel encadrement temporaire de crise et de transition pour les mesures d’aide d’État (TCTF) adopté le 17 mars 2023 par l’Union européenne.</p><p>Il élargit donc le périmètre de l’article aux secteurs des électrolyseurs, nécessaires à la fabrication de l’hydrogène, et de la capture et du stockage de carbone.</p> <p>I. – À l’alinéa 6, substituer aux mots :</p><p>« de batteries, de panneaux solaires, d’éoliennes ou de pompes à chaleur »</p><p>les mots :</p><p>« d’équipements pertinents pour la transition vers une économie à zéro émission nette, à savoir des batteries, des panneaux solaires, des turbines éoliennes, des pomp...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CD371A"
+        },
+        {
+          "id": "an-amendement-101257",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Magnier, Mme Félicie Gérard, M. Jolivet, M. Plassard, M. Lamirault, M. Albertini, M. Patrier-Leitus, Mme Le Hénanff, M. Valletoux, M. Pradal, M. Larsonneur",
+          "politicalGroup": "HOR",
+          "matchedKeyword": "électrolyseur",
+          "text": "<p>Le présent article propose d’élargir le crédit d’impôt au titre des investissements dans l’industrie verte à la fabrication des composants (incluant l’approvisionnement en matières premières critiques liées) nécessaires au développement d’une industrie manufacturière française sur les technologies clés de l’hydrogène : électrolyseurs et piles à combustible.</p><p>L’Etat soutient déjà le développement de cette chaîne de valeur par des aides directes à des gigafactories d’électrolyseurs et de piles à combustible dans le cadre de la 1ère vague du PIIEC. Un soutien complémentaire aux filières amont à ces gigafactories apparaît notamment nécessaire au regard des fortes tensions anticipées à horizon 2030 sur l’approvisionnement en platine et iridium, deux métaux stratégiques pour le développe...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF976A"
+        },
+        {
+          "id": "an-amendement-103029",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. de Courson, M. Jean-Louis Bricout, M. Castellani, M. Molac, M. Morel-À-L'Huissier, M. Taupiac, Mme Youssouffa",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "électrolyseur",
+          "text": "<p>Le présent article propose d’élargir le crédit d’impôt au titre des investissements dans l’industrie verte à la fabrication des composants (incluant l’approvisionnement en matières premières critiques liées) nécessaires au développement d’une industrie manufacturière française sur les technologies clés de l’hydrogène : électrolyseurs et piles à combustible.</p><p>L’État soutient déjà le développement de cette chaîne de valeur par des aides directes à des gigafactories d’électrolyseurs et de piles à combustible dans le cadre de la 1<sup>ère</sup> vague du PIIEC. Un soutien complémentaire aux filières amont à ces gigafactories apparaît notamment nécessaire au regard des fortes tensions anticipées à horizon 2030 sur l’approvisionnement en platine et iridium, deux métaux stratégiques pour l...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF1557A"
         },
         {
           "id": "an-amendement-93518",
@@ -62,7 +362,7 @@
           "speakerName": "Mme Battistel",
           "politicalGroup": "SOC",
           "matchedKeyword": "décarbonation",
-          "text": "<p>Plusieurs dispositifs coexistent pour accélérer la décarbonation de l’industrie (dispositifs ADEME, France 2030, France Nation Verte…), chacun avec leur propre périmètre et modalités d'attribution. Or, une politique ambitieuse de décarbonation de l’industrie nécessite de mettre en œuvre une action publique cohérente, avec des dispositifs de soutien adaptés et lisibles pour les acteurs. Le rapport demandé doit ainsi permettre d’évaluer la cohérence, l’adéquation et la lisibilité de l’ensemble ...",
+          "text": "<p>Plusieurs dispositifs coexistent pour accélérer la décarbonation de l’industrie (dispositifs ADEME, France 2030, France Nation Verte…), chacun avec leur propre périmètre et modalités d'attribution. Or, une politique ambitieuse de décarbonation de l’industrie nécessite de mettre en œuvre une action publique cohérente, avec des dispositifs de soutien adaptés et lisibles pour les acteurs. Le rapport demandé doit ainsi permettre d’évaluer la cohérence, l’adéquation et la lisibilité de l’ensemble des dispositifs de soutien pouvant bénéficier à la décarbonation de l’industrie.</p> <p>Dans un délai de six mois à compter de la promulgation de la présente loi, le Gouvernement remet au Parlement un rapport relatif aux dispositifs de financement et de soutien à la décarbonation de l’industrie. Ce ...",
           "url": "https://www.nosdeputes.fr/16/amendement/1512/1380"
         },
         {
@@ -72,220 +372,309 @@
           "speakerName": "M. Villedieu",
           "politicalGroup": "RN",
           "matchedKeyword": "décarbonation",
-          "text": "<p>Si le lien entre la souveraineté agricole française et la production durable de biomasse sur le territoire peut être fait, il est bien plus difficile de l’établir entre la souveraineté agricole et la contribution du secteur à la décarbonation de l’économie. La souveraineté agricole s’apprécie par son aspect de production alimentaire et n’a pas pour vocation de devenir une variable d’ajustement des objectifs de décarbonation. Les agriculteurs sont parmi les premiers écologistes et respectent d...",
+          "text": "<p>Si le lien entre la souveraineté agricole française et la production durable de biomasse sur le territoire peut être fait, il est bien plus difficile de l’établir entre la souveraineté agricole et la contribution du secteur à la décarbonation de l’économie. La souveraineté agricole s’apprécie par son aspect de production alimentaire et n’a pas pour vocation de devenir une variable d’ajustement des objectifs de décarbonation. Les agriculteurs sont parmi les premiers écologistes et respectent déjà de nombreuses contraintes en matière d’environnement.</p> <p>À l’alinéa 7, supprimer les mots :</p><p>« et à la contribution du secteur à la décarbonation de l’économie ».</p>",
           "url": "https://www.nosdeputes.fr/16/amendement/2436/CE1575"
         },
         {
-          "id": "an-amendement-144421",
-          "date": "2024-04-05",
+          "id": "an-amendement-67163",
+          "date": "2023-02-26",
           "chamber": "Assemblée nationale",
-          "speakerName": "M. Jean-Louis Bricout",
-          "politicalGroup": "LIOT",
-          "matchedKeyword": "véhicule électrique",
-          "text": "<p>Cet amendement vise à prolonger la possibilité de comptabiliser les véhicules hybrides rechargeables comme des véhicules \"verts\" en cas de renouvellement du parc, jusqu'en 2028. A compter de 2028, seuls les véhicules les à très faibles émissions seront concernés.</p><p>Les auteurs de cet amendement sont conscients des limites des véhicules hybrides rechargeables (utilisation ponctuelle du mode électrique, véhicules plus lourds, etc). Ils estiment néanmoins que le maillage territoriale des bor...",
-          "url": "https://www.nosdeputes.fr/16/amendement/2126/CD50"
+          "speakerName": "Mme Bregeon",
+          "politicalGroup": "REN",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Le Sénat souhaite que la future loi de programmation sur l'énergie et le climat précise les objectifs de décarbonation du mix de production électrique, alors que l'article L. 100-1 A du code de l'énergie, dans sa rédaction actuelle, prévoit un objectif de diversification de ce mix.</p><p>Le présent amendement propose de mentionner à la fois la décarbonation et la diversification du mix de production d'électricité, puisque ces deux objectifs ne sont pas incompatibles. En particulier, la décarbonation du mix sera permise à la fois par le développement des énergies renouvelables et par l'énergie nucléaire.</p> <p>Rédiger ainsi l’alinéa 2 :</p><p>« 1° Après le mot :« diversification », sont insérés les mots : « et de décarbonation » ; ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE620"
         },
         {
-          "id": "an-amendement-18066",
-          "date": "2022-10-27",
+          "id": "an-amendement-143319",
+          "date": "2024-03-23",
           "chamber": "Assemblée nationale",
-          "speakerName": "M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",
-          "politicalGroup": "RN",
-          "matchedKeyword": "véhicule électrique",
-          "text": "<p>Face aux velléités d'augmentation du parc de voitures électriques en France, il faut rappeler qu'une batterie pour voiture électrique nécessite environ 5 kg de lithium. Or, la demande mondiale en lithium pourrait être multipliée par quatre ou par six d’ici à 2030 pour dépasser les 500 kilotonnes par an, selon les estimations de l’Agence internationale de l’énergie.</p><p>Le présent amendement propose de créer un nouvel indicateur au sein du programme 174 intitulé : « Importations de lithium p...",
-          "url": "https://www.nosdeputes.fr/16/amendement/273/2407C"
+          "speakerName": "Mme Bregeon, M. Bothorel, M. Buchou, Mme Buffet, M. Descrozaille, M. Girardin, M. Izard, M. Lavergne, Mme Le Meur, Mme Le Peih, M. Marchive, Mme Marsaud, M. Midy, M. Pacquot, M. Perrot, Mme Petel, M. Rodwell, M. Vojetta",
+          "politicalGroup": "REN",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>La France a adopté en 2020 une stratégie hydrogène ambitieuse pour concourir à l’atteinte de ses objectifs climatiques, en décarbonant les activités industrielles les plus difficiles à décarboner, et pour développer une filière souveraine de l’hydrogène décarboné.</p><p>Cette stratégie se décline en un panel d’actions, notamment de soutien financier, pour la production d’hydrogène décarboné sur le territoire national, avec pour cible une capacité de production électrolytique d’hydrogène bas-carbone de 6,5 GW en 2030 et 10 GW en 2035.</p> <p>Après l’alinéa 18, insérer l’alinéa suivant :</p><p>g)</i> Le 11° est ainsi rédigé : « De développer une capacité de production d’hydrogène décarboné par électrolyse de 6,5 gigawatts en 2030 ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2228/CE90"
         },
         {
-          "id": "an-amendement-118594",
-          "date": "2023-10-18",
+          "id": "an-amendement-107801",
+          "date": "2023-10-13",
           "chamber": "Assemblée nationale",
-          "speakerName": "M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",
-          "politicalGroup": "RN",
-          "matchedKeyword": "véhicule électrique",
-          "text": "<p>Face aux velléités d’augmentation du parc de voitures électriques en France, il faut rappeler qu’une batterie pour voiture électrique nécessite environ 5 kg de lithium. Or, la demande mondiale en lithium pourrait être multipliée par quatre ou par six d’ici à 2030 pour dépasser les 500 kilotonnes par an, selon les estimations de l’Agence internationale de l’énergie.</p><p>Le présent amendement propose de créer un nouvel indicateur au sein du programme 174 intitulé : « Importations de lithium p...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF325C"
+          "speakerName": "Mme Serre",
+          "politicalGroup": "LR",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Cet amendement de suppression entend supprimer l'article 15 du Projet de Loi de Finances 2024.</p><p>Loin de l’effet escompté, cette taxe risque de réduire les investissements des aéroports en faveur de la décarbonation de leur modèle économique.</p><p>A titre d’exemple, une telle taxe gréverait l’aéroport de Lyon de 10% de ses bénéfices annuels. Pourtant, il est un pilier essentiel du développement économique touristique de la région et de notre pays.</p><p>La suppression de cet article vise donc à encourager les acteurs aéroportuaires dans la décarbonation.</p><p>Tel est l’objet de cet amendement.</p> <p>Supprimer cet article.</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/4835A"
         },
         {
-          "id": "an-amendement-79331",
-          "date": "2023-05-25",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Delautrette, Mme Jourdan, M. Leseul, M. Bertrand Petit, les membres du groupe Socialistes et apparentés",
-          "politicalGroup": "SOC",
-          "matchedKeyword": "avion bas-carbone",
-          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à préciser la définition des services express régionaux métropolitains qui doivent être de nature ferroviaire.</p><p>Le ferroviaire est un mode de transport particulièrement performant d’un point de vue environnemental : il transporte 11 % des passagers et 9 % des marchandises pour seulement 0,3 % des émissions de gaz à effet de serre du secteur des transports. C’est aussi un mode de transport pourvoyeur de nombreux emplois non délocalis...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1166/CD60"
-        },
-        {
-          "id": "an-amendement-18282",
-          "date": "2022-10-27",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Ruffin",
-          "politicalGroup": "LFI",
-          "matchedKeyword": "avion bas-carbone",
-          "text": "<p>Cet amendement d’appel propose de prélever 40 millions € en AE et CP de l’action 52 « Transport aérien » du programme 203 « Infrastructures et services de transport », au profit d’un nouveau programme « Fonds d’investissement pour le développement ferroviaire d’avenir » au sein de la mission « Ecologie, développement et mobilité durables ».</p><p>Le fret ferroviaire est le moyen de transport de marchandises le plus viable. 55 camions de 32 tonnes sont nécessaires pour transporter le chargemen...",
-          "url": "https://www.nosdeputes.fr/16/amendement/273/2318C"
-        },
-        {
-          "id": "an-amendement-6071",
-          "date": "2022-09-30",
-          "chamber": "Assemblée nationale",
-          "speakerName": "Mme Sas, M. Bayou, Mme Arrighi, M. Ben Cheikh, Mme Batho, Mme Belluco, Mme Chatelain, M. Fournier, Mme Garin, M. Iordanoff, M. Julien-Laferrière, Mme Laernoes, M. Lucas, Mme Pasquini, M. Peytavie, Mme Pochon, M. Raux, Mme Regol, Mme Rousseau, Mme Sebaihi, M. Taché, Mme Taillé-Polian, M. Thierry",
-          "politicalGroup": "ECO",
-          "matchedKeyword": "avion bas-carbone",
-          "text": "<p>Cet amendement reprend la demande des citoyens de la Convention Citoyenne pour le Climat concernant l’adoption d’une écocontribution renforcée sur les billets d’avion. Par ailleurs, en Europe, plusieurs pays ont déjà mis en place ce type de taxe : le Royaume-Uni, l’Allemagne, l’Autriche, l’Italie, la Suède et la Norvège.</p><p>D’après l’ADEME, le transport aérien émet 14 à 40 fois plus de CO2 que le train par kilomètre parcouru et personne transportée. D’autre part, hormis les émissions de CO...",
-          "url": "https://www.nosdeputes.fr/16/amendement/273/CF1361A"
-        },
-        {
-          "id": "an-amendement-149629",
-          "date": "2024-04-29",
-          "chamber": "Assemblée nationale",
-          "speakerName": "Mme Le Feur",
-          "politicalGroup": null,
-          "matchedKeyword": "alimentation durable",
-          "text": "<p>Cet amendement vise à introduire la notion de droit universel à l'alimentation dans la loi. L'objectif est de reconnaître les liens directs entre agriculture et alimentation et de faire valoir l'exhaustivité de la notion de souveraineté alimentaire \"de la fourche à la fourchette\".</p> <p>À l’alinéa 5, substituer aux mots :</p><p>« fournir à l’ensemble de la population une alimentation saine, sûre, diversifiée, nutritive, accessible à tous tout au long de l’année et issue d’aliments produits d...",
-          "url": "https://www.nosdeputes.fr/16/amendement/2436/CE3414"
-        },
-        {
-          "id": "an-amendement-144859",
+          "id": "an-amendement-145277",
           "date": "2024-04-25",
           "chamber": "Assemblée nationale",
-          "speakerName": "Mme Pochon, Mme Belluco",
-          "politicalGroup": "ECO",
-          "matchedKeyword": "alimentation durable",
-          "text": "<p>Cet amendement rappelle que l’agriculture et la souveraineté alimentaire doivent en priorité avoir pour objectif de fournir une alimentation durable aux citoyens.</p> <p>À l’alinéa 7, après le mot :</p><p>« territoire »</p><p>insérer les mots :</p><p>« aux fins prioritaires de l’alimentation durable des citoyens ».</p>",
-          "url": "https://www.nosdeputes.fr/16/amendement/2436/CD470"
+          "speakerName": "M. Villedieu",
+          "politicalGroup": "RN",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Si le lien entre la souveraineté agricole française et la production durable de biomasse sur le territoire peut être fait, il est bien plus difficile de l'établir entre la souveraineté agricole et la contribution du secteur à la décarbonation de l'économie. La souveraineté agricole s'apprécie par son aspect de production alimentaire et n'a pas pour vocation de devenir une variable d'ajustement des objectifs de décarbonation. Les agriculteurs sont parmi les premiers écologistes et respectent déjà de nombreuses contraintes en matière d'environnement.</p> <p>Après le mot :</p><p>« territoire »,</p><p>supprimer la fin de l’alinéa 7.</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2436/CD512"
         },
         {
-          "id": "an-amendement-148340",
+          "id": "an-amendement-145721",
           "date": "2024-04-26",
           "chamber": "Assemblée nationale",
-          "speakerName": "Mme Pochon, Mme Belluco",
-          "politicalGroup": "ECO",
-          "matchedKeyword": "alimentation durable",
-          "text": "<p>Cet amendement rappelle que l’agriculture et la souveraineté alimentaire doivent en priorité avoir pour objectif de fournir une alimentation durable aux citoyens.</p> <p>À l’alinéa 7, après le mot :</p><p>« territoire »,</p><p>insérer les mots :</p><p>« aux fins prioritaires de l’alimentation durable des citoyens ».</p>",
-          "url": "https://www.nosdeputes.fr/16/amendement/2436/CE2972"
+          "speakerName": "Mme Laporte, les membres du groupe Rassemblement National",
+          "politicalGroup": "RN",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>L'objet du présent amendement est de clarifier l'objectif de souveraineté agricole exposé à l'article premier.</p><p>La contribution du secteur agricole à la décarbonation de l'économie est un objectif légitime pouvant se concilier harmonieusement avec celui de souveraineté agricole et alimentaire mais il n'y participe pas directement.</p><p>Aussi, il apparaît préférable de modifier la formulation de l'alinéa afin de favoriser une plus grande clarté des objectifs.</p> <p>À l’alinéa 7, supprimer les mots :</p><p>« et à la contribution du secteur à la décarbonation de l’économie ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2436/CE1994"
         },
         {
-          "id": "an-amendement-121025",
-          "date": "2023-10-27",
+          "id": "an-amendement-150844",
+          "date": "2024-05-10",
           "chamber": "Assemblée nationale",
-          "speakerName": "M. Seitlinger, Mme Petex-Levet, M. Ray, M. Kamardine, Mme Bazin-Malgras",
-          "politicalGroup": "LR",
-          "matchedKeyword": "biomédicament",
-          "text": "<p>Le plan \"Innovation Santé 2030\" ambitionne de faire de la France un leader mondial dans le domaine des biothérapies. Toutefois, le budget alloué de près de 800 millions d'euros jusqu'en 2025 est largement insuffisant pour atteindre l'objectif de produire 20 biomédicaments d'ici 2030. Pour hausser nos moyens à hauteur de nos ambitions, il est impératif de revoir à la hausse ce budget.</p><p>Selon la Cour des Comptes, ce marché, qui était de près de 200 milliards d'euros en 2019, devrait croîtr...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1680/1602C"
+          "speakerName": "Mme Mette, M. Berta, M. Esquenet-Goxes",
+          "politicalGroup": "MODEM",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Les politiques publiques concourant à la protection de la souveraineté alimentaire sont liées à celles de décarbonation de l'économie française, c'est ce que cet amendement propose de rappeler.</p> <p>À l’alinéa 4, substituer aux mots :</p><p>« assurer la souveraineté alimentaire »</p><p>les mots :</p><p>« la protection de la souveraineté alimentaire et à la décarbonation de l’économie ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2600/4527"
         },
         {
-          "id": "an-amendement-116449",
-          "date": "2023-10-20",
+          "id": "an-amendement-152310",
+          "date": "2024-05-10",
           "chamber": "Assemblée nationale",
-          "speakerName": "Mme Dalloz",
-          "politicalGroup": "LR",
-          "matchedKeyword": "biomédicament",
-          "text": "<p>La Loi de financement de la sécurité sociale pour 2022 a autorisé la substitution par les pharmaciens des médicaments biologiques par leur biosimilaire au sein d’un même groupe permettant.</p><p>A ce jour, sur les 13 groupes biosimilarisables, les pharmaciens ne sont en revanche autorisés à substituer que 2 groupes de médicaments biologiques. <br/>Alors que la Cour des comptes estime que les biosimilaires permettraient de générer 680 millions d’euros d’économies, la limitation de cette liste ...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1682/2105"
+          "speakerName": "Mme Mette, M. Berta, M. Esquenet-Goxes",
+          "politicalGroup": "MODEM",
+          "matchedKeyword": "décarbonation",
+          "text": "<p>Amendement travaillé avec Fransylva.</p><p>Les forêts représentent un enjeu majeur dans la décarbonation de l’économie, au travers du bois produit (bois matériaux, bois énergie), par la fonction de stockage de carbone qu’elles représentent et par les services environnementaux et sociaux qu’elles procurent aux citoyens. En conséquence, la sylviculture entre dans le champ des politiques publiques concourant à la protection de la souveraineté alimentaire et à la décarbonation de l'économie française.</p> <p>À l’alinéa 13, après le mot :</p><p>« agricole »</p><p>insérer les mots :</p><p>« et sylvicole ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/2600/4528"
         },
         {
-          "id": "an-amendement-143797",
-          "date": "2024-03-30",
+          "id": "an-amendement-112260",
+          "date": "2023-10-13",
           "chamber": "Assemblée nationale",
-          "speakerName": "M. Marion, M. Pierre Cazeneuve, M. Armand, Mme Bregeon, Mme Berete, Mme Givernet, M. Mendes, M. Izard, M. Rodwell, M. Mournet, M. Weissberg",
+          "speakerName": "Mme Battistel, M. Potier, M. Aviragnet",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>La loi de finances pour 2023 a élargi la taxe incitative relative à l’utilisation d’énergie renouvelable dans les transports (TIRUERT) à l’ensemble des productions d’hydrogène décarboné, à savoir l’hydrogène renouvelable et l’hydrogène bas-carbone tels que définis à l’article L. 811-1 du code de l’énergie.<br/>Toutefois l’hydrogène bas-carbone demeure non éligible au multiplicateur incitatif (x2) dont bénéficie l’hydrogène renouvelable. <br/>Le présent amendement vise à supprimer cette application différenciée du multiplicateur qui ne se justifie pas, et est de nature à freiner le développement de l’hydrogène décarboné.</p><p>En effet, l’hydrogène renouvelable et l’hydrogène bas-carbone sont soumis aux mêmes critères de performance environnementale et doivent respecter le même seuil d’é...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/4626A"
+        },
+        {
+          "id": "an-amendement-10836",
+          "date": "2022-10-07",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Fugit",
           "politicalGroup": "REN",
-          "matchedKeyword": "industries culturelles et créatives",
-          "text": "<p>La Direction générale des médias et des industries créatives définit, met en œuvre et évalue la politique de l’État en faveur du développement et du pluralisme des médias, de l’industrie musicale, du livre et de la lecture et de l’économie culturelle<br/>Cet amendement vise donc à ce que les entreprises bénéficiant de tout ou partie des aides publiques, directes et indirectes, avertissent la Direction générale des médias et des industries créatives une fois le processus de nomination enclench...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1638/46"
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>Cet amendement vise à élargir la Tiruert à l’ensemble des productions d’hydrogène décarboné, à savoir l’hydrogène renouvelable et l’hydrogène bas-carbone.</p><p>La filière de production d’hydrogène par électrolyse de l’eau se développe dans l’objectif de faire de la France un leader de l’hydrogène décarboné, conformément aux ambitions du plan d’investissement France 2030. En cohérence avec la stratégie hydrogène française et la priorité donnée au développement des mobilités propres, en particulier l’utilisation de l’hydrogène dans la mobilité lourde et intensive, il convient d’élargir ce mécanisme fiscal à l’ensemble des productions d’hydrogène décarboné, à savoir l’hydrogène renouvelable et l’hydrogène bas-carbone tels que définis à l’article L. 811-1 du code de l’énergie. En effet, ce...",
+          "url": "https://www.nosdeputes.fr/16/amendement/273/2747A"
         },
         {
-          "id": "an-amendement-141195",
-          "date": "2024-01-25",
+          "id": "an-amendement-103961",
+          "date": "2023-10-06",
           "chamber": "Assemblée nationale",
-          "speakerName": "M. Lopez-Liguori, les membres du groupe Rassemblement National",
-          "politicalGroup": "RN",
-          "matchedKeyword": "spatial",
-          "text": "<p>La France occupe dans le paysage spatial européen une place essentielle. La politique spatiale européenne est ainsi largement portée par l'industrie spatiale française. En France, l'observatoire spatial du CNES estime que l'industrie spatiale française compte 32 000 emplois au sein de 260 établissements, pour un chiffre d'affaires consolidés de plus de 3 milliards d'euros. C’est bien la France qui abrite les deux principaux acteurs de l’industrie spatiale européenne : Airbus et Thales. De plu...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1991/35"
+          "speakerName": "M. Fugit",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>A compter du 1er janvier 2024, l’hydrogène bas-carbone sera intégré à la taxe incitative relative à l'utilisation d'énergie renouvelable dans les transports (TIRUERT), permettant ainsi à ce produit de bénéficier de l'avantage fiscal<br/>constitué par la minoration de la TIRUERT.<br/>L’hydrogène renouvelable et bas-carbone sont soumis aux mêmes critères de performance environnementale et doivent respecter le même seuil d’émission défini par un arrêté du ministre chargé de l'énergie en application de l’article article L. 811-1 du code de l’énergie. Ils contribuent ainsi de manière équivalente à la réduction des émissions de gaz à effet de serre dans les transports.<br/>Cette incitation fiscale est renforcée par le coefficient multiplicatif 2 s’agissant de l’hydrogène renouvelable. Ce comp...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CD440A"
         },
         {
-          "id": "an-amendement-141164",
-          "date": "2024-01-25",
+          "id": "an-amendement-104076",
+          "date": "2023-10-10",
           "chamber": "Assemblée nationale",
-          "speakerName": "Mme Mélin, les membres du groupe Rassemblement National",
+          "speakerName": "M. Fugit",
+          "politicalGroup": null,
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>A compter du 1er janvier 2024, l’hydrogène bas-carbone sera intégré à la taxe incitative relative à l'utilisation d'énergie renouvelable dans les transports (TIRUERT), permettant ainsi à ce produit de bénéficier de l'avantage fiscal<br/>constitué par la minoration de la TIRUERT.<br/>L’hydrogène renouvelable et bas-carbone sont soumis aux mêmes critères de performance environnementale et doivent respecter le même seuil d’émission défini par un arrêté du ministre chargé de l'énergie en application de l’article article L. 811-1 du code de l’énergie. Ils contribuent ainsi de manière équivalente à la réduction des émissions de gaz à effet de serre dans les transports.<br/>Cette incitation fiscale est renforcée par le coefficient multiplicatif 2 s’agissant de l’hydrogène renouvelable. Ce comp...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CF3015A"
+        },
+        {
+          "id": "an-amendement-33926",
+          "date": "2022-12-06",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Fugit",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>Le présent article propose d’élargir la taxe incitative relative à l’incorporation des énergies renouvelables dans les transports (TIRUERT) à l’hydrogène renouvelable et à l’hydrogène bas-carbone produit par électrolyse utilisés pour la mobilité et les besoins des raffineries et bioraffineries. Compte tenu des différentiels de coûts importants entre hydrogène électrolytique et carburants fossiles conventionnels pour alimenter les transports, il convient de faire bénéficier de manière indifférenciée l’hydrogène bas-carbone et l’hydrogène renouvelable du compte double octroyé à l’hydrogène au titre de la TIRUERT.</p><p>En effet, ces deux catégories d’hydrogène sont soumises au même seuil d’émission devant être défini par un arrêté du ministre chargé de l’énergie en application de l’articl...",
+          "url": "https://www.nosdeputes.fr/16/amendement/598/CF1"
+        },
+        {
+          "id": "an-amendement-34342",
+          "date": "2022-12-07",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Fugit",
+          "politicalGroup": "REN",
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>Le présent article propose d’élargir la taxe incitative relative à l’incorporation des énergies renouvelables dans les transports (TIRUERT) à l’hydrogène renouvelable et à l’hydrogène bas-carbone produit par électrolyse utilisés pour la mobilité et les besoins des raffineries et bioraffineries. Compte tenu des différentiels de coûts importants entre hydrogène électrolytique et carburants fossiles conventionnels pour alimenter les transports, il convient de faire bénéficier de manière indifférenciée l’hydrogène bas-carbone et l’hydrogène renouvelable du compte double octroyé à l’hydrogène au titre de la TIRUERT.</p><p>En effet, ces deux catégories d’hydrogène sont soumises au même seuil d’émission devant être défini par un arrêté du ministre chargé de l'énergie en application de l’articl...",
+          "url": "https://www.nosdeputes.fr/16/amendement/598/67"
+        },
+        {
+          "id": "an-amendement-26948",
+          "date": "2022-11-18",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Morel",
+          "politicalGroup": "MODEM",
+          "matchedKeyword": "hydrogène décarboné",
+          "text": "<p>L’hydrogène renouvelable est un vecteur énergétique clé pour décarboner l’industrie et la mobilité, qui plus est dans le contexte d’urgence climatique et énergétique du moment.</p><p>Le présent amendement propose une mesure concrète permettant d’accélérer dès aujourd’hui la construction d’installations de production d’hydrogène renouvelable dans nos territoires, à savoir la possibilité de se raccorder indirectement aux installations d’énergies renouvelables notamment afin de participer à des opérations d’autoconsommation.</p><p>Il s’agit d’une mesure indispensable pour réduire les coûts de production de l’hydrogène renouvelable, réduire les délais de raccordement des installations de production, ou encore garantir la traçabilité de l’hydrogène produit et son caractère renouvelable.</p><...",
+          "url": "https://www.nosdeputes.fr/16/amendement/443/CE363"
+        },
+        {
+          "id": "an-amendement-67138",
+          "date": "2023-02-26",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Bregeon",
+          "politicalGroup": "REN",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Le présent amendement supprime la référence aux petits réacteurs modulaires (PRM) de l’alinéa premier. Le présent projet de loi a principalement vocation à s’appliquer aux projets de réacteurs électronucléaires de type EPR2, mais les petits réacteurs modulaires pourront en bénéficier dans les mêmes conditions. En effet, le terme de « réacteur électronucléaire » ne préjuge pas de la technologie utilisée. Toutefois, ne pourront être concernés que les PRM ayant vocation à produire de l’électricité.</p> <p>À l’alinéa 1, supprimer les mots :</p><p>« , y compris ceux de petits réacteurs modulaires, ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE623"
+        },
+        {
+          "id": "an-amendement-66559",
+          "date": "2023-02-25",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Meizonnet, M. de Fournas, M. de Lépinau, Mme Menache, Mme Sabatini, M. Tivoli, M. Lopez-Liguori, Mme Laporte, Mme Florence Goulet, Mme Grangier, Mme Engrand",
           "politicalGroup": "RN",
-          "matchedKeyword": "spatial",
-          "text": "<p>Ces dernières années, le secteur de l'aérospatial connait une accélération de la concurrence intra-européenne à mesure que les opportunités du spatial se font plus lucratives.<br/>Nous soulignons avec cet amendement que cette concurrence est d'abord institutionnelle, avec un jeu de pouvoir qui oppose l'historique Agence Spatiale Européenne (ESA) et la plus récente Agence pour le Programme Spatial Européen (EUSPA) à qui la Commission européenne confie une part croissante des tâches de commerci...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1991/30"
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Cet amendement vise à obtenir plus d’informations sur l’avancement des projets français en matière de développement de petits réacteurs modulaires. Ces derniers sont vus par un certain nombre d’observateurs comme l’avenir de la filière. Ils auront, lorsqu’ils seront au point, l’avantage de pouvoir être assemblée sur un site industriel puis d’être transporté. Ce réacteurs, plus petits et moins puissants, pourront être mis en place plus vite et être installé dans des territoires plus reculés.<br/>La France possédait une certaine avance en matière de conception de ces petits réacteurs modulaires, un manque d’investissement et d’initiatives ont changé la situation. Aujourd’hui, d’autres pays sont sur point de commercialiser de petits réacteurs modulaires tandis que les prototypes français s...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE488"
+        },
+        {
+          "id": "an-amendement-66354",
+          "date": "2023-02-24",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Battistel, M. Leseul, M. Delautrette, Mme Pic, Mme Jourdan, M. Potier, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à respecter l’objet du présent projet de loi en écartant la référence aux petits réacteurs modulaires SMR qui ne sont pas concernés. En outre, cette technologie est aujourd’hui loin d’être précisément définir, encore moins mature et très loin d’une phase d’industrialisation.</p> <p>À l’alinéa 1, supprimer les mots :</p><p>« , y compris ceux de petits réacteurs modulaires, ».</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE442"
+        },
+        {
+          "id": "an-amendement-134418",
+          "date": "2023-12-13",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jean-René Cazeneuve",
+          "politicalGroup": "REN",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Cet article, inséré par le Sénat, allège la fiscalité pesant sur les installations nucléaires de base pour les petites réacteurs modulaires (<i>small modular reactors</i>, SMR).</p><p>Cependant, ses dispositions n’ont pas donné lieu à une concertation suffisante et paraissent prématurées.</p><p>Aussi est-il proposé de le supprimer.</p> <p>Supprimer cet article</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/1985/CF541"
+        },
+        {
+          "id": "an-amendement-66259",
+          "date": "2023-02-24",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Saint-Huile, M. Mathiasin",
+          "politicalGroup": "LIOT",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>L’article 1<sup>er</sup> définit le cadre d’application des mesures de simplification, accélération et sécurisation détaillées dans les articles 2 à 7 du présent projet de loi. Il prévoyait initialement qu’elles s’appliqueraient exclusivement aux projets de réacteurs électronucléaires dont l’implantation est envisagée à proximité immédiate ou à l’intérieur du périmètre d’une installation nucléaire de base existante.</p><p>Le Sénat a élargi les dispositions de l’article aux petits réacteurs modulaires, dits small modular reactor (SMR). Pourtant, les projets français de SMR en sont toujours, à l’heure actuelle, au stade de développement. Chacun en est à des stades divers d’avancement, mais aucun n’a atteint le stade de la construction d’un prototype (concept, avant-projets plus ou moins d...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE212"
+        },
+        {
+          "id": "an-amendement-66286",
+          "date": "2023-02-23",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jumel, M. Chassaigne",
+          "politicalGroup": "GDR",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Le présent amendement vise à confier au Commissariat à l’énergie atomique et aux énergies alternatives (CEA) la poursuite des missions de recherche et développement en matière d’énergie nucléaire afin d’en sanctuariser la maîtrise publique.</p> <p>Compléter cet article par les deux alinéas suivants :</p><p>« II. – Après le premier alinéa de l’article L. 332‑2 du code de la recherche, il est inséré un alinéa ainsi rédigé :</p><p>« Il assure également le pilotage de la recherche et de l’innovation sur les réacteurs européens pressurisés, les petits réacteurs modulaires, les réacteurs de quatrième génération, le projet international de réacteur expérimental de fusion thermonucléaire, dénommé projet ITER, la fermeture du cycle du combustible, le couplage entre la production d’énergie nucléa...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE103"
+        },
+        {
+          "id": "an-amendement-68590",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Sas, Mme Laernoes, Mme Arrighi, M. Bayou, Mme Belluco, Mme Chatelain, M. Fournier, Mme Garin, M. Iordanoff, M. Julien-Laferrière, M. Lucas, Mme Pasquini, M. Peytavie, Mme Pochon, M. Raux, Mme Regol, Mme Rousseau, Mme Sebaihi, M. Taché, Mme Taillé-Polian, M. Thierry",
+          "politicalGroup": "ECO",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Cet amendement de repli vise à ce qu’en cas de dépassement des objectifs financiers d’EDF en matière de production d’électricité d’origine nucléaire issue de la construction des réacteurs pressurisés européens et de petits réacteurs modulaires à hauteur de 20 %, en parallèle de ces observations, la Cour des comptes publie également une déclaration explicite en ce sens.</p><p>Nous rappelons que la filière nucléaire est historiquement une filière aux coûts fixes très mal estimés, parfois sous-évalués d’un facteur 4.</p><p>Une évaluation régulière par la cour des comptes permettra de surveiller la bonne gestion de la dépense publique dans la construction des nouveaux réacteurs nucléaires. Nous proposons, en repli, un seuil de 20% à partir duquel il sera considéré que l’écart au budget init...",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/422"
+        },
+        {
+          "id": "an-amendement-68926",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jumel, M. Chassaigne, Mme Bourouaha, M. Brotherson, M. Castor, M. Chailloux, M. Dharréville, Mme Faucillon, Mme K/Bidi, M. Le Gayic, Mme Lebon, M. Lecoq, M. Maillot, M. Monnet, M. Nadeau, M. Peu, M. Rimane, M. Roussel, M. Sansu, M. Tellier, M. William, M. Wulfranc",
+          "politicalGroup": "GDR",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Le présent amendement vise à demander que le rapport remis au Parlement puisse intégrer des explications sur le choix technologique du Gouvernement en matière de petits réacteurs modulaires, autrement connus sous l'appellation \"SMR\". En effet, la suppression au sein de ce texte de la mention des SMR conduit à nous interroger sur les intentions stratégiques du Gouvernement sur cette technologie qu'il convient de clarifier.</p> <p>Compléter cet article par la phrase suivante :</p><p>« Le rapport précise également les intentions du Gouvernement en matière de développement des petits réacteurs modulaires, compte tenu des connaissances scientifiques et techniques du moment sur cette technologie. »</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/319"
+        },
+        {
+          "id": "an-amendement-101424",
+          "date": "2023-10-05",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Dragon, M. Barthès, M. Beaurain, M. Blairy, M. Bovet, Mme Cousin, M. Grenon, M. Marchio, Mme Alexandra Masson, M. Meurin, M. Villedieu",
+          "politicalGroup": "RN",
+          "matchedKeyword": "petits réacteurs modulaires",
+          "text": "<p>Cet amendement vise à ajouter parmi les activités bénéficiant d'un crédit d'impôt, au titre des investissements dans l'industrie verte, les petits réacteurs modulaires.</p><p>En effet, depuis maintenant plusieurs années, des petits réacteurs modulaires, aussi appelés SMR, plein de promesses pour la filière nucléaire, semblent trouver un écho de plus en plus favorable et important au sein de la communauté scientifique. Ces petits réacteurs nucléaires, par définition moins grands que les ordinaires et consommant donc moins d'eau pour les refroidir tout en restant autant si ce n'est plus productifs, constituent un véritable espoir pour l'avenir au regard de leur probable capacité à rapidement décarboner l'industrie voire même à remplacer à terme les centrales à charbon.</p><p>Pour autant, ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/CD343A"
+        },
+        {
+          "id": "an-amendement-65835",
+          "date": "2023-02-24",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Leseul, Mme Jourdan, M. Delautrette, M. Bertrand Petit, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "gestion des déchets radioactifs",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à assurer que le prochain plan national de gestion des matières et déchets radioactifs sera remis suffisamment tôt pour permettre à l’Office parlementaire d’évaluation des choix scientifiques et technologiques d’exercer ses prérogatives de contrôle de l’action du Gouvernement dans de bonnes conditions.</p><p>La loi prévoit qu’un plan national de gestion des matières et déchets radioactifs (PNGMDR) « est transmis au Parlement, qui en saisit pour évaluation l’Office parlementaire d’évaluation des choix scientifiques et technologiques » (article L. 542‑1‑2 du code de l’environnement).</p><p>La quatrième édition du PNGMDR qui portait sur la période 2016‑2018, n’a été transmis au Parlement que le 17 février 2017. Concernant la cinquième...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CD129"
+        },
+        {
+          "id": "an-amendement-66230",
+          "date": "2023-02-24",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Pic, Mme Battistel, M. Leseul, M. Delautrette, Mme Jourdan, M. Potier, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "gestion des déchets radioactifs",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à assurer que le prochain plan national de gestion des matières et déchets radioactifs sera remis suffisamment tôt pour permettre à l’Office parlementaire d’évaluation des choix scientifiques et technologiques d’exercer ses prérogatives de contrôle de l’action du Gouvernement dans de bonnes conditions.</p><p>La loi prévoit qu’un plan national de gestion des matières et déchets radioactifs (PNGMDR) « est transmis au Parlement, qui en saisit pour évaluation l’Office parlementaire d’évaluation des choix scientifiques et technologiques » (article L. 542‑1-2 du code de l’environnement).</p><p>La quatrième édition du PNGMDR qui portait sur la période 2016‑2018, n’a été transmis au Parlement que le 17 février 2017. Concernant la cinquième...",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE444"
+        },
+        {
+          "id": "an-amendement-66170",
+          "date": "2023-02-17",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Jumel, M. Chassaigne",
+          "politicalGroup": "GDR",
+          "matchedKeyword": "gestion des déchets radioactifs",
+          "text": "<p>Par cet amendement, les auteurs proposent d’établir un état des lieux du cycle du combustible en tenant compte de l'enjeu prioritaire de réduction des déchets radioactifs.</p> <p>Compléter l’alinéa 5 par les mots :</p><p>« ainsi que sur les améliorations possibles en matière de gestion et réduction des déchets. »</p>",
+          "url": "https://www.nosdeputes.fr/16/amendement/762/CE26"
+        },
+        {
+          "id": "an-amendement-68789",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "M. Leseul, Mme Battistel, Mme Pic, M. Delautrette, M. Potier, Mme Jourdan, M. Aviragnet, M. Baptiste, M. Mickaël Bouloux, M. Philippe Brun, M. Califer, M. David, M. Delaporte, M. Echaniz, M. Olivier Faure, M. Garot, M. Guedj, M. Hajjar, Mme Karamanli, Mme Keloua Hachi, M. Naillet, M. Bertrand Petit, M. Bertrand Petit, Mme Pires Beaune, Mme Rabault, Mme Rouaux, Mme Santiago, M. Saulignac, Mme Thomin, Mme Untermaier, M. Vallaud, M. Vicot, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "gestion des déchets radioactifs",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à assurer que le prochain plan national de gestion des matières et déchets radioactifs (2022‑2026) soit remis suffisamment tôt pour permettre à l’Office parlementaire d’évaluation des choix scientifiques et technologiques d’exercer ses prérogatives de contrôle de l’action du Gouvernement dans de bonnes conditions.</p><p>La loi prévoit qu’un plan national de gestion des matières et déchets radioactifs (PNGMDR) « est transmis au Parlement, qui en saisit pour évaluation l’Office parlementaire d’évaluation des choix scientifiques et technologiques » (article L. 542‑1‑2 du code de l’environnement).</p><p>La quatrième édition du PNGMDR qui portait sur la période 2016‑2018, n’a été transmis au Parlement que le 17 février 2017. Concernant ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/665"
+        },
+        {
+          "id": "an-amendement-68760",
+          "date": "2023-03-09",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Pic, Mme Battistel, Mme Jourdan, M. Delautrette, M. Delaporte, M. Leseul, M. Potier, M. Aviragnet, M. Baptiste, M. Mickaël Bouloux, M. Philippe Brun, M. Califer, M. David, M. Echaniz, M. Olivier Faure, M. Garot, M. Guedj, M. Hajjar, Mme Karamanli, Mme Keloua Hachi, M. Naillet, M. Bertrand Petit, M. Bertrand Petit, Mme Pires Beaune, Mme Rabault, Mme Rouaux, Mme Santiago, M. Saulignac, Mme Thomin, Mme Untermaier, M. Vallaud, M. Vicot, les membres du groupe Socialistes et apparentés",
+          "politicalGroup": "SOC",
+          "matchedKeyword": "gestion des déchets radioactifs",
+          "text": "<p>Cet amendement du groupe Socialistes et apparentés vise à assurer que le prochain plan national de gestion des matières et déchets radioactifs sera remis suffisamment tôt pour permettre à l’Office parlementaire d’évaluation des choix scientifiques et technologiques d’exercer ses prérogatives de contrôle de l’action du Gouvernement dans de bonnes conditions.</p><p>La loi prévoit qu’un plan national de gestion des matières et déchets radioactifs (PNGMDR) « est transmis au Parlement, qui en saisit pour évaluation l’Office parlementaire d’évaluation des choix scientifiques et technologiques » (article L. 542‑1-2 du code de l’environnement).</p><p>La quatrième édition du PNGMDR qui portait sur la période 2016‑2018, n’a été transmis au Parlement que le 17 février 2017. Concernant la cinquième...",
+          "url": "https://www.nosdeputes.fr/16/amendement/917/630"
+        },
+        {
+          "id": "an-amendement-125703",
+          "date": "2023-11-02",
+          "chamber": "Assemblée nationale",
+          "speakerName": "Mme Robert-Dehault",
+          "politicalGroup": "RN",
+          "matchedKeyword": "gestion des déchets radioactifs",
+          "text": "<p>Le présent amendement prévoit d’abonder les crédits, d’un montant de 153 600 euros en autorisations d’engagement et en crédits de paiement, pour la sous action : « L’Agence nationale pour la gestion des déchets radioactifs » de l’action n° 1 : « Politique de l’énergie » du programme 174 « Énergies, climat et après mines » et, pour les besoins de la recevabilité financière, de minorer du même montant les crédits, en autorisations d’engagement et en crédits de paiement, pour l’action n° 12 : « Agence de l’environnement et de la maîtrise de l’énergie (ADEME) » du programme n° 181 : « Prévention des risques ».</p><p>L’Agence nationale pour la gestion des déchets radioactifs (ANDRA) assure des missions de service public essentielles :</p><p>- réalisation de l’inventaire national des déchets ...",
+          "url": "https://www.nosdeputes.fr/16/amendement/1680/3431C"
         }
       ]
     },
     {
       "programmeCode": "425",
-      "isMock": false,
-      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1234/345",
+      "isMock": true,
+      "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:13:15.379449Z",
+      "updatedAt": "2026-07-03T23:51:10.018856+00:00Z",
       "notes": "",
-      "documents": [
-        {
-          "id": "an-amendement-78169",
-          "date": "2023-05-17",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Jacobelli, les membres du groupe Rassemblement National",
-          "politicalGroup": "RN",
-          "matchedKeyword": "startup",
-          "text": "<p>Nos ETI sont un maillon essentiel de la BITD française. Disposant souvent de capacités d'innovation comparables à des PME voire à des startups, elles ont en outre des capacités de production supérieures à ces dernières. Trop petites pour bénéficier de l'attention des grands groupes, trop grandes pour profiter des dispositifs de financement ouverts aux PME/startups, elles sont actuellement dans une zone grise. Cet amendement vise donc à une meilleure prise en compte de ces entreprise dans le c...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1234/345"
-        },
-        {
-          "id": "an-amendement-77825",
-          "date": "2023-05-17",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Jacobelli, les membres du groupe Rassemblement National",
-          "politicalGroup": "RN",
-          "matchedKeyword": "startup",
-          "text": "<p>Nos ETI sont un maillon essentiel de la BITD française. Disposant souvent de capacités d'innovation comparables à des PME voire à des startups, elles ont en outre des capacités de production supérieures à ces dernières. Trop petites pour bénéficier de l'attention des grands groupes, trop grandes pour profiter des dispositifs de financement ouverts aux PME/startups, elles sont actuellement dans une zone grise. Cet amendement vise donc à une meilleure prise en compte de ces entreprises.</p> <p>...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1234/371"
-        },
-        {
-          "id": "an-amendement-78249",
-          "date": "2023-05-17",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Saintoul, M. Laisney, M. Le Gall, Mme Leboucher, Mme Leduc, Mme Legrain, Mme Lepvraud, M. Léaument, Mme Pascale Martin, Mme Élisa Martin, M. Martinet, M. Mathieu, M. Maudet, Mme Maximi, Mme Manon Meunier, M. Nilor, Mme Obono, Mme Oziol, Mme Panot, M. Pilato, M. Piquemal, M. Portes, M. Prud'homme, M. Quatennens, M. Ratenon, M. Rome, M. Ruffin, M. Sala, Mme Simonnet, Mme Soudais, Mme Stambach-Terrenoir, Mme Taurinya, M. Tavel, Mme Trouvé, M. Vannier, M. Walter",
-          "politicalGroup": "LFI",
-          "matchedKeyword": "pôles de compétitivité",
-          "text": "<p>Par cet amendement, le groupe LFI-NUPES demande un rapport du gouvernement sur les changements géostratégiques à prévoir à l’approche de l’ouverture de nouvelles voies de navigation au pôle Nord et au pôle Sud.</p><p>Les glaciers fondent et le niveau de la mer monte. Pour la première fois de l'histoire de l'humanité, de nouveaux couloirs de navigation s'ouvrent dans des zones entières du pôle Nord et du pôle Sud. Ainsi, les transformations que subissent les zones polaires et leurs impacts éco...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1234/748"
-        },
-        {
-          "id": "an-amendement-123728",
-          "date": "2023-11-06",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Midy",
-          "politicalGroup": "REN",
-          "matchedKeyword": "French Tech",
-          "text": "<p>Conformément à la recommandation du rapport pour Soutenir l'investissement dans les start-ups, PME innovantes et PME de croissance, le présent amendement vise à renforcer la commande publique et privée en faveur des entreprises de la French Tech. Plus précisément, cet amendement d'appel vise à soutenir et à valoriser l'initiative \"Je choisis la French Tech\" présentés par Jean-Noël Barrot à Viva Tech le 16 juin dernier et pilotée par la Mission French Tech.</p><p>\"Je choisis la French Tech\" po...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1680/4236C"
-        },
-        {
-          "id": "an-amendement-123492",
-          "date": "2023-11-06",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Midy",
-          "politicalGroup": "REN",
-          "matchedKeyword": "French Tech",
-          "text": "<p>Conformément à la recommandation du rapport pour <i>Soutenir l'investissement dans les start-ups, PME innovantes et PME de croissance</i>, le présent amendement vise à augmenter les crédits du programme 134 et plus particulièrement les moyens alloués au programme French Tech Tremplin.</p><p>Lancé en 2019 à l’initiative de la Mission French Tech, le programme French Tech Tremplin permet à des personnes éloignées de l’entrepreneuriat de créer leur start-up grâce à l’accompagnement de structures...",
-          "url": "https://www.nosdeputes.fr/16/amendement/1680/4232C"
-        },
-        {
-          "id": "an-amendement-18590",
-          "date": "2022-10-28",
-          "chamber": "Assemblée nationale",
-          "speakerName": "M. Lecamp",
-          "politicalGroup": "MODEM",
-          "matchedKeyword": "French Tech",
-          "text": "<p>Cet amendement du rapporteur spécial transfère 15 millions d'euros (hors titre 2) en autorisations d'engagement et en crédits de paiement :</p><p>- depuis l'action 4 <i>Moyens communs</i> du programme 215 <i>Conduite et pilotage des politiques de l'agriculture</i> ;</p><p>- vers l'action 23 <i>Appui au renouvellement et à la modernisation des exploitations agricoles</i> du programme 149 <i>Compétitivité et durabilité de l'agriculture, de l'agroalimentaire et de la forêt</i>.</p><p>Il propose ...",
-          "url": "https://www.nosdeputes.fr/16/amendement/273/2736C"
-        }
-      ]
+      "documents": []
     }
   ]
 }

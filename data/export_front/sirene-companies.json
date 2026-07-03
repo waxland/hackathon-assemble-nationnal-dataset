@@ -5,7 +5,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:41:21.751840+00:00Z",
+      "updatedAt": "2026-07-03T23:51:10.018187+00:00Z",
       "notes": "",
       "companies": []
     },
@@ -14,7 +14,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:41:21.751902+00:00Z",
+      "updatedAt": "2026-07-03T23:51:10.018249+00:00Z",
       "notes": "",
       "companies": []
     },
@@ -23,7 +23,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:41:21.751920+00:00Z",
+      "updatedAt": "2026-07-03T23:51:10.018266+00:00Z",
       "notes": "",
       "companies": []
     },
@@ -32,21 +32,9 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:41:21.751937+00:00Z",
+      "updatedAt": "2026-07-03T23:51:10.018280+00:00Z",
       "notes": "",
       "companies": [
-        {
-          "siren": "888047792",
-          "denominationUniteLegale": "VERKOR",
-          "nomUniteLegale": "",
-          "prenom1UniteLegale": "",
-          "categorieJuridiqueUniteLegale": "5710",
-          "activitePrincipaleUniteLegale": "27.20Z",
-          "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
-          "etatAdministratifUniteLegale": "A",
-          "dateCreationUniteLegale": "2020-07-29",
-          "source": "French Tech 2030 / France 2030 Lauréat"
-        },
         {
           "siren": "534948617",
           "denominationUniteLegale": "YNSECT",
@@ -60,15 +48,39 @@
           "source": "French Tech 2030 / France 2030 Lauréat"
         },
         {
-          "siren": "952418325",
-          "denominationUniteLegale": "MISTRAL AI",
+          "siren": "788658946",
+          "denominationUniteLegale": "FLYING WHALES",
           "nomUniteLegale": "",
           "prenom1UniteLegale": "",
           "categorieJuridiqueUniteLegale": "5710",
-          "activitePrincipaleUniteLegale": "82.11Z",
+          "activitePrincipaleUniteLegale": "71.12B",
           "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
           "etatAdministratifUniteLegale": "A",
-          "dateCreationUniteLegale": "2023-04-28",
+          "dateCreationUniteLegale": "2012-09-20",
+          "source": "French Tech 2030 / France 2030 Lauréat"
+        },
+        {
+          "siren": "794598813",
+          "denominationUniteLegale": "DOCTOLIB",
+          "nomUniteLegale": "",
+          "prenom1UniteLegale": "",
+          "categorieJuridiqueUniteLegale": "5710",
+          "activitePrincipaleUniteLegale": "62.01Z",
+          "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+          "etatAdministratifUniteLegale": "A",
+          "dateCreationUniteLegale": "2013-07-15",
+          "source": "French Tech 2030 / France 2030 Lauréat"
+        },
+        {
+          "siren": "831241179",
+          "denominationUniteLegale": "EXOTRAIL",
+          "nomUniteLegale": "",
+          "prenom1UniteLegale": "",
+          "categorieJuridiqueUniteLegale": "5599",
+          "activitePrincipaleUniteLegale": "74.90B",
+          "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+          "etatAdministratifUniteLegale": "A",
+          "dateCreationUniteLegale": "2017-08-01",
           "source": "French Tech 2030 / France 2030 Lauréat"
         },
         {
@@ -96,39 +108,27 @@
           "source": "French Tech 2030 / France 2030 Lauréat"
         },
         {
-          "siren": "831241179",
-          "denominationUniteLegale": "EXOTRAIL",
-          "nomUniteLegale": "",
-          "prenom1UniteLegale": "",
-          "categorieJuridiqueUniteLegale": "5599",
-          "activitePrincipaleUniteLegale": "74.90B",
-          "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
-          "etatAdministratifUniteLegale": "A",
-          "dateCreationUniteLegale": "2017-08-01",
-          "source": "French Tech 2030 / France 2030 Lauréat"
-        },
-        {
-          "siren": "788658946",
-          "denominationUniteLegale": "FLYING WHALES",
+          "siren": "888047792",
+          "denominationUniteLegale": "VERKOR",
           "nomUniteLegale": "",
           "prenom1UniteLegale": "",
           "categorieJuridiqueUniteLegale": "5710",
-          "activitePrincipaleUniteLegale": "71.12B",
+          "activitePrincipaleUniteLegale": "27.20Z",
           "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
           "etatAdministratifUniteLegale": "A",
-          "dateCreationUniteLegale": "2012-09-20",
+          "dateCreationUniteLegale": "2020-07-29",
           "source": "French Tech 2030 / France 2030 Lauréat"
         },
         {
-          "siren": "794598813",
-          "denominationUniteLegale": "DOCTOLIB",
+          "siren": "952418325",
+          "denominationUniteLegale": "MISTRAL AI",
           "nomUniteLegale": "",
           "prenom1UniteLegale": "",
           "categorieJuridiqueUniteLegale": "5710",
-          "activitePrincipaleUniteLegale": "62.01Z",
+          "activitePrincipaleUniteLegale": "82.11Z",
           "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
           "etatAdministratifUniteLegale": "A",
-          "dateCreationUniteLegale": "2013-07-15",
+          "dateCreationUniteLegale": "2023-04-28",
           "source": "French Tech 2030 / France 2030 Lauréat"
         }
       ]
@@ -138,7 +138,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-03T23:41:21.751971+00:00Z",
+      "updatedAt": "2026-07-03T23:51:10.018315+00:00Z",
       "notes": "",
       "companies": []
     }

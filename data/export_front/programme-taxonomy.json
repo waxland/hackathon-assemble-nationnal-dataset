@@ -5,18 +5,28 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:13:15.379752Z",
+      "updatedAt": "2026-07-03T23:51:10.019939+00:00Z",
       "notes": "",
       "themes": [
         {
           "themeId": "soutien-de-la-recherche-fondamentale",
           "themeName": "Soutien de la recherche fondamentale",
-          "keywords": []
+          "keywords": [
+            "recherche",
+            "enseignement supérieur",
+            "laboratoire",
+            "ANR"
+          ]
         },
         {
           "themeId": "formation-aux-metiers-d-avenir",
           "themeName": "Formation aux métiers d'avenir",
-          "keywords": []
+          "keywords": [
+            "doctorat",
+            "université",
+            "formation",
+            "compétences"
+          ]
         }
       ]
     },
@@ -25,18 +35,27 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:13:15.379927Z",
+      "updatedAt": "2026-07-03T23:51:10.020047+00:00Z",
       "notes": "",
       "themes": [
         {
           "themeId": "valorisation-de-la-recherche-publique",
           "themeName": "Valorisation de la recherche publique",
-          "keywords": []
+          "keywords": [
+            "valorisation de la recherche",
+            "transfert technologique",
+            "propriété intellectuelle",
+            "brevet"
+          ]
         },
         {
           "themeId": "transfert-technologique",
           "themeName": "Transfert technologique",
-          "keywords": []
+          "keywords": [
+            "SATT",
+            "transfert de technologie",
+            "recherche appliquée"
+          ]
         }
       ]
     },
@@ -45,18 +64,28 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:13:15.379949Z",
+      "updatedAt": "2026-07-03T23:51:10.020078+00:00Z",
       "notes": "",
       "themes": [
         {
           "themeId": "modernisation-de-l-outil-de-production",
           "themeName": "Modernisation de l'outil de production",
-          "keywords": []
+          "keywords": [
+            "modernisation des entreprises",
+            "industrie 4.0",
+            "robotisation",
+            "automatisation"
+          ]
         },
         {
           "themeId": "digitalisation-des-pme-eti",
           "themeName": "Digitalisation des PME-ETI",
-          "keywords": []
+          "keywords": [
+            "numérique",
+            "PME",
+            "ETI",
+            "transformation numérique"
+          ]
         }
       ]
     },
@@ -65,7 +94,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:13:15.379971Z",
+      "updatedAt": "2026-07-03T23:51:10.020105+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -210,7 +239,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:13:15.380070Z",
+      "updatedAt": "2026-07-03T23:51:10.020212+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -231,7 +260,6 @@
             "pôles de compétitivité",
             "territoires d'innovation",
             "incubateur",
-            "SATT",
             "écosystème d'innovation"
           ]
         },

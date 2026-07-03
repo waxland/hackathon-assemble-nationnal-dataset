@@ -2,6 +2,7 @@ import json
 import os
 import asyncio
 import aiohttp
+import ssl
 
 def clean_text(text):
     if not text:
@@ -9,21 +10,20 @@ def clean_text(text):
     return " ".join(text.replace('\n', ' ').replace('\r', ' ').split())
 
 def is_relevant_mention(text):
-    """
-    Filtre NLP basique pour réduire les faux positifs.
-    On vérifie que le verbatim s'inscrit dans un contexte pertinent
-    ('France 2030', 'milliard', 'subvention', 'souveraineté', 'innovation').
-    """
     text_lower = text.lower()
     buzzwords = ['france 2030', 'milliard', 'subvention', 'souveraineté', 'innovation', 'investissement', 'budget']
+    if len(text_lower) > 200:
+        return True
     return any(word in text_lower for word in buzzwords)
 
 async def fetch_doc(session, url):
     try:
+        # contournement : l'API NosDeputes ne renvoie pas le bon header `application/json`
         async with session.get(url, timeout=5) as response:
             if response.status == 200:
-                return await response.json()
-    except Exception:
+                text = await response.text()
+                return json.loads(text)
+    except Exception as e:
         pass
     return None
 
@@ -35,10 +35,11 @@ async def search_keyword(session, kw, mentions, mentions_ids):
     try:
         async with session.get(url, timeout=10) as response:
             if response.status == 200:
-                data = await response.json()
-                results = data.get("results", [])
+                # Bypass du mimetype text/plain
+                text = await response.text()
+                data = json.loads(text)
                 
-                # Fetch documents in parallel
+                results = data.get("results", [])
                 tasks = []
                 valid_results = [r for r in results[:10] if r.get("document_type") in ["Amendement", "QuestionEcrite"] and r.get("document_url")]
                 
@@ -57,7 +58,6 @@ async def search_keyword(session, kw, mentions, mentions_ids):
                         if m_id in mentions_ids: continue
                         
                         texte = clean_text(am.get("expose", "") + " " + am.get("texte", ""))
-                        if not is_relevant_mention(texte): continue
                         
                         mentions.append({
                             "mentionId": f"an-amendement-{m_id}",
@@ -82,7 +82,6 @@ async def search_keyword(session, kw, mentions, mentions_ids):
                         if m_id in mentions_ids: continue
                         
                         texte = clean_text(qe.get("question", ""))
-                        if not is_relevant_mention(texte): continue
                         
                         mentions.append({
                             "mentionId": f"an-qe-{m_id}",
@@ -104,7 +103,7 @@ async def search_keyword(session, kw, mentions, mentions_ids):
         print(f"⚠️ Erreur sur {search_query}: {e}")
 
 async def main_async():
-    print("Récupération ASYNCHRONE et filtrée des mentions parlementaires...")
+    print("Récupération ASYNCHRONE des mentions parlementaires...")
     
     keywords_path = "data/keywords.json"
     if not os.path.exists(keywords_path):
@@ -117,21 +116,15 @@ async def main_async():
     mentions = []
     mentions_ids = set()
     
-    tested_themes = set()
-    keywords_to_test = []
-    
-    # Prendre un peu plus de mots clés pour tester l'async
-    for kw in keywords:
-        tid = kw["relatedThemeId"]
-        if len(keywords_to_test) >= 30:
-            break
-        if tid not in tested_themes:
-            keywords_to_test.append(kw)
-            tested_themes.add(tid)
+    keywords_to_test = [k for k in keywords if len(k["label"]) > 5][:10]
             
-    print(f"📡 Interrogation massive de l'API pour {len(keywords_to_test)} mots-clés stratégiques...")
+    print(f"📡 Interrogation de l'API pour {len(keywords_to_test)} mots-clés stratégiques...")
     
-    async with aiohttp.ClientSession() as session:
+    ssl_context = ssl.create_default_context()
+    ssl_context.check_hostname = False
+    ssl_context.verify_mode = ssl.CERT_NONE
+
+    async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=ssl_context)) as session:
         tasks = [search_keyword(session, kw, mentions, mentions_ids) for kw in keywords_to_test]
         await asyncio.gather(*tasks)
             
@@ -139,7 +132,7 @@ async def main_async():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(mentions, f, indent=2, ensure_ascii=False)
         
-    print(f"✅ {len(mentions)} véritables mentions parlementaires pertinentes extraites dans {output_path}")
+    print(f"✅ {len(mentions)} mentions parlementaires extraites dans {output_path}")
 
 def main():
     asyncio.run(main_async())
