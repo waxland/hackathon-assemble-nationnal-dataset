@@ -1,0 +1,114 @@
+[
+  {
+    "companyId": "siren-888047792",
+    "companyName": "VERKOR",
+    "siren": "888047792",
+    "nafCode": "27.20Z",
+    "relatedThemeIds": [
+      "4.-vehicules-electriques-et-hybrides"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-534948617",
+    "companyName": "YNSECT",
+    "siren": "534948617",
+    "nafCode": "10.89Z",
+    "relatedThemeIds": [
+      "6.-alimentation-saine-durable-et-tracable"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-952418325",
+    "companyName": "MISTRAL AI",
+    "siren": "952418325",
+    "nafCode": "82.11Z",
+    "relatedThemeIds": [
+      "levier-:-composants-cloud-ia-et-quantique"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-849441522",
+    "companyName": "PASQAL",
+    "siren": "849441522",
+    "nafCode": "71.12B",
+    "relatedThemeIds": [
+      "levier-:-composants-cloud-ia-et-quantique"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-850415290",
+    "companyName": "LHYFE",
+    "siren": "850415290",
+    "nafCode": "71.12B",
+    "relatedThemeIds": [
+      "2.-leader-de-l-hydrogene-vert"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-831241179",
+    "companyName": "EXOTRAIL",
+    "siren": "831241179",
+    "nafCode": "74.90B",
+    "relatedThemeIds": [
+      "9.-nouvelle-aventure-spatiale"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-788658946",
+    "companyName": "FLYING WHALES",
+    "siren": "788658946",
+    "nafCode": "71.12B",
+    "relatedThemeIds": [
+      "5.-premier-avion-bas-carbone"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  },
+  {
+    "companyId": "siren-794598813",
+    "companyName": "DOCTOLIB",
+    "siren": "794598813",
+    "nafCode": "62.01Z",
+    "relatedThemeIds": [
+      "7.-production-de-biomedicaments-et-dispositifs-medicaux"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 0.95
+  }
+]

@@ -1,0 +1,926 @@
+[
+  {
+    "keywordId": "kw-smr",
+    "label": "SMR",
+    "type": "concept",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-petits-reacteurs-modulaires",
+    "label": "petits réacteurs modulaires",
+    "type": "concept",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-nucleaire",
+    "label": "nucléaire",
+    "type": "concept",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-epr",
+    "label": "EPR",
+    "type": "concept",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-reacteur-nucleaire",
+    "label": "réacteur nucléaire",
+    "type": "concept",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-gestion-des-dechets-radioactifs",
+    "label": "gestion des déchets radioactifs",
+    "type": "concept",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-hydrogene-vert",
+    "label": "hydrogène vert",
+    "type": "concept",
+    "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-hydrogene-decarbone",
+    "label": "hydrogène décarboné",
+    "type": "concept",
+    "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-electrolyseur",
+    "label": "électrolyseur",
+    "type": "concept",
+    "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-pile-a-combustible",
+    "label": "pile à combustible",
+    "type": "concept",
+    "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-gigafactory-hydrogene",
+    "label": "gigafactory hydrogène",
+    "type": "concept",
+    "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-h2",
+    "label": "H2",
+    "type": "concept",
+    "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-decarbonation",
+    "label": "décarbonation",
+    "type": "concept",
+    "relatedThemeId": "3.-decarbonation-de-l-industrie",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-industrie-bas-carbone",
+    "label": "industrie bas-carbone",
+    "type": "concept",
+    "relatedThemeId": "3.-decarbonation-de-l-industrie",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-capture-carbone",
+    "label": "capture carbone",
+    "type": "concept",
+    "relatedThemeId": "3.-decarbonation-de-l-industrie",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-efficacite-energetique-industrielle",
+    "label": "efficacité énergétique industrielle",
+    "type": "concept",
+    "relatedThemeId": "3.-decarbonation-de-l-industrie",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-chaleur-bas-carbone",
+    "label": "chaleur bas-carbone",
+    "type": "concept",
+    "relatedThemeId": "3.-decarbonation-de-l-industrie",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-ccus",
+    "label": "CCUS",
+    "type": "concept",
+    "relatedThemeId": "3.-decarbonation-de-l-industrie",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-vehicule-electrique",
+    "label": "véhicule électrique",
+    "type": "concept",
+    "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-batteries",
+    "label": "batteries",
+    "type": "concept",
+    "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-gigafactory-de-batteries",
+    "label": "gigafactory de batteries",
+    "type": "concept",
+    "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-borne-de-recharge",
+    "label": "borne de recharge",
+    "type": "concept",
+    "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-vehicule-hybride",
+    "label": "véhicule hybride",
+    "type": "concept",
+    "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-mobilite-durable",
+    "label": "mobilité durable",
+    "type": "concept",
+    "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-avion-bas-carbone",
+    "label": "avion bas-carbone",
+    "type": "concept",
+    "relatedThemeId": "5.-premier-avion-bas-carbone",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-aeronautique-decarbonee",
+    "label": "aéronautique décarbonée",
+    "type": "concept",
+    "relatedThemeId": "5.-premier-avion-bas-carbone",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-carburant-d-aviation-durable",
+    "label": "carburant d'aviation durable",
+    "type": "concept",
+    "relatedThemeId": "5.-premier-avion-bas-carbone",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-saf",
+    "label": "SAF",
+    "type": "concept",
+    "relatedThemeId": "5.-premier-avion-bas-carbone",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-moteur-a-hydrogene",
+    "label": "moteur à hydrogène",
+    "type": "concept",
+    "relatedThemeId": "5.-premier-avion-bas-carbone",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-alimentation-durable",
+    "label": "alimentation durable",
+    "type": "concept",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-agriculture-de-precision",
+    "label": "agriculture de précision",
+    "type": "concept",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-agroecologie",
+    "label": "agroécologie",
+    "type": "concept",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-foodtech",
+    "label": "foodtech",
+    "type": "technology",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-agritech",
+    "label": "agritech",
+    "type": "technology",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-proteines-alternatives",
+    "label": "protéines alternatives",
+    "type": "concept",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-tracabilite-alimentaire",
+    "label": "traçabilité alimentaire",
+    "type": "concept",
+    "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-biomedicament",
+    "label": "biomédicament",
+    "type": "concept",
+    "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-biotherapie",
+    "label": "biothérapie",
+    "type": "concept",
+    "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-sante-numerique",
+    "label": "santé numérique",
+    "type": "concept",
+    "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-dispositif-medical",
+    "label": "dispositif médical",
+    "type": "concept",
+    "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-therapie-genique",
+    "label": "thérapie génique",
+    "type": "concept",
+    "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-healthtech",
+    "label": "healthtech",
+    "type": "technology",
+    "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-industries-culturelles-et-creatives",
+    "label": "industries culturelles et créatives",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-icc",
+    "label": "ICC",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-metavers",
+    "label": "métavers",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-studios-de-tournage",
+    "label": "studios de tournage",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-effets-visuels",
+    "label": "effets visuels",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-jeux-video",
+    "label": "jeux vidéo",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-billetterie",
+    "label": "billetterie",
+    "type": "concept",
+    "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-spatial",
+    "label": "spatial",
+    "type": "concept",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-micro-lanceurs",
+    "label": "micro-lanceurs",
+    "type": "concept",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-constellation-de-satellites",
+    "label": "constellation de satellites",
+    "type": "concept",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-new-space",
+    "label": "new space",
+    "type": "concept",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-orbite",
+    "label": "orbite",
+    "type": "concept",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-cnes",
+    "label": "CNES",
+    "type": "concept",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-fonds-marins",
+    "label": "fonds marins",
+    "type": "concept",
+    "relatedThemeId": "10.-exploration-des-fonds-marins",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-grands-fonds-marins",
+    "label": "grands fonds marins",
+    "type": "concept",
+    "relatedThemeId": "10.-exploration-des-fonds-marins",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-exploration-oceanique",
+    "label": "exploration océanique",
+    "type": "concept",
+    "relatedThemeId": "10.-exploration-des-fonds-marins",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-robotique-sous-marine",
+    "label": "robotique sous-marine",
+    "type": "concept",
+    "relatedThemeId": "10.-exploration-des-fonds-marins",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-auv",
+    "label": "AUV",
+    "type": "concept",
+    "relatedThemeId": "10.-exploration-des-fonds-marins",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-rov",
+    "label": "ROV",
+    "type": "concept",
+    "relatedThemeId": "10.-exploration-des-fonds-marins",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-intelligence-artificielle",
+    "label": "intelligence artificielle",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-ia",
+    "label": "IA",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-quantique",
+    "label": "quantique",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-ordinateur-quantique",
+    "label": "ordinateur quantique",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-cloud-souverain",
+    "label": "cloud souverain",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-semi-conducteurs",
+    "label": "semi-conducteurs",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-composants-electroniques",
+    "label": "composants électroniques",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-puces-electroniques",
+    "label": "puces électroniques",
+    "type": "concept",
+    "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-startup",
+    "label": "startup",
+    "type": "concept",
+    "relatedThemeId": "soutien-aux-startups-et-deeptech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-deeptech",
+    "label": "deeptech",
+    "type": "technology",
+    "relatedThemeId": "soutien-aux-startups-et-deeptech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-licorne",
+    "label": "licorne",
+    "type": "concept",
+    "relatedThemeId": "soutien-aux-startups-et-deeptech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-innovation-de-rupture",
+    "label": "innovation de rupture",
+    "type": "concept",
+    "relatedThemeId": "soutien-aux-startups-et-deeptech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-levee-de-fonds",
+    "label": "levée de fonds",
+    "type": "concept",
+    "relatedThemeId": "soutien-aux-startups-et-deeptech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-poles-de-competitivite",
+    "label": "pôles de compétitivité",
+    "type": "concept",
+    "relatedThemeId": "poles-et-territoires-d-innovation",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-territoires-d-innovation",
+    "label": "territoires d'innovation",
+    "type": "concept",
+    "relatedThemeId": "poles-et-territoires-d-innovation",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-incubateur",
+    "label": "incubateur",
+    "type": "concept",
+    "relatedThemeId": "poles-et-territoires-d-innovation",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-satt",
+    "label": "SATT",
+    "type": "concept",
+    "relatedThemeId": "poles-et-territoires-d-innovation",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-ecosysteme-d-innovation",
+    "label": "écosystème d'innovation",
+    "type": "concept",
+    "relatedThemeId": "poles-et-territoires-d-innovation",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-french-tech",
+    "label": "French Tech",
+    "type": "technology",
+    "relatedThemeId": "soutien-a-la-french-tech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-mission-french-tech",
+    "label": "mission French Tech",
+    "type": "technology",
+    "relatedThemeId": "soutien-a-la-french-tech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-french-tech-2030",
+    "label": "French Tech 2030",
+    "type": "technology",
+    "relatedThemeId": "soutien-a-la-french-tech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-next40",
+    "label": "Next40",
+    "type": "concept",
+    "relatedThemeId": "soutien-a-la-french-tech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "kw-ft120",
+    "label": "FT120",
+    "type": "concept",
+    "relatedThemeId": "soutien-a-la-french-tech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 0.95
+  }
+]
