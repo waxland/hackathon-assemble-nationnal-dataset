@@ -6,14 +6,14 @@ Suite à une relecture exhaustive de la base de code et de l'architecture du pro
 
 ## 🌐 1. Extraction, Scraping & APIs (Risques d'Ingestion)
 
-- [ ] **Friction - Blocage Cloudflare sur les Appels à Projets (AAP) (`script 06`)** : Le site `info.gouv.fr` bloque les requêtes automatisées. Le script actuel utilise un mock de 4 AAP. 
-  - *Action* : Utiliser un scraper headless (Playwright/Puppeteer) ou trouver un jeu de données officiel des AAP sur `data.gouv.fr` (ex: API Aides-Territoires, si elle intègre France 2030).
-- [ ] **Friction - Instabilité des URLs sources (`scripts 01, 02, 03`)** : Les URLs des fichiers CSV de `data.economie.gouv.fr` sont hardcodées. Si le jeu de données change d'ID pour le PLF 2027, les scripts casseront.
+- [ ] **Friction - Blocage Cloudflare sur les Appels à Projets (AAP) (`script 06`)** : Le site source `https://www.info.gouv.fr/grand-dossier/france-2030/appels-a-candidatures` bloque les requêtes automatisées via Curl ou Requests. Le script actuel utilise un mock de 4 AAP. 
+  - *Action* : Utiliser un scraper headless (Playwright/Puppeteer) ou trouver un jeu de données officiel des AAP sur `https://www.data.gouv.fr/` (ex: API `https://aides-territoires.beta.gouv.fr/api/aides/`, bien qu'actuellement elle ne retourne pas les AAP nationaux France 2030).
+- [ ] **Friction - Instabilité des URLs sources (`scripts 01, 02, 03`)** : Les URLs des fichiers CSV de `https://data.economie.gouv.fr` sont hardcodées (ex: `https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf-2025-performance/exports/csv`). Si le jeu de données change d'ID pour le PLF 2027, les scripts casseront.
   - *Action* : Utiliser l'API de recherche du catalogue (par mot-clé) pour résoudre dynamiquement l'URL du dernier millésime avant de le télécharger.
-- [ ] **Friction - Rate Limiting API Sirene (`script 09`)** : L'API `recherche-entreprises` est limitée à 7 requêtes/seconde. Le script utilise un fragile `time.sleep(0.5)`. 
+- [ ] **Friction - Rate Limiting API Sirene (`script 09`)** : L'API `https://recherche-entreprises.api.gouv.fr/search` est limitée à 7 requêtes/seconde. Le script utilise un fragile `time.sleep(0.5)`. 
   - *Action* : Implémenter un vrai mécanisme de `Retry-After` (via la librairie `tenacity` ou `urllib3.util.Retry`).
-- [ ] **Friction - Lenteur & Pagination NosDéputés.fr (`script 07`)** : Le script est bridé volontairement (15 mots-clés, 3 résultats max) pour éviter de bloquer l'API.
-  - *Action* : Passer sur une ingestion asynchrone (`asyncio` + `aiohttp`) et gérer la pagination (attribut `next_page` de l'API) pour rapatrier tout l'historique d'une législature en tâche de fond.
+- [ ] **Friction - Lenteur & Pagination NosDéputés.fr (`script 07`)** : Le script interrogeant l'API `https://www.nosdeputes.fr/recherche/{kw}?format=json` est bridé volontairement (15 mots-clés, 3 résultats max) pour éviter de bloquer l'API.
+  - *Action* : Passer sur une ingestion asynchrone (`asyncio` + `aiohttp`) et gérer la pagination (attribut `next_page` de l'API) pour rapatrier tout l'historique d'une législature en tâche de fond. On pourrait aussi utiliser les dumps JSON de l'association *LesTricoteuses*.
 
 ---
 
