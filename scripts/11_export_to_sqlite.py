@@ -3,7 +3,6 @@ import os
 import sqlite3
 
 def init_db(db_path):
-    """Initialise la base de données sans la supprimer si elle existe (Upsert)."""
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     
@@ -68,9 +67,15 @@ def init_db(db_path):
     );
     CREATE TABLE IF NOT EXISTS companies (
         companyId TEXT PRIMARY KEY,
-        companyName TEXT,
         siren TEXT,
-        nafCode TEXT,
+        denominationUniteLegale TEXT,
+        nomUniteLegale TEXT,
+        prenom1UniteLegale TEXT,
+        categorieJuridiqueUniteLegale TEXT,
+        activitePrincipaleUniteLegale TEXT,
+        nomenclatureActivitePrincipaleUniteLegale TEXT,
+        etatAdministratifUniteLegale TEXT,
+        dateCreationUniteLegale TEXT,
         source TEXT,
         confidenceScore REAL
     );
@@ -115,6 +120,9 @@ def load_json(filepath):
 def main():
     print("🚀 Upsert des JSON vers la base de données SQLite...")
     db_path = "data/france2030.sqlite"
+    # Pour s'assurer de bien modifier le schéma si besoin (car on vient d'ajouter des colonnes)
+    if os.path.exists(db_path):
+        os.remove(db_path)
     conn = init_db(db_path)
     
     insert_data(conn, "programs", load_json("data/programs.json"), ["programmeCode", "programmeName", "missionName"])
@@ -124,7 +132,13 @@ def main():
     insert_data(conn, "calls_for_projects", load_json("data/calls_for_projects.json"), ["callId", "title", "description", "operator", "openingDate", "closingDate", "sourceUrl", "themeId"])
     insert_data(conn, "parliament_mentions", load_json("data/parliament_mentions.json"), ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore"])
     insert_data(conn, "naf_codes", load_json("data/naf_codes.json"), ["nafCode", "nafLabel", "confidenceScore"])
-    insert_data(conn, "companies", load_json("data/companies.json"), ["companyId", "companyName", "siren", "nafCode", "source", "confidenceScore"])
+    
+    insert_data(conn, "companies", load_json("data/companies.json"), [
+        "companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale",
+        "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale",
+        "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"
+    ])
+    
     insert_data(conn, "correlations", load_json("data/correlations.json"), ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"])
     
     conn.close()

@@ -1,23 +1,15 @@
 [
   {
-    "companyId": "siren-888047792",
-    "companyName": "VERKOR",
-    "siren": "888047792",
-    "nafCode": "27.20Z",
-    "relatedThemeIds": [
-      "4.-vehicules-electriques-et-hybrides"
-    ],
-    "relatedProgrammeCodes": [
-      "424"
-    ],
-    "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
-  },
-  {
     "companyId": "siren-534948617",
-    "companyName": "YNSECT",
     "siren": "534948617",
-    "nafCode": "10.89Z",
+    "denominationUniteLegale": "YNSECT",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5710",
+    "activitePrincipaleUniteLegale": "10.89Z",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2011-09-14",
     "relatedThemeIds": [
       "6.-alimentation-saine-durable-et-tracable"
     ],
@@ -25,69 +17,19 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
-  },
-  {
-    "companyId": "siren-952418325",
-    "companyName": "MISTRAL AI",
-    "siren": "952418325",
-    "nafCode": "82.11Z",
-    "relatedThemeIds": [
-      "levier-:-composants-cloud-ia-et-quantique"
-    ],
-    "relatedProgrammeCodes": [
-      "424"
-    ],
-    "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
-  },
-  {
-    "companyId": "siren-849441522",
-    "companyName": "PASQAL",
-    "siren": "849441522",
-    "nafCode": "71.12B",
-    "relatedThemeIds": [
-      "levier-:-composants-cloud-ia-et-quantique"
-    ],
-    "relatedProgrammeCodes": [
-      "424"
-    ],
-    "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
-  },
-  {
-    "companyId": "siren-850415290",
-    "companyName": "LHYFE",
-    "siren": "850415290",
-    "nafCode": "71.12B",
-    "relatedThemeIds": [
-      "2.-leader-de-l-hydrogene-vert"
-    ],
-    "relatedProgrammeCodes": [
-      "424"
-    ],
-    "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
-  },
-  {
-    "companyId": "siren-831241179",
-    "companyName": "EXOTRAIL",
-    "siren": "831241179",
-    "nafCode": "74.90B",
-    "relatedThemeIds": [
-      "9.-nouvelle-aventure-spatiale"
-    ],
-    "relatedProgrammeCodes": [
-      "424"
-    ],
-    "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
+    "confidenceScore": 1.0
   },
   {
     "companyId": "siren-788658946",
-    "companyName": "FLYING WHALES",
     "siren": "788658946",
-    "nafCode": "71.12B",
+    "denominationUniteLegale": "FLYING WHALES",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5710",
+    "activitePrincipaleUniteLegale": "71.12B",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2012-09-20",
     "relatedThemeIds": [
       "5.-premier-avion-bas-carbone"
     ],
@@ -95,13 +37,19 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
+    "confidenceScore": 1.0
   },
   {
     "companyId": "siren-794598813",
-    "companyName": "DOCTOLIB",
     "siren": "794598813",
-    "nafCode": "62.01Z",
+    "denominationUniteLegale": "DOCTOLIB",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5710",
+    "activitePrincipaleUniteLegale": "62.01Z",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2013-07-15",
     "relatedThemeIds": [
       "7.-production-de-biomedicaments-et-dispositifs-medicaux"
     ],
@@ -109,6 +57,106 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 0.95
+    "confidenceScore": 1.0
+  },
+  {
+    "companyId": "siren-831241179",
+    "siren": "831241179",
+    "denominationUniteLegale": "EXOTRAIL",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5599",
+    "activitePrincipaleUniteLegale": "74.90B",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2017-08-01",
+    "relatedThemeIds": [
+      "9.-nouvelle-aventure-spatiale"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 1.0
+  },
+  {
+    "companyId": "siren-849441522",
+    "siren": "849441522",
+    "denominationUniteLegale": "PASQAL",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5710",
+    "activitePrincipaleUniteLegale": "71.12B",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2019-03-15",
+    "relatedThemeIds": [
+      "levier-:-composants-cloud-ia-et-quantique"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 1.0
+  },
+  {
+    "companyId": "siren-850415290",
+    "siren": "850415290",
+    "denominationUniteLegale": "LHYFE",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5599",
+    "activitePrincipaleUniteLegale": "71.12B",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2019-04-10",
+    "relatedThemeIds": [
+      "2.-leader-de-l-hydrogene-vert"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 1.0
+  },
+  {
+    "companyId": "siren-888047792",
+    "siren": "888047792",
+    "denominationUniteLegale": "VERKOR",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5710",
+    "activitePrincipaleUniteLegale": "27.20Z",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2020-07-29",
+    "relatedThemeIds": [
+      "4.-vehicules-electriques-et-hybrides"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 1.0
+  },
+  {
+    "companyId": "siren-952418325",
+    "siren": "952418325",
+    "denominationUniteLegale": "MISTRAL AI",
+    "nomUniteLegale": "",
+    "prenom1UniteLegale": "",
+    "categorieJuridiqueUniteLegale": "5710",
+    "activitePrincipaleUniteLegale": "82.11Z",
+    "nomenclatureActivitePrincipaleUniteLegale": "NAFRev2",
+    "etatAdministratifUniteLegale": "A",
+    "dateCreationUniteLegale": "2023-04-28",
+    "relatedThemeIds": [
+      "levier-:-composants-cloud-ia-et-quantique"
+    ],
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "source": "French Tech 2030 / France 2030 Lauréat",
+    "confidenceScore": 1.0
   }
 ]

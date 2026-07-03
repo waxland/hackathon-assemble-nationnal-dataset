@@ -1,79 +1,115 @@
 import json
 import os
 import requests
-import time
+import zipfile
+import csv
+import io
 
-KNOWN_LAUREATES = [
-    {"name": "VERKOR", "theme": "4.-vehicules-electriques-et-hybrides", "prog": "424"},
-    {"name": "YNSECT", "theme": "6.-alimentation-saine-durable-et-tracable", "prog": "424"},
-    {"name": "MISTRAL AI", "theme": "levier-:-composants-cloud-ia-et-quantique", "prog": "424"},
-    {"name": "PASQAL", "theme": "levier-:-composants-cloud-ia-et-quantique", "prog": "424"},
-    {"name": "LHYFE", "theme": "2.-leader-de-l-hydrogene-vert", "prog": "424"},
-    {"name": "EXOTRAIL", "theme": "9.-nouvelle-aventure-spatiale", "prog": "424"},
-    {"name": "FLYING WHALES", "theme": "5.-premier-avion-bas-carbone", "prog": "424"},
-    {"name": "DOCTOLIB", "theme": "7.-production-de-biomedicaments-et-dispositifs-medicaux", "prog": "424"}
-]
+DATA_GOUV_API = "https://www.data.gouv.fr/api/1/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/"
 
-def search_company_with_retry(name, max_retries=3):
-    url = f"https://recherche-entreprises.api.gouv.fr/search?q={name}&per_page=1"
-    for attempt in range(max_retries):
-        try:
-            response = requests.get(url, timeout=5)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get("results"):
-                    return data["results"][0]
-                return None
-            elif response.status_code == 429: # Too Many Requests
-                print(f"    ⚠️ Rate limit atteint. Attente avant retry {attempt+1}/{max_retries}...")
-                time.sleep(2 ** attempt) # Exponential backoff
-            else:
-                break
-        except Exception as e:
-            print(f"    ⚠️ Erreur réseau: {e}")
-            time.sleep(1)
-    return None
+TARGET_COMPANIES = {
+    "888047792": {"theme": "4.-vehicules-electriques-et-hybrides", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "534948617": {"theme": "6.-alimentation-saine-durable-et-tracable", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "952418325": {"theme": "levier-:-composants-cloud-ia-et-quantique", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "849441522": {"theme": "levier-:-composants-cloud-ia-et-quantique", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "850415290": {"theme": "2.-leader-de-l-hydrogene-vert", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "831241179": {"theme": "9.-nouvelle-aventure-spatiale", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "788658946": {"theme": "5.-premier-avion-bas-carbone", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"},
+    "794598813": {"theme": "7.-production-de-biomedicaments-et-dispositifs-medicaux", "prog": "424", "source": "French Tech 2030 / France 2030 Lauréat"}
+}
+
+def get_latest_sirene_url():
+    print("Recherche de la dernière URL du StockUniteLegale sur data.gouv.fr...")
+    resp = requests.get(DATA_GOUV_API)
+    resp.raise_for_status()
+    data = resp.json()
+    for resource in data.get("resources", []):
+        title = resource.get("title", "").lower()
+        url = resource.get("url", "")
+        if title.startswith("sirene : fichier stockunitelegale") and "historique" not in title and url.endswith(".zip"):
+            return url
+    raise Exception("URL StockUniteLegale non trouvée.")
+
+def download_sirene_zip(url, dest_path):
+    print(f"Téléchargement du fichier (environ 1.5 Go) : {url}")
+    with requests.get(url, stream=True) as r:
+        r.raise_for_status()
+        with open(dest_path, 'wb') as f:
+            for chunk in r.iter_content(chunk_size=8192): 
+                f.write(chunk)
+    print("Téléchargement terminé.")
 
 def main():
-    print("Recherche des entreprises avec mécanisme de Retry (API Sirene)...")
+    print("Extraction des données depuis l'open data INSEE Base Sirene...")
+    os.makedirs("data/raw", exist_ok=True)
+    zip_path = "data/raw/StockUniteLegale.zip"
+    
+    if not os.path.exists(zip_path):
+        url = get_latest_sirene_url()
+        download_sirene_zip(url, zip_path)
+    else:
+        print("Fichier Sirene ZIP déjà présent en cache.")
+        
     companies = []
     naf_codes_seen = {}
     
-    for l in KNOWN_LAUREATES:
-        print(f" -> Interrogation pour {l['name']}...")
-        result = search_company_with_retry(l["name"])
+    print("Parsing du CSV StockUniteLegale...")
+    with zipfile.ZipFile(zip_path) as z:
+        csv_filename = [name for name in z.namelist() if name.endswith('.csv')][0]
         
-        if result:
-            naf_code = result.get("activite_principale", "Inconnu")
-            companies.append({
-                "companyId": f"siren-{result['siren']}",
-                "companyName": result["nom_complet"],
-                "siren": result["siren"],
-                "nafCode": naf_code,
-                "relatedThemeIds": [l["theme"]],
-                "relatedProgrammeCodes": [l["prog"]],
-                "source": "French Tech 2030 / France 2030 Lauréat",
-                "confidenceScore": 0.95
-            })
-            if naf_code not in naf_codes_seen:
-                naf_codes_seen[naf_code] = {
-                    "nafCode": naf_code,
-                    "nafLabel": result.get("libelle_activite_principale", "Inconnu"),
-                    "relatedThemeIds": [l["theme"]],
-                    "confidenceScore": 0.90
-                }
-            else:
-                if l["theme"] not in naf_codes_seen[naf_code]["relatedThemeIds"]:
-                    naf_codes_seen[naf_code]["relatedThemeIds"].append(l["theme"])
-        time.sleep(0.5) 
-        
-    os.makedirs("data", exist_ok=True)
+        with z.open(csv_filename) as f:
+            text_f = io.TextIOWrapper(f, encoding='utf-8')
+            reader = csv.DictReader(text_f)
+            
+            count = 0
+            for row in reader:
+                count += 1
+                if count % 1000000 == 0:
+                    print(f"  ... {count} lignes analysées")
+                
+                siren = row.get("siren")
+                if siren in TARGET_COMPANIES:
+                    target_info = TARGET_COMPANIES[siren]
+                    naf_code = row.get("activitePrincipaleUniteLegale", "Inconnu")
+                    
+                    companies.append({
+                        "companyId": f"siren-{siren}",
+                        "siren": siren,
+                        "denominationUniteLegale": row.get("denominationUniteLegale", ""),
+                        "nomUniteLegale": row.get("nomUniteLegale", ""),
+                        "prenom1UniteLegale": row.get("prenom1UniteLegale", ""),
+                        "categorieJuridiqueUniteLegale": row.get("categorieJuridiqueUniteLegale", ""),
+                        "activitePrincipaleUniteLegale": naf_code,
+                        "nomenclatureActivitePrincipaleUniteLegale": row.get("nomenclatureActivitePrincipaleUniteLegale", ""),
+                        "etatAdministratifUniteLegale": row.get("etatAdministratifUniteLegale", ""),
+                        "dateCreationUniteLegale": row.get("dateCreationUniteLegale", ""),
+                        "relatedThemeIds": [target_info["theme"]],
+                        "relatedProgrammeCodes": [target_info["prog"]],
+                        "source": target_info["source"],
+                        "confidenceScore": 1.0
+                    })
+                    
+                    if naf_code not in naf_codes_seen:
+                        naf_codes_seen[naf_code] = {
+                            "nafCode": naf_code,
+                            "nafLabel": "Inconnu (issu du flux CSV)",
+                            "relatedThemeIds": [target_info["theme"]],
+                            "confidenceScore": 0.90
+                        }
+                    else:
+                        if target_info["theme"] not in naf_codes_seen[naf_code]["relatedThemeIds"]:
+                            naf_codes_seen[naf_code]["relatedThemeIds"].append(target_info["theme"])
+                            
+                    if len(companies) == len(TARGET_COMPANIES):
+                        print("✅ Toutes les entreprises cibles trouvées ! Fin du streaming.")
+                        break
+
     with open("data/companies.json", "w", encoding="utf-8") as f:
         json.dump(companies, f, indent=2, ensure_ascii=False)
     with open("data/naf_codes.json", "w", encoding="utf-8") as f:
         json.dump(list(naf_codes_seen.values()), f, indent=2, ensure_ascii=False)
         
-    print(f"✅ {len(companies)} entreprises fiabilisées sauvegardées.")
+    print(f"✅ Exporté dans data/companies.json")
 
 if __name__ == "__main__":
     main()
