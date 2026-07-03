@@ -1,92 +1,149 @@
 import streamlit as st
-import sqlite3
-import pandas as pd
 import json
+import pandas as pd
+import os
 
 # Configuration de la page
 st.set_page_config(page_title="France 2030 - Dashboard", page_icon="🇫🇷", layout="wide")
 
-st.title("🇫🇷 POC France 2030 : Du Budget aux Débats Parlementaires")
+st.title("🇫🇷 POC France 2030 : Exploration du Contrat Data (JSON)")
 st.markdown("""
-Ce tableau de bord interactif permet de naviguer dans les données du plan **France 2030**.
-Il connecte la base de données relationnelle locale (`france2030.sqlite`) générée par nos scripts.
+Ce tableau de bord se branche **directement sur les fichiers JSON générés pour le Front-End** dans le dossier `dataset/`.
+Il agit comme un miroir de validation métier, assurant que ce qui est affiché ici sera exactement ce qui apparaîtra sur Minerve.fr.
 """)
 
-# Connexion à SQLite
-@st.cache_resource
-def get_db_connection():
-    conn = sqlite3.connect("data/france2030.sqlite", check_same_thread=False)
-    return conn
+# Chargement générique des JSON du contrat Front
+@st.cache_data
+def load_front_dataset(filepath):
+    """Charge un fichier JSON du contrat front. Renvoie la liste 'programmes' ou le tableau direct."""
+    full_path = os.path.join("dataset", filepath)
+    if not os.path.exists(full_path):
+        st.error(f"Fichier introuvable : {full_path}")
+        return []
+        
+    with open(full_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+        
+    if isinstance(data, dict) and "programmes" in data:
+        return data["programmes"]
+    return data
 
-conn = get_db_connection()
+# Chargement des données
+budget_data = load_front_dataset("budget/france-2030-budget-lines.json")
+programs_data = load_front_dataset("catalog/investment-programmes.json")
+parliament_data = load_front_dataset("sources/parliamentary-documents.json")
+companies_data = load_front_dataset("sources/sirene-companies.json")
 
-# Onglets
-tab1, tab2, tab3 = st.tabs(["💰 Budget & Programmes", "🏛️ Débats Parlementaires", "🚀 Entreprises & Startups"])
+# Création des onglets (Miroir des routes du Front)
+tab_accueil, tab_transversal, tab_programme = st.tabs(["🏠 Accueil (/)", "📊 Transversale (/investissements)", "🔍 Rapport (/investissements/[id])"])
 
-with tab1:
-    st.header("Analyse du Budget France 2030 (PLF 2025)")
+# ==========================================
+# ONGLET 1 : ACCUEIL
+# ==========================================
+with tab_accueil:
+    st.header("Vue Macro France 2030")
     
-    query_budget = """
-    SELECT p.programmeCode, p.programmeName, SUM(b.amount2025) as budget_2025 
-    FROM programs p 
-    JOIN budget_lines b ON p.programmeCode = b.programmeCode 
-    GROUP BY p.programmeName 
-    ORDER BY budget_2025 DESC;
-    """
-    df_budget = pd.read_sql(query_budget, conn)
+    # Agrégation des montants depuis le fichier Budget
+    df_budget = pd.DataFrame(budget_data)
+    total_2025 = df_budget["amount2025"].sum() if not df_budget.empty and "amount2025" in df_budget else 0
     
-    # Affichage des métriques clés
-    col1, col2 = st.columns(2)
-    col1.metric("Budget Total 2025 (France 2030)", f"{df_budget['budget_2025'].sum() / 1e9:.2f} Milliards €")
-    col2.metric("Programme le mieux doté", df_budget.iloc[0]['programmeName'])
+    # Agrégation des entreprises et mentions
+    total_mentions = sum(len(p.get("documents", [])) for p in parliament_data)
+    total_companies = sum(len(p.get("companies", [])) for p in companies_data)
     
-    st.subheader("Répartition du budget par programme")
-    st.bar_chart(df_budget.set_index("programmeName")["budget_2025"])
+    col1, col2, col3 = st.columns(3)
+    col1.metric("Budget 2025 Identifié", f"{total_2025 / 1e9:.2f} Mds €" if total_2025 else "N/A")
+    col2.metric("Mentions Parlementaires", total_mentions)
+    col3.metric("Startups/Entreprises Lauréates", total_companies)
     
-    st.dataframe(df_budget.style.format({"budget_2025": "{:,.0f} €"}))
+    if not df_budget.empty:
+        st.subheader("Répartition budgétaire 2025 par Programme")
+        # Grouper par programmeName
+        df_grouped = df_budget.groupby("programmeName")["amount2025"].sum().reset_index()
+        st.bar_chart(df_grouped.set_index("programmeName")["amount2025"])
 
-with tab2:
-    st.header("L'écho de France 2030 à l'Assemblée Nationale")
+# ==========================================
+# ONGLET 2 : VUE TRANSVERSALE
+# ==========================================
+with tab_transversal:
+    st.header("Liste des Investissements France 2030")
     
-    query_mentions = """
-    SELECT t.themeName as 'Thématique', COUNT(pm.mentionId) as 'Nombre de mentions'
-    FROM themes t
-    LEFT JOIN parliament_mentions pm ON t.themeId = pm.relatedThemeId
-    GROUP BY t.themeName
-    ORDER BY 'Nombre de mentions' DESC
-    LIMIT 10;
-    """
-    df_mentions = pd.read_sql(query_mentions, conn)
-    
-    st.subheader("Thématiques technologiques les plus discutées")
-    st.bar_chart(df_mentions.set_index("Thématique")["Nombre de mentions"])
-    
-    st.subheader("Derniers Amendements / Questions Écrites")
-    query_details = "SELECT date, speakerName, politicalGroup, matchedKeyword, interventionText FROM parliament_mentions LIMIT 10;"
-    df_details = pd.read_sql(query_details, conn)
-    for _, row in df_details.iterrows():
-        with st.expander(f"🗣️ {row['speakerName']} ({row['politicalGroup']}) - {row['date']} - Mot-clé : {row['matchedKeyword']}"):
-            st.write(row['interventionText'])
+    if programs_data:
+        df_programs = pd.DataFrame([{
+            "Code": p.get("programmeCode"),
+            "Nom": p.get("programmeName"),
+            "Mission": p.get("missionName"),
+            "Mocké ?": "Oui" if p.get("isMock") else "Non",
+            "Confiance": p.get("confidence")
+        } for p in programs_data])
+        
+        st.dataframe(df_programs, use_container_width=True)
+    else:
+        st.info("Aucune donnée de catalogue trouvée.")
 
-with tab3:
-    st.header("Les Acteurs de l'Innovation (Entreprises & DeepTech)")
+# ==========================================
+# ONGLET 3 : VUE PROGRAMME
+# ==========================================
+with tab_programme:
+    st.header("Rapport par Programme")
     
-    query_companies = """
-    SELECT c.companyName as 'Nom', c.siren as 'SIREN', c.nafCode as 'Code NAF', t.themeName as 'Thématique liée'
-    FROM companies c
-    JOIN themes t ON c.companyId IN (
-        SELECT sourceEntityId FROM correlations 
-        WHERE targetEntityId = t.themeId AND sourceEntityType = 'company'
-    )
-    """
-    try:
-        df_comp = pd.read_sql(query_companies, conn)
-        st.dataframe(df_comp)
-    except Exception as e:
-        # Fallback query if correlation join is too complex for SQLite string array
-        st.info("Aperçu brut des lauréats France 2030 intégrés en base :")
-        query_simple = "SELECT companyName, siren, nafCode, source FROM companies"
-        st.dataframe(pd.read_sql(query_simple, conn))
+    if programs_data:
+        # Sélecteur de programme
+        prog_options = {p.get("programmeCode"): f"{p.get('programmeCode')} - {p.get('programmeName')}" for p in programs_data}
+        selected_prog_code = st.selectbox("Sélectionnez un Programme", options=list(prog_options.keys()), format_func=lambda x: prog_options[x])
+        
+        st.divider()
+        st.subheader(f"Dossier Programme {selected_prog_code}")
+        
+        col_bud, col_parl = st.columns(2)
+        
+        with col_bud:
+            st.write("💰 **Lignes Budgétaires Associées**")
+            prog_budget = [b for b in budget_data if str(b.get("programmeCode")) == selected_prog_code]
+            if prog_budget:
+                df_prog_bud = pd.DataFrame(prog_budget)[["expenseCategoryName", "amount2025"]]
+                st.dataframe(df_prog_bud.style.format({"amount2025": "{:,.0f} €"}))
+            else:
+                st.write("Aucun budget identifié.")
+                
+        with col_parl:
+            st.write("🏛️ **Écho Parlementaire**")
+            prog_mentions = next((p for p in parliament_data if str(p.get("programmeCode")) == selected_prog_code), {})
+            docs = prog_mentions.get("documents", [])
+            if docs:
+                for doc in docs:
+                    with st.expander(f"{doc.get('speakerName')} ({doc.get('politicalGroup')}) - {doc.get('matchedKeyword')}"):
+                        st.write(doc.get('text'))
+                        st.caption(f"Date: {doc.get('date')} - Source: {doc.get('url')}")
+            else:
+                st.write("Aucun écho parlementaire trouvé pour ce programme.")
+                
+        st.divider()
+        st.write("🚀 **Startups & Deeptech Soutenues**")
+        prog_comp = next((p for p in companies_data if str(p.get("programmeCode")) == selected_prog_code), {})
+        companies = prog_comp.get("companies", [])
+        if companies:
+            st.dataframe(pd.DataFrame(companies))
+        else:
+            st.write("Aucune entreprise identifiée pour ce programme.")
+            
+    else:
+        st.warning("Veuillez générer les fichiers JSON du contrat front d'abord.")
 
-st.sidebar.title("Informations")
-st.sidebar.info("Données générées via Open Data (data.gouv.fr, API Sirene, NosDéputés.fr).")
+# Sidebar de debug / Data Quality
+st.sidebar.title("🛠️ Validation Métier")
+st.sidebar.markdown("""
+Ce panel vérifie la qualité des JSON du dossier `dataset/`.
+""")
+
+st.sidebar.subheader("Statut des Mocks")
+# Vérifie le booléen isMock dans les fichiers
+is_mock_budget = False # Budget lines n'a pas le tag global mais dans la row.
+is_mock_comp = any(p.get("isMock", False) for p in companies_data)
+is_mock_parl = any(p.get("isMock", False) for p in parliament_data)
+
+st.sidebar.write(f"Budget Lines : {'🔴 MOCK' if is_mock_budget else '🟢 REAL'}")
+st.sidebar.write(f"Entreprises : {'🔴 MOCK' if is_mock_comp else '🟢 REAL'}")
+st.sidebar.write(f"Mentions Parl. : {'🔴 MOCK' if is_mock_parl else '🟢 REAL'}")
+
+st.sidebar.info("Modifiez les scripts d'extraction puis lancez `make export-front` pour actualiser ces vues.")
