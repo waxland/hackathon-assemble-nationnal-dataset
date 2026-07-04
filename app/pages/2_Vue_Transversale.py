@@ -2,6 +2,9 @@ import streamlit as st
 import pandas as pd
 from app import load_front_dataset
 import io
+from streamlit_sidebar import render_sidebar
+
+render_sidebar("Vue Transversale")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:

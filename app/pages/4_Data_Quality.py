@@ -4,6 +4,9 @@ import os
 import sqlite3
 import pandas as pd
 from app import load_front_dataset
+from streamlit_sidebar import render_sidebar
+
+render_sidebar("Data Quality")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:

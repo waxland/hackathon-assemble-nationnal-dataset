@@ -5,6 +5,7 @@ import sqlite3
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from streamlit_sidebar import render_sidebar
 
 
 DB_PATH = "data/france2030.sqlite"
@@ -62,6 +63,7 @@ st.set_page_config(
     page_icon="app/content/favicon.ico",
     layout="wide",
 )
+render_sidebar("SNA Mots Cles Parlement")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:

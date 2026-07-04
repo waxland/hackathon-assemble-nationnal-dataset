@@ -3,6 +3,7 @@ import re
 
 import pandas as pd
 import streamlit as st
+from streamlit_sidebar import render_sidebar
 
 
 DOC_PATH = "DOCS_DATA_USAGE.md"
@@ -57,10 +58,11 @@ def strip_markdown_links(value):
 
 
 st.set_page_config(
-    page_title="Docs Data Usage",
+    page_title="Documentation des sources et URLs",
     page_icon="app/content/favicon.ico",
     layout="wide",
 )
+render_sidebar("Docs Data Usage")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
@@ -98,7 +100,10 @@ if tables:
         )
         main_table = main_table[mask]
 
-    display_table = main_table.applymap(strip_markdown_links)
+    if hasattr(main_table, "map"):
+        display_table = main_table.map(strip_markdown_links)
+    else:
+        display_table = main_table.apply(lambda column: column.map(strip_markdown_links))
     st.dataframe(display_table, use_container_width=True, hide_index=True)
 
     st.caption(f"{len(display_table)} source(s) affichee(s).")

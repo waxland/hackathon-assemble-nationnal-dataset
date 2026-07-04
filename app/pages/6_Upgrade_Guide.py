@@ -1,7 +1,9 @@
 import streamlit as st
 import os
+from streamlit_sidebar import render_sidebar
 
 st.set_page_config(page_title="Upgrade POC", page_icon="🚀", layout="wide")
+render_sidebar("Upgrade Guide")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
@@ -22,4 +24,3 @@ if os.path.exists(filepath):
     st.markdown(content)
 else:
     st.error(f"Le fichier `{filepath}` est introuvable.")
-

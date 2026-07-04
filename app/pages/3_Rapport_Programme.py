@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 import json
 import os
 from app import load_front_dataset
+from streamlit_sidebar import render_sidebar
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
@@ -44,6 +45,9 @@ def load_local_json(path):
 def programme_in_list(item, programme_code):
     codes = item.get("relatedProgrammeCodes") or []
     return str(programme_code) in [str(code) for code in codes]
+
+
+render_sidebar("Rapport Programme")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:

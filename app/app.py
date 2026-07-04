@@ -1,6 +1,7 @@
 import streamlit as st
 import json
 import os
+from streamlit_sidebar import render_sidebar
 
 # Paramétrage global de la page
 st.set_page_config(
@@ -28,10 +29,7 @@ def load_markdown(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         return f.read()
 
-# Router multipage natif de Streamlit (dossier 'pages/')
-st.sidebar.image("app/content/icon-minerve.png", width=100)
-st.sidebar.title("Hackathon 2026")
-st.sidebar.markdown("Exploration du dataset **France 2030**.")
+render_sidebar("Accueil")
 
 # --- Page d'accueil par défaut ---
 st.title("🇫🇷 POC France 2030 : Contrat Data (JSON)")

@@ -3,6 +3,9 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 from app import load_front_dataset
+from streamlit_sidebar import render_sidebar
+
+render_sidebar("Vue Macro")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:

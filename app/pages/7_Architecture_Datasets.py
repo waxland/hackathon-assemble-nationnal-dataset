@@ -1,6 +1,8 @@
 import streamlit as st
+from streamlit_sidebar import render_sidebar
 
 st.set_page_config(page_title="Architecture des Datasets", page_icon="📚", layout="wide")
+render_sidebar("Architecture Datasets")
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
