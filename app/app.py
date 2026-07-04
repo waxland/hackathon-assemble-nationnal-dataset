@@ -29,7 +29,7 @@ def load_markdown(filepath):
         return f.read()
 
 # Router multipage natif de Streamlit (dossier 'pages/')
-st.sidebar.image("app/content/favicon.svg", width=100)
+st.sidebar.image("app/content/icon-minerve.png", width=100)
 st.sidebar.title("Hackathon 2026")
 st.sidebar.markdown("Exploration du dataset **France 2030**.")
 
