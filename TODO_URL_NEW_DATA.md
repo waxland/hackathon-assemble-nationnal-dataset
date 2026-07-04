@@ -510,3 +510,46 @@ Critere d'acceptation :
 - [x] Aucun montant n'est cree par interpretation si la source ne fournit pas explicitement le chiffre.
 - [x] Les scripts sont idempotents.
 - [x] Les controles qualite signalent toute provenance incomplete.
+
+### 2.7 Info.gouv - Lauréats France 2030 (API publique SGPI)
+
+Source des lauréats :
+
+- Page web vitrine : `https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list`
+- Type : Annuaire exhaustif des bénéficiaires et projets subventionnés France 2030 exposés par le gouvernement.
+- Utilité : Il s'agit de la source principale de restitution au grand public, à croiser en priorité absolue avec les remontées opérateur.
+
+JSON attendus :
+
+- [ ] Créer `scripts/25_ingest_infogouv_laureats.py`.
+- [ ] Créer `data/infogouv_laureats.json` ou enrichir directement `data/projects.json` et `data/project_beneficiaries.json` selon ce que l'API expose.
+- [ ] Ajouter la source `infogouv-laureats` au registre `data/sources.json`.
+- [ ] Mettre à jour `data/correlations.json` pour relier le projet info.gouv au programme ou thème s'il est explicitement indiqué.
+
+Champs minimaux pour les lauréats ou les projets importés depuis info.gouv :
+
+```json
+{
+  "projectId": "proj-infogouv-XXX",
+  "projectName": "Nom du projet",
+  "operatorName": "SGPI / info.gouv.fr",
+  "sourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats",
+  "datasetUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats",
+  "resourceUrl": "URL technique (API/XHR) si trouvée",
+  "sourceProducer": "SGPI",
+  "confidenceScore": 1.0,
+  "validationStatus": "validated"
+}
+```
+
+Tâches :
+
+- [ ] Analyser le Network tab (XHR) de la page Info.gouv pour identifier l'API JSON cachée qui peuple la liste des lauréats.
+- [ ] Extraire les projets, montants de subvention, SIREN bénéficiaires, localisation et thématique s'ils sont disponibles.
+- [ ] Croiser les SIREN trouvés sur Info.gouv avec ceux déjà extraits via l'ADEME ou la Caisse des Dépôts pour dé-dupliquer les fiches entreprises.
+- [ ] Ne créer une nouvelle entreprise que si son SIREN est validé, et garantir un `confidenceScore: 1.0` puisqu'elle est labellisée officiellement.
+
+Critère d'acceptation :
+
+- [ ] Les lauréats exposés sur Info.gouv se retrouvent dans `projects.json` avec la propriété `sourceUrl` pointant vers la page Info.gouv.
+- [ ] Les graphes Neo4j exportés montrent bien les nœuds `Project` reliés aux bénéficiaires.
