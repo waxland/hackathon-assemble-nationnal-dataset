@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from app import load_front_dataset
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # Couleurs DSFR
 COLOR_BLEU_FRANCE = "#000091"
@@ -33,10 +35,13 @@ if programs_data:
         if prog_budget:
             df_prog_bud = pd.DataFrame(prog_budget)
             fig_bar = px.bar(df_prog_bud, x="expenseCategoryName", y="amount2025", 
-                             title="Répartition par type de dépense",
+                             title="Répartition par type de dépense (2025)",
                              color="expenseCategoryName",
                              color_discrete_sequence=[COLOR_BLEU_FRANCE, COLOR_ROUGE_MARIANNE])
             st.plotly_chart(fig_bar, use_container_width=True)
+            
+            # TODO Amélioration de la page Macro: Temporalité YtY
+            st.info("💡 En développement : Comparaison YtY (2024 vs 2025) à venir ici.")
         else:
             st.write("Aucun budget identifié.")
             
@@ -58,8 +63,26 @@ if programs_data:
                                     title="Chronologie des interventions", nbins=10)
             st.plotly_chart(fig_time, use_container_width=True)
             
+            # Wordcloud
+            st.markdown("**Nuage de mots des débats :**")
+            all_text = " ".join([doc.get("text", "") for doc in docs])
+            if len(all_text) > 10:
+                wordcloud = WordCloud(width=800, height=400, background_color='white', colormap='Blues').generate(all_text)
+                fig_wc, ax = plt.subplots(figsize=(8, 4))
+                ax.imshow(wordcloud, interpolation='bilinear')
+                ax.axis('off')
+                st.pyplot(fig_wc)
+            
             st.markdown("**Derniers verbatims extraits :**")
-            for doc in docs[:5]:
+            # Pagination simulée
+            page_size = 5
+            total_pages = len(docs) // page_size + (1 if len(docs) % page_size > 0 else 0)
+            page = st.number_input("Page de verbatims", min_value=1, max_value=max(1, total_pages), value=1)
+            
+            start_idx = (page - 1) * page_size
+            end_idx = start_idx + page_size
+            
+            for doc in docs[start_idx:end_idx]:
                 with st.expander(f"🗣️ {doc.get('speakerName')} ({doc.get('politicalGroup')}) - {doc.get('date')}"):
                     st.markdown(f"**Mot-clé détecté :** `{doc.get('matchedKeyword')}`")
                     st.info(doc.get('text'))
