@@ -1,0 +1,110 @@
+[
+  {
+    "sourceId": "src-budget-2024",
+    "name": "PLF 2024 - Dépenses 2024 selon nomenclatures destination et nature",
+    "datasetId": "655d452025f7f2a6f3a6435b",
+    "resourceId": "plf-2024-depenses-2024-selon-nomenclatures-destination-et-nature.csv",
+    "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf-2024-depenses-2024-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "updateFrequency": "annuelle",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/02_extract_budget_lines.py"
+  },
+  {
+    "sourceId": "src-budget-2025",
+    "name": "PLF 2025 - Dépenses 2025 du BG et des BA selon nomenclatures destination et nature",
+    "datasetId": "6709bd51daeddce062e00b22",
+    "resourceId": "plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature.csv",
+    "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "updateFrequency": "annuelle",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/02_extract_budget_lines.py"
+  },
+  {
+    "sourceId": "src-pap-2025",
+    "name": "PLF 2025 - Performance de la dépense (PAP)",
+    "datasetId": "67f5bbc503325228295b7ea1",
+    "resourceId": "plf-2025-performance.csv",
+    "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf-2025-performance/exports/csv?use_labels=true",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "updateFrequency": "annuelle",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/03_parse_pap.py"
+  },
+  {
+    "sourceId": "src-budget-vert-2026",
+    "name": "PLF 2026 - Budget vert",
+    "datasetId": "plf-2026-budget-vert",
+    "resourceId": "plf-2026-budget-vert.csv",
+    "url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf-2026-budget-vert/exports/csv?use_labels=true",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "Ministère de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+    "updateFrequency": "annuelle",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/14_ingest_budget_vert_2026.py"
+  },
+  {
+    "sourceId": "src-sirene",
+    "name": "Base Sirene des entreprises et de leurs établissements (SIREN, SIRET)",
+    "datasetId": "58e53811c751df03df38f42d",
+    "resourceId": "stock-stockunitelegale-csv.zip",
+    "url": "https://www.data.gouv.fr/api/1/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "INSEE",
+    "updateFrequency": "quotidienne",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/09_fetch_companies.py"
+  },
+  {
+    "sourceId": "src-nosdeputes",
+    "name": "API de recherche NosDéputés.fr",
+    "datasetId": "nosdeputes-api",
+    "resourceId": "api-recherche",
+    "url": "https://www.nosdeputes.fr/recherche/",
+    "license": "ODbL",
+    "producer": "Regards Citoyens",
+    "updateFrequency": "quotidienne",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/07_fetch_parliament_mentions.py"
+  },
+  {
+    "sourceId": "src-laureats-cdc",
+    "name": "Liste des lauréats Démonstrateurs ville durable - France 2030",
+    "datasetId": "liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "resourceId": "liste-des-laureats.csv",
+    "url": "https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/liste-des-laureats/exports/csv?use_labels=true",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "Caisse des Dépôts",
+    "updateFrequency": "irrégulière",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/15_ingest_fr2030_laureates.py"
+  },
+  {
+    "sourceId": "src-ademe",
+    "name": "Projets de recherche ADEME - vue détaillée depuis 2021",
+    "datasetId": "projets-de-recherche-ademe-vue-detaillee-depuis-2021",
+    "resourceId": "projets-de-recherche-ademe-vue-detaillee-depuis-2021.csv",
+    "url": "https://data.ademe.fr/data-fair/api/v1/datasets/projets-de-recherche-ademe-vue-detaillee-depuis-2021/convert?format=csv",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "ADEME",
+    "updateFrequency": "irrégulière",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/16_ingest_ademe_research_projects.py"
+  },
+  {
+    "sourceId": "src-brevets",
+    "name": "Déposants des brevets",
+    "datasetId": "deposants-des-brevets-1",
+    "resourceId": "deposants-des-brevets.csv",
+    "url": "https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/deposants-des-brevets/exports/csv?use_labels=true",
+    "license": "Licence Ouverte / Open Licence version 2.0",
+    "producer": "INPI",
+    "updateFrequency": "annuelle",
+    "lastCheckedAt": "2026-07-04T00:00:00Z",
+    "ingestionScript": "scripts/17_ingest_patent_depositors.py"
+  }
+]

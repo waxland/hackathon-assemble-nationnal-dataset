@@ -141,6 +141,18 @@ def init_db(db_path):
         sourceUrl TEXT,
         confidenceScore REAL
     );
+    CREATE TABLE IF NOT EXISTS source_registry (
+        sourceId TEXT PRIMARY KEY,
+        name TEXT,
+        datasetId TEXT,
+        resourceId TEXT,
+        url TEXT,
+        license TEXT,
+        producer TEXT,
+        updateFrequency TEXT,
+        lastCheckedAt TEXT,
+        ingestionScript TEXT
+    );
     CREATE TABLE IF NOT EXISTS ingestion_runs (
         runId TEXT PRIMARY KEY,
         startedAt TEXT,
@@ -211,7 +223,8 @@ def main():
             ("data/projects.json", "projects", ["projectId", "projectName", "description", "operator", "grantAmount", "sourceUrl", "confidenceScore"]),
             ("data/project_beneficiaries.json", "project_beneficiaries", ["beneficiaryId", "name", "type", "confidenceScore"]),
             ("data/territories.json", "territories", ["territoryId", "communeCode", "communeName", "departement", "region", "confidenceScore"]),
-            ("data/patent_depositors.json", "patent_depositors", ["patentFamilyId", "siren", "companyName", "nbDemandes", "nbFamilles", "sourceUrl", "confidenceScore"])
+            ("data/patent_depositors.json", "patent_depositors", ["patentFamilyId", "siren", "companyName", "nbDemandes", "nbFamilles", "sourceUrl", "confidenceScore"]),
+            ("data/sources.json", "source_registry", ["sourceId", "name", "datasetId", "resourceId", "url", "license", "producer", "updateFrequency", "lastCheckedAt", "ingestionScript"])
         ]
         
         for filepath, table, keys in files_and_tables:

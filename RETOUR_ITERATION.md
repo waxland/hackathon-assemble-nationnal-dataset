@@ -80,3 +80,12 @@
 - **Commandes lancées + résultats** : Exécution de `17`. Le fichier cible contient désormais les brevets d'entreprises clés (Ex: Ynsect a déposé 366 demandes).
 - **Blocages / observations** : Rien de bloquant. La lecture par chunks a parfaitement pallié les problèmes de RAM.
 - **Prochaine tâche recommandée** : P1.5 Registre des sources
+
+## [2026-07-04] Tâche P1.5 : Registre des sources
+
+- **Tâche traitée** : P1.5 Registre des sources
+- **Fichiers modifiés** : `data/sources.json`, `scripts/11_export_to_sqlite.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Création manuelle d'un registre consolidé (`data/sources.json`) documentant l'intégralité des 9 flux de données Open Data utilisés par nos scripts (Budget, PAP, Sirene, ADEME, INPI, etc.). Ce fichier inclut l'URL, la licence, le producteur et la fréquence de mise à jour. Ajout de la table `source_registry` dans SQLite via le script 11.
+- **Commandes lancées + résultats** : `./venv/bin/python scripts/11_export_to_sqlite.py` s'est exécuté sans erreur et a ingéré la nouvelle table.
+- **Blocages / observations** : Rien de bloquant. La documentation est désormais auditables par un non-développeur directement dans SQLite ou dans le JSON.
+- **Prochaine tâche recommandée** : P2.1 Mentions parlementaires (Fiabilisation des faux positifs via NLP contextuel si jugé nécessaire).

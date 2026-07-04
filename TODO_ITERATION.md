@@ -298,14 +298,14 @@ Critere d'acceptation :
 
 #### P1.5 Registre des sources
 
-- [ ] Creer `data/sources.json`.
-- [ ] Ajouter une entree par source : Budget PLF 2024, Budget PLF 2025, PAP 2025, Budget vert 2026, Sirene, NosDeputes, Demonstrateurs ville durable, ADEME, Brevets.
-- [ ] Pour chaque source, renseigner `sourceId`, `name`, `datasetId`, `resourceId`, `url`, `license`, `producer`, `updateFrequency`, `lastCheckedAt`, `ingestionScript`.
-- [ ] Faire reference a `sourceId` dans les nouveaux JSON quand c'est pertinent.
+- [x] Creer `data/sources.json`.
+- [x] Ajouter une entree par source : Budget PLF 2024, Budget PLF 2025, PAP 2025, Budget vert 2026, Sirene, NosDeputes, Demonstrateurs ville durable, ADEME, Brevets.
+- [x] Pour chaque source, renseigner `sourceId`, `name`, `datasetId`, `resourceId`, `url`, `license`, `producer`, `updateFrequency`, `lastCheckedAt`, `ingestionScript`.
+- [x] Faire reference a `sourceId` dans les nouveaux JSON quand c'est pertinent.
 
 Critere d'acceptation :
 
-- [ ] Une personne peut auditer toutes les sources sans ouvrir les scripts Python.
+- [x] Une personne peut auditer toutes les sources sans ouvrir les scripts Python.
 
 ---
 
