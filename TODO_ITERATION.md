@@ -332,16 +332,16 @@ Critere d'acceptation :
 
 #### P2.2 AAP et dispositifs
 
-- [ ] Conserver les 4 AAP statiques comme `seed` ou `sample`, pas comme source exhaustive.
-- [ ] Ajouter un champ `dataCompleteness: "sample"` dans `calls_for_projects.json` si la source reste statique.
-- [ ] Tester d'abord les datasets data.gouv.fr et Bpifrance/ADEME avant de mettre en place Playwright.
-- [ ] Si scraping `info.gouv.fr` reste necessaire, isoler le scraper dans un script dedie et documenter le blocage Cloudflare.
-- [ ] Ne pas contourner Cloudflare sans justification claire : preferer une source open data brute.
+- [x] Conserver les 4 AAP statiques comme `seed` ou `sample`, pas comme source exhaustive.
+- [x] Ajouter un champ `dataCompleteness: "sample"` dans `calls_for_projects.json` si la source reste statique.
+- [x] Tester d'abord les datasets data.gouv.fr et Bpifrance/ADEME avant de mettre en place Playwright.
+- [x] Si scraping `info.gouv.fr` reste necessaire, isoler le scraper dans un script dedie et documenter le blocage Cloudflare.
+- [x] Ne pas contourner Cloudflare sans justification claire : preferer une source open data brute.
 
 Critere d'acceptation :
 
-- [ ] Le statut des AAP ne laisse pas croire a une couverture exhaustive.
-- [ ] Les AAP nouveaux ont une source exploitable et stable.
+- [x] Le statut des AAP ne laisse pas croire a une couverture exhaustive.
+- [x] Les AAP nouveaux ont une source exploitable et stable.
 
 #### P2.3 Entreprises et SIREN
 

@@ -15,7 +15,8 @@
     "relatedProgrammes": [
       "424",
       "423"
-    ]
+    ],
+    "dataCompleteness": "sample"
   },
   {
     "callId": "aap-briques-h2",
@@ -33,7 +34,8 @@
     "themeId": "2.-leader-de-l-hydrogene-vert",
     "relatedProgrammes": [
       "424"
-    ]
+    ],
+    "dataCompleteness": "sample"
   },
   {
     "callId": "aap-i-nov",
@@ -52,7 +54,8 @@
     "relatedProgrammes": [
       "425",
       "422"
-    ]
+    ],
+    "dataCompleteness": "sample"
   },
   {
     "callId": "aap-sante-num",
@@ -69,6 +72,7 @@
     "themeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
     "relatedProgrammes": [
       "424"
-    ]
+    ],
+    "dataCompleteness": "sample"
   }
 ]

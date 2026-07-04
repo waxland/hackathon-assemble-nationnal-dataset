@@ -98,3 +98,12 @@
 - **Commandes lancées + résultats** : Exécution de `07` puis `11 --reset` puis `13`. La base SQLite possède maintenant le nouveau schéma (55 véritables interventions qualifiées sur 20 mots-clés larges).
 - **Blocages / observations** : Rien de bloquant. Le NLP local est fonctionnel sans avoir eu recours à un LLM. Les verbatims seront beaucoup plus lisibles sur le Front !
 - **Prochaine tâche recommandée** : P2.2 AAP et dispositifs ou P2.3 Entreprises et SIREN.
+
+## [2026-07-04] Tâche P2.2 : Fiabiliser les AAP et dispositifs
+
+- **Tâche traitée** : P2.2 AAP et dispositifs
+- **Fichiers modifiés** : `scripts/06_scrape_calls_for_projects.py`, `scripts/11_export_to_sqlite.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Les sources Open Data tierces (ex: aides-territoires) ont été étudiées mais ne couvrent pas France 2030 de manière exhaustive. Face au blocage Cloudflare d'`info.gouv.fr`, nous avons maintenu notre échantillon statique. Cependant, pour plus de transparence, j'ai ajouté l'attribut `"dataCompleteness": "sample"` dans les JSON des appels à projets ainsi que dans le schéma de la base de données.
+- **Commandes lancées + résultats** : Reset de SQLite pour valider la nouvelle colonne `dataCompleteness`. Le champ est bien intégré au modèle de données.
+- **Blocages / observations** : Toujours ce blocage avec l'anti-bot de Cloudflare. Le fait de marquer explicitement le jeu de données comme un échantillon est une très bonne pratique évitant d'induire en erreur le frontend (Minerve).
+- **Prochaine tâche recommandée** : P2.3 Entreprises et SIREN

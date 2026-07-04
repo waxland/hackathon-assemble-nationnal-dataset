@@ -50,6 +50,7 @@ def init_db(db_path):
         closingDate TEXT,
         sourceUrl TEXT,
         themeId TEXT,
+        dataCompleteness TEXT,
         FOREIGN KEY (themeId) REFERENCES themes (themeId)
     );
     CREATE TABLE IF NOT EXISTS parliament_mentions (
@@ -216,7 +217,7 @@ def main():
             ("data/budget_lines.json", "budget_lines", ["id", "programmeCode", "expenseCategoryCode", "expenseCategoryName", "amount2024", "amount2025", "amount2026", "sourceUrl", "sourceDocument", "qualityStatus"]),
             ("data/themes.json", "themes", ["themeId", "themeName", "confidenceScore"]),
             ("data/keywords.json", "keywords", ["keywordId", "label", "type", "relatedThemeId", "confidenceScore"]),
-            ("data/calls_for_projects.json", "calls_for_projects", ["callId", "title", "description", "operator", "openingDate", "closingDate", "sourceUrl", "themeId"]),
+            ("data/calls_for_projects.json", "calls_for_projects", ["callId", "title", "description", "operator", "openingDate", "closingDate", "sourceUrl", "themeId", "dataCompleteness"]),
             ("data/parliament_mentions.json", "parliament_mentions", ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "matchMethod", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore", "validationStatus"]),
             ("data/naf_codes.json", "naf_codes", ["nafCode", "nafLabel", "confidenceScore"]),
             ("data/companies.json", "companies", ["companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale", "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale", "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"]),

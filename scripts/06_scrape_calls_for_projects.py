@@ -1,11 +1,13 @@
 import json
 import os
+import requests
 
 def fetch_real_aaps():
     """
-    Au lieu de scraper info.gouv.fr qui est protégé par Cloudflare,
-    nous utilisons un échantillon des vrais Appels à Projets structurants
+    Au lieu de scraper info.gouv.fr qui est protégé par Cloudflare (documenté dans RECAP_BLOCAGES),
+    nous utilisons un échantillon "sample" des vrais Appels à Projets structurants
     de France 2030 avec leurs opérateurs.
+    Une vraie intégration demanderait Playwright, qui n'est pas utilisé ici par principe.
     """
     return [
         {
@@ -18,7 +20,8 @@ def fetch_real_aaps():
             "sourceUrl": "https://www.bpifrance.fr/catalogue-offres/france-2030/premiere-usine",
             "keywords": ["kw-startup", "kw-industrie-bas-carbone"],
             "themeId": "3.-decarbonation-de-l-industrie",
-            "relatedProgrammes": ["424", "423"]
+            "relatedProgrammes": ["424", "423"],
+            "dataCompleteness": "sample"
         },
         {
             "callId": "aap-briques-h2",
@@ -30,7 +33,8 @@ def fetch_real_aaps():
             "sourceUrl": "https://agirpourlatransition.ademe.fr/entreprises/aides-financieres",
             "keywords": ["kw-hydrogene-vert", "kw-h2", "kw-electrolyseur"],
             "themeId": "2.-leader-de-l-hydrogene-vert",
-            "relatedProgrammes": ["424"]
+            "relatedProgrammes": ["424"],
+            "dataCompleteness": "sample"
         },
         {
             "callId": "aap-i-nov",
@@ -42,7 +46,8 @@ def fetch_real_aaps():
             "sourceUrl": "https://www.bpifrance.fr/catalogue-offres/france-2030/i-nov",
             "keywords": ["kw-startup", "kw-innovation-de-rupture", "kw-deeptech"],
             "themeId": "soutien-aux-startups-et-deeptech",
-            "relatedProgrammes": ["425", "422"]
+            "relatedProgrammes": ["425", "422"],
+            "dataCompleteness": "sample"
         },
         {
             "callId": "aap-sante-num",
@@ -54,7 +59,8 @@ def fetch_real_aaps():
             "sourceUrl": "https://anr.fr/fr/france-2030",
             "keywords": ["kw-sante-numerique", "kw-dispositif-medical"],
             "themeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
-            "relatedProgrammes": ["424"]
+            "relatedProgrammes": ["424"],
+            "dataCompleteness": "sample"
         }
     ]
 
@@ -69,7 +75,7 @@ def main():
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(calls, f, indent=2, ensure_ascii=False)
         
-    print(f"✅ {len(calls)} véritables Appels à Projets intégrés dans {output_path}")
+    print(f"✅ {len(calls)} véritables Appels à Projets (échantillons) intégrés dans {output_path}")
 
 if __name__ == "__main__":
     main()
