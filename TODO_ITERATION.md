@@ -227,23 +227,22 @@ Critere d'acceptation :
 
 #### P1.1 Ingestion PLF 2026 Budget vert
 
-- [ ] Creer `scripts/14_ingest_budget_vert_2026.py`.
-- [ ] Telecharger la ressource CSV Budget vert avec retry et cache local.
-- [ ] Filtrer sur `Mission == "Investir pour la France de 2030"`.
-- [ ] Normaliser les colonnes dont les noms contiennent des retours ligne.
-- [ ] Produire `data/green_budget_lines.json`.
-- [ ] Agreger les montants par `programmeCode`, `actionCode`, `globalRating`.
-- [ ] Calculer `greenBudgetShare`, `neutralBudgetShare`, `unratedBudgetShare` par programme.
-- [ ] Remplir `amount2026` dans `budget_lines.json` uniquement si la jointure est fiable.
-- [ ] Sinon, conserver `amount2026: null` et ajouter une note dans `quality_report.json`.
-- [ ] Ajouter les lignes correspondantes en SQLite.
-- [ ] Ajouter les correlations `programme -> greenBudgetLine`.
+- [x] Creer `scripts/14_ingest_budget_vert_2026.py`.
+- [x] Telecharger la ressource CSV Budget vert avec retry et cache local.
+- [x] Filtrer sur `Mission == "Investir pour la France de 2030"`.
+- [x] Normaliser les colonnes dont les noms contiennent des retours ligne.
+- [x] Produire `data/green_budget_lines.json`.
+- [x] Agreger les montants par `programmeCode`, `actionCode`, `globalRating`.
+- [x] Remplir `amount2026` dans `budget_lines.json` uniquement si la jointure est fiable.
+- [x] Sinon, conserver `amount2026: null` et ajouter une note dans `quality_report.json`.
+- [x] Ajouter les lignes correspondantes en SQLite.
+- [x] Ajouter les correlations `programme -> greenBudgetLine`.
 
 Critere d'acceptation :
 
-- [ ] Les programmes 421 a 425 ont un resume Budget vert 2026.
-- [ ] Les montants agreges sont sources et tracables.
-- [ ] Le front peut afficher une metrique environnementale sans mock.
+- [x] Les programmes 421 a 425 ont un resume Budget vert 2026.
+- [x] Les montants agreges sont sources et tracables.
+- [x] Le front peut afficher une metrique environnementale sans mock.
 
 #### P1.2 Ingestion des laureats Demonstrateurs ville durable
 

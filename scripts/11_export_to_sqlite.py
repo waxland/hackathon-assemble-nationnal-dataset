@@ -98,6 +98,17 @@ def init_db(db_path):
         evidenceSource TEXT,
         validationStatus TEXT
     );
+    CREATE TABLE IF NOT EXISTS green_budget_lines (
+        id TEXT PRIMARY KEY,
+        programmeCode TEXT,
+        actionCode TEXT,
+        actionName TEXT,
+        globalRating TEXT,
+        amount2026 REAL,
+        sourceUrl TEXT,
+        confidenceScore REAL,
+        FOREIGN KEY (programmeCode) REFERENCES programs (programmeCode)
+    );
     CREATE TABLE IF NOT EXISTS ingestion_runs (
         runId TEXT PRIMARY KEY,
         startedAt TEXT,
@@ -163,7 +174,8 @@ def main():
             ("data/parliament_mentions.json", "parliament_mentions", ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore"]),
             ("data/naf_codes.json", "naf_codes", ["nafCode", "nafLabel", "confidenceScore"]),
             ("data/companies.json", "companies", ["companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale", "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale", "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"]),
-            ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"])
+            ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"]),
+            ("data/green_budget_lines.json", "green_budget_lines", ["id", "programmeCode", "actionCode", "actionName", "globalRating", "amount2026", "sourceUrl", "confidenceScore"])
         ]
         
         for filepath, table, keys in files_and_tables:

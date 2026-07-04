@@ -17,6 +17,7 @@ def main():
     print("Génération de la table plate des corrélations (IDs déterministes)...")
     
     budget_lines = load_json("data/budget_lines.json")
+    green_budget_lines = load_json("data/green_budget_lines.json")
     themes = load_json("data/themes.json")
     calls = load_json("data/calls_for_projects.json")
     mentions = load_json("data/parliament_mentions.json")
@@ -35,6 +36,20 @@ def main():
             "correlationType": "finance",
             "confidenceScore": 1.0,
             "evidenceSource": "budget_lines.json",
+            "validationStatus": "validated"
+        })
+        
+    for gbl in green_budget_lines:
+        cid = get_hash_id(gbl.get("programmeCode"), gbl.get("id"), "green_finance")
+        correlations.append({
+            "correlationId": cid,
+            "sourceEntityType": "programme",
+            "sourceEntityId": gbl.get("programmeCode"),
+            "targetEntityType": "greenBudgetLine",
+            "targetEntityId": gbl.get("id"),
+            "correlationType": "green_finance",
+            "confidenceScore": 1.0,
+            "evidenceSource": "green_budget_lines.json",
             "validationStatus": "validated"
         })
         

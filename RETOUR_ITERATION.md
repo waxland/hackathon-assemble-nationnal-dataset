@@ -44,3 +44,12 @@
 - **Commandes lancées + résultats** : `make export-neo4j`. Fichiers générés avec succès et format CSV strict (rfc4180) respecté.
 - **Blocages / observations** : Les nouveaux types de noeuds (`Project`, `Territory`, etc.) n'ont pas encore été créés dans les étapes précédentes de l'itération, j'ai donc laissé la structure prête à les accueillir.
 - **Prochaine tâche recommandée** : La section P0 (Stabiliser le socle existant) est désormais complète. La prochaine étape logique est de passer aux tâches P1 (Ajouter les sources de forte valeur, ex: P1.1 Ingestion PLF 2026).
+
+## [2026-07-04] Tâche P1.1 : Ingestion PLF 2026 Budget vert
+
+- **Tâche traitée** : P1.1 Ingestion PLF 2026 Budget vert
+- **Fichiers modifiés** : `scripts/14_ingest_budget_vert_2026.py`, `scripts/11_export_to_sqlite.py`, `scripts/10_generate_correlations.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Création du script d'ingestion du Budget Vert. Le fichier CSV gouvernemental contenant des retours à la ligne illégaux dans les headers a été pré-traité avant d'être donné à Pandas. 56 lignes d'actions écologiques ont été extraites. La structure `green_budget_lines` a été ajoutée à SQLite et 56 nouvelles corrélations `green_finance` ont été créées.
+- **Commandes lancées + résultats** : Exécution des scripts. La jointure exacte avec les "Titres" de dépenses classiques (T3/T6) de `budget_lines.json` s'est avérée impossible sans risque de doublons, donc `amount2026` est laissé à `null` conformément aux consignes.
+- **Blocages / observations** : La qualité du CSV fourni par data.gouv est médiocre. Le nettoyage des headers a été obligatoire.
+- **Prochaine tâche recommandée** : Passer à la suite des tâches P1, potentiellement P1.2 (Lauréats Démonstrateurs).

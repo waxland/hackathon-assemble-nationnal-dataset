@@ -1,0 +1,562 @@
+[
+  {
+    "id": "fr2030-green-423-423-02-5534128334485845964",
+    "programmeCode": "423",
+    "actionCode": "423-02",
+    "actionName": "Accompagnement et transformation des filières",
+    "globalRating": "NC",
+    "amount2026": 9660000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-01--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-01",
+    "actionName": "Programmes et équipements prioritaires de recherche",
+    "globalRating": "Favorable",
+    "amount2026": 97535599.78790423,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-425-425-03--1330860796819548947",
+    "programmeCode": "425",
+    "actionCode": "425-03",
+    "actionName": "Aides à l’innovation « bottom-up » (fonds propres)",
+    "globalRating": "Favorable",
+    "amount2026": 85000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-422-422-05--1330860796819548947",
+    "programmeCode": "422",
+    "actionCode": "422-05",
+    "actionName": "Accélération du développement des écosystèmes d'innovation performants",
+    "globalRating": "Favorable",
+    "amount2026": 2486600.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-01-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-01",
+    "actionName": "Programmes et équipements prioritaires de recherche",
+    "globalRating": "NC",
+    "amount2026": 54055747.14646029,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Neutre",
+    "amount2026": 5943362.83185841,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-03--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-03",
+    "actionName": "Démonstration en conditions réelles, amorçage et premières commerciales",
+    "globalRating": "Favorable",
+    "amount2026": 277150000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-423-423-01-5534128334485845964",
+    "programmeCode": "423",
+    "actionCode": "423-01",
+    "actionName": "Soutien à l'innovation collaborative",
+    "globalRating": "NC",
+    "amount2026": 27000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "NC",
+    "amount2026": 820000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Favorable",
+    "amount2026": 10000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "NC",
+    "amount2026": 161935015.734171,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Neutre",
+    "amount2026": 111798346.841692,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-05--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-05",
+    "actionName": "Accélération de la croissance (fonds propres)",
+    "globalRating": "Neutre",
+    "amount2026": 150000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-06--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-06",
+    "actionName": "Industrialisation et déploiement",
+    "globalRating": "Favorable",
+    "amount2026": 179649666.206774,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-06--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-06",
+    "actionName": "Industrialisation et déploiement",
+    "globalRating": "Neutre",
+    "amount2026": 208729197.793226,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-01-5534128334485845964",
+    "programmeCode": "421",
+    "actionCode": "421-01",
+    "actionName": "Nouveaux cursus à l'université",
+    "globalRating": "NC",
+    "amount2026": 20000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "Favorable",
+    "amount2026": 126625385.819539,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "Favorable",
+    "amount2026": 41118147.7079648,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-03--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-03",
+    "actionName": "Démonstration en conditions réelles, amorçage et premières commerciales",
+    "globalRating": "Neutre",
+    "amount2026": 10000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "Neutre",
+    "amount2026": 13880000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "NC",
+    "amount2026": 24866558.7689753,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-05--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-05",
+    "actionName": "Accélération de la croissance (fonds propres)",
+    "globalRating": "Neutre",
+    "amount2026": 200000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "NC",
+    "amount2026": 23256637.1681416,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Favorable",
+    "amount2026": 25986637.4241372,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-03--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-03",
+    "actionName": "Démonstration en conditions réelles, amorçage et premières commerciales",
+    "globalRating": "Favorable",
+    "amount2026": 270000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-05--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-05",
+    "actionName": "Accélération de la croissance (fonds propres)",
+    "globalRating": "Neutre",
+    "amount2026": 10150000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-03-5534128334485845964",
+    "programmeCode": "421",
+    "actionCode": "421-03",
+    "actionName": "Équipements structurants de recherche",
+    "globalRating": "NC",
+    "amount2026": 18993126.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-05-5534128334485845964",
+    "programmeCode": "421",
+    "actionCode": "421-05",
+    "actionName": "Constitution d'écoles universitaires de recherche",
+    "globalRating": "NC",
+    "amount2026": 35000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Favorable",
+    "amount2026": 132126643.763494,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-02--1330860796819548947",
+    "programmeCode": "421",
+    "actionCode": "421-02",
+    "actionName": "Programmes prioritaires de recherche",
+    "globalRating": "Favorable",
+    "amount2026": 7750000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-03--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-03",
+    "actionName": "Démonstration en conditions réelles, amorçage et premières commerciales",
+    "globalRating": "Favorable",
+    "amount2026": 85116621.1174119,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-05--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-05",
+    "actionName": "Accélération de la croissance (fonds propres)",
+    "globalRating": "Favorable",
+    "amount2026": 75000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-425-425-01--1854957480210856686",
+    "programmeCode": "425",
+    "actionCode": "425-01",
+    "actionName": "Financements de l'écosystème ESRI et valorisation",
+    "globalRating": "Neutre",
+    "amount2026": 30872197.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "Neutre",
+    "amount2026": 28316922.2293523,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-01--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-01",
+    "actionName": "Programmes et équipements prioritaires de recherche",
+    "globalRating": "Neutre",
+    "amount2026": 88408653.06563547,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-425-425-01--1854957480210856686",
+    "programmeCode": "425",
+    "actionCode": "425-01",
+    "actionName": "Financements de l'écosystème ESRI et valorisation",
+    "globalRating": "Neutre",
+    "amount2026": 611300000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Neutre",
+    "amount2026": 92506797.4675303,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-04-5534128334485845964",
+    "programmeCode": "421",
+    "actionCode": "421-04",
+    "actionName": "Soutien des grandes universités de recherche",
+    "globalRating": "NC",
+    "amount2026": 73000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "NC",
+    "amount2026": 64107571.9961606,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-425-425-02--1854957480210856686",
+    "programmeCode": "425",
+    "actionCode": "425-02",
+    "actionName": "Aides à l'innovation « bottom-up » (subventions et prêts)",
+    "globalRating": "Neutre",
+    "amount2026": 449598615.77335215,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-03--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-03",
+    "actionName": "Démonstration en conditions réelles, amorçage et premières commerciales",
+    "globalRating": "Neutre",
+    "amount2026": 95618105.9672211,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-425-425-02--1330860796819548947",
+    "programmeCode": "425",
+    "actionCode": "425-02",
+    "actionName": "Aides à l'innovation « bottom-up » (subventions et prêts)",
+    "globalRating": "Favorable",
+    "amount2026": 153187320.2016159,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-423-423-09-5534128334485845964",
+    "programmeCode": "423",
+    "actionCode": "423-09",
+    "actionName": "Grands défis",
+    "globalRating": "NC",
+    "amount2026": 100000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "NC",
+    "amount2026": 78845474.3184267,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Favorable",
+    "amount2026": 304829104.976191,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-02-5534128334485845964",
+    "programmeCode": "421",
+    "actionCode": "421-02",
+    "actionName": "Programmes prioritaires de recherche",
+    "globalRating": "NC",
+    "amount2026": 23250000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-425-425-02-5534128334485845964",
+    "programmeCode": "425",
+    "actionCode": "425-02",
+    "actionName": "Aides à l'innovation « bottom-up » (subventions et prêts)",
+    "globalRating": "NC",
+    "amount2026": 44481464.02503192,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "NC",
+    "amount2026": 40564930.0626829,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-02--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-02",
+    "actionName": "Maturation de technologies, R&D, valorisation de la recherche",
+    "globalRating": "Neutre",
+    "amount2026": 41787042.1843004,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-03-5534128334485845964",
+    "programmeCode": "424",
+    "actionCode": "424-03",
+    "actionName": "Démonstration en conditions réelles, amorçage et premières commerciales",
+    "globalRating": "NC",
+    "amount2026": 61257972.915367,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-421-421-07-5534128334485845964",
+    "programmeCode": "421",
+    "actionCode": "421-07",
+    "actionName": "Territoires d'innovation pédagogique",
+    "globalRating": "NC",
+    "amount2026": 22700000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-422-422-05-5534128334485845964",
+    "programmeCode": "422",
+    "actionCode": "422-05",
+    "actionName": "Accélération du développement des écosystèmes d'innovation performants",
+    "globalRating": "NC",
+    "amount2026": 24865511.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-05--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-05",
+    "actionName": "Accélération de la croissance (fonds propres)",
+    "globalRating": "Neutre",
+    "amount2026": 413445.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-422-422-03--1330860796819548947",
+    "programmeCode": "422",
+    "actionCode": "422-03",
+    "actionName": "Démonstrateurs et territoires d'innovation de grande ambition",
+    "globalRating": "Favorable",
+    "amount2026": 4809489.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-04--1854957480210856686",
+    "programmeCode": "424",
+    "actionCode": "424-04",
+    "actionName": "Soutien au déploiement",
+    "globalRating": "Neutre",
+    "amount2026": 511475420.705382,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  },
+  {
+    "id": "fr2030-green-424-424-06--1330860796819548947",
+    "programmeCode": "424",
+    "actionCode": "424-06",
+    "actionName": "Industrialisation et déploiement",
+    "globalRating": "Favorable",
+    "amount2026": 50000000.0,
+    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+    "confidenceScore": 1.0
+  }
+]
