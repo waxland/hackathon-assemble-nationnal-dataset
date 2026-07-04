@@ -358,8 +358,8 @@ Objectif : ajouter une couche d'audit externe au socle France 2030 afin de rendr
 - [x] Limiter `quoteExtract` a un court extrait, puis privilegier `evidenceSummary` pour rester lisible et eviter de recopier les rapports.
 - [x] Ajouter des correlations `auditDocument -> programme`, `auditFinding -> programme`, `auditRecommendation -> operator`, `auditFinding -> theme` lorsque le lien est explicite.
 - [x] Ajouter les tables SQLite `audit_documents`, `audit_recommendations`, `audit_findings` et les charger via `scripts/11_export_to_sqlite.py`.
-- [ ] Ajouter un export front ou data quality permettant d'afficher les alertes Cour des comptes par programme.
-- [ ] Faire apparaitre les recommandations non traitees dans `data/quality_report.json`.
+- [x] Ajouter un export front ou data quality permettant d'afficher les alertes Cour des comptes par programme.
+- [x] Faire apparaitre les recommandations non traitees dans `data/quality_report.json`.
 
 Schema attendu pour `data/audit_documents.json` :
 
@@ -427,9 +427,9 @@ Schema attendu pour `data/audit_findings.json` :
 Critere d'acceptation :
 
 - [x] Les cinq documents Cour des comptes prioritaires sont references dans `audit_documents.json`.
-- [ ] Chaque recommandation ou constat extrait est source avec URL et page.
-- [ ] Les liens vers programmes/themes ne sont crees que si le document mentionne explicitement le perimetre concerne.
-- [ ] Les recommandations Cour des comptes apparaissent dans le rapport qualite ou l'onglet Data Quality.
+- [x] Chaque recommandation ou constat extrait est source avec URL et page.
+- [x] Les liens vers programmes/themes ne sont crees que si le document mentionne explicitement le perimetre concerne.
+- [x] Les recommandations Cour des comptes apparaissent dans le rapport qualite ou l'onglet Data Quality.
 - [x] Les JSON restent idempotents et utilisent des IDs deterministes.
 
 ---
