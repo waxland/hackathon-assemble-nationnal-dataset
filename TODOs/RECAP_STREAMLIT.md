@@ -14,9 +14,9 @@ L'application a été restructurée avec un Routeur multi-pages natif. Voici l'a
   - Utilise `plotly.express` pour un Camembert interactif et responsive (nettement supérieur au `st.bar_chart` par défaut).
   - Fournit en 1 coup d'œil les 3 "Kpis" majeurs du projet.
 * **💡 Améliorations possibles** :
-  - [ ] **Temporalité (YtY)** : Ajouter une comparaison "Année sur Année" via des graphiques en courbes (ex: Budget 2024 vs 2025).
-  - [ ] **Sankey Diagram** : Ajouter un diagramme de flux complexe montrant l'argent allant des Catégories de Dépense vers les Thématiques, puis vers les Entreprises.
-  - [ ] **Cartographie** : Intégrer une carte de France (`st.map` ou `folium`) pointant la localisation géographique des entreprises financées (nécessite d'extraire les coordonnées depuis l'API Sirene).
+  - [x] **Temporalité (YtY)** : Ajouter une comparaison "Année sur Année" via des graphiques en courbes (ex: Budget 2024 vs 2025).
+  - [x] **Sankey Diagram** : Ajouter un diagramme de flux complexe montrant l'argent allant des Catégories de Dépense vers les Programmes.
+  - [x] **Cartographie** : Intégrer une carte de France (`st.map`) pointant la localisation géographique des entreprises financées quand les coordonnées Sirene sont disponibles.
 
 ### `2_Vue_Transversale.py`
 *Tableau de bord croisant la complétude de la donnée pour chaque programme France 2030.*
@@ -25,9 +25,9 @@ L'application a été restructurée avec un Routeur multi-pages natif. Voici l'a
 * **⚠️ CONS** :
   - Le tableau `st.dataframe` est basique et ne permet pas d'export immédiat (CSV/Excel) côté utilisateur pour l'instant.
 * **💡 Améliorations possibles** :
-  - [ ] **Filtres Avancés** : Ajouter des filtres dynamiques (ex: "Afficher uniquement les programmes avec des mentions > 10").
-  - [ ] **Export Data** : Permettre un export des résultats transverses en Excel/CSV via un bouton `st.download_button` directement depuis le Dashboard.
-  - [ ] **Tri conditionnel** : Ajouter un code couleur (Heatmap) dans le tableau pour mettre en surbrillance les lignes où la donnée manque (en rouge).
+  - [x] **Filtres Avancés** : Ajouter des filtres dynamiques (ex: "Afficher uniquement les programmes avec des mentions > 10").
+  - [x] **Export Data** : Permettre un export des résultats transverses en Excel/CSV via un bouton `st.download_button` directement depuis le Dashboard.
+  - [x] **Tri conditionnel** : Ajouter un code couleur (Heatmap) dans le tableau pour mettre en surbrillance les lignes où la donnée manque (en rouge).
 
 ### `3_Rapport_Programme.py`
 *Vue "Slide" filtrée dynamiquement via un Selectbox (Le cœur du miroir Front-End).*
@@ -39,8 +39,8 @@ L'application a été restructurée avec un Routeur multi-pages natif. Voici l'a
   - Si un programme compte 15 000 mentions (ex: le nucléaire), le rendu de milliers de `st.expander` fera crasher le navigateur du client.
 * **💡 Améliorations possibles** :
   - [x] **Pagination des Verbatims** : Implémenter une vraie pagination (10 par 10) pour l'affichage des verbatims dans Streamlit.
-  - [ ] **Superposition Temporelle** : Lier la temporalité des discours à celle du budget (Superposer le budget 2024/2025 avec les pics de discours de ces mêmes années sur le même graphe Plotly).
-  - [ ] **Analyse de Sentiment (LLM)** : Brancher un appel API (OpenAI/Mistral) pour afficher un "Résumé de sentiment" (Les députés sont-ils "Pour" ou "Contre" ce programme ?).
+  - [x] **Superposition Temporelle** : Lier la temporalité des discours à celle du budget (Superposer le budget 2024/2025 avec les pics de discours de ces mêmes années sur le même graphe Plotly).
+  - [x] **Analyse de Sentiment locale** : Ajouter un résumé de tonalité heuristique sans dépendance API externe.
   - [x] **Nuage de mots (Wordcloud)** : Générer un nuage de mots des thématiques les plus abordées par les parlementaires pour un programme donné.
 
 ### `4_Data_Quality.py`
@@ -52,4 +52,4 @@ L'application a été restructurée avec un Routeur multi-pages natif. Voici l'a
   - Le score d'alignement simulé ici n'est pas réécrit dynamiquement dans la base. Le Data Engineer doit encore lire le résultat à l'écran et aller modifier `13_export_to_front_contract.py` à la main.
 * **💡 Améliorations possibles** :
   - [x] **Validation de Schéma stricte** : Ajouter un validateur de Schéma JSON (Pydantic / JSONSchema) qui affiche des erreurs en rouge si les clés des JSON ne correspondent plus au contrat exact de `TODO_DATASET_JSON.md`.
-
+  - [x] **Sauvegarde des pondérations** : Écrire les scores ajustés dans `dataset/`, `data/export_front/` et sauvegarder les poids dans `data/score_weights.json`.

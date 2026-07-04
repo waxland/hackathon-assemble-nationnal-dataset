@@ -3,7 +3,101 @@ import json
 import os
 import sqlite3
 import pandas as pd
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from app import load_front_dataset
+
+
+class ContractBase(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    programmeCode: str
+    isMock: bool
+    updatedAt: str
+    confidence: float | None = None
+
+
+class BudgetLine(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    id: str
+    programmeCode: str
+    programmeName: str
+    expenseCategoryName: str
+    amount2025: float | None = None
+    isMock: bool
+    sourceUrl: str | None = None
+    confidence: float | None = None
+    updatedAt: str
+
+
+class ProgrammeCatalog(ContractBase):
+    programmeName: str
+    missionName: str
+
+
+class CompaniesByProgramme(ContractBase):
+    companies: list[dict] = Field(default_factory=list)
+
+
+class ParliamentByProgramme(ContractBase):
+    documents: list[dict] = Field(default_factory=list)
+
+
+class TaxonomyByProgramme(ContractBase):
+    themes: list[dict] = Field(default_factory=list)
+
+
+class AlignmentScore(ContractBase):
+    data: dict = Field(default_factory=dict)
+
+
+class GenericProgrammeData(ContractBase):
+    data: list | dict = Field(default_factory=list)
+
+
+def validate_contract_items(name, items, model):
+    errors = []
+    for idx, item in enumerate(items):
+        try:
+            model.model_validate(item)
+        except ValidationError as exc:
+            errors.append({
+                "file": name,
+                "index": idx,
+                "errors": exc.errors(),
+            })
+    return errors
+
+
+def contract_status(filepath, model):
+    items = load_front_dataset(filepath)
+    if not items:
+        return {
+            "Fichier": filepath,
+            "Statut": "Introuvable",
+            "Objets": 0,
+            "Mocks": 0,
+            "Erreurs schema": 0,
+            "errors": [],
+        }
+
+    errors = validate_contract_items(filepath, items, model)
+    mock_count = sum(1 for item in items if item.get("isMock", False))
+    if errors:
+        status = "Schema invalide"
+    elif mock_count:
+        status = "Mock partiel"
+    else:
+        status = "Réel"
+
+    return {
+        "Fichier": filepath,
+        "Statut": status,
+        "Objets": len(items),
+        "Mocks": mock_count,
+        "Erreurs schema": len(errors),
+        "errors": errors,
+    }
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
@@ -20,29 +114,33 @@ programs_data = load_front_dataset("catalog/investment-programmes.json")
 parliament_data = load_front_dataset("sources/parliamentary-documents.json")
 companies_data = load_front_dataset("sources/sirene-companies.json")
 
-def check_mock(data_array):
-    if not data_array: return "🔴 Introuvable"
-    return "🔴 MOCK" if any(p.get("isMock", False) for p in data_array) else "🟢 REAL"
+contracts = [
+    ("budget/france-2030-budget-lines.json", BudgetLine),
+    ("catalog/investment-programmes.json", ProgrammeCatalog),
+    ("matching/programme-taxonomy.json", TaxonomyByProgramme),
+    ("metrics/programme-alignment-scores.json", AlignmentScore),
+    ("sources/sirene-companies.json", CompaniesByProgramme),
+    ("sources/parliamentary-documents.json", ParliamentByProgramme),
+    ("sources/data-gouv-datasets.json", GenericProgrammeData),
+    ("sources/inpi-patent-families.json", GenericProgrammeData),
+    ("sources/company-revenues.json", GenericProgrammeData),
+    ("reports/investment-programme-reports.json", GenericProgrammeData),
+    ("dataviz/investment-programme-dataviz.json", GenericProgrammeData),
+]
 
-budget_mock_status = "🔴 MOCK" if any(b.get("isMock", False) for b in budget_data) else "🟢 REAL"
+contract_reports = [contract_status(path, model) for path, model in contracts]
+df_contracts = pd.DataFrame([
+    {k: v for k, v in report.items() if k != "errors"}
+    for report in contract_reports
+])
+st.dataframe(df_contracts, hide_index=True, use_container_width=True)
 
-st.code(f"""
-- dataset/budget/france-2030-budget-lines.json    -> {budget_mock_status}
-- dataset/catalog/investment-programmes.json      -> {check_mock(programs_data)}
-- dataset/sources/sirene-companies.json           -> {check_mock(companies_data)}
-- dataset/sources/parliamentary-documents.json    -> {check_mock(parliament_data)}
-""")
-
-# Validation de Schéma basique (Pydantic / Dict check)
-st.markdown("**Validation du schéma JSON `sirene-companies.json` :**")
-if companies_data:
-    try:
-        sample = companies_data[0]
-        assert "programmeCode" in sample, "Clé manquante: programmeCode"
-        assert "companies" in sample, "Clé manquante: companies"
-        st.success("Le schéma Sirene correspond au contrat !")
-    except AssertionError as e:
-        st.error(f"Erreur de Schéma: {e}")
+schema_errors = [error for report in contract_reports for error in report["errors"]]
+if schema_errors:
+    with st.expander("Erreurs de schéma détaillées", expanded=True):
+        st.json(schema_errors)
+else:
+    st.success("Validation Pydantic réussie sur les fichiers du contrat suivis.")
 
 st.divider()
 
@@ -81,12 +179,17 @@ if os.path.exists(db_path):
     
     # Bouton de sauvegarde interactif (Action: Sauvegarde interactive)
     if st.button("💾 Sauvegarder cette formule dans le contrat JSON"):
-        scores_file = "dataset/metrics/programme-alignment-scores.json"
-        
-        if os.path.exists(scores_file):
+        score_files = [
+            "dataset/metrics/programme-alignment-scores.json",
+            "data/export_front/programme-alignment-scores.json",
+        ]
+
+        for scores_file in score_files:
+            if not os.path.exists(scores_file):
+                continue
             with open(scores_file, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                
+
             for p in data.get("programmes", []):
                 prog_code = p["programmeCode"]
                 new_score = next((s["score"] for s in scores if s["programmeCode"] == prog_code), 0)
@@ -94,9 +197,19 @@ if os.path.exists(db_path):
                     p["data"] = {}
                 p["data"]["overallScore"] = new_score
                 p["notes"] = f"Pondération Streamlit - Mentionsx{poids_mentions} / Budget(Mds)x{diviseur_budget}"
-                
+
             with open(scores_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=2, ensure_ascii=False)
-            st.success("✅ Fichier `programme-alignment-scores.json` écrasé avec succès ! Le Front utilisera ces nouveaux scores.")
+
+        weights = {
+            "poidsMentions": poids_mentions,
+            "diviseurBudgetMds": diviseur_budget,
+            "formula": "(mentions * poidsMentions) / (budgetMds * diviseurBudgetMds)",
+            "scores": scores,
+        }
+        with open("data/score_weights.json", "w", encoding="utf-8") as f:
+            json.dump(weights, f, indent=2, ensure_ascii=False)
+
+        st.success("✅ Scores et pondérations sauvegardés dans `dataset/`, `data/export_front/` et `data/score_weights.json`.")
 else:
     st.error("Base de données SQLite introuvable pour calculer les scores.")

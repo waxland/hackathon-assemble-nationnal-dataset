@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 from app import load_front_dataset
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
@@ -8,6 +9,26 @@ import matplotlib.pyplot as plt
 # Couleurs DSFR
 COLOR_BLEU_FRANCE = "#000091"
 COLOR_ROUGE_MARIANNE = "#e1000f"
+
+POSITIVE_TERMS = [
+    "accélérer", "ambition", "ambitieux", "crucial", "essentiel", "favoriser",
+    "prioritaire", "renforcer", "soutenir", "souveraineté", "nécessaire",
+]
+NEGATIVE_TERMS = [
+    "alerte", "abandon", "coût", "dénonce", "insuffisant", "inquiétude",
+    "oppose", "regrette", "risque", "supprimer", "retard",
+]
+
+
+def classify_tone(text):
+    text_lower = (text or "").lower()
+    positive_hits = sum(term in text_lower for term in POSITIVE_TERMS)
+    negative_hits = sum(term in text_lower for term in NEGATIVE_TERMS)
+    if positive_hits > negative_hits:
+        return "favorable"
+    if negative_hits > positive_hits:
+        return "critique"
+    return "neutre"
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
@@ -34,14 +55,28 @@ if programs_data:
         prog_budget = [b for b in budget_data if str(b.get("programmeCode")) == selected_prog_code]
         if prog_budget:
             df_prog_bud = pd.DataFrame(prog_budget)
-            fig_bar = px.bar(df_prog_bud, x="expenseCategoryName", y="amount2025", 
-                             title="Répartition par type de dépense (2025)",
-                             color="expenseCategoryName",
-                             color_discrete_sequence=[COLOR_BLEU_FRANCE, COLOR_ROUGE_MARIANNE])
+            amount_cols = [col for col in ["amount2024", "amount2025", "amount2026"] if col in df_prog_bud.columns]
+            df_budget_long = df_prog_bud.melt(
+                id_vars=["expenseCategoryName"],
+                value_vars=amount_cols,
+                var_name="year",
+                value_name="amount",
+            )
+            df_budget_long["year"] = df_budget_long["year"].str.replace("amount", "", regex=False)
+            df_budget_long["amount"] = pd.to_numeric(df_budget_long["amount"], errors="coerce")
+            df_budget_long = df_budget_long.dropna(subset=["amount"])
+
+            fig_bar = px.bar(
+                df_budget_long,
+                x="expenseCategoryName",
+                y="amount",
+                color="year",
+                barmode="group",
+                title="Répartition par type de dépense",
+                color_discrete_sequence=[COLOR_BLEU_FRANCE, COLOR_ROUGE_MARIANNE, "#6a6af4"],
+            )
+            fig_bar.update_yaxes(title="Montant CP (€)", tickformat=",")
             st.plotly_chart(fig_bar, use_container_width=True)
-            
-            # TODO Amélioration de la page Macro: Temporalité YtY
-            st.info("💡 En développement : Comparaison YtY (2024 vs 2025) à venir ici.")
         else:
             st.write("Aucun budget identifié.")
             
@@ -62,6 +97,61 @@ if programs_data:
             fig_time = px.histogram(df_docs, x="date", color="politicalGroup", 
                                     title="Chronologie des interventions", nbins=10)
             st.plotly_chart(fig_time, use_container_width=True)
+
+            df_docs["dateParsed"] = pd.to_datetime(df_docs["date"], errors="coerce")
+            df_docs["year"] = df_docs["dateParsed"].dt.year.astype("Int64")
+            mentions_by_year = (
+                df_docs.dropna(subset=["year"])
+                .groupby("year", as_index=False)
+                .size()
+                .rename(columns={"size": "mentions"})
+            )
+
+            if prog_budget:
+                budget_by_year = []
+                for year in ["2024", "2025", "2026"]:
+                    col = f"amount{year}"
+                    if col in df_prog_bud.columns:
+                        amount = pd.to_numeric(df_prog_bud[col], errors="coerce").sum()
+                        if pd.notna(amount) and amount > 0:
+                            budget_by_year.append({"year": int(year), "budgetMds": amount / 1e9})
+                df_budget_year = pd.DataFrame(budget_by_year)
+                fig_overlay = go.Figure()
+                if not df_budget_year.empty:
+                    fig_overlay.add_trace(
+                        go.Bar(
+                            x=df_budget_year["year"],
+                            y=df_budget_year["budgetMds"],
+                            name="Budget CP (Mds €)",
+                            marker_color=COLOR_BLEU_FRANCE,
+                        )
+                    )
+                if not mentions_by_year.empty:
+                    fig_overlay.add_trace(
+                        go.Scatter(
+                            x=mentions_by_year["year"],
+                            y=mentions_by_year["mentions"],
+                            name="Mentions",
+                            yaxis="y2",
+                            mode="lines+markers",
+                            line=dict(color=COLOR_ROUGE_MARIANNE, width=3),
+                        )
+                    )
+                fig_overlay.update_layout(
+                    title="Budget et écho parlementaire par année",
+                    yaxis=dict(title="Budget CP (Mds €)"),
+                    yaxis2=dict(title="Mentions", overlaying="y", side="right", rangemode="tozero"),
+                    legend=dict(orientation="h"),
+                )
+                st.plotly_chart(fig_overlay, use_container_width=True)
+
+            tones = [classify_tone(text) for text in df_docs["text"].fillna("")]
+            tone_counts = pd.Series(tones).value_counts().reindex(["favorable", "neutre", "critique"], fill_value=0)
+            st.markdown("**Tonalité locale des verbatims :**")
+            tone_cols = st.columns(3)
+            tone_cols[0].metric("Favorable", int(tone_counts["favorable"]))
+            tone_cols[1].metric("Neutre", int(tone_counts["neutre"]))
+            tone_cols[2].metric("Critique", int(tone_counts["critique"]))
             
             # Wordcloud
             st.markdown("**Nuage de mots des débats :**")
@@ -74,8 +164,7 @@ if programs_data:
                 st.pyplot(fig_wc)
             
             st.markdown("**Derniers verbatims extraits :**")
-            # Pagination simulée
-            page_size = 5
+            page_size = 10
             total_pages = len(docs) // page_size + (1 if len(docs) % page_size > 0 else 0)
             page = st.number_input("Page de verbatims", min_value=1, max_value=max(1, total_pages), value=1)
             
@@ -85,6 +174,7 @@ if programs_data:
             for doc in docs[start_idx:end_idx]:
                 with st.expander(f"🗣️ {doc.get('speakerName')} ({doc.get('politicalGroup')}) - {doc.get('date')}"):
                     st.markdown(f"**Mot-clé détecté :** `{doc.get('matchedKeyword')}`")
+                    st.markdown(f"**Tonalité locale :** `{classify_tone(doc.get('text'))}`")
                     st.info(doc.get('text'))
         else:
             st.write("Aucun écho parlementaire trouvé.")
