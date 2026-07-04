@@ -8,26 +8,11 @@ Ce document récapitule l'ensemble du travail de conception et d'implémentation
 
 L'application a été restructurée avec un Routeur multi-pages natif. Voici l'analyse de chaque module.
 
-### `app.py` & `home_intro.md` (Accueil)
-*Point d'entrée du routeur, gérant la configuration globale et l'explication métier.*
-* **✅ PROS** :
-  - Centralisation du logo (`favicon.svg`) et de la configuration des onglets.
-  - Implémente le design system de l'État (couleurs Bleues/Rouges via `.streamlit/config.toml`).
-  - Cache natif `@st.cache_data` pour charger les JSON sans latence.
-* **⚠️ CONS** :
-  - Le texte d'intro est statique. Si la mission du hackathon pivote, il faudra éditer le `.md` manuellement.
-* **💡 Améliorations possibles** :
-  - [ ] **Dynamicité des liens** : Rendre l'URL du repository GitHub et du projet Vercel dynamiques via un `.env` pour les afficher sur l'accueil.
-  - [ ] **Suivi de fraîcheur** : Afficher un log des derniers commits ou de la dernière date d'exécution de `make export-front` pour s'assurer que les données lues sont fraîches.
-  - [ ] **Onboarding Utilisateur** : Ajouter un tutoriel vidéo ou un GIF animé (ex: `st.video`) sur la page d'accueil expliquant aux nouveaux membres de l'équipe comment lire les graphes.
-
 ### `1_Vue_Macro.py`
 *Vue d'agrégation affichant les grands totaux du budget et de l'écho parlementaire.*
 * **✅ PROS** :
   - Utilise `plotly.express` pour un Camembert interactif et responsive (nettement supérieur au `st.bar_chart` par défaut).
   - Fournit en 1 coup d'œil les 3 "Kpis" majeurs du projet.
-* **⚠️ CONS** :
-  - L'agrégation est calculée en mémoire avec Pandas `sum()` sur des dataframes. Si le volume JSON explose (ex: des années de budget), la RAM en pâtira.
 * **💡 Améliorations possibles** :
   - [ ] **Temporalité (YtY)** : Ajouter une comparaison "Année sur Année" via des graphiques en courbes (ex: Budget 2024 vs 2025).
   - [ ] **Sankey Diagram** : Ajouter un diagramme de flux complexe montrant l'argent allant des Catégories de Dépense vers les Thématiques, puis vers les Entreprises.
@@ -53,10 +38,10 @@ L'application a été restructurée avec un Routeur multi-pages natif. Voici l'a
 * **⚠️ CONS** :
   - Si un programme compte 15 000 mentions (ex: le nucléaire), le rendu de milliers de `st.expander` fera crasher le navigateur du client.
 * **💡 Améliorations possibles** :
-  - [ ] **Pagination des Verbatims** : Implémenter une vraie pagination (10 par 10) pour l'affichage des verbatims dans Streamlit.
+  - [x] **Pagination des Verbatims** : Implémenter une vraie pagination (10 par 10) pour l'affichage des verbatims dans Streamlit.
   - [ ] **Superposition Temporelle** : Lier la temporalité des discours à celle du budget (Superposer le budget 2024/2025 avec les pics de discours de ces mêmes années sur le même graphe Plotly).
   - [ ] **Analyse de Sentiment (LLM)** : Brancher un appel API (OpenAI/Mistral) pour afficher un "Résumé de sentiment" (Les députés sont-ils "Pour" ou "Contre" ce programme ?).
-  - [ ] **Nuage de mots (Wordcloud)** : Générer un nuage de mots des thématiques les plus abordées par les parlementaires pour un programme donné.
+  - [x] **Nuage de mots (Wordcloud)** : Générer un nuage de mots des thématiques les plus abordées par les parlementaires pour un programme donné.
 
 ### `4_Data_Quality.py`
 *Outil exclusif de l'équipe Data pour auditer les JSON et pondérer les scores empiriques.*
@@ -66,6 +51,5 @@ L'application a été restructurée avec un Routeur multi-pages natif. Voici l'a
 * **⚠️ CONS** :
   - Le score d'alignement simulé ici n'est pas réécrit dynamiquement dans la base. Le Data Engineer doit encore lire le résultat à l'écran et aller modifier `13_export_to_front_contract.py` à la main.
 * **💡 Améliorations possibles** :
-  - [ ] **Sauvegarde Interactive** : Permettre au Dashboard d'écraser directement le fichier `programme-alignment-scores.json` lorsque l'utilisateur clique sur un bouton "Sauvegarder cette formule".
-  - [ ] **Validation de Schéma stricte** : Ajouter un validateur de Schéma JSON (Pydantic / JSONSchema) qui affiche des erreurs en rouge si les clés des JSON ne correspondent plus au contrat exact de `TODO_DATASET_JSON.md`.
-  - [ ] **Alertes Slack/Discord** : Ajouter un webhook pour envoyer une alerte à l'équipe Front-End lorsqu'un Data Engineer passe une donnée de "MOCK" à "REAL".
+  - [x] **Validation de Schéma stricte** : Ajouter un validateur de Schéma JSON (Pydantic / JSONSchema) qui affiche des erreurs en rouge si les clés des JSON ne correspondent plus au contrat exact de `TODO_DATASET_JSON.md`.
+
