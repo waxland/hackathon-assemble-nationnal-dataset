@@ -35,16 +35,16 @@ Le perimetre prioritaire reste **data engineering / scraping / structuration / c
 
 ## 1. Contraintes non negociables
 
-- [ ] Respecter les schemas JSON existants ou documenter explicitement toute evolution.
-- [ ] Garder les noms de cles JSON en `camelCase` et en anglais.
-- [ ] Ne jamais inventer une donnee manquante : utiliser `null`, `[]`, ou `isMock: true`.
-- [ ] Ajouter `sourceUrl`, `sourceDocument`, `sourceDatasetId` ou `sourceResourceId` des qu'une donnee provient d'une source externe.
-- [ ] Ajouter un `confidenceScore` pour toute correlation non strictement identifiee par une cle exacte.
-- [ ] Mettre `validationStatus: "to_validate"` pour toute relation avec `confidenceScore < 0.7`.
-- [ ] Conserver le contexte parlementaire avec `contextBefore` et `contextAfter`.
-- [ ] Rendre les scripts idempotents : relancer le pipeline ne doit pas dupliquer les donnees ni changer les IDs stables.
-- [ ] Privilegier les API et exports open data officiels avant le scraping HTML ou PDF.
-- [ ] Garder les fichiers de sortie separes et lisibles : budget, themes, projets, entreprises, mentions, correlations.
+- [x] Respecter les schemas JSON existants ou documenter explicitement toute evolution.
+- [x] Garder les noms de cles JSON en `camelCase` et en anglais.
+- [x] Ne jamais inventer une donnee manquante : utiliser `null`, `[]`, ou `isMock: true`.
+- [x] Ajouter `sourceUrl`, `sourceDocument`, `sourceDatasetId` ou `sourceResourceId` des qu'une donnee provient d'une source externe.
+- [x] Ajouter un `confidenceScore` pour toute correlation non strictement identifiee par une cle exacte.
+- [x] Mettre `validationStatus: "to_validate"` pour toute relation avec `confidenceScore < 0.7`.
+- [x] Conserver le contexte parlementaire avec `contextBefore` et `contextAfter`.
+- [x] Rendre les scripts idempotents : relancer le pipeline ne doit pas dupliquer les donnees ni changer les IDs stables.
+- [x] Privilegier les API et exports open data officiels avant le scraping HTML ou PDF.
+- [x] Garder les fichiers de sortie separes et lisibles : budget, themes, projets, entreprises, mentions, correlations.
 
 ---
 
@@ -137,15 +137,15 @@ Ecarts techniques verifies :
 
 L'iteration est consideree reussie si :
 
-- [ ] `make run-scraping` termine sans erreur sur une machine propre apres installation des dependances.
-- [ ] `make export-front` regenere les fichiers `dataset/**` sans casse de schema.
-- [ ] `amount2026` est renseigne ou explicitement justifie comme indisponible.
-- [ ] Au moins un fichier front actuellement mocke est remplace par une vraie source.
-- [ ] `data/quality_report.json` liste les mocks, trous, doublons, scores faibles et champs manquants.
-- [ ] Les correlations nouvelles ont `sourceUrl`, `confidenceScore`, `validationStatus` et IDs deterministes.
-- [ ] Les textes parlementaires sont nettoyes du HTML et conservent un contexte exploitable.
-- [ ] L'export Neo4j fonctionne avec le schema SQLite courant.
-- [ ] Le Streamlit lit les nouvelles donnees sans `SELECT *` massif ni rendu de milliers de composants.
+- [x] `make run-scraping` termine sans erreur sur une machine propre apres installation des dependances.
+- [x] `make export-front` regenere les fichiers `dataset/**` sans casse de schema.
+- [x] `amount2026` est renseigne ou explicitement justifie comme indisponible.
+- [x] Au moins un fichier front actuellement mocke est remplace par une vraie source.
+- [x] `data/quality_report.json` liste les mocks, trous, doublons, scores faibles et champs manquants.
+- [x] Les correlations nouvelles ont `sourceUrl`, `confidenceScore`, `validationStatus` et IDs deterministes.
+- [x] Les textes parlementaires sont nettoyes du HTML et conservent un contexte exploitable.
+- [x] L'export Neo4j fonctionne avec le schema SQLite courant.
+- [x] Le Streamlit lit les nouvelles donnees sans `SELECT *` massif ni rendu de milliers de composants.
 
 ---
 
@@ -322,7 +322,7 @@ Critere d'acceptation :
 - [x] Ajouter `validationStatus`.
 - [x] Gerer la pagination NosDeputes si l'API l'expose (Remplacé par la gestion en `asyncio` sur les résultats initiaux).
 - [x] Limiter le debit pour respecter la source.
-- [ ] Prevoir une alternative LesTricoteuses ou Open Data Assemblee si NosDeputes devient limitant.
+- [x] Prevoir une alternative LesTricoteuses ou Open Data Assemblee si NosDeputes devient limitant.
 
 Critere d'acceptation :
 
@@ -388,22 +388,22 @@ Critere d'acceptation :
 
 #### P3.2 Relations a plus forte valeur
 
-- [ ] Produire `programme -> budgetLine`.
-- [ ] Produire `programme -> greenBudgetLine`.
-- [ ] Produire `programme -> theme`.
-- [ ] Produire `theme -> keyword`.
-- [ ] Produire `project -> theme`.
-- [ ] Produire `project -> beneficiary`.
-- [ ] Produire `beneficiary -> company` quand SIREN est confirme.
-- [ ] Produire `company -> nafCode`.
-- [ ] Produire `company -> patentFamily`.
-- [ ] Produire `parliamentMention -> theme`.
-- [ ] Produire `parliamentMention -> programme`.
-- [ ] Produire `territory -> project`.
+- [x] Produire `programme -> budgetLine`.
+- [x] Produire `programme -> greenBudgetLine`.
+- [x] Produire `programme -> theme`.
+- [x] Produire `theme -> keyword`.
+- [x] Produire `project -> theme`.
+- [x] Produire `project -> beneficiary`.
+- [x] Produire `beneficiary -> company` quand SIREN est confirme.
+- [x] Produire `company -> nafCode`.
+- [x] Produire `company -> patentFamily`.
+- [x] Produire `parliamentMention -> theme`.
+- [x] Produire `parliamentMention -> programme`.
+- [x] Produire `territory -> project`.
 
 Critere d'acceptation :
 
-- [ ] Les graphes ne sont plus seulement "programme -> theme -> entreprise", mais aussi "source -> projet -> beneficiaire -> preuve".
+- [x] Les graphes ne sont plus seulement "programme -> theme -> entreprise", mais aussi "source -> projet -> beneficiaire -> preuve".
 
 #### P3.3 Scores analytiques
 
@@ -430,8 +430,8 @@ Critere d'acceptation :
 - [x] `dataset/sources/inpi-patent-families.json` via le dataset brevets.
 - [x] `dataset/sources/data-gouv-datasets.json` via `data/sources.json`.
 - [x] `dataset/dataviz/investment-programme-dataviz.json` via agregats budget, budget vert, mentions, projets.
-- [ ] `dataset/reports/investment-programme-reports.json` via synthese par programme.
-- [ ] `dataset/sources/company-revenues.json` seulement si une source fiable est identifiee ; sinon rester mock avec justification.
+- [x] `dataset/reports/investment-programme-reports.json` via synthese par programme.
+- [x] `dataset/sources/company-revenues.json` seulement si une source fiable est identifiee ; sinon rester mock avec justification.
 
 Critere d'acceptation :
 
@@ -514,50 +514,50 @@ Critere d'acceptation :
 
 Livrable minimum :
 
-- [ ] `data/quality_report.json`
-- [ ] `data/sources.json`
-- [ ] `data/green_budget_lines.json`
-- [ ] `data/patent_depositors.json`
-- [ ] `dataset/sources/inpi-patent-families.json` avec `isMock: false` pour les programmes concernes
-- [ ] `scripts/14_ingest_budget_vert_2026.py`
-- [ ] `scripts/17_ingest_patent_depositors.py`
-- [ ] `scripts/18_generate_quality_report.py`
-- [ ] `scripts/19_validate_json_contracts.py`
-- [ ] `scripts/11_export_to_sqlite.py` non destructif par defaut
-- [ ] `scripts/12_export_graph_neo4j.py` compatible avec le schema actuel
+- [x] `data/quality_report.json`
+- [x] `data/sources.json`
+- [x] `data/green_budget_lines.json`
+- [x] `data/patent_depositors.json`
+- [x] `dataset/sources/inpi-patent-families.json` avec `isMock: false` pour les programmes concernes
+- [x] `scripts/14_ingest_budget_vert_2026.py`
+- [x] `scripts/17_ingest_patent_depositors.py`
+- [x] `scripts/18_generate_quality_report.py`
+- [x] `scripts/19_validate_json_contracts.py`
+- [x] `scripts/11_export_to_sqlite.py` non destructif par defaut
+- [x] `scripts/12_export_graph_neo4j.py` compatible avec le schema actuel
 
 Livrable enrichi si temps disponible :
 
-- [ ] `data/projects.json`
-- [ ] `data/project_beneficiaries.json`
-- [ ] `data/territories.json`
-- [ ] `data/research_projects.json`
-- [ ] `scripts/15_ingest_fr2030_laureates.py`
-- [ ] `scripts/16_ingest_ademe_research_projects.py`
-- [ ] nouveaux exports front demockes pour `data-gouv-datasets`, `investment-programme-dataviz`, `investment-programme-reports`
+- [x] `data/projects.json`
+- [x] `data/project_beneficiaries.json`
+- [x] `data/territories.json`
+- [x] `data/research_projects.json`
+- [x] `scripts/15_ingest_fr2030_laureates.py`
+- [x] `scripts/16_ingest_ademe_research_projects.py`
+- [x] nouveaux exports front demockes pour `data-gouv-datasets`, `investment-programme-dataviz`, `investment-programme-reports`
 
 ---
 
 ## 8. Points d'attention avant implementation
 
-- [ ] Ne pas presenter les 4 AAP actuels comme exhaustifs.
-- [ ] Ne pas valider une entreprise par nom seul si plusieurs SIREN candidats existent.
-- [ ] Ne pas remplir `amount2026` par approximation si la jointure budgetaire est ambigue.
-- [ ] Ne pas melanger les donnees de controle Streamlit avec les donnees canoniques.
-- [ ] Ne pas augmenter les volumes parlementaires sans pagination et nettoyage.
-- [ ] Ne pas casser le contrat `dataset/**` utilise par le front.
-- [ ] Ne pas supprimer les changements utilisateur deja presents dans le depot.
+- [x] Ne pas presenter les 4 AAP actuels comme exhaustifs.
+- [x] Ne pas valider une entreprise par nom seul si plusieurs SIREN candidats existent.
+- [x] Ne pas remplir `amount2026` par approximation si la jointure budgetaire est ambigue.
+- [x] Ne pas melanger les donnees de controle Streamlit avec les donnees canoniques.
+- [x] Ne pas augmenter les volumes parlementaires sans pagination et nettoyage.
+- [x] Ne pas casser le contrat `dataset/**` utilise par le front.
+- [x] Ne pas supprimer les changements utilisateur deja presents dans le depot.
 
 ---
 
 ## 9. Questions metier a trancher
 
-- [ ] Quel niveau de preuve est requis pour dire qu'une entreprise est beneficiaire France 2030 ?
-- [ ] Faut-il privilegier les projets laureats territoriaux ou les aides R&D ADEME pour la prochaine demo ?
-- [ ] Le score d'alignement doit-il favoriser le poids budgetaire, l'attention parlementaire, l'impact environnemental ou le signal d'innovation ?
-- [ ] Les mentions parlementaires doivent-elles couvrir uniquement l'Assemblee nationale ou aussi le Senat ?
-- [ ] Les AAP doivent-ils representer des dispositifs ouverts ou des projets laureats finances ?
-- [ ] Est-ce que les fichiers front doivent rester strictement par programme ou accepter des objets transversaux `projects`, `territories`, `sources` ?
+- [x] Quel niveau de preuve est requis pour dire qu'une entreprise est beneficiaire France 2030 ?
+- [x] Faut-il privilegier les projets laureats territoriaux ou les aides R&D ADEME pour la prochaine demo ?
+- [x] Le score d'alignement doit-il favoriser le poids budgetaire, l'attention parlementaire, l'impact environnemental ou le signal d'innovation ?
+- [x] Les mentions parlementaires doivent-elles couvrir uniquement l'Assemblee nationale ou aussi le Senat ?
+- [x] Les AAP doivent-ils representer des dispositifs ouverts ou des projets laureats finances ?
+- [x] Est-ce que les fichiers front doivent rester strictement par programme ou accepter des objets transversaux `projects`, `territories`, `sources` ?
 
 ---
 
