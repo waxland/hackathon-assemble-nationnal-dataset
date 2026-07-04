@@ -8,12 +8,12 @@
     "parliament_mentions": 0,
     "naf_codes": 3,
     "companies": 748,
-    "correlations": 2551
+    "correlations": 2554
   },
   "duplicate_ids": {},
   "missing_critical_fields": {
     "sourceUrl": 0,
-    "missing_any_url": 3438,
+    "missing_any_url": 3441,
     "confidenceScore": 0,
     "validationStatus": 0,
     "amount2026": 9,
@@ -26,5 +26,6 @@
     "parliamentary-documents.json",
     "investment-programme-reports.json"
   ],
-  "low_confidence_relations": 0
+  "low_confidence_relations": 0,
+  "unresolved_audit_recommendations": 2
 }

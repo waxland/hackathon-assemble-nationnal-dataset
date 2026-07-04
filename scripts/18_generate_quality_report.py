@@ -15,7 +15,8 @@ def main():
         "duplicate_ids": {},
         "missing_critical_fields": {},
         "front_files_with_mocks": [],
-        "low_confidence_relations": 0
+        "low_confidence_relations": 0,
+        "unresolved_audit_recommendations": 0
     }
 
     # Fichiers de données
@@ -80,6 +81,13 @@ def main():
             missing_fields_counts["contextAfter"] += 1
 
     report["missing_critical_fields"] = missing_fields_counts
+
+
+    # Check Cour des comptes recommendations
+    audit_recs = load_json("data/audit_recommendations.json")
+    for rec in audit_recs:
+        if rec.get("status") == "to_review":
+            report["unresolved_audit_recommendations"] += 1
 
     # Check mock in front files
     front_dir = "dataset"

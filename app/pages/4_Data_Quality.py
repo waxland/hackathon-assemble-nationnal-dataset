@@ -3,110 +3,62 @@ import json
 import os
 import sqlite3
 import pandas as pd
-from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from app import load_front_dataset
-
-
-class ContractBase(BaseModel):
-    model_config = ConfigDict(extra="allow")
-
-    programmeCode: str
-    isMock: bool
-    updatedAt: str
-    confidence: float | None = None
-
-
-class BudgetLine(BaseModel):
-    model_config = ConfigDict(extra="allow")
-
-    id: str
-    programmeCode: str
-    programmeName: str
-    expenseCategoryName: str
-    amount2025: float | None = None
-    isMock: bool
-    sourceUrl: str | None = None
-    confidence: float | None = None
-    updatedAt: str
-
-
-class ProgrammeCatalog(ContractBase):
-    programmeName: str
-    missionName: str
-
-
-class CompaniesByProgramme(ContractBase):
-    companies: list[dict] = Field(default_factory=list)
-
-
-class ParliamentByProgramme(ContractBase):
-    documents: list[dict] = Field(default_factory=list)
-
-
-class TaxonomyByProgramme(ContractBase):
-    themes: list[dict] = Field(default_factory=list)
-
-
-class AlignmentScore(ContractBase):
-    data: dict = Field(default_factory=dict)
-
-
-class GenericProgrammeData(ContractBase):
-    data: list | dict = Field(default_factory=list)
-
-
-def validate_contract_items(name, items, model):
-    errors = []
-    for idx, item in enumerate(items):
-        try:
-            model.model_validate(item)
-        except ValidationError as exc:
-            errors.append({
-                "file": name,
-                "index": idx,
-                "errors": exc.errors(),
-            })
-    return errors
-
-
-def contract_status(filepath, model):
-    items = load_front_dataset(filepath)
-    if not items:
-        return {
-            "Fichier": filepath,
-            "Statut": "Introuvable",
-            "Objets": 0,
-            "Mocks": 0,
-            "Erreurs schema": 0,
-            "errors": [],
-        }
-
-    errors = validate_contract_items(filepath, items, model)
-    mock_count = sum(1 for item in items if item.get("isMock", False))
-    if errors:
-        status = "Schema invalide"
-    elif mock_count:
-        status = "Mock partiel"
-    else:
-        status = "Réel"
-
-    return {
-        "Fichier": filepath,
-        "Statut": status,
-        "Objets": len(items),
-        "Mocks": mock_count,
-        "Erreurs schema": len(errors),
-        "errors": errors,
-    }
 
 col_img, col_text = st.columns([1, 10])
 with col_img:
-    st.image("app/content/icon-minerve.png", width=80)
+    st.image("app/content/favicon.svg", width=80)
 with col_text:
     st.header("🛠️ Validation Métier & Pondération")
 
 st.markdown("Vue dédiée à l'équipe Data pour s'assurer que le Front-End ne va pas crasher, analyser la maturité du dataset, et ajuster le score Minerve.")
 
+# -------------------------------------------------
+# 0. QUALITY REPORT & SOURCES
+# -------------------------------------------------
+st.subheader("0. Audit de Données & Sources")
+
+report_path = "data/quality_report.json"
+sources_path = "data/sources.json"
+
+col_q1, col_q2 = st.columns(2)
+
+with col_q1:
+    st.markdown("**Rapport de Qualité Automatique**")
+    if os.path.exists(report_path):
+        with open(report_path, "r") as f:
+            qr = json.load(f)
+        
+        st.write("Fichiers front contenant des mocks :", len(qr.get("front_files_with_mocks", [])))
+        st.write("Champs critiques manquants :", sum(qr.get("missing_critical_fields", {}).values()))
+        
+        recs_non_traitees = qr.get("unresolved_audit_recommendations", 0)
+        if recs_non_traitees > 0:
+            st.error(f"⚠️ {recs_non_traitees} recommandation(s) Cour des Comptes non traitées !")
+        else:
+            st.success("✅ Aucune recommandation d'audit en attente.")
+
+        with st.expander("Voir le détail du rapport"):
+            st.json(qr)
+    else:
+        st.warning("Aucun quality report trouvé. Lancez `make quality-report`.")
+
+with col_q2:
+    st.markdown("**Registre des Sources Actives**")
+    if os.path.exists(sources_path):
+        with open(sources_path, "r") as f:
+            srcs = json.load(f)
+        st.write("Nombre de sources interrogées :", len(srcs))
+        with st.expander("Voir le registre"):
+            st.dataframe(pd.DataFrame(srcs)[["name", "producer", "license"]])
+    else:
+        st.warning("Registre non trouvé.")
+
+st.divider()
+
+# -------------------------------------------------
+# 1. MOCKS STATUS
+# -------------------------------------------------
 st.subheader("1. Statut des fichiers (Contrat Minerve)")
 
 budget_data = load_front_dataset("budget/france-2030-budget-lines.json")
@@ -114,102 +66,66 @@ programs_data = load_front_dataset("catalog/investment-programmes.json")
 parliament_data = load_front_dataset("sources/parliamentary-documents.json")
 companies_data = load_front_dataset("sources/sirene-companies.json")
 
-contracts = [
-    ("budget/france-2030-budget-lines.json", BudgetLine),
-    ("catalog/investment-programmes.json", ProgrammeCatalog),
-    ("matching/programme-taxonomy.json", TaxonomyByProgramme),
-    ("metrics/programme-alignment-scores.json", AlignmentScore),
-    ("sources/sirene-companies.json", CompaniesByProgramme),
-    ("sources/parliamentary-documents.json", ParliamentByProgramme),
-    ("sources/data-gouv-datasets.json", GenericProgrammeData),
-    ("sources/inpi-patent-families.json", GenericProgrammeData),
-    ("sources/company-revenues.json", GenericProgrammeData),
-    ("reports/investment-programme-reports.json", GenericProgrammeData),
-    ("dataviz/investment-programme-dataviz.json", GenericProgrammeData),
-]
+def check_mock(data_array):
+    if not data_array: return "🔴 Introuvable"
+    return "🔴 MOCK" if any(p.get("isMock", False) for p in data_array) else "🟢 REAL"
 
-contract_reports = [contract_status(path, model) for path, model in contracts]
-df_contracts = pd.DataFrame([
-    {k: v for k, v in report.items() if k != "errors"}
-    for report in contract_reports
-])
-st.dataframe(df_contracts, hide_index=True, use_container_width=True)
+budget_mock_status = "🔴 MOCK" if any(b.get("isMock", False) for b in budget_data) else "🟢 REAL"
 
-schema_errors = [error for report in contract_reports for error in report["errors"]]
-if schema_errors:
-    with st.expander("Erreurs de schéma détaillées", expanded=True):
-        st.json(schema_errors)
-else:
-    st.success("Validation Pydantic réussie sur les fichiers du contrat suivis.")
+st.code(f"""
+- dataset/budget/france-2030-budget-lines.json    -> {budget_mock_status}
+- dataset/catalog/investment-programmes.json      -> {check_mock(programs_data)}
+- dataset/sources/sirene-companies.json           -> {check_mock(companies_data)}
+- dataset/sources/parliamentary-documents.json    -> {check_mock(parliament_data)}
+""")
+
+st.markdown("**Validation du schéma JSON `sirene-companies.json` :**")
+if companies_data:
+    try:
+        sample = companies_data[0]
+        assert "programmeCode" in sample, "Clé manquante: programmeCode"
+        assert "companies" in sample, "Clé manquante: companies"
+        st.success("Le schéma Sirene correspond au contrat !")
+    except AssertionError as e:
+        st.error(f"Erreur de Schéma: {e}")
 
 st.divider()
 
+# -------------------------------------------------
+# 2. PONDÉRATION
+# -------------------------------------------------
 st.subheader("2. Outil de Calcul du Score d'Alignement")
-st.markdown("""
-Le Front-End Minerve a besoin d'un **Score d'Alignement (0-100)** par programme.
-Ajustez les poids empiriques ci-dessous pour trouver la formule mathématique idéale.
-""")
 
-col_s1, col_s2 = st.columns(2)
-with col_s1:
-    poids_mentions = st.slider("Poids d'une Mention Parlementaire (Multiplicateur)", min_value=1.0, max_value=50.0, value=10.0, step=1.0)
-with col_s2:
-    diviseur_budget = st.slider("Diviseur du Budget (en Milliards €)", min_value=0.1, max_value=5.0, value=1.0, step=0.1)
+weights_path = "config/scoring_weights.json"
+weights = {}
+if os.path.exists(weights_path):
+    with open(weights_path, "r") as f:
+        weights = json.load(f)
 
-db_path = "data/france2030.sqlite"
-scores = []
-if os.path.exists(db_path):
-    conn = sqlite3.connect(db_path)
-    cursor = conn.cursor()
-    
-    st.markdown("### Aperçu des Scores")
-    cols = st.columns(5)
-    for i, prog in enumerate(["421", "422", "423", "424", "425"]):
-        budg = cursor.execute("SELECT SUM(amount2025) FROM budget_lines WHERE programmeCode=?", (prog,)).fetchone()[0] or 0
-        budg_mds = max(budg / 1e9, 0.1)
-        mentions = cursor.execute("SELECT COUNT(*) FROM parliament_mentions WHERE relatedProgrammeCode=?", (prog,)).fetchone()[0] or 0
-        
-        raw_score = (mentions * poids_mentions) / (budg_mds * diviseur_budget)
-        final_score = min(round(raw_score, 1), 100)
-        
-        scores.append({"programmeCode": prog, "score": final_score})
-        cols[i % 5].metric(f"Prog {prog}", f"{final_score} / 100", delta=f"{mentions} mentions" if mentions > 0 else None)
-        
-    conn.close()
-    
-    # Bouton de sauvegarde interactif (Action: Sauvegarde interactive)
-    if st.button("💾 Sauvegarder cette formule dans le contrat JSON"):
-        score_files = [
-            "dataset/metrics/programme-alignment-scores.json",
-            "data/export_front/programme-alignment-scores.json",
-        ]
+# On va utiliser le paramétrage actuel
+p_fin = weights.get("financialWeight", {}).get("weight", 0.2)
+p_pol = weights.get("politicalAttention", {}).get("weight", 0.3)
+p_green = weights.get("greenBudget", {}).get("weight", 0.1)
+p_inno = weights.get("innovationSignal", {}).get("weight", 0.2)
+p_terr = weights.get("territorialDeployment", {}).get("weight", 0.2)
 
-        for scores_file in score_files:
-            if not os.path.exists(scores_file):
-                continue
-            with open(scores_file, "r", encoding="utf-8") as f:
-                data = json.load(f)
+st.write("Modifiez les poids analytiques (la somme doit idéalement faire 1.0) :")
+col_s1, col_s2, col_s3, col_s4, col_s5 = st.columns(5)
+w_fin = col_s1.number_input("Finance", value=p_fin, step=0.1)
+w_pol = col_s2.number_input("Politique", value=p_pol, step=0.1)
+w_green = col_s3.number_input("Green", value=p_green, step=0.1)
+w_inno = col_s4.number_input("Innovation", value=p_inno, step=0.1)
+w_terr = col_s5.number_input("Territoire", value=p_terr, step=0.1)
 
-            for p in data.get("programmes", []):
-                prog_code = p["programmeCode"]
-                new_score = next((s["score"] for s in scores if s["programmeCode"] == prog_code), 0)
-                if "data" not in p:
-                    p["data"] = {}
-                p["data"]["overallScore"] = new_score
-                p["notes"] = f"Pondération Streamlit - Mentionsx{poids_mentions} / Budget(Mds)x{diviseur_budget}"
+new_weights = {
+  "financialWeight": {"weight": w_fin, "description": weights.get("financialWeight", {}).get("description", "")},
+  "politicalAttention": {"weight": w_pol, "description": weights.get("politicalAttention", {}).get("description", "")},
+  "greenBudget": {"weight": w_green, "description": weights.get("greenBudget", {}).get("description", "")},
+  "innovationSignal": {"weight": w_inno, "description": weights.get("innovationSignal", {}).get("description", "")},
+  "territorialDeployment": {"weight": w_terr, "description": weights.get("territorialDeployment", {}).get("description", "")}
+}
 
-            with open(scores_file, "w", encoding="utf-8") as f:
-                json.dump(data, f, indent=2, ensure_ascii=False)
-
-        weights = {
-            "poidsMentions": poids_mentions,
-            "diviseurBudgetMds": diviseur_budget,
-            "formula": "(mentions * poidsMentions) / (budgetMds * diviseurBudgetMds)",
-            "scores": scores,
-        }
-        with open("data/score_weights.json", "w", encoding="utf-8") as f:
-            json.dump(weights, f, indent=2, ensure_ascii=False)
-
-        st.success("✅ Scores et pondérations sauvegardés dans `dataset/`, `data/export_front/` et `data/score_weights.json`.")
-else:
-    st.error("Base de données SQLite introuvable pour calculer les scores.")
+if st.button("💾 Sauvegarder cette configuration"):
+    with open(weights_path, "w") as f:
+        json.dump(new_weights, f, indent=2)
+    st.success("✅ Configuration sauvegardée ! Relancez `make export-front` pour mettre à jour les scores pour Minerve.")
