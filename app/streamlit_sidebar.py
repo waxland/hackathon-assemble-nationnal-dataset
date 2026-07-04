@@ -25,12 +25,14 @@ def render_sidebar(active_page):
     st.sidebar.markdown("### Navigation")
 
     for label, page in NAV_ITEMS:
-        st.sidebar.page_link(
-            page,
-            label=label,
-            disabled=label == active_page,
-            width="stretch",
-        )
+        if label == active_page:
+            st.sidebar.markdown(f"**{label}**")
+            continue
+
+        try:
+            st.sidebar.page_link(page, label=label)
+        except TypeError:
+            st.sidebar.markdown(f"[{label}]({page})")
 
     st.sidebar.divider()
     st.sidebar.caption("Data engineering, sources publiques et correlation.")
