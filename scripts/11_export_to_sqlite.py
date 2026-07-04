@@ -165,6 +165,48 @@ def init_db(db_path):
         sourceFiles TEXT
     );
     """)
+
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS audit_documents (
+        auditDocumentId TEXT PRIMARY KEY,
+        title TEXT,
+        publisher TEXT,
+        publicationDate TEXT,
+        documentType TEXT,
+        sourceUrl TEXT,
+        pdfUrl TEXT,
+        confidenceScore REAL,
+        validationStatus TEXT
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS audit_recommendations (
+        recommendationId TEXT PRIMARY KEY,
+        auditDocumentId TEXT,
+        recommendationText TEXT,
+        issuer TEXT,
+        targetOrganization TEXT,
+        sourcePage INTEGER,
+        status TEXT,
+        FOREIGN KEY (auditDocumentId) REFERENCES audit_documents (auditDocumentId)
+    )
+    ''')
+    
+    cursor.execute('''
+    CREATE TABLE IF NOT EXISTS audit_findings (
+        findingId TEXT PRIMARY KEY,
+        auditDocumentId TEXT,
+        findingType TEXT,
+        findingText TEXT,
+        riskLevel TEXT,
+        sourcePage INTEGER,
+        evidenceSummary TEXT,
+        confidenceScore REAL,
+        FOREIGN KEY (auditDocumentId) REFERENCES audit_documents (auditDocumentId)
+    )
+    ''')
+
     conn.commit()
     return conn
 
@@ -239,6 +281,9 @@ def main():
             ("data/project_beneficiaries.json", "project_beneficiaries", ["beneficiaryId", "name", "type", "confidenceScore"]),
             ("data/territories.json", "territories", ["territoryId", "communeCode", "communeName", "departement", "region", "confidenceScore"]),
             ("data/patent_depositors.json", "patent_depositors", ["patentFamilyId", "siren", "companyName", "nbDemandes", "nbFamilles", "sourceUrl", "confidenceScore"]),
+            ("data/audit_documents.json", "audit_documents", ["auditDocumentId", "title", "publisher", "publicationDate", "documentType", "sourceUrl", "pdfUrl", "confidenceScore", "validationStatus"]),
+            ("data/audit_recommendations.json", "audit_recommendations", ["recommendationId", "auditDocumentId", "recommendationText", "issuer", "targetOrganization", "sourcePage", "status"]),
+            ("data/audit_findings.json", "audit_findings", ["findingId", "auditDocumentId", "findingType", "findingText", "riskLevel", "sourcePage", "evidenceSummary", "confidenceScore"]),
             ("data/sources.json", "source_registry", ["sourceId", "name", "datasetId", "resourceId", "url", "license", "producer", "updateFrequency", "lastCheckedAt", "ingestionScript"])
         ]
         

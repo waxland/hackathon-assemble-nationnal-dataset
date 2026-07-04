@@ -40814,5 +40814,38 @@
       "matchedValue": "923025563"
     },
     "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-5043f5e2",
+    "sourceEntityType": "auditRecommendation",
+    "sourceEntityId": "rec-2ebc6444",
+    "targetEntityType": "operator",
+    "targetEntityId": "SGPI",
+    "correlationType": "auditRecommendation_operator",
+    "confidenceScore": 1.0,
+    "evidenceSource": "ccomptes-neb-2026-france-2030",
+    "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-9102fc2f",
+    "sourceEntityType": "auditRecommendation",
+    "sourceEntityId": "rec-3ad16a41",
+    "targetEntityType": "operator",
+    "targetEntityId": "ADEME",
+    "correlationType": "auditRecommendation_operator",
+    "confidenceScore": 1.0,
+    "evidenceSource": "ccomptes-decarbonation-industrie-2026",
+    "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-96e49d7d",
+    "sourceEntityType": "auditFinding",
+    "sourceEntityId": "finding-4928e4b3",
+    "targetEntityType": "programme",
+    "targetEntityId": "424",
+    "correlationType": "auditFinding_programme",
+    "confidenceScore": 1.0,
+    "evidenceSource": "ccomptes-agences-programmes-2025",
+    "validationStatus": "validated"
   }
 ]

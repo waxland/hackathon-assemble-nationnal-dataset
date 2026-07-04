@@ -1,0 +1,18 @@
+[
+  {
+    "findingId": "finding-4928e4b3",
+    "auditDocumentId": "ccomptes-agences-programmes-2025",
+    "findingType": "risk",
+    "findingText": "Risque de chevauchement de compétences entre l'ANR et les nouvelles agences de programme thématiques.",
+    "riskLevel": "high",
+    "relatedProgrammeCodes": [
+      "424"
+    ],
+    "relatedThemeIds": [
+      "soutien-de-la-recherche-fondamentale"
+    ],
+    "sourcePage": 23,
+    "evidenceSummary": "La Cour note une complexité administrative accrue.",
+    "confidenceScore": 1.0
+  }
+]

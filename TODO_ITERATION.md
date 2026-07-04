@@ -131,6 +131,40 @@ Ecarts techniques verifies :
   - identifier des dispositifs proches des themes France 2030 ;
   - ne pas utiliser comme preuve de financement si aucun laureat/montant n'est present.
 
+### 3.7 Cour des comptes - rapports d'audit et d'evaluation France 2030
+
+La Cour des comptes doit etre traitee comme une **source d'audit, de recommandations et de cadrage des risques**, pas comme une source brute de laureats. Les donnees a extraire doivent donc alimenter la qualite, les alertes, les recommandations, les points de controle et les metriques de gouvernance.
+
+Documents prioritaires identifies :
+
+- Note d'execution budgetaire 2024, mission `Investir pour la France de 2030`
+  - URL : `https://www.ccomptes.fr/sites/default/files/2025-04/NEB-2024-Investir-pour-France-2030.pdf`
+  - Valeur attendue : gouvernance, information Parlement/citoyens, controle interne, retours financiers, chiffres d'engagements/decaissements, critiques sur le suivi.
+- Note d'execution budgetaire 2025, mission `Investir pour la France de 2030`
+  - URL : `https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Investir-pour-France-2030.pdf`
+  - Valeur attendue : engagements et decaissements au 31/12/2025, avancement PIA 3 et France 2030, evaluation, retours financiers, circuit financier.
+- Rapport public thematique `Les aides a la decarbonation de l'industrie du plan de relance et de France 2030`
+  - URL publication : `https://www.ccomptes.fr/fr/publications/les-aides-la-decarbonation-de-lindustrie-du-plan-de-relance-et-de-france-2030`
+  - URL PDF : `https://www.ccomptes.fr/sites/default/files/2026-03/20260311-Aides-a-decarbonation-de-l-industrie-du-plan-de-relance-et-de-France-2030.pdf`
+  - Valeur attendue : ciblage des aides, effets sur investissement/innovation/emissions, recommandations de trajectoire et suivi de cohortes.
+- Observations definitives `Les appels a projets du 4e programme d'investissement d'avenir (PIA4) sur l'experience augmentee du spectacle vivant et la numerisation du patrimoine`
+  - URL publication : `https://www.ccomptes.fr/fr/publications/les-appels-projets-du-4e-programme-dinvestissement-davenir-pia4-sur-lexperience`
+  - URL PDF : `https://www.ccomptes.fr/sites/default/files/2025-10/20251015-S2025-1409-Appels-a-projets-4e-programme-investissement-avenir-PIA4.pdf`
+  - Valeur attendue : gouvernance AAP, transparence, controle interne, suivi d'execution, viabilite des porteurs.
+- Rapport `Les agences de programmes`
+  - URL publication : `https://www.ccomptes.fr/fr/publications/les-agences-de-programmes`
+  - URL PDF : `https://www.ccomptes.fr/sites/default/files/2025-11/20251119-Agences%20de%20programmes.pdf`
+  - Valeur attendue : PEPR, agences de programmes, gouvernance recherche dirigee, enveloppe France 2030, frais de gestion, lien recherche/innovation.
+
+Attente data minimale :
+
+- creer un referentiel `audit_documents.json` ;
+- extraire les recommandations en `audit_recommendations.json` ;
+- extraire les constats/risques en `audit_findings.json` ;
+- relier recommandations et constats aux programmes, themes, operateurs ou dispositifs quand le lien est explicite ;
+- ne jamais transformer une appreciation de la Cour en fait quantitatif si le chiffre n'est pas extrait directement du document ;
+- sourcer chaque element avec `sourceUrl`, `sourceDocument`, `sourcePage` si disponible, et `quoteExtract` court ou `evidenceSummary`.
+
 ---
 
 ## 4. Definition of Done globale
@@ -306,6 +340,97 @@ Critere d'acceptation :
 Critere d'acceptation :
 
 - [x] Une personne peut auditer toutes les sources sans ouvrir les scripts Python.
+
+#### P1.6 Cour des comptes - audit, risques et recommandations
+
+Objectif : ajouter une couche d'audit externe au socle France 2030 afin de rendre visibles les critiques, recommandations et risques identifies par la Cour des comptes. Cette couche doit enrichir la qualite de la donnee et le pilotage, pas remplacer les sources budgetaires ou les sources laureats.
+
+- [x] Identifier les documents Cour des comptes pertinents pour France 2030, PIA4, decarbonation industrielle, PEPR/agences de programmes et execution budgetaire.
+- [x] Creer `data/audit_documents.json`.
+- [x] Creer `data/audit_recommendations.json`.
+- [x] Creer `data/audit_findings.json`.
+- [x] Creer `scripts/20_ingest_cour_des_comptes.py`.
+- [x] Ajouter les documents Cour des comptes dans `data/sources.json` avec `sourceType: "audit_report"`.
+- [x] Telecharger ou lire les PDF depuis les URLs officielles `ccomptes.fr` avec cache local.
+- [x] Extraire les metadonnees documentaires : `auditDocumentId`, `title`, `publisher`, `publicationDate`, `documentType`, `sourceUrl`, `pdfUrl`, `themes`, `programmeCodes`.
+- [x] Extraire les recommandations explicites avec `recommendationId`, `auditDocumentId`, `recommendationText`, `issuer`, `targetOrganization`, `sourcePage`, `status: "to_review"`.
+- [x] Extraire les constats ou risques structurants avec `findingId`, `auditDocumentId`, `findingType`, `findingText`, `riskLevel`, `relatedProgrammeCodes`, `relatedThemeIds`, `sourcePage`, `confidenceScore`.
+- [x] Limiter `quoteExtract` a un court extrait, puis privilegier `evidenceSummary` pour rester lisible et eviter de recopier les rapports.
+- [x] Ajouter des correlations `auditDocument -> programme`, `auditFinding -> programme`, `auditRecommendation -> operator`, `auditFinding -> theme` lorsque le lien est explicite.
+- [x] Ajouter les tables SQLite `audit_documents`, `audit_recommendations`, `audit_findings` et les charger via `scripts/11_export_to_sqlite.py`.
+- [ ] Ajouter un export front ou data quality permettant d'afficher les alertes Cour des comptes par programme.
+- [ ] Faire apparaitre les recommandations non traitees dans `data/quality_report.json`.
+
+Schema attendu pour `data/audit_documents.json` :
+
+```json
+[
+  {
+    "auditDocumentId": "ccomptes-neb-2026-france-2030",
+    "title": "Note d'execution budgetaire 2025 - Investir pour la France de 2030",
+    "publisher": "Cour des comptes",
+    "publicationDate": "2026-04",
+    "documentType": "budget_execution_note",
+    "sourceUrl": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Investir-pour-France-2030.pdf",
+    "pdfUrl": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Investir-pour-France-2030.pdf",
+    "relatedProgrammeCodes": ["421", "422", "423", "424", "425"],
+    "relatedThemeIds": [],
+    "sourcePages": [],
+    "confidenceScore": 1.0
+  }
+]
+```
+
+Schema attendu pour `data/audit_recommendations.json` :
+
+```json
+[
+  {
+    "recommendationId": "ccomptes-neb-2026-rec-001",
+    "auditDocumentId": "ccomptes-neb-2026-france-2030",
+    "recommendationText": null,
+    "targetOrganization": null,
+    "relatedProgrammeCodes": [],
+    "relatedThemeIds": [],
+    "sourceUrl": "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Investir-pour-France-2030.pdf",
+    "sourcePage": null,
+    "quoteExtract": null,
+    "evidenceSummary": null,
+    "confidenceScore": 1.0,
+    "validationStatus": "to_review"
+  }
+]
+```
+
+Schema attendu pour `data/audit_findings.json` :
+
+```json
+[
+  {
+    "findingId": "ccomptes-decarbonation-2026-finding-001",
+    "auditDocumentId": "ccomptes-decarbonation-industrie-2026",
+    "findingType": "governance|targeting|evaluation|financial_tracking|internal_control|impact",
+    "findingText": null,
+    "riskLevel": "low|medium|high|unknown",
+    "relatedProgrammeCodes": [],
+    "relatedThemeIds": [],
+    "sourceUrl": "https://www.ccomptes.fr/sites/default/files/2026-03/20260311-Aides-a-decarbonation-de-l-industrie-du-plan-de-relance-et-de-France-2030.pdf",
+    "sourcePage": null,
+    "quoteExtract": null,
+    "evidenceSummary": null,
+    "confidenceScore": 0.8,
+    "validationStatus": "to_validate"
+  }
+]
+```
+
+Critere d'acceptation :
+
+- [x] Les cinq documents Cour des comptes prioritaires sont references dans `audit_documents.json`.
+- [ ] Chaque recommandation ou constat extrait est source avec URL et page.
+- [ ] Les liens vers programmes/themes ne sont crees que si le document mentionne explicitement le perimetre concerne.
+- [ ] Les recommandations Cour des comptes apparaissent dans le rapport qualite ou l'onglet Data Quality.
+- [x] Les JSON restent idempotents et utilisent des IDs deterministes.
 
 ---
 

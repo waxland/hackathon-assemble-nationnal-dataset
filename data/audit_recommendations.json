@@ -1,0 +1,20 @@
+[
+  {
+    "recommendationId": "rec-2ebc6444",
+    "auditDocumentId": "ccomptes-neb-2026-france-2030",
+    "recommendationText": "Mettre en place un outil de suivi centralisé des décaissements réels par les opérateurs.",
+    "issuer": "Cour des comptes",
+    "targetOrganization": "SGPI",
+    "sourcePage": 14,
+    "status": "to_review"
+  },
+  {
+    "recommendationId": "rec-3ad16a41",
+    "auditDocumentId": "ccomptes-decarbonation-industrie-2026",
+    "recommendationText": "Conditionner les aides à la décarbonation à la publication d'un bilan GES audité.",
+    "issuer": "Cour des comptes",
+    "targetOrganization": "ADEME",
+    "sourcePage": 45,
+    "status": "to_review"
+  }
+]

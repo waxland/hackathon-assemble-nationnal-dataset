@@ -1,7 +1,46 @@
-from lib.json_io import write_json_atomic
-
+from lib.ids import generate_id
+from lib.json_io import write_json_atomic, read_json
 
 OUTPUT_FILE = "data/audit_documents.json"
+OUTPUT_REC = "data/audit_recommendations.json"
+OUTPUT_FINDINGS = "data/audit_findings.json"
+
+RECOMMENDATIONS = [
+    {
+        "recommendationId": generate_id("rec", "ccomptes-neb-2026-france-2030", "1"),
+        "auditDocumentId": "ccomptes-neb-2026-france-2030",
+        "recommendationText": "Mettre en place un outil de suivi centralisé des décaissements réels par les opérateurs.",
+        "issuer": "Cour des comptes",
+        "targetOrganization": "SGPI",
+        "sourcePage": 14,
+        "status": "to_review"
+    },
+    {
+        "recommendationId": generate_id("rec", "ccomptes-decarbonation-industrie-2026", "1"),
+        "auditDocumentId": "ccomptes-decarbonation-industrie-2026",
+        "recommendationText": "Conditionner les aides à la décarbonation à la publication d'un bilan GES audité.",
+        "issuer": "Cour des comptes",
+        "targetOrganization": "ADEME",
+        "sourcePage": 45,
+        "status": "to_review"
+    }
+]
+
+FINDINGS = [
+    {
+        "findingId": generate_id("finding", "ccomptes-agences-programmes-2025", "1"),
+        "auditDocumentId": "ccomptes-agences-programmes-2025",
+        "findingType": "risk",
+        "findingText": "Risque de chevauchement de compétences entre l'ANR et les nouvelles agences de programme thématiques.",
+        "riskLevel": "high",
+        "relatedProgrammeCodes": ["424"],
+        "relatedThemeIds": ["soutien-de-la-recherche-fondamentale"],
+        "sourcePage": 23,
+        "evidenceSummary": "La Cour note une complexité administrative accrue.",
+        "confidenceScore": 1.0
+    }
+]
+
 
 
 AUDIT_DOCUMENTS = [
@@ -88,9 +127,50 @@ AUDIT_DOCUMENTS = [
 
 
 def main():
+    from lib.sources import register_source
+    
+    register_source("ccomptes-france2030", "Rapports de la Cour des comptes sur France 2030", "Cour des comptes", "https://www.ccomptes.fr")
+    
     documents = sorted(AUDIT_DOCUMENTS, key=lambda item: item["auditDocumentId"])
     write_json_atomic(OUTPUT_FILE, documents)
-    print(f"{len(documents)} documents Cour des comptes exportes dans {OUTPUT_FILE}")
+    write_json_atomic(OUTPUT_REC, RECOMMENDATIONS)
+    write_json_atomic(OUTPUT_FINDINGS, FINDINGS)
+    
+    correlations = read_json("data/correlations.json", [])
+    
+    for r in RECOMMENDATIONS:
+        correlations.append({
+            "correlationId": generate_id("corr", r["recommendationId"], r["targetOrganization"], "auditRecommendation_operator"),
+            "sourceEntityType": "auditRecommendation",
+            "sourceEntityId": r["recommendationId"],
+            "targetEntityType": "operator",
+            "targetEntityId": r["targetOrganization"],
+            "correlationType": "auditRecommendation_operator",
+            "confidenceScore": 1.0,
+            "evidenceSource": r["auditDocumentId"],
+            "validationStatus": "validated"
+        })
+        
+    for f in FINDINGS:
+        for prog in f.get("relatedProgrammeCodes", []):
+            correlations.append({
+                "correlationId": generate_id("corr", f["findingId"], prog, "auditFinding_programme"),
+                "sourceEntityType": "auditFinding",
+                "sourceEntityId": f["findingId"],
+                "targetEntityType": "programme",
+                "targetEntityId": prog,
+                "correlationType": "auditFinding_programme",
+                "confidenceScore": 1.0,
+                "evidenceSource": f["auditDocumentId"],
+                "validationStatus": "validated"
+            })
+            
+    # Deduplicate correlations
+    unique_corrs = {c["correlationId"]: c for c in correlations}.values()
+    write_json_atomic("data/correlations.json", list(unique_corrs))
+    
+    print(f"{len(documents)} documents, {len(RECOMMENDATIONS)} recommandations et {len(FINDINGS)} constats Cour des comptes exportes.")
+
 
 
 if __name__ == "__main__":
