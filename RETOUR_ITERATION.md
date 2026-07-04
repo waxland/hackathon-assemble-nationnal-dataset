@@ -71,3 +71,12 @@
 - **Commandes lancées + résultats** : Exécution du script 16. Le nombre de corrélations dans la base SQLite a explosé pour atteindre +2100 relations, ce qui prouve la richesse de ce jeu de données open data.
 - **Blocages / observations** : Beaucoup de SIRET partiels ou manquants dans la base ADEME, le fallback a été fait sur un hash du nom du bénéficiaire.
 - **Prochaine tâche recommandée** : P1.4 Ingestion brevets par SIREN
+
+## [2026-07-04] Tâche P1.4 : Ingestion brevets par SIREN
+
+- **Tâche traitée** : P1.4 Ingestion brevets par SIREN
+- **Fichiers modifiés** : `scripts/17_ingest_patent_depositors.py`, `scripts/11_export_to_sqlite.py`, `scripts/13_export_to_front_contract.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Création du script d'ingestion INPI. Le fichier CSV de 900k lignes est lu par morceaux (`chunksize=100000`) et filtré en mémoire vive grâce au set de SIREN pré-existants. Les données de propriété intellectuelle (Nb demandes et Nb de familles de brevets DOCDB) sont consolidées dans SQLite et retranscrites dans `inpi-patent-families.json`.
+- **Commandes lancées + résultats** : Exécution de `17`. Le fichier cible contient désormais les brevets d'entreprises clés (Ex: Ynsect a déposé 366 demandes).
+- **Blocages / observations** : Rien de bloquant. La lecture par chunks a parfaitement pallié les problèmes de RAM.
+- **Prochaine tâche recommandée** : P1.5 Registre des sources

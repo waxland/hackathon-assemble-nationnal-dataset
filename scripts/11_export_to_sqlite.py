@@ -132,6 +132,15 @@ def init_db(db_path):
         region TEXT,
         confidenceScore REAL
     );
+    CREATE TABLE IF NOT EXISTS patent_depositors (
+        patentFamilyId TEXT PRIMARY KEY,
+        siren TEXT,
+        companyName TEXT,
+        nbDemandes INTEGER,
+        nbFamilles INTEGER,
+        sourceUrl TEXT,
+        confidenceScore REAL
+    );
     CREATE TABLE IF NOT EXISTS ingestion_runs (
         runId TEXT PRIMARY KEY,
         startedAt TEXT,
@@ -201,7 +210,8 @@ def main():
             ("data/green_budget_lines.json", "green_budget_lines", ["id", "programmeCode", "actionCode", "actionName", "globalRating", "amount2026", "sourceUrl", "confidenceScore"]),
             ("data/projects.json", "projects", ["projectId", "projectName", "description", "operator", "grantAmount", "sourceUrl", "confidenceScore"]),
             ("data/project_beneficiaries.json", "project_beneficiaries", ["beneficiaryId", "name", "type", "confidenceScore"]),
-            ("data/territories.json", "territories", ["territoryId", "communeCode", "communeName", "departement", "region", "confidenceScore"])
+            ("data/territories.json", "territories", ["territoryId", "communeCode", "communeName", "departement", "region", "confidenceScore"]),
+            ("data/patent_depositors.json", "patent_depositors", ["patentFamilyId", "siren", "companyName", "nbDemandes", "nbFamilles", "sourceUrl", "confidenceScore"])
         ]
         
         for filepath, table, keys in files_and_tables:

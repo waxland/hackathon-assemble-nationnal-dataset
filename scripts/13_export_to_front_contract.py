@@ -253,14 +253,55 @@ def main():
     save_front_json(export_dir, "programme-alignment-scores.json", format_front_json(align_scores_front))
 
     # =========================================================================
-    # 7. Fichiers restants (Mocks Vides pour ne pas faire crasher le front)
+    # 7. dataset/sources/inpi-patent-families.json
+    # =========================================================================
+    print(" -> Exportation de inpi-patent-families.json...")
+    inpi_front = []
+    
+    for prog in programs:
+        item = get_base_program_skeleton(prog)
+        item["data"] = []
+        item["confidence"] = 1.0
+        
+        # Trouver les brevets liés à ce programme
+        query_inpi = """
+        SELECT pd.siren, pd.companyName, pd.nbDemandes, pd.nbFamilles, pd.sourceUrl
+        FROM patent_depositors pd
+        JOIN correlations cor ON pd.patentFamilyId = cor.targetEntityId
+        WHERE cor.correlationType = 'company_patent'
+          AND cor.sourceEntityId IN (
+              SELECT c.companyId FROM companies c
+              JOIN correlations cor2 ON c.companyId = cor2.sourceEntityId
+              WHERE cor2.targetEntityType = 'theme'
+                AND cor2.targetEntityId IN (
+                    SELECT targetEntityId FROM correlations WHERE sourceEntityId = ? AND sourceEntityType = 'programme'
+                )
+          )
+        """
+        for i_row in cursor.execute(query_inpi, (prog,)).fetchall():
+            item["data"].append({
+                "siren": i_row["siren"],
+                "companyName": i_row["companyName"],
+                "nbDemandes": i_row["nbDemandes"],
+                "nbFamilles": i_row["nbFamilles"],
+                "sourceUrl": i_row["sourceUrl"]
+            })
+                
+        if not item["data"]:
+            item["isMock"] = True
+            
+        inpi_front.append(item)
+        
+    save_front_json(export_dir, "inpi-patent-families.json", format_front_json(inpi_front))
+
+    # =========================================================================
+    # 8. Fichiers restants (Mocks Vides pour ne pas faire crasher le front)
     # =========================================================================
     print(" -> Création des mocks vides restants...")
     empty_mocks = [
         "investment-programme-reports.json",
         "investment-programme-dataviz.json",
         "data-gouv-datasets.json",
-        "inpi-patent-families.json",
         "company-revenues.json"
     ]
     

@@ -1,0 +1,79 @@
+[
+  {
+    "patentFamilyId": "patent-family-534948617",
+    "siren": "534948617",
+    "companyName": "YNSECT",
+    "nbDemandes": 366,
+    "nbFamilles": 42,
+    "famillesDocDb": [
+      "58501585",
+      "58501586",
+      "61148255",
+      "53200211",
+      "63722507"
+    ],
+    "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1",
+    "confidenceScore": 1.0
+  },
+  {
+    "patentFamilyId": "patent-family-788658946",
+    "siren": "788658946",
+    "companyName": "FLYING WHALES",
+    "nbDemandes": 112,
+    "nbFamilles": 23,
+    "famillesDocDb": [
+      "83005940",
+      "83004853",
+      "83050143",
+      "83004879",
+      "54007842"
+    ],
+    "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1",
+    "confidenceScore": 1.0
+  },
+  {
+    "patentFamilyId": "patent-family-831241179",
+    "siren": "831241179",
+    "companyName": "EXOTRAIL",
+    "nbDemandes": 4,
+    "nbFamilles": 2,
+    "famillesDocDb": [
+      "90717847",
+      "87890003"
+    ],
+    "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1",
+    "confidenceScore": 1.0
+  },
+  {
+    "patentFamilyId": "patent-family-849441522",
+    "siren": "849441522",
+    "companyName": "PASQAL",
+    "nbDemandes": 90,
+    "nbFamilles": 38,
+    "famillesDocDb": [
+      "77126703",
+      "77998899",
+      "83228988",
+      "85703482",
+      "89619655"
+    ],
+    "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1",
+    "confidenceScore": 1.0
+  },
+  {
+    "patentFamilyId": "patent-family-888047792",
+    "siren": "888047792",
+    "companyName": "VERKOR",
+    "nbDemandes": 81,
+    "nbFamilles": 32,
+    "famillesDocDb": [
+      "87136142",
+      "90810525",
+      "83438648",
+      "83439163",
+      "85278430"
+    ],
+    "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1",
+    "confidenceScore": 1.0
+  }
+]

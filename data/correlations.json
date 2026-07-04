@@ -23450,5 +23450,60 @@
     "confidenceScore": 1.0,
     "evidenceSource": "raw_ademe.csv",
     "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-219cb3ae",
+    "sourceEntityType": "company",
+    "sourceEntityId": "siren-534948617",
+    "targetEntityType": "patentFamily",
+    "targetEntityId": "patent-family-534948617",
+    "correlationType": "company_patent",
+    "confidenceScore": 1.0,
+    "evidenceSource": "raw_inpi.csv",
+    "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-84bd8696",
+    "sourceEntityType": "company",
+    "sourceEntityId": "siren-788658946",
+    "targetEntityType": "patentFamily",
+    "targetEntityId": "patent-family-788658946",
+    "correlationType": "company_patent",
+    "confidenceScore": 1.0,
+    "evidenceSource": "raw_inpi.csv",
+    "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-b2ffcb81",
+    "sourceEntityType": "company",
+    "sourceEntityId": "siren-831241179",
+    "targetEntityType": "patentFamily",
+    "targetEntityId": "patent-family-831241179",
+    "correlationType": "company_patent",
+    "confidenceScore": 1.0,
+    "evidenceSource": "raw_inpi.csv",
+    "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-f76ba30c",
+    "sourceEntityType": "company",
+    "sourceEntityId": "siren-849441522",
+    "targetEntityType": "patentFamily",
+    "targetEntityId": "patent-family-849441522",
+    "correlationType": "company_patent",
+    "confidenceScore": 1.0,
+    "evidenceSource": "raw_inpi.csv",
+    "validationStatus": "validated"
+  },
+  {
+    "correlationId": "corr-6cf85819",
+    "sourceEntityType": "company",
+    "sourceEntityId": "siren-888047792",
+    "targetEntityType": "patentFamily",
+    "targetEntityId": "patent-family-888047792",
+    "correlationType": "company_patent",
+    "confidenceScore": 1.0,
+    "evidenceSource": "raw_inpi.csv",
+    "validationStatus": "validated"
   }
 ]

@@ -282,19 +282,19 @@ Critere d'acceptation :
 
 #### P1.4 Ingestion brevets par SIREN
 
-- [ ] Creer `scripts/17_ingest_patent_depositors.py`.
-- [ ] Lire le dataset `deposants-des-brevets`.
-- [ ] Filtrer d'abord sur les SIREN deja presents dans `companies.json` pour eviter de charger inutilement 900k+ lignes en memoire.
-- [ ] Produire `data/patent_depositors.json`.
-- [ ] Agreger par `siren` : nombre de demandes, nombre de familles `nr_famille_docdb`, liste d'exemples.
-- [ ] Exporter vers `data/export_front/inpi-patent-families.json`.
-- [ ] Mettre `isMock: false` pour les programmes qui ont des entreprises avec brevets.
-- [ ] Ajouter les correlations `company -> patentFamily`.
+- [x] Creer `scripts/17_ingest_patent_depositors.py`.
+- [x] Lire le dataset `deposants-des-brevets`.
+- [x] Filtrer d'abord sur les SIREN deja presents dans `companies.json` pour eviter de charger inutilement 900k+ lignes en memoire.
+- [x] Produire `data/patent_depositors.json`.
+- [x] Agreger par `siren` : nombre de demandes, nombre de familles `nr_famille_docdb`, liste d'exemples.
+- [x] Exporter vers `data/export_front/inpi-patent-families.json`.
+- [x] Mettre `isMock: false` pour les programmes qui ont des entreprises avec brevets.
+- [x] Ajouter les correlations `company -> patentFamily`.
 
 Critere d'acceptation :
 
-- [ ] `dataset/sources/inpi-patent-families.json` n'est plus un mock vide pour les entreprises ayant des brevets.
-- [ ] La jointure se fait par `siren`, pas par nom.
+- [x] `dataset/sources/inpi-patent-families.json` n'est plus un mock vide pour les entreprises ayant des brevets.
+- [x] La jointure se fait par `siren`, pas par nom.
 
 #### P1.5 Registre des sources
 
