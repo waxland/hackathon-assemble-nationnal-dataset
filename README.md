@@ -7,7 +7,7 @@ Ce dépôt contient les scripts et les données générées pour le Hackathon de
 L'ensemble des scripts génère une base de données relationnelle (disponible au format JSON plat et SQLite) qui mappe les entités suivantes :
 
 - **Programmes budgétaires** (421 à 425)
-- **Lignes budgétaires** (Montants CP 2025 sourcés PLF)
+- **Lignes budgétaires** (Montants CP 2024 et 2025 sourcés PLF)
 - **Thématiques** (Les 10 objectifs officiels de France 2030)
 - **Mots-clés** (Taxonomie enrichie)
 - **Mentions parlementaires** (Amendements et questions écrites extraits de l'Open Data)
@@ -16,6 +16,19 @@ L'ensemble des scripts génère une base de données relationnelle (disponible a
 - **Corrélations** (Graphe reliant l'ensemble de ces entités)
 
 Consultez le fichier [DATASETS.md](DATASETS.md) pour voir le diagramme Entité-Association complet.
+
+## 📊 Données réelles vs échantillons vs mocks
+
+Ce POC s'appuie sur un mélange de données réelles, d'échantillons et de données simulées (mocks) pour permettre la conception des interfaces :
+
+- **Données réelles** : 
+  - Budgets PLF 2024 et 2025 (via `data.economie.gouv.fr`). Un chantier est à prévoir pour intégrer le PLF 2026.
+  - Mentions parlementaires (extraites via l'API de NosDéputés.fr).
+  - Entreprises et Codes NAF (extraits via la base Sirene complète de l'INSEE).
+- **Échantillons** :
+  - Appels à projets (4 AAP emblématiques sont codés en dur pour simuler le rendu).
+- **Mocks** :
+  - Données INPI (brevets), CA des entreprises, datasets data.gouv.fr complémentaires, rapports d'investissement, etc. (actuellement générés avec `isMock: true` pour le contrat Front).
 
 ## 🚀 Utilisation
 
@@ -34,7 +47,7 @@ pip install -r requirements.txt
 Les scripts doivent être exécutés dans l'ordre pour générer la base complète.
 
 ```bash
-# 1. Extraction du PLF 2026 (Open Data Budget)
+# 1. Extraction du PLF 2024 et 2025 (Open Data Budget)
 python3 scripts/01_extract_programs.py
 python3 scripts/02_extract_budget_lines.py
 
@@ -56,6 +69,13 @@ python3 scripts/09_fetch_companies.py
 # 6. Compilation finale et base SQLite
 python3 scripts/10_generate_correlations.py
 python3 scripts/11_export_to_sqlite.py
+```
+
+Ou utiliser le Makefile :
+```bash
+make install
+make run-scraping
+make export-front
 ```
 
 ## 📊 Base SQLite

@@ -1,6 +1,6 @@
 # 🇫🇷 Makefile - Hackathon Assemblée Nationale - France 2030
 
-.PHONY: help install run-scraping export-front export-neo4j clean run-dashboard
+.PHONY: help install run-scraping export-front export-neo4j clean run-dashboard quality-report validate-schema
 
 EXPORT_DIR=dataset
 
@@ -55,6 +55,14 @@ export-neo4j: ## Génère les fichiers CSV structurés pour un import Neo4j / Ge
 run-dashboard: ## Lance le dashboard interactif Streamlit en local
 	@echo "📊 Lancement du Dashboard Streamlit..."
 	./venv/bin/streamlit run app/app.py
+
+quality-report: ## Génère un rapport de qualité des données
+	@echo "📊 Génération du rapport de qualité..."
+	./venv/bin/python scripts/18_generate_quality_report.py
+
+validate-schema: ## Valide les schémas JSON internes via Pydantic
+	@echo "🛡️ Validation des schémas JSON..."
+	./venv/bin/python scripts/19_validate_json_contracts.py
 
 clean: ## Supprime l'environnement virtuel, les caches et le dossier data/
 	@echo "🧹 Nettoyage du projet..."

@@ -1,6 +1,6 @@
 [
   {
-    "keywordId": "kw-smr",
+    "keywordId": "kw-1.-petits-react-smr",
     "label": "SMR",
     "type": "concept",
     "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
@@ -11,7 +11,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-petits-reacteurs-modulaires",
+    "keywordId": "kw-1.-petits-react-petits-reacteurs-modulaires",
     "label": "petits réacteurs modulaires",
     "type": "concept",
     "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
@@ -22,7 +22,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-nucleaire",
+    "keywordId": "kw-1.-petits-react-nucleaire",
     "label": "nucléaire",
     "type": "concept",
     "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
@@ -33,7 +33,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-epr",
+    "keywordId": "kw-1.-petits-react-epr",
     "label": "EPR",
     "type": "concept",
     "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
@@ -44,7 +44,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-reacteur-nucleaire",
+    "keywordId": "kw-1.-petits-react-reacteur-nucleaire",
     "label": "réacteur nucléaire",
     "type": "concept",
     "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
@@ -55,7 +55,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-gestion-des-dechets-radioactifs",
+    "keywordId": "kw-1.-petits-react-gestion-des-dechets-radioactifs",
     "label": "gestion des déchets radioactifs",
     "type": "concept",
     "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
@@ -66,7 +66,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-hydrogene-vert",
+    "keywordId": "kw-2.-leader-de-l--hydrogene-vert",
     "label": "hydrogène vert",
     "type": "concept",
     "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
@@ -77,7 +77,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-hydrogene-decarbone",
+    "keywordId": "kw-2.-leader-de-l--hydrogene-decarbone",
     "label": "hydrogène décarboné",
     "type": "concept",
     "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
@@ -88,7 +88,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-electrolyseur",
+    "keywordId": "kw-2.-leader-de-l--electrolyseur",
     "label": "électrolyseur",
     "type": "concept",
     "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
@@ -99,7 +99,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-pile-a-combustible",
+    "keywordId": "kw-2.-leader-de-l--pile-a-combustible",
     "label": "pile à combustible",
     "type": "concept",
     "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
@@ -110,7 +110,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-gigafactory-hydrogene",
+    "keywordId": "kw-2.-leader-de-l--gigafactory-hydrogene",
     "label": "gigafactory hydrogène",
     "type": "concept",
     "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
@@ -121,7 +121,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-h2",
+    "keywordId": "kw-2.-leader-de-l--h2",
     "label": "H2",
     "type": "concept",
     "relatedThemeId": "2.-leader-de-l-hydrogene-vert",
@@ -132,7 +132,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-decarbonation",
+    "keywordId": "kw-3.-decarbonatio-decarbonation",
     "label": "décarbonation",
     "type": "concept",
     "relatedThemeId": "3.-decarbonation-de-l-industrie",
@@ -143,7 +143,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-industrie-bas-carbone",
+    "keywordId": "kw-3.-decarbonatio-industrie-bas-carbone",
     "label": "industrie bas-carbone",
     "type": "concept",
     "relatedThemeId": "3.-decarbonation-de-l-industrie",
@@ -154,7 +154,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-capture-carbone",
+    "keywordId": "kw-3.-decarbonatio-capture-carbone",
     "label": "capture carbone",
     "type": "concept",
     "relatedThemeId": "3.-decarbonation-de-l-industrie",
@@ -165,7 +165,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-efficacite-energetique-industrielle",
+    "keywordId": "kw-3.-decarbonatio-efficacite-energetique-industrielle",
     "label": "efficacité énergétique industrielle",
     "type": "concept",
     "relatedThemeId": "3.-decarbonation-de-l-industrie",
@@ -176,7 +176,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-chaleur-bas-carbone",
+    "keywordId": "kw-3.-decarbonatio-chaleur-bas-carbone",
     "label": "chaleur bas-carbone",
     "type": "concept",
     "relatedThemeId": "3.-decarbonation-de-l-industrie",
@@ -187,7 +187,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-ccus",
+    "keywordId": "kw-3.-decarbonatio-ccus",
     "label": "CCUS",
     "type": "concept",
     "relatedThemeId": "3.-decarbonation-de-l-industrie",
@@ -198,7 +198,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-vehicule-electrique",
+    "keywordId": "kw-4.-vehicules-el-vehicule-electrique",
     "label": "véhicule électrique",
     "type": "concept",
     "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
@@ -209,7 +209,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-batteries",
+    "keywordId": "kw-4.-vehicules-el-batteries",
     "label": "batteries",
     "type": "concept",
     "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
@@ -220,7 +220,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-gigafactory-de-batteries",
+    "keywordId": "kw-4.-vehicules-el-gigafactory-de-batteries",
     "label": "gigafactory de batteries",
     "type": "concept",
     "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
@@ -231,7 +231,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-borne-de-recharge",
+    "keywordId": "kw-4.-vehicules-el-borne-de-recharge",
     "label": "borne de recharge",
     "type": "concept",
     "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
@@ -242,7 +242,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-vehicule-hybride",
+    "keywordId": "kw-4.-vehicules-el-vehicule-hybride",
     "label": "véhicule hybride",
     "type": "concept",
     "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
@@ -253,7 +253,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-mobilite-durable",
+    "keywordId": "kw-4.-vehicules-el-mobilite-durable",
     "label": "mobilité durable",
     "type": "concept",
     "relatedThemeId": "4.-vehicules-electriques-et-hybrides",
@@ -264,7 +264,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-avion-bas-carbone",
+    "keywordId": "kw-5.-premier-avio-avion-bas-carbone",
     "label": "avion bas-carbone",
     "type": "concept",
     "relatedThemeId": "5.-premier-avion-bas-carbone",
@@ -275,7 +275,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-aeronautique-decarbonee",
+    "keywordId": "kw-5.-premier-avio-aeronautique-decarbonee",
     "label": "aéronautique décarbonée",
     "type": "concept",
     "relatedThemeId": "5.-premier-avion-bas-carbone",
@@ -286,7 +286,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-carburant-d-aviation-durable",
+    "keywordId": "kw-5.-premier-avio-carburant-d-aviation-durable",
     "label": "carburant d'aviation durable",
     "type": "concept",
     "relatedThemeId": "5.-premier-avion-bas-carbone",
@@ -297,7 +297,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-saf",
+    "keywordId": "kw-5.-premier-avio-saf",
     "label": "SAF",
     "type": "concept",
     "relatedThemeId": "5.-premier-avion-bas-carbone",
@@ -308,7 +308,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-moteur-a-hydrogene",
+    "keywordId": "kw-5.-premier-avio-moteur-a-hydrogene",
     "label": "moteur à hydrogène",
     "type": "concept",
     "relatedThemeId": "5.-premier-avion-bas-carbone",
@@ -319,7 +319,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-alimentation-durable",
+    "keywordId": "kw-6.-alimentation-alimentation-durable",
     "label": "alimentation durable",
     "type": "concept",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -330,7 +330,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-agriculture-de-precision",
+    "keywordId": "kw-6.-alimentation-agriculture-de-precision",
     "label": "agriculture de précision",
     "type": "concept",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -341,7 +341,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-agroecologie",
+    "keywordId": "kw-6.-alimentation-agroecologie",
     "label": "agroécologie",
     "type": "concept",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -352,7 +352,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-foodtech",
+    "keywordId": "kw-6.-alimentation-foodtech",
     "label": "foodtech",
     "type": "technology",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -363,7 +363,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-agritech",
+    "keywordId": "kw-6.-alimentation-agritech",
     "label": "agritech",
     "type": "technology",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -374,7 +374,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-proteines-alternatives",
+    "keywordId": "kw-6.-alimentation-proteines-alternatives",
     "label": "protéines alternatives",
     "type": "concept",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -385,7 +385,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-tracabilite-alimentaire",
+    "keywordId": "kw-6.-alimentation-tracabilite-alimentaire",
     "label": "traçabilité alimentaire",
     "type": "concept",
     "relatedThemeId": "6.-alimentation-saine-durable-et-tracable",
@@ -396,7 +396,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-biomedicament",
+    "keywordId": "kw-7.-production-d-biomedicament",
     "label": "biomédicament",
     "type": "concept",
     "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
@@ -407,7 +407,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-biotherapie",
+    "keywordId": "kw-7.-production-d-biotherapie",
     "label": "biothérapie",
     "type": "concept",
     "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
@@ -418,7 +418,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-sante-numerique",
+    "keywordId": "kw-7.-production-d-sante-numerique",
     "label": "santé numérique",
     "type": "concept",
     "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
@@ -429,7 +429,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-dispositif-medical",
+    "keywordId": "kw-7.-production-d-dispositif-medical",
     "label": "dispositif médical",
     "type": "concept",
     "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
@@ -440,7 +440,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-therapie-genique",
+    "keywordId": "kw-7.-production-d-therapie-genique",
     "label": "thérapie génique",
     "type": "concept",
     "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
@@ -451,7 +451,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-healthtech",
+    "keywordId": "kw-7.-production-d-healthtech",
     "label": "healthtech",
     "type": "technology",
     "relatedThemeId": "7.-production-de-biomedicaments-et-dispositifs-medicaux",
@@ -462,7 +462,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-industries-culturelles-et-creatives",
+    "keywordId": "kw-8.-production-d-industries-culturelles-et-creatives",
     "label": "industries culturelles et créatives",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -473,7 +473,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-icc",
+    "keywordId": "kw-8.-production-d-icc",
     "label": "ICC",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -484,7 +484,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-metavers",
+    "keywordId": "kw-8.-production-d-metavers",
     "label": "métavers",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -495,7 +495,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-studios-de-tournage",
+    "keywordId": "kw-8.-production-d-studios-de-tournage",
     "label": "studios de tournage",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -506,7 +506,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-effets-visuels",
+    "keywordId": "kw-8.-production-d-effets-visuels",
     "label": "effets visuels",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -517,7 +517,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-jeux-video",
+    "keywordId": "kw-8.-production-d-jeux-video",
     "label": "jeux vidéo",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -528,7 +528,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-billetterie",
+    "keywordId": "kw-8.-production-d-billetterie",
     "label": "billetterie",
     "type": "concept",
     "relatedThemeId": "8.-production-de-contenus-culturels-et-creatifs",
@@ -539,7 +539,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-spatial",
+    "keywordId": "kw-9.-nouvelle-ave-spatial",
     "label": "spatial",
     "type": "concept",
     "relatedThemeId": "9.-nouvelle-aventure-spatiale",
@@ -550,7 +550,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-micro-lanceurs",
+    "keywordId": "kw-9.-nouvelle-ave-micro-lanceurs",
     "label": "micro-lanceurs",
     "type": "concept",
     "relatedThemeId": "9.-nouvelle-aventure-spatiale",
@@ -561,7 +561,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-constellation-de-satellites",
+    "keywordId": "kw-9.-nouvelle-ave-constellation-de-satellites",
     "label": "constellation de satellites",
     "type": "concept",
     "relatedThemeId": "9.-nouvelle-aventure-spatiale",
@@ -572,7 +572,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-new-space",
+    "keywordId": "kw-9.-nouvelle-ave-new-space",
     "label": "new space",
     "type": "concept",
     "relatedThemeId": "9.-nouvelle-aventure-spatiale",
@@ -583,7 +583,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-orbite",
+    "keywordId": "kw-9.-nouvelle-ave-orbite",
     "label": "orbite",
     "type": "concept",
     "relatedThemeId": "9.-nouvelle-aventure-spatiale",
@@ -594,7 +594,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-cnes",
+    "keywordId": "kw-9.-nouvelle-ave-cnes",
     "label": "CNES",
     "type": "concept",
     "relatedThemeId": "9.-nouvelle-aventure-spatiale",
@@ -605,7 +605,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-fonds-marins",
+    "keywordId": "kw-10.-exploration-fonds-marins",
     "label": "fonds marins",
     "type": "concept",
     "relatedThemeId": "10.-exploration-des-fonds-marins",
@@ -616,7 +616,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-grands-fonds-marins",
+    "keywordId": "kw-10.-exploration-grands-fonds-marins",
     "label": "grands fonds marins",
     "type": "concept",
     "relatedThemeId": "10.-exploration-des-fonds-marins",
@@ -627,7 +627,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-exploration-oceanique",
+    "keywordId": "kw-10.-exploration-exploration-oceanique",
     "label": "exploration océanique",
     "type": "concept",
     "relatedThemeId": "10.-exploration-des-fonds-marins",
@@ -638,7 +638,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-robotique-sous-marine",
+    "keywordId": "kw-10.-exploration-robotique-sous-marine",
     "label": "robotique sous-marine",
     "type": "concept",
     "relatedThemeId": "10.-exploration-des-fonds-marins",
@@ -649,7 +649,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-auv",
+    "keywordId": "kw-10.-exploration-auv",
     "label": "AUV",
     "type": "concept",
     "relatedThemeId": "10.-exploration-des-fonds-marins",
@@ -660,7 +660,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-rov",
+    "keywordId": "kw-10.-exploration-rov",
     "label": "ROV",
     "type": "concept",
     "relatedThemeId": "10.-exploration-des-fonds-marins",
@@ -671,7 +671,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-intelligence-artificielle",
+    "keywordId": "kw-levier-:-compos-intelligence-artificielle",
     "label": "intelligence artificielle",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -682,7 +682,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-ia",
+    "keywordId": "kw-levier-:-compos-ia",
     "label": "IA",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -693,7 +693,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-quantique",
+    "keywordId": "kw-levier-:-compos-quantique",
     "label": "quantique",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -704,7 +704,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-ordinateur-quantique",
+    "keywordId": "kw-levier-:-compos-ordinateur-quantique",
     "label": "ordinateur quantique",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -715,7 +715,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-cloud-souverain",
+    "keywordId": "kw-levier-:-compos-cloud-souverain",
     "label": "cloud souverain",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -726,7 +726,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-semi-conducteurs",
+    "keywordId": "kw-levier-:-compos-semi-conducteurs",
     "label": "semi-conducteurs",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -737,7 +737,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-composants-electroniques",
+    "keywordId": "kw-levier-:-compos-composants-electroniques",
     "label": "composants électroniques",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -748,7 +748,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-puces-electroniques",
+    "keywordId": "kw-levier-:-compos-puces-electroniques",
     "label": "puces électroniques",
     "type": "concept",
     "relatedThemeId": "levier-:-composants-cloud-ia-et-quantique",
@@ -759,7 +759,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-startup",
+    "keywordId": "kw-soutien-aux-sta-startup",
     "label": "startup",
     "type": "concept",
     "relatedThemeId": "soutien-aux-startups-et-deeptech",
@@ -770,7 +770,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-deeptech",
+    "keywordId": "kw-soutien-aux-sta-deeptech",
     "label": "deeptech",
     "type": "technology",
     "relatedThemeId": "soutien-aux-startups-et-deeptech",
@@ -781,7 +781,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-licorne",
+    "keywordId": "kw-soutien-aux-sta-licorne",
     "label": "licorne",
     "type": "concept",
     "relatedThemeId": "soutien-aux-startups-et-deeptech",
@@ -792,7 +792,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-innovation-de-rupture",
+    "keywordId": "kw-soutien-aux-sta-innovation-de-rupture",
     "label": "innovation de rupture",
     "type": "concept",
     "relatedThemeId": "soutien-aux-startups-et-deeptech",
@@ -803,7 +803,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-levee-de-fonds",
+    "keywordId": "kw-soutien-aux-sta-levee-de-fonds",
     "label": "levée de fonds",
     "type": "concept",
     "relatedThemeId": "soutien-aux-startups-et-deeptech",
@@ -814,7 +814,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-poles-de-competitivite",
+    "keywordId": "kw-poles-et-territ-poles-de-competitivite",
     "label": "pôles de compétitivité",
     "type": "concept",
     "relatedThemeId": "poles-et-territoires-d-innovation",
@@ -825,7 +825,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-territoires-d-innovation",
+    "keywordId": "kw-poles-et-territ-territoires-d-innovation",
     "label": "territoires d'innovation",
     "type": "concept",
     "relatedThemeId": "poles-et-territoires-d-innovation",
@@ -836,7 +836,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-incubateur",
+    "keywordId": "kw-poles-et-territ-incubateur",
     "label": "incubateur",
     "type": "concept",
     "relatedThemeId": "poles-et-territoires-d-innovation",
@@ -847,7 +847,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-satt",
+    "keywordId": "kw-poles-et-territ-satt",
     "label": "SATT",
     "type": "concept",
     "relatedThemeId": "poles-et-territoires-d-innovation",
@@ -858,7 +858,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-ecosysteme-d-innovation",
+    "keywordId": "kw-poles-et-territ-ecosysteme-d-innovation",
     "label": "écosystème d'innovation",
     "type": "concept",
     "relatedThemeId": "poles-et-territoires-d-innovation",
@@ -869,7 +869,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-french-tech",
+    "keywordId": "kw-soutien-a-la-fr-french-tech",
     "label": "French Tech",
     "type": "technology",
     "relatedThemeId": "soutien-a-la-french-tech",
@@ -880,7 +880,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-mission-french-tech",
+    "keywordId": "kw-soutien-a-la-fr-mission-french-tech",
     "label": "mission French Tech",
     "type": "technology",
     "relatedThemeId": "soutien-a-la-french-tech",
@@ -891,7 +891,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-french-tech-2030",
+    "keywordId": "kw-soutien-a-la-fr-french-tech-2030",
     "label": "French Tech 2030",
     "type": "technology",
     "relatedThemeId": "soutien-a-la-french-tech",
@@ -902,7 +902,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-next40",
+    "keywordId": "kw-soutien-a-la-fr-next40",
     "label": "Next40",
     "type": "concept",
     "relatedThemeId": "soutien-a-la-french-tech",
@@ -913,7 +913,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-ft120",
+    "keywordId": "kw-soutien-a-la-fr-ft120",
     "label": "FT120",
     "type": "concept",
     "relatedThemeId": "soutien-a-la-french-tech",
@@ -924,7 +924,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-valorisation-de-la-recherche",
+    "keywordId": "kw-valorisation-de-valorisation-de-la-recherche",
     "label": "valorisation de la recherche",
     "type": "concept",
     "relatedThemeId": "valorisation-de-la-recherche-publique",
@@ -935,7 +935,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-transfert-technologique",
+    "keywordId": "kw-valorisation-de-transfert-technologique",
     "label": "transfert technologique",
     "type": "technology",
     "relatedThemeId": "valorisation-de-la-recherche-publique",
@@ -946,7 +946,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-propriete-intellectuelle",
+    "keywordId": "kw-valorisation-de-propriete-intellectuelle",
     "label": "propriété intellectuelle",
     "type": "concept",
     "relatedThemeId": "valorisation-de-la-recherche-publique",
@@ -957,7 +957,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-brevet",
+    "keywordId": "kw-valorisation-de-brevet",
     "label": "brevet",
     "type": "concept",
     "relatedThemeId": "valorisation-de-la-recherche-publique",
@@ -968,7 +968,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-satt",
+    "keywordId": "kw-transfert-techn-satt",
     "label": "SATT",
     "type": "concept",
     "relatedThemeId": "transfert-technologique",
@@ -979,7 +979,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-transfert-de-technologie",
+    "keywordId": "kw-transfert-techn-transfert-de-technologie",
     "label": "transfert de technologie",
     "type": "technology",
     "relatedThemeId": "transfert-technologique",
@@ -990,7 +990,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-recherche-appliquee",
+    "keywordId": "kw-transfert-techn-recherche-appliquee",
     "label": "recherche appliquée",
     "type": "concept",
     "relatedThemeId": "transfert-technologique",
@@ -1001,7 +1001,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-modernisation-des-entreprises",
+    "keywordId": "kw-modernisation-d-modernisation-des-entreprises",
     "label": "modernisation des entreprises",
     "type": "concept",
     "relatedThemeId": "modernisation-de-l-outil-de-production",
@@ -1012,7 +1012,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-industrie-4.0",
+    "keywordId": "kw-modernisation-d-industrie-4.0",
     "label": "industrie 4.0",
     "type": "concept",
     "relatedThemeId": "modernisation-de-l-outil-de-production",
@@ -1023,7 +1023,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-robotisation",
+    "keywordId": "kw-modernisation-d-robotisation",
     "label": "robotisation",
     "type": "concept",
     "relatedThemeId": "modernisation-de-l-outil-de-production",
@@ -1034,7 +1034,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-automatisation",
+    "keywordId": "kw-modernisation-d-automatisation",
     "label": "automatisation",
     "type": "concept",
     "relatedThemeId": "modernisation-de-l-outil-de-production",
@@ -1045,7 +1045,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-numerique",
+    "keywordId": "kw-digitalisation--numerique",
     "label": "numérique",
     "type": "concept",
     "relatedThemeId": "digitalisation-des-pme-eti",
@@ -1056,7 +1056,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-pme",
+    "keywordId": "kw-digitalisation--pme",
     "label": "PME",
     "type": "concept",
     "relatedThemeId": "digitalisation-des-pme-eti",
@@ -1067,7 +1067,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-eti",
+    "keywordId": "kw-digitalisation--eti",
     "label": "ETI",
     "type": "concept",
     "relatedThemeId": "digitalisation-des-pme-eti",
@@ -1078,7 +1078,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-transformation-numerique",
+    "keywordId": "kw-digitalisation--transformation-numerique",
     "label": "transformation numérique",
     "type": "concept",
     "relatedThemeId": "digitalisation-des-pme-eti",
@@ -1089,7 +1089,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-recherche",
+    "keywordId": "kw-soutien-de-la-r-recherche",
     "label": "recherche",
     "type": "concept",
     "relatedThemeId": "soutien-de-la-recherche-fondamentale",
@@ -1100,7 +1100,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-enseignement-superieur",
+    "keywordId": "kw-soutien-de-la-r-enseignement-superieur",
     "label": "enseignement supérieur",
     "type": "concept",
     "relatedThemeId": "soutien-de-la-recherche-fondamentale",
@@ -1111,7 +1111,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-laboratoire",
+    "keywordId": "kw-soutien-de-la-r-laboratoire",
     "label": "laboratoire",
     "type": "concept",
     "relatedThemeId": "soutien-de-la-recherche-fondamentale",
@@ -1122,7 +1122,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-anr",
+    "keywordId": "kw-soutien-de-la-r-anr",
     "label": "ANR",
     "type": "concept",
     "relatedThemeId": "soutien-de-la-recherche-fondamentale",
@@ -1133,7 +1133,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-doctorat",
+    "keywordId": "kw-formation-aux-m-doctorat",
     "label": "doctorat",
     "type": "concept",
     "relatedThemeId": "formation-aux-metiers-d-avenir",
@@ -1144,7 +1144,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-universite",
+    "keywordId": "kw-formation-aux-m-universite",
     "label": "université",
     "type": "concept",
     "relatedThemeId": "formation-aux-metiers-d-avenir",
@@ -1155,7 +1155,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-formation",
+    "keywordId": "kw-formation-aux-m-formation",
     "label": "formation",
     "type": "concept",
     "relatedThemeId": "formation-aux-metiers-d-avenir",
@@ -1166,7 +1166,7 @@
     "confidenceScore": 0.95
   },
   {
-    "keywordId": "kw-competences",
+    "keywordId": "kw-formation-aux-m-competences",
     "label": "compétences",
     "type": "concept",
     "relatedThemeId": "formation-aux-metiers-d-avenir",

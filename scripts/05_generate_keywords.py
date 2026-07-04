@@ -20,7 +20,7 @@ def main():
             theme_id = generate_id(theme_name)
             
             for kw in kw_list:
-                kw_id = f"kw-{generate_id(kw)}"
+                kw_id = f"kw-{theme_id[:15]}-{generate_id(kw)}"
                 keywords.append({
                     "keywordId": kw_id,
                     "label": kw,
