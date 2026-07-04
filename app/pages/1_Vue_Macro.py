@@ -27,8 +27,25 @@ st.divider()
 if not df_budget.empty:
     st.subheader("Répartition budgétaire 2025 par Programme")
     df_grouped = df_budget.groupby("programmeName")["amount2025"].sum().reset_index()
-    fig = px.pie(df_grouped, values='amount2025', names='programmeName', 
+    
+    # Création d'une étiquette personnalisée pour afficher le montant en texte
+    df_grouped["label"] = df_grouped.apply(lambda row: f"{row['programmeName']} ({row['amount2025'] / 1e9:.2f} Mds €)", axis=1)
+    
+    fig = px.pie(df_grouped, values='amount2025', names='label', 
                  title="Ventilation du budget (2025)",
                  color_discrete_sequence=px.colors.sequential.RdBu)
-    fig.update_traces(textposition='inside', textinfo='percent+label')
+    
+    # Configuration pour afficher le Pourcentage ET la Valeur absolue au survol, et personnaliser la légende
+    fig.update_traces(
+        textposition='inside', 
+        textinfo='percent',
+        hovertemplate="<b>%{label}</b><br>Budget: %{value:,.0f} €<br>Part: %{percent}<extra></extra>"
+    )
+    
+    # Amélioration de la légende
+    fig.update_layout(
+        legend_title="Programmes (et Budget)",
+        legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="center", x=0.5)
+    )
+    
     st.plotly_chart(fig, use_container_width=True)
