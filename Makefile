@@ -31,6 +31,7 @@ run-scraping: ## Lance la pipeline complète d'extraction des données et génè
 	FAST=$(FAST) ./venv/bin/python scripts/21_ingest_plf_2026_budget_gouv.py
 	FAST=$(FAST) ./venv/bin/python scripts/23_ingest_ademe_france2030.py
 	FAST=$(FAST) ./venv/bin/python scripts/24_ingest_anr_france2030.py
+	FAST=$(FAST) ./venv/bin/python scripts/25_ingest_infogouv_laureats.py
 	FAST=$(FAST) ./venv/bin/python scripts/11_export_to_sqlite.py
 	@echo "✅ Base de données france2030.sqlite générée avec succès."
 

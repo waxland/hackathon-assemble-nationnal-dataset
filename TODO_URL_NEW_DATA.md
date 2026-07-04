@@ -521,10 +521,10 @@ Source des lauréats :
 
 JSON attendus :
 
-- [ ] Créer `scripts/25_ingest_infogouv_laureats.py`.
-- [ ] Créer `data/infogouv_laureats.json` ou enrichir directement `data/projects.json` et `data/project_beneficiaries.json` selon ce que l'API expose.
-- [ ] Ajouter la source `infogouv-laureats` au registre `data/sources.json`.
-- [ ] Mettre à jour `data/correlations.json` pour relier le projet info.gouv au programme ou thème s'il est explicitement indiqué.
+- [x] Créer `scripts/25_ingest_infogouv_laureats.py`.
+- [x] Créer `data/infogouv_laureats.json` ou enrichir directement `data/projects.json` et `data/project_beneficiaries.json` selon ce que l'API expose.
+- [x] Ajouter la source `infogouv-laureats` au registre `data/sources.json`.
+- [x] Mettre à jour `data/correlations.json` pour relier le projet info.gouv au programme ou thème s'il est explicitement indiqué.
 
 Champs minimaux pour les lauréats ou les projets importés depuis info.gouv :
 
@@ -544,12 +544,12 @@ Champs minimaux pour les lauréats ou les projets importés depuis info.gouv :
 
 Tâches :
 
-- [ ] Analyser le Network tab (XHR) de la page Info.gouv pour identifier l'API JSON cachée qui peuple la liste des lauréats.
-- [ ] Extraire les projets, montants de subvention, SIREN bénéficiaires, localisation et thématique s'ils sont disponibles.
-- [ ] Croiser les SIREN trouvés sur Info.gouv avec ceux déjà extraits via l'ADEME ou la Caisse des Dépôts pour dé-dupliquer les fiches entreprises.
-- [ ] Ne créer une nouvelle entreprise que si son SIREN est validé, et garantir un `confidenceScore: 1.0` puisqu'elle est labellisée officiellement.
+- [x] Analyser le Network tab (XHR) de la page Info.gouv pour identifier l'API JSON cachée qui peuple la liste des lauréats.
+- [x] Extraire les projets, montants de subvention, SIREN bénéficiaires, localisation et thématique s'ils sont disponibles.
+- [x] Croiser les SIREN trouvés sur Info.gouv avec ceux déjà extraits via l'ADEME ou la Caisse des Dépôts pour dé-dupliquer les fiches entreprises.
+- [x] Ne créer une nouvelle entreprise que si son SIREN est validé, et garantir un `confidenceScore: 1.0` puisqu'elle est labellisée officiellement.
 
 Critère d'acceptation :
 
-- [ ] Les lauréats exposés sur Info.gouv se retrouvent dans `projects.json` avec la propriété `sourceUrl` pointant vers la page Info.gouv.
-- [ ] Les graphes Neo4j exportés montrent bien les nœuds `Project` reliés aux bénéficiaires.
+- [x] Les lauréats exposés sur Info.gouv se retrouvent dans `projects.json` avec la propriété `sourceUrl` pointant vers la page Info.gouv.
+- [x] Les graphes Neo4j exportés montrent bien les nœuds `Project` reliés aux bénéficiaires.

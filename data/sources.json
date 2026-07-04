@@ -141,5 +141,12 @@
     "producer": "ANR",
     "url": "https://dataanr.opendatasoft.com/explore/dataset/public-france2030-indicateurs-cofinancements",
     "license": "Licence Ouverte / Open Licence version 2.0"
+  },
+  {
+    "id": "infogouv-laureats",
+    "name": "Annuaire des Lauréats France 2030",
+    "producer": "SGPI / info.gouv.fr",
+    "url": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "license": "Licence Ouverte / Open Licence version 2.0"
   }
 ]

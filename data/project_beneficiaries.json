@@ -5447,5 +5447,27 @@
     "siren": "775624240",
     "type": "Company/Research",
     "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "benef-55920aaa",
+    "projectId": "proj-718a4759",
+    "siren": "301548698",
+    "operatorName": "SGPI / info.gouv.fr",
+    "sourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "datasetUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "resourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
+  },
+  {
+    "beneficiaryId": "benef-8179c238",
+    "projectId": "proj-324d49ce",
+    "siren": "552140419",
+    "operatorName": "SGPI / info.gouv.fr",
+    "sourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "datasetUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "resourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
   }
 ]

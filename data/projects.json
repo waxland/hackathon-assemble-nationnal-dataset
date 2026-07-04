@@ -9859,5 +9859,29 @@
     "sourceProducer": "ANR",
     "confidenceScore": 1.0,
     "validationStatus": "validated"
+  },
+  {
+    "projectId": "proj-718a4759",
+    "projectName": "Projet CARA",
+    "operatorName": "SGPI / info.gouv.fr",
+    "sourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "datasetUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "resourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "sourceDatasetId": "laureats-france-2030",
+    "sourceProducer": "SGPI",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
+  },
+  {
+    "projectId": "proj-324d49ce",
+    "projectName": "H2 Devel",
+    "operatorName": "SGPI / info.gouv.fr",
+    "sourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "datasetUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "resourceUrl": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
+    "sourceDatasetId": "laureats-france-2030",
+    "sourceProducer": "SGPI",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
   }
 ]
