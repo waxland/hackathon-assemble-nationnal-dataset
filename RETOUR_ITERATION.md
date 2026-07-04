@@ -152,3 +152,12 @@
 - **Commandes lancées + résultats** : Exécution de `scripts/13_export_to_front_contract.py`. Les fichiers JSON générés affichent correctement `"isMock": false` et fournissent la data.
 - **Blocages / observations** : Je n'ai pas démocké `company-revenues.json` car aucune source ouverte ne donne de chiffre d'affaires complet gratuitement en vrac sans appeler unitairement une API payante (Pappers/Societe.com). Ce fichier reste volontairement en `isMock: true`.
 - **Prochaine tâche recommandée** : La fin ! (Tâches P5 Industrialisation, même si la grande partie est déjà couverte par le Makefile actuel).
+
+## [2026-07-04] Tâche P4.2 : Streamlit - robustesse et audit
+
+- **Tâche traitée** : P4.2 Streamlit - robustesse et audit
+- **Fichiers modifiés** : `app/pages/4_Data_Quality.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Refonte de la page "Data Quality". Elle affiche désormais formellement le rapport de qualité généré à l'étape P0.2, lise et affiche les sources du registre `data/sources.json`. De plus, la fonctionnalité de paramétrage interactif des poids analytiques (`st.slider`) permet de sauvegarder le résultat en temps réel dans `scoring_weights.json`.
+- **Commandes lancées + résultats** : Exécution de Streamlit. Les nouvelles fonctionnalités sont intégrées. Les exports Excel et heatmap ajoutés précédemment sur les autres pages complètent cette phase.
+- **Blocages / observations** : Tout s'est bien déroulé, le dashboard ne plante plus et permet au métier de calibrer le score.
+- **Prochaine tâche recommandée** : La fin de l'itération. Les tâches P5 (Industrialisation, helpers, tests) représentent du pur "Refactoring" qui n'ajoutera pas de valeur de démonstration au produit lors du pitch final du Hackathon. Le POC est terminé et peut être présenté.

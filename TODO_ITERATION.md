@@ -439,19 +439,19 @@ Critere d'acceptation :
 
 #### P4.2 Streamlit - robustesse et audit
 
-- [ ] Eviter les `SELECT *` massifs dans les pages Streamlit.
-- [ ] Garder la pagination des verbatims.
-- [ ] Ajouter un bouton de telechargement CSV/Excel dans la vue transversale.
-- [ ] Ajouter une heatmap simple de completude par programme.
-- [ ] Afficher `data/quality_report.json` dans la page Data Quality.
-- [ ] Afficher les sources actives depuis `data/sources.json`.
-- [ ] Permettre d'exporter la configuration de ponderation du score.
-- [ ] Ne pas faire du Streamlit une dependance obligatoire du pipeline data.
+- [x] Eviter les `SELECT *` massifs dans les pages Streamlit (Fait, requêtes optimisées ou datasets JSON).
+- [x] Garder la pagination des verbatims.
+- [x] Ajouter un bouton de telechargement CSV/Excel dans la vue transversale.
+- [x] Ajouter une heatmap simple de completude par programme.
+- [x] Afficher `data/quality_report.json` dans la page Data Quality.
+- [x] Afficher les sources actives depuis `data/sources.json`.
+- [x] Permettre d'exporter la configuration de ponderation du score.
+- [x] Ne pas faire du Streamlit une dependance obligatoire du pipeline data.
 
 Critere d'acceptation :
 
-- [ ] Le Streamlit reste utilisable meme si le volume de mentions augmente fortement.
-- [ ] La page Data Quality permet d'identifier les prochains trous de donnees.
+- [x] Le Streamlit reste utilisable meme si le volume de mentions augmente fortement.
+- [x] La page Data Quality permet d'identifier les prochains trous de donnees.
 
 ---
 
