@@ -427,15 +427,15 @@ Critere d'acceptation :
 
 #### P4.1 Exports front a democker en priorite
 
-- [ ] `dataset/sources/inpi-patent-families.json` via le dataset brevets.
-- [ ] `dataset/sources/data-gouv-datasets.json` via `data/sources.json`.
-- [ ] `dataset/dataviz/investment-programme-dataviz.json` via agregats budget, budget vert, mentions, projets.
+- [x] `dataset/sources/inpi-patent-families.json` via le dataset brevets.
+- [x] `dataset/sources/data-gouv-datasets.json` via `data/sources.json`.
+- [x] `dataset/dataviz/investment-programme-dataviz.json` via agregats budget, budget vert, mentions, projets.
 - [ ] `dataset/reports/investment-programme-reports.json` via synthese par programme.
 - [ ] `dataset/sources/company-revenues.json` seulement si une source fiable est identifiee ; sinon rester mock avec justification.
 
 Critere d'acceptation :
 
-- [ ] Chaque fichier exporte indique clairement `isMock`, `sourceUrl`, `confidence`, `updatedAt`, `notes`.
+- [x] Chaque fichier exporte indique clairement `isMock`, `sourceUrl`, `confidence`, `updatedAt`, `notes`.
 
 #### P4.2 Streamlit - robustesse et audit
 

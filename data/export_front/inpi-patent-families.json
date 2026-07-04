@@ -5,7 +5,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-04T01:13:44.501468+00:00Z",
+      "updatedAt": "2026-07-04T01:24:55.042225+00:00Z",
       "notes": "",
       "data": []
     },
@@ -14,7 +14,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-04T01:13:44.501705+00:00Z",
+      "updatedAt": "2026-07-04T01:24:55.042319+00:00Z",
       "notes": "",
       "data": []
     },
@@ -23,61 +23,25 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-04T01:13:44.501892+00:00Z",
+      "updatedAt": "2026-07-04T01:24:55.042377+00:00Z",
       "notes": "",
       "data": []
     },
     {
       "programmeCode": "424",
-      "isMock": false,
+      "isMock": true,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-04T01:13:44.502064+00:00Z",
+      "updatedAt": "2026-07-04T01:24:55.042434+00:00Z",
       "notes": "",
-      "data": [
-        {
-          "siren": "534948617",
-          "companyName": "YNSECT",
-          "nbDemandes": 366,
-          "nbFamilles": 42,
-          "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1"
-        },
-        {
-          "siren": "788658946",
-          "companyName": "FLYING WHALES",
-          "nbDemandes": 112,
-          "nbFamilles": 23,
-          "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1"
-        },
-        {
-          "siren": "831241179",
-          "companyName": "EXOTRAIL",
-          "nbDemandes": 4,
-          "nbFamilles": 2,
-          "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1"
-        },
-        {
-          "siren": "849441522",
-          "companyName": "PASQAL",
-          "nbDemandes": 90,
-          "nbFamilles": 38,
-          "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1"
-        },
-        {
-          "siren": "888047792",
-          "companyName": "VERKOR",
-          "nbDemandes": 81,
-          "nbFamilles": 32,
-          "sourceUrl": "https://www.data.gouv.fr/datasets/deposants-des-brevets-1"
-        }
-      ]
+      "data": []
     },
     {
       "programmeCode": "425",
       "isMock": true,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-04T01:13:44.502287+00:00Z",
+      "updatedAt": "2026-07-04T01:24:55.042491+00:00Z",
       "notes": "",
       "data": []
     }

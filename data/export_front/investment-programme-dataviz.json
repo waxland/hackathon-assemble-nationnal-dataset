@@ -2,48 +2,170 @@
   "programmes": [
     {
       "programmeCode": "421",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-04T01:13:44.502656+00:00Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:24:55.043537+00:00Z",
+      "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
+      "data": {
+        "budgetBreakdown": [
+          {
+            "label": "Dépenses d'intervention",
+            "value": 219000000.0
+          }
+        ],
+        "mentionsTimeline": [],
+        "projectsGeography": []
+      }
     },
     {
       "programmeCode": "422",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-04T01:13:44.502657+00:00Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:24:55.043839+00:00Z",
+      "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
+      "data": {
+        "budgetBreakdown": [
+          {
+            "label": "Dépenses d'intervention",
+            "value": 38200000.0
+          },
+          {
+            "label": "Dépenses d'opérations financières",
+            "value": 5000000.0
+          },
+          {
+            "label": "Dépenses de fonctionnement",
+            "value": 200000000.0
+          }
+        ],
+        "mentionsTimeline": [],
+        "projectsGeography": []
+      }
     },
     {
       "programmeCode": "423",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-04T01:13:44.502658+00:00Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:24:55.043947+00:00Z",
+      "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
+      "data": {
+        "budgetBreakdown": [
+          {
+            "label": "Dépenses d'intervention",
+            "value": 50010000.0
+          },
+          {
+            "label": "Dépenses d'opérations financières",
+            "value": 35750000.0
+          },
+          {
+            "label": "Dépenses de fonctionnement",
+            "value": 100000000.0
+          }
+        ],
+        "mentionsTimeline": [],
+        "projectsGeography": []
+      }
     },
     {
       "programmeCode": "424",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-04T01:13:44.502659+00:00Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:24:55.044031+00:00Z",
+      "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
+      "data": {
+        "budgetBreakdown": [
+          {
+            "label": "Dépenses d'intervention",
+            "value": 3563400000.0
+          },
+          {
+            "label": "Dépenses de fonctionnement",
+            "value": 810005899.0
+          }
+        ],
+        "mentionsTimeline": [
+          {
+            "date": "2022-07",
+            "value": 2
+          },
+          {
+            "date": "2022-10",
+            "value": 3
+          },
+          {
+            "date": "2022-11",
+            "value": 6
+          },
+          {
+            "date": "2022-12",
+            "value": 1
+          },
+          {
+            "date": "2023-02",
+            "value": 6
+          },
+          {
+            "date": "2023-03",
+            "value": 1
+          },
+          {
+            "date": "2023-06",
+            "value": 1
+          },
+          {
+            "date": "2023-07",
+            "value": 4
+          },
+          {
+            "date": "2023-10",
+            "value": 18
+          },
+          {
+            "date": "2023-11",
+            "value": 1
+          },
+          {
+            "date": "2023-12",
+            "value": 1
+          },
+          {
+            "date": "2024-03",
+            "value": 3
+          },
+          {
+            "date": "2024-04",
+            "value": 8
+          }
+        ],
+        "projectsGeography": []
+      }
     },
     {
       "programmeCode": "425",
-      "isMock": true,
+      "isMock": false,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-04T01:13:44.502660+00:00Z",
-      "notes": "",
-      "data": []
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:24:55.044188+00:00Z",
+      "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
+      "data": {
+        "budgetBreakdown": [
+          {
+            "label": "Dépenses d'intervention",
+            "value": 583634101.0
+          },
+          {
+            "label": "Dépenses de fonctionnement",
+            "value": 195000000.0
+          }
+        ],
+        "mentionsTimeline": [],
+        "projectsGeography": []
+      }
     }
   ]
 }

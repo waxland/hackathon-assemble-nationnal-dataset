@@ -335,13 +335,72 @@ def main():
     save_front_json(export_dir, "inpi-patent-families.json", format_front_json(inpi_front))
 
     # =========================================================================
-    # 8. Fichiers restants (Mocks Vides pour ne pas faire crasher le front)
+    # 8. dataset/sources/data-gouv-datasets.json
+    # =========================================================================
+    print(" -> Exportation de data-gouv-datasets.json...")
+    sources_front = []
+    
+    # On lit la table source_registry
+    all_sources = cursor.execute("SELECT * FROM source_registry").fetchall()
+    sources_dict = [dict(s) for s in all_sources]
+    
+    for prog in programs:
+        item = get_base_program_skeleton(prog)
+        item["data"] = sources_dict
+        item["confidence"] = 1.0
+        item["isMock"] = False
+        item["notes"] = "Sources consolidées depuis data/sources.json via SQLite"
+        sources_front.append(item)
+        
+    save_front_json(export_dir, "data-gouv-datasets.json", format_front_json(sources_front))
+
+    # =========================================================================
+    # 9. dataset/dataviz/investment-programme-dataviz.json
+    # =========================================================================
+    print(" -> Exportation de investment-programme-dataviz.json (Agrégats)...")
+    dataviz_front = []
+    
+    for prog in programs:
+        item = get_base_program_skeleton(prog)
+        item["confidence"] = 0.9
+        
+        # Agrégation budgétaire
+        budg_rows = cursor.execute("SELECT expenseCategoryName, SUM(amount2025) as val FROM budget_lines WHERE programmeCode=? GROUP BY expenseCategoryName", (prog,)).fetchall()
+        budget_breakdown = [{"label": r["expenseCategoryName"], "value": r["val"] or 0} for r in budg_rows]
+        
+        # Agrégation parlementaire (Mentions par mois/année)
+        parl_rows = cursor.execute("SELECT SUBSTR(date, 1, 7) as month, COUNT(*) as val FROM parliament_mentions WHERE relatedProgrammeCode=? GROUP BY month ORDER BY month", (prog,)).fetchall()
+        mentions_timeline = [{"date": r["month"], "value": r["val"]} for r in parl_rows]
+        
+        # Agrégation projets (Projets par région)
+        proj_rows = cursor.execute("""
+            SELECT t.region, COUNT(DISTINCT p.projectId) as val 
+            FROM projects p
+            JOIN correlations c ON p.projectId = c.sourceEntityId AND c.correlationType = 'project_territory'
+            JOIN territories t ON c.targetEntityId = t.territoryId
+            JOIN correlations c2 ON p.projectId = c2.sourceEntityId AND c2.correlationType = 'project_programme'
+            WHERE c2.targetEntityId = ?
+            GROUP BY t.region
+        """, (prog,)).fetchall()
+        projects_geography = [{"region": r["region"], "value": r["val"]} for r in proj_rows]
+        
+        item["data"] = {
+            "budgetBreakdown": budget_breakdown,
+            "mentionsTimeline": mentions_timeline,
+            "projectsGeography": projects_geography
+        }
+        item["isMock"] = False
+        item["notes"] = "Agrégats calculés dynamiquement depuis SQLite pour la dataviz."
+        dataviz_front.append(item)
+        
+    save_front_json(export_dir, "investment-programme-dataviz.json", format_front_json(dataviz_front))
+
+    # =========================================================================
+    # 10. Fichiers restants (Mocks Vides pour ne pas faire crasher le front)
     # =========================================================================
     print(" -> Création des mocks vides restants...")
     empty_mocks = [
         "investment-programme-reports.json",
-        "investment-programme-dataviz.json",
-        "data-gouv-datasets.json",
         "company-revenues.json"
     ]
     

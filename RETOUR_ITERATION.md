@@ -143,3 +143,12 @@
 - **Commandes lancées + résultats** : Exécution de `make export-front`. Le fichier JSON `programme-alignment-scores.json` contient bien un "overallScore" de 40.6/100 pour le programme 424, ce qui le rend exploitable immédiatement en Front.
 - **Blocages / observations** : L'outil interactif de la page Streamlit `4_Data_Quality.py` créé précédemment est parfaitement en adéquation avec ce fichier de configuration JSON pour pouvoir éditer ces poids depuis le navigateur.
 - **Prochaine tâche recommandée** : La section P3 est terminée ! Prochaine étape : P4.1 (Exports front à democker en priorité).
+
+## [2026-07-04] Tâche P4.1 : Démockage des fichiers front-end
+
+- **Tâche traitée** : P4.1 Exports front a democker en priorite
+- **Fichiers modifiés** : `scripts/13_export_to_front_contract.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Complétion du contrat d'interface vers le Frontend Minerve. Les fichiers `data-gouv-datasets.json` (Registre des sources Open Data) et `investment-programme-dataviz.json` ont été "démockés". Ce dernier utilise des requêtes SQL complexes (`GROUP BY`) sur la base SQLite pour générer directement des agrégats prêts à être graphés par le Front (ex: chronologie des interventions par mois, ventilation du budget).
+- **Commandes lancées + résultats** : Exécution de `scripts/13_export_to_front_contract.py`. Les fichiers JSON générés affichent correctement `"isMock": false` et fournissent la data.
+- **Blocages / observations** : Je n'ai pas démocké `company-revenues.json` car aucune source ouverte ne donne de chiffre d'affaires complet gratuitement en vrac sans appeler unitairement une API payante (Pappers/Societe.com). Ce fichier reste volontairement en `isMock: true`.
+- **Prochaine tâche recommandée** : La fin ! (Tâches P5 Industrialisation, même si la grande partie est déjà couverte par le Makefile actuel).
