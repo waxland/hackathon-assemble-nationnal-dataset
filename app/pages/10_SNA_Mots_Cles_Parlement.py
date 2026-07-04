@@ -198,7 +198,7 @@ scatter_fig.update_layout(
     legend_title_text="Action SNA",
     margin={"l": 20, "r": 20, "t": 40, "b": 20},
 )
-st.plotly_chart(scatter_fig, use_container_width=True)
+st.plotly_chart(scatter_fig, width="stretch")
 
 st.subheader("Timeline des usages parlementaires")
 
@@ -225,7 +225,7 @@ timeline_fig.update_layout(
     legend_title_text="Action SNA",
     margin={"l": 20, "r": 20, "t": 40, "b": 20},
 )
-st.plotly_chart(timeline_fig, use_container_width=True)
+st.plotly_chart(timeline_fig, width="stretch")
 
 col_left, col_right = st.columns([3, 2])
 
@@ -245,7 +245,7 @@ with col_left:
     keyword_summary["firstMention"] = keyword_summary["firstMention"].dt.strftime("%Y-%m-%d")
     keyword_summary["lastMention"] = keyword_summary["lastMention"].dt.strftime("%Y-%m-%d")
     keyword_summary["averageConfidence"] = keyword_summary["averageConfidence"].round(2)
-    st.dataframe(keyword_summary, use_container_width=True, hide_index=True)
+    st.dataframe(keyword_summary, width="stretch", hide_index=True)
 
 with col_right:
     st.subheader("Referentiel SNA charge")
@@ -257,7 +257,7 @@ with col_right:
             for column in ["strategyId", "strategyName", "sourceScope", "sourceUrl"]
             if column in strategies.columns
         ]
-        st.dataframe(strategies[strategy_cols], use_container_width=True, hide_index=True)
+        st.dataframe(strategies[strategy_cols], width="stretch", hide_index=True)
 
 st.subheader("Mentions sourcees")
 detail_columns = [
@@ -273,4 +273,4 @@ detail_columns = [
 ]
 details = filtered[detail_columns].sort_values("date", ascending=False).copy()
 details["date"] = details["date"].dt.strftime("%Y-%m-%d")
-st.dataframe(details, use_container_width=True, hide_index=True)
+st.dataframe(details, width="stretch", hide_index=True)

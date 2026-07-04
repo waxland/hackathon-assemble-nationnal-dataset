@@ -50,9 +50,9 @@ Le Streamlit doit servir d'outil de **Data Quality Assurance (DQA)** pour l'équ
 - [x] Afficher les "Stratégies Nationales d'Accélération" (SNA) liées à ce programme (issues de `acceleration_strategies.json`).
 
 ### 2.3 Amélioration de la Page : Data Quality
-- [x] Modifier `app/pages/4_Data_Quality.py`.
-- [x] Afficher spécifiquement la métrique `"unresolved_audit_recommendations"` (déjà préparée dans le code) avec un tableau listant ces recommandations (`audit_recommendations.json`).
-- [x] Afficher le taux de "Missing URLs" (traçabilité manquante) dans la page Data Quality.
+- [ ] Modifier `app/pages/4_Data_Quality.py`.
+- [ ] Afficher spécifiquement la métrique `"unresolved_audit_recommendations"` (déjà préparée dans le code) avec un tableau listant ces recommandations (`audit_recommendations.json`).
+- [ ] Afficher le taux de "Missing URLs" (traçabilité manquante) dans la page Data Quality.
 - [ ] Ramener le taux de "Missing URLs" à zéro dans les données sources.
 
 ---

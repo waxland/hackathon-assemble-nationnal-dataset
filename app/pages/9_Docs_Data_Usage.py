@@ -104,7 +104,7 @@ if tables:
         display_table = main_table.map(strip_markdown_links)
     else:
         display_table = main_table.apply(lambda column: column.map(strip_markdown_links))
-    st.dataframe(display_table, use_container_width=True, hide_index=True)
+    st.dataframe(display_table, width="stretch", hide_index=True)
 
     st.caption(f"{len(display_table)} source(s) affichee(s).")
 

@@ -52,7 +52,7 @@ if not df_budget.empty:
         legend=dict(orientation="h", yanchor="top", y=-0.1, xanchor="center", x=0.5)
     )
     
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
 
     st.subheader("Temporalité budgétaire")
     amount_columns = [col for col in ["amount2024", "amount2025", "amount2026"] if col in df_budget.columns]
@@ -80,7 +80,7 @@ if not df_budget.empty:
         )
         fig_yty.update_yaxes(title="Montant CP (€)", tickformat=",")
         fig_yty.update_xaxes(title="Année")
-        st.plotly_chart(fig_yty, use_container_width=True)
+        st.plotly_chart(fig_yty, width="stretch")
 
     st.subheader("Flux budgetaires par programme et categorie")
     df_sankey = df_budget.dropna(subset=["amount2025"]).copy()
@@ -122,7 +122,7 @@ if not df_budget.empty:
             ]
         )
         fig_sankey.update_layout(title_text="Budget 2025 : Mission -> Programmes -> Categories de depense")
-        st.plotly_chart(fig_sankey, use_container_width=True)
+        st.plotly_chart(fig_sankey, width="stretch")
 
 st.subheader("Implantation des entreprises identifiees")
 company_rows = []
@@ -148,7 +148,7 @@ if company_rows:
     st.dataframe(
         df_map[["programmeCode", "companyName", "siren", "commune", "adresse"]],
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 else:
     st.warning("Aucune coordonnée d'entreprise n'est disponible dans le contrat Sirene.")

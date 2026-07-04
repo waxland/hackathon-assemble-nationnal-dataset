@@ -97,7 +97,7 @@ if programs_data:
                 color_discrete_sequence=[COLOR_BLEU_FRANCE, COLOR_ROUGE_MARIANNE, "#6a6af4"],
             )
             fig_bar.update_yaxes(title="Montant CP (€)", tickformat=",")
-            st.plotly_chart(fig_bar, use_container_width=True)
+            st.plotly_chart(fig_bar, width="stretch")
         else:
             st.write("Aucun budget identifié.")
             
@@ -117,7 +117,7 @@ if programs_data:
             df_docs = pd.DataFrame(docs)
             fig_time = px.histogram(df_docs, x="date", color="politicalGroup", 
                                     title="Chronologie des interventions", nbins=10)
-            st.plotly_chart(fig_time, use_container_width=True)
+            st.plotly_chart(fig_time, width="stretch")
 
             df_docs["dateParsed"] = pd.to_datetime(df_docs["date"], errors="coerce")
             df_docs["year"] = df_docs["dateParsed"].dt.year.astype("Int64")
@@ -164,7 +164,7 @@ if programs_data:
                     yaxis2=dict(title="Mentions", overlaying="y", side="right", rangemode="tozero"),
                     legend=dict(orientation="h"),
                 )
-                st.plotly_chart(fig_overlay, use_container_width=True)
+                st.plotly_chart(fig_overlay, width="stretch")
 
             tones = [classify_tone(text) for text in df_docs["text"].fillna("")]
             tone_counts = pd.Series(tones).value_counts().reindex(["favorable", "neutre", "critique"], fill_value=0)
@@ -252,7 +252,7 @@ if programs_data:
         if linked_strategies:
             st.dataframe(
                 pd.DataFrame(linked_strategies),
-                use_container_width=True,
+                width="stretch",
                 hide_index=True,
             )
         else:
@@ -268,7 +268,7 @@ if programs_data:
                     ]
                     st.dataframe(
                         pd.DataFrame(acceleration_strategies)[cols],
-                        use_container_width=True,
+                        width="stretch",
                         hide_index=True,
                     )
 else:
