@@ -1,0 +1,20 @@
+[
+  {
+    "id": "plf-7aa0323e",
+    "programmeCode": "424",
+    "programmeName": "Investir pour la France de 2030",
+    "fiscalYear": 2026,
+    "amount": 3500000000.0,
+    "sourceScope": "endogenous",
+    "sourceUrl": "https://www.budget.gouv.fr/documentation/file-download/31618",
+    "datasetUrl": "https://www.budget.gouv.fr/documentation/documents-budgetaires-lois/exercice-2026/projet-loi-finances-les/plf-2026-donnees-chiffrees",
+    "resourceUrl": "https://www.budget.gouv.fr/documentation/file-download/31618",
+    "sourceDatasetId": "plf-2026-donnees-chiffrees",
+    "sourceResourceId": "31618",
+    "sourceDocument": "PLF26 - Depenses 2026 du BG et des BA selon nomenclatures destination et nature.xls",
+    "sourceRow": 142,
+    "sourceColumn": "AE",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
+  }
+]

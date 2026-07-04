@@ -44,11 +44,19 @@ def main():
     # Check missing fields
     missing_fields_counts = {
         "sourceUrl": 0,
+        "missing_any_url": 0,
         "confidenceScore": 0,
         "validationStatus": 0,
         "amount2026": 0,
         "contextAfter": 0
     }
+
+
+    for name, (path, id_field) in data_files.items():
+        data = load_json(path)
+        for item in data:
+            if not item.get("sourceUrl") and not item.get("datasetUrl") and not item.get("resourceUrl"):
+                missing_fields_counts["missing_any_url"] += 1
 
     budget_lines = load_json("data/budget_lines.json")
     for bl in budget_lines:

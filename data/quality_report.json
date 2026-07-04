@@ -3,24 +3,23 @@
     "budget_lines": 11,
     "programs": 5,
     "themes": 20,
-    "keywords": 107,
+    "keywords": 111,
     "calls_for_projects": 4,
-    "parliament_mentions": 63,
-    "naf_codes": 6,
-    "companies": 8,
-    "correlations": 43
+    "parliament_mentions": 0,
+    "naf_codes": 3,
+    "companies": 748,
+    "correlations": 2551
   },
   "duplicate_ids": {},
   "missing_critical_fields": {
     "sourceUrl": 0,
+    "missing_any_url": 3438,
     "confidenceScore": 0,
     "validationStatus": 0,
-    "amount2026": 11,
-    "contextAfter": 63
+    "amount2026": 9,
+    "contextAfter": 0
   },
   "front_files_with_mocks": [
-    "investment-programme-dataviz.json",
-    "data-gouv-datasets.json",
     "inpi-patent-families.json",
     "sirene-companies.json",
     "company-revenues.json",

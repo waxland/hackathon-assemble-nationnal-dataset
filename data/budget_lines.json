@@ -97,11 +97,14 @@
     "expenseCategoryName": "Dépenses de fonctionnement",
     "amount2024": 210000000.0,
     "amount2025": 810005899.0,
-    "amount2026": null,
+    "amount2026": 3500000000.0,
     "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "sourceDocument": "PLF 2025 et PLF 2024 - Dépenses du BG",
     "sourcePage": "",
-    "qualityStatus": "verified"
+    "qualityStatus": "verified",
+    "datasetUrl": "https://www.budget.gouv.fr/documentation/documents-budgetaires-lois/exercice-2026/projet-loi-finances-les/plf-2026-donnees-chiffrees",
+    "resourceUrl": "https://www.budget.gouv.fr/documentation/file-download/31618",
+    "sourceDatasetId": "plf-2026-donnees-chiffrees"
   },
   {
     "id": "fr2030-424-6",
@@ -110,11 +113,14 @@
     "expenseCategoryName": "Dépenses d'intervention",
     "amount2024": 5481750000.0,
     "amount2025": 3563400000.0,
-    "amount2026": null,
+    "amount2026": 3500000000.0,
     "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "sourceDocument": "PLF 2025 et PLF 2024 - Dépenses du BG",
     "sourcePage": "",
-    "qualityStatus": "verified"
+    "qualityStatus": "verified",
+    "datasetUrl": "https://www.budget.gouv.fr/documentation/documents-budgetaires-lois/exercice-2026/projet-loi-finances-les/plf-2026-donnees-chiffrees",
+    "resourceUrl": "https://www.budget.gouv.fr/documentation/file-download/31618",
+    "sourceDatasetId": "plf-2026-donnees-chiffrees"
   },
   {
     "id": "fr2030-425-3",

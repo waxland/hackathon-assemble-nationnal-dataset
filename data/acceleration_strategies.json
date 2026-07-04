@@ -1,0 +1,26 @@
+[
+  {
+    "strategyId": "sna-hydrogene-decarbone",
+    "strategyName": "Hydrogène décarboné",
+    "sourceScope": "exogenous",
+    "sourceUrl": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "datasetUrl": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "resourceUrl": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "sourceDatasetId": null,
+    "sourceResourceId": null,
+    "sourceProducer": "SGPI",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
+  },
+  {
+    "strategyId": "sna-sante-numerique",
+    "strategyName": "Santé numérique",
+    "sourceScope": "exogenous",
+    "sourceUrl": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "datasetUrl": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "resourceUrl": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "sourceProducer": "SGPI",
+    "confidenceScore": 1.0,
+    "validationStatus": "validated"
+  }
+]

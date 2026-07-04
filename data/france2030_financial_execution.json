@@ -1,0 +1,16 @@
+[
+  {
+    "id": "exec-5544a1e6",
+    "programmeCode": "424",
+    "operatorName": "Global",
+    "envelopeAmount": 54000000000.0,
+    "engagementAmount": 25000000000.0,
+    "disbursementAmount": 8000000000.0,
+    "sourcePage": 12,
+    "sourceUrl": "https://www.info.gouv.fr/upload/media/mixed/0001/17/e92490502bafcbdf2bedde2d0f6961d3f2bcf924.pdf",
+    "resourceUrl": "https://www.info.gouv.fr/upload/media/mixed/0001/17/e92490502bafcbdf2bedde2d0f6961d3f2bcf924.pdf",
+    "sourceDocument": "Bilan financier du programme France 2030",
+    "extractionMethod": "manual_pdf_review",
+    "validationStatus": "to_validate"
+  }
+]

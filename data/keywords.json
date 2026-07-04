@@ -907,7 +907,8 @@
     "type": "concept",
     "relatedThemeId": "poles-et-territoires-d-innovation",
     "relatedProgrammes": [
-      "425"
+      "425",
+      "422"
     ],
     "synonyms": [],
     "confidenceScore": 0.95
@@ -1016,17 +1017,6 @@
     "label": "brevet",
     "type": "concept",
     "relatedThemeId": "valorisation-de-la-recherche-publique",
-    "relatedProgrammes": [
-      "422"
-    ],
-    "synonyms": [],
-    "confidenceScore": 0.95
-  },
-  {
-    "keywordId": "kw-transfert-techn-satt",
-    "label": "SATT",
-    "type": "concept",
-    "relatedThemeId": "transfert-technologique",
     "relatedProgrammes": [
       "422"
     ],

@@ -106,5 +106,40 @@
     "updateFrequency": "annuelle",
     "lastCheckedAt": "2026-07-04T00:00:00Z",
     "ingestionScript": "scripts/17_ingest_patent_depositors.py"
+  },
+  {
+    "id": "sgpi-sna",
+    "name": "Stratégies d'accélération pour l'innovation",
+    "producer": "SGPI",
+    "url": "https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation",
+    "license": "Licence Ouverte / Open Licence version 2.0"
+  },
+  {
+    "id": "sgpi-bilan-fin",
+    "name": "Bilan financier France 2030 (PDF)",
+    "producer": "SGPI",
+    "url": "https://www.info.gouv.fr/upload/media/mixed/0001/17/e92490502bafcbdf2bedde2d0f6961d3f2bcf924.pdf",
+    "license": "Licence Ouverte / Open Licence version 2.0"
+  },
+  {
+    "id": "budget-plf-2026",
+    "name": "PLF 2026",
+    "producer": "Budget.gouv",
+    "url": "https://www.budget.gouv.fr/documentation/documents-budgetaires-lois/exercice-2026/projet-loi-finances-les/plf-2026-donnees-chiffrees",
+    "license": "Licence Ouverte / Open Licence version 2.0"
+  },
+  {
+    "id": "ademe-france2030",
+    "name": "Projets financés ADEME (France 2030)",
+    "producer": "ADEME",
+    "url": "https://data.ademe.fr/datasets/programmes-detat-projets-finances-par-lademe",
+    "license": "Licence Ouverte / Open Licence version 2.0"
+  },
+  {
+    "id": "anr-france2030-cofinancement",
+    "name": "Indicateurs Cofinancements ANR",
+    "producer": "ANR",
+    "url": "https://dataanr.opendatasoft.com/explore/dataset/public-france2030-indicateurs-cofinancements",
+    "license": "Licence Ouverte / Open Licence version 2.0"
   }
 ]
