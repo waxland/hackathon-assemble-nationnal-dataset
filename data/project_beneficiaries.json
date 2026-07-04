@@ -232,5 +232,5220 @@
     "name": "TOULOUSE METROPOLE",
     "type": "Toulouse Métropole",
     "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "siren-399256122",
+    "name": "MASSON SA",
+    "siren": "399256122",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-389284753",
+    "name": "LABORATOIRES ROCHEX",
+    "siren": "389284753",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130002850",
+    "name": "INSTITUT NATIONAL DES SCIENCES ET INDUSTRIES DU VIVANT ET DE L'ENVIRONNEMENT",
+    "siren": "130002850",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-622019503",
+    "name": "PCAS",
+    "siren": "622019503",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775664881",
+    "name": "ITERG",
+    "siren": "775664881",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180089450",
+    "name": "ECOFOR",
+    "siren": "180089450",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775680903",
+    "name": "INSTITUT TECHNOLOGIQUE FCBA (FORET CELLULOSE BOIS...)",
+    "siren": "775680903",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-438171340",
+    "name": "ASS FRANCAIS CERTIFIC FOREST PEFC FRANCE",
+    "siren": "438171340",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180070039",
+    "name": "INSTITUT NATIONAL DE RECHERCHE POUR L'AGRICULTURE L'ALIMENTATION ET L'ENVIRONNEMENT",
+    "siren": "180070039",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-422583070",
+    "name": "GROUPE COOPERATION FORESTIERE",
+    "siren": "422583070",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-662043116",
+    "name": "OFFICE NATIONAL DES FORETS",
+    "siren": "662043116",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-489573048",
+    "name": "ONF - ENERGIE",
+    "siren": "489573048",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130021678",
+    "name": "CHAMBRE REGIONALE D'AGRICULTURE HAUTS-DE-FRANCE",
+    "siren": "130021678",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-353220916",
+    "name": "AGRO TRANSFERT RESSOURCES ET TERRITOIRES",
+    "siren": "353220916",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196012231",
+    "name": "UNIVERSITE DE TECHNOLOGIE DE COMPIEGNE",
+    "siren": "196012231",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-780507190",
+    "name": "INSTITUT POLYTECHNIQUE UNILASALLE",
+    "siren": "780507190",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-508923489",
+    "name": "INSTITUT DE RECHERCHE ET D INNOVATION",
+    "siren": "508923489",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196811665",
+    "name": "UNIVERSITE DE HAUTE ALSACE",
+    "siren": "196811665",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775688229",
+    "name": "CTRE SCIENTIFIQUE TECHNIQUE DU BATIMENT",
+    "siren": "775688229",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-453686966",
+    "name": "ALTEREO",
+    "siren": "453686966",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-521500173",
+    "name": "INSTITUT ECOCITOYEN POUR LA CONNAISSANCE DES POLLUTIONS",
+    "siren": "521500173",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-310863840",
+    "name": "SOC CONCASSAGE PREFABRICATION REUNION",
+    "siren": "310863840",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-318697687",
+    "name": "BOUYER LEROUX",
+    "siren": "318697687",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-305474959",
+    "name": "ASSOCIATION QUALITEL",
+    "siren": "305474959",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130030513",
+    "name": "UNIVERSITE DE RENNES",
+    "siren": "130030513",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-814529905",
+    "name": "OPEN FOOD FACTS",
+    "siren": "814529905",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-484352562",
+    "name": "ASSOCIATION APPUI",
+    "siren": "484352562",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-788686699",
+    "name": "OUISHARE",
+    "siren": "788686699",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180044174",
+    "name": "MUSEUM NATIONAL D HISTOIRE NATURELLE",
+    "siren": "180044174",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199312380",
+    "name": "UNIV PARIS XIII PARIS-NORD VILLETANEUSE",
+    "siren": "199312380",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-195944038",
+    "name": "UNIVERSITE DU LITTORAL COTE D'OPALE",
+    "siren": "195944038",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-518815105",
+    "name": "FIBOIS FRANCE",
+    "siren": "518815105",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-494442916",
+    "name": "NOVABIOM",
+    "siren": "494442916",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-783707003",
+    "name": "JUNIA",
+    "siren": "783707003",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-433900834",
+    "name": "BOUYGUES BATIMENT ILE DE FRANCE",
+    "siren": "433900834",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-428440978",
+    "name": "SYNDICAT DES ENTREPRISES DE DECONSTRUCTION DEPOLLUTION ET RECYCLAGE",
+    "siren": "428440978",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-414472167",
+    "name": "ASSOCIATION HQE",
+    "siren": "414472167",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-250501343",
+    "name": "SYND MIXTE SCOT AIRE GAPENCAISE",
+    "siren": "250501343",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130018310",
+    "name": "CENTRE D'ETUDES ET D'EXPERTISE SUR LES RISQUES L'ENVIRONNEMENT LA MOBILITE ET L'AMENAGEMENT",
+    "siren": "130018310",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200025427",
+    "name": "SYNDICAT MIXTE SCOT ROVALTAIN DROME ARDECHE",
+    "siren": "200025427",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-938230612",
+    "name": "UNIVERSITE BOURGOGNE EUROPE",
+    "siren": "938230612",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-192112373",
+    "name": "UNIVERSITE DIJON BOURGOGNE",
+    "siren": "192112373",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130015332",
+    "name": "UNIVERSITE D'AIX MARSEILLE",
+    "siren": "130015332",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-195112966",
+    "name": "UNIVERSITE DE REIMS CHAMPAGNE-ARDENNE",
+    "siren": "195112966",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199744780",
+    "name": "UNIVERSITE DE LA REUNION",
+    "siren": "199744780",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-509436515",
+    "name": "CAVAC BIOMATERIAUX",
+    "siren": "509436515",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-502396369",
+    "name": "FIBRES RECHERCHE DEVELOPPEMENT-CONSTRUCTION DURABLE ET ECOMATERIAUX",
+    "siren": "502396369",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-424731248",
+    "name": "ETAMINE",
+    "siren": "424731248",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-824207070",
+    "name": "MEMO, L'ATELLIER DU TERRITOIRE",
+    "siren": "824207070",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-438181869",
+    "name": "POUGET CONSULTANTS",
+    "siren": "438181869",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180089013",
+    "name": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE",
+    "siren": "180089013",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130012024",
+    "name": "AGENCE NATIONALE DE SECURITE SANITAIRE DE L ALIMENTATION DE L ENVIRONNEMENT ET DU TRAVAIL",
+    "siren": "130012024",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130023385",
+    "name": "SORBONNE UNIVERSITE",
+    "siren": "130023385",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130026222",
+    "name": "INSTITUT NATIONAL D'ENSEIGNEMENT SUPERIEUR POUR L'AGRICULTURE L'ALIMENTATION ET L'ENVIRONNEMENT",
+    "siren": "130026222",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130018351",
+    "name": "UNIVERSITE DE BORDEAUX",
+    "siren": "130018351",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-803978279",
+    "name": "CASC4DE",
+    "siren": "803978279",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130026123",
+    "name": "UNIVERSITE GUSTAVE EIFFEL",
+    "siren": "130026123",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-453975831",
+    "name": "VALGO",
+    "siren": "453975831",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-539210559",
+    "name": "SATT CONECTUS ALSACE",
+    "siren": "539210559",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-449876176",
+    "name": "LABORATOIRE D'ECOLOGIE URBAINE REUNION",
+    "siren": "449876176",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-415227925",
+    "name": "ENERTECH",
+    "siren": "415227925",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-883570194",
+    "name": "[ND]",
+    "siren": "883570194",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197308588",
+    "name": "UNIVERSITE SAVOIE MONT BLANC",
+    "siren": "197308588",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-956506828",
+    "name": "ALDES",
+    "siren": "956506828",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-830808424",
+    "name": "OCTOPUS LAB",
+    "siren": "830808424",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-808694772",
+    "name": "TEQOYA",
+    "siren": "808694772",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-534194451",
+    "name": "ATMO AUVERGNE RHONE ALPES",
+    "siren": "534194451",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-186002515",
+    "name": "CHAMBRE DEPARTEMENTALE AGRICULTURE OISE",
+    "siren": "186002515",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130013543",
+    "name": "CHAMBRE D'AGRICULTURE DU NORD PAS DE CALAIS",
+    "siren": "130013543",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180092025",
+    "name": "INSTITUT MINES-TELECOM",
+    "siren": "180092025",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-478029127",
+    "name": "ATMO HAUTS DE FRANCE",
+    "siren": "478029127",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199322306",
+    "name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE DE PARIS-EST",
+    "siren": "199322306",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193410891",
+    "name": "UNIVERSITE MONTPELLIER III PAUL VALERY",
+    "siren": "193410891",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-932490899",
+    "name": "UNIVERSITE DE MONTPELLIER PAUL-VALERY",
+    "siren": "932490899",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-310719711",
+    "name": "BATISERF INGENIERIE",
+    "siren": "310719711",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130002884",
+    "name": "ECOLE NATIONALE DES TRAVAUX PUBLICS DE L'ETAT",
+    "siren": "130002884",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-392785465",
+    "name": "ASS RESEAU COOP DE RECHERCHE SUR DECHETS",
+    "siren": "392785465",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130029796",
+    "name": "UNIVERSITE DE MONTPELLIER",
+    "siren": "130029796",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-779924133",
+    "name": "CENTRE LEON BERARD",
+    "siren": "779924133",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-324510908",
+    "name": "SOLAGRO",
+    "siren": "324510908",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197535016",
+    "name": "ECOLE NATIONALE DES PONTS ET CHAUSSEES",
+    "siren": "197535016",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193301926",
+    "name": "INSTITUT D'ETUDES POLITIQUES DE BORDEAUX - SCIENCES PO BORDEAUX",
+    "siren": "193301926",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193708005",
+    "name": "UNIVERSITE DE TOURS",
+    "siren": "193708005",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180036048",
+    "name": "INSTITUT NATIONAL DE LA SANTE ET DE LA RECHERCHE MEDICALE",
+    "siren": "180036048",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-381984921",
+    "name": "INSTITUT NATIONAL DE L'ENVIRONNEMENT INDUSTRIEL ET DES RISQUES",
+    "siren": "381984921",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-266900273",
+    "name": "HOSPICES CIVILS DE LYON",
+    "siren": "266900273",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-482142544",
+    "name": "NASKEO ENVIRONNEMENT",
+    "siren": "482142544",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-383850351",
+    "name": "SOCIETE DE MATHEMATIQUES APPLIQUEES ET DE SCIENCES HUMAINES",
+    "siren": "383850351",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-439818071",
+    "name": "CLARKE ENERGY FRANCE",
+    "siren": "439818071",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193301991",
+    "name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE ET DE PAYSAGE DE BORDEAUX",
+    "siren": "193301991",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193101524",
+    "name": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES DE TOULOUSE",
+    "siren": "193101524",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-442219721",
+    "name": "COCHET STEPHANE",
+    "siren": "442219721",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-552046484",
+    "name": "CDC HABITAT SOCIAL SOCIETE ANONYME D'HABITATIONS A LOYER MODERE",
+    "siren": "552046484",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-316465236",
+    "name": "ASS GESTION RESEAU MESUR POLLUT ATMOSPH",
+    "siren": "316465236",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200067106",
+    "name": "CA DU PAYS BASQUE",
+    "siren": "200067106",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-421118043",
+    "name": "AZIA",
+    "siren": "421118043",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-404910929",
+    "name": "APESA",
+    "siren": "404910929",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197537426",
+    "name": "ECOLE DES HAUTES ETUDES EN SCIENCES SOCIALES",
+    "siren": "197537426",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-379089469",
+    "name": "ECONOMIE SOLIDARITE PARTAGE",
+    "siren": "379089469",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-519516348",
+    "name": "LES ATELIERS NOMADES",
+    "siren": "519516348",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-825339310",
+    "name": "EBE 58 - ENTREPRISE A BUT D'EMPLOI 58",
+    "siren": "825339310",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-840209258",
+    "name": "IN'TERRE ACTIV ENVIRONNEMENT ENERGIE HABITAT",
+    "siren": "840209258",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197534704",
+    "name": "ECOLE NATIONALE SUPERIEURE DES ARTS DECORATIFS",
+    "siren": "197534704",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-845019231",
+    "name": "FRANCE ENERGIES MARINES",
+    "siren": "845019231",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130029747",
+    "name": "NANTES UNIVERSITE",
+    "siren": "130029747",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-941298317",
+    "name": "UNIVERSITE DE BREST",
+    "siren": "941298317",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-330715368",
+    "name": "INSTITUT FRANCAIS DE RECHERCHE POUR L EXPLOITATION DE LA MER",
+    "siren": "330715368",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-192903466",
+    "name": "UNIVERSITE BREST BRETAGNE OCCIDENTALE",
+    "siren": "192903466",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193101508",
+    "name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE DE TOULOUSE",
+    "siren": "193101508",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-847700978",
+    "name": "HUREL NOLWENN",
+    "siren": "847700978",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-437950173",
+    "name": "RESCOLL",
+    "siren": "437950173",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-508757531",
+    "name": "CETII",
+    "siren": "508757531",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "benef-545ea22e",
+    "name": "UC LOUVAIN",
+    "siren": "",
+    "type": "Company/Research",
+    "confidenceScore": 0.4
+  },
+  {
+    "beneficiaryId": "benef-fd77845c",
+    "name": "Université du Québec à Montréal (UQAM)",
+    "siren": "",
+    "type": "Company/Research",
+    "confidenceScore": 0.4
+  },
+  {
+    "beneficiaryId": "siren-514005123",
+    "name": "GROUPE KEDGE BUSINESS SCHOOL",
+    "siren": "514005123",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-356000000",
+    "name": "LA POSTE",
+    "siren": "356000000",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-893603795",
+    "name": "BLUE MIMETIC",
+    "siren": "893603795",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-434515557",
+    "name": "AUTOMOTIVE PERFORMANCE MATERIALS",
+    "siren": "434515557",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-479438574",
+    "name": "MATERI'ACT",
+    "siren": "479438574",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-424133080",
+    "name": "ASMA",
+    "siren": "424133080",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196402515",
+    "name": "UNIVERSITE DE PAU ET DES PAYS DE L'ADOUR",
+    "siren": "196402515",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775685019",
+    "name": "COMMISSARIAT A L' ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES",
+    "siren": "775685019",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-522850155",
+    "name": "PLANAIR FRANCE SAS",
+    "siren": "522850155",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-419855127",
+    "name": "SAP LABS FRANCE",
+    "siren": "419855127",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130015506",
+    "name": "UNIVERSITE DE LORRAINE",
+    "siren": "130015506",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-313320244",
+    "name": "LABORATOIRE  NATIONAL DE METROLOGIE ET D'ESSAIS",
+    "siren": "313320244",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-552005969",
+    "name": "CEMEX GRANULATS",
+    "siren": "552005969",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-418569729",
+    "name": "LHOTELLIER 3D SOLUTIONS",
+    "siren": "418569729",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-878185735",
+    "name": "TELLUX",
+    "siren": "878185735",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-938106564",
+    "name": "UNIVERSITE MARIE ET LOUIS PASTEUR",
+    "siren": "938106564",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-192512150",
+    "name": "UNIVERSITE DE BESANCON",
+    "siren": "192512150",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-195617188",
+    "name": "UNIVERSITE DE BRETAGNE SUD",
+    "siren": "195617188",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193113842",
+    "name": "UNIVERSITE TOULOUSE III - PAUL SABATIER",
+    "siren": "193113842",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-938271392",
+    "name": "UNIVERSITE DE TOULOUSE",
+    "siren": "938271392",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-403806052",
+    "name": "PLATRE.COM FRANCE",
+    "siren": "403806052",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-437827959",
+    "name": "ELAN CREATEUR",
+    "siren": "437827959",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-410163125",
+    "name": "TELMA",
+    "siren": "410163125",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-331596270",
+    "name": "CTRE COOP INTERNAT RECHERCHE AGRO DEV",
+    "siren": "331596270",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784308249",
+    "name": "FONDATION NATIONALE SCIENCES POLITIQUES",
+    "siren": "784308249",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-390613610",
+    "name": "BIOTOPE",
+    "siren": "390613610",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180060030",
+    "name": "METEO-FRANCE",
+    "siren": "180060030",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-303970156",
+    "name": "UNION NATIONALE ENTREPRISES DU PAYSAGE",
+    "siren": "303970156",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-488701095",
+    "name": "PLANTE&CITE",
+    "siren": "488701095",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-582056149",
+    "name": "BRGM",
+    "siren": "582056149",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-314152836",
+    "name": "GERES",
+    "siren": "314152836",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-198307662",
+    "name": "UNIVERSITE DE TOULON",
+    "siren": "198307662",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-914895933",
+    "name": "MANN+HUMMEL FILTRATION FRANCE",
+    "siren": "914895933",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784259509",
+    "name": "ESTACA",
+    "siren": "784259509",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-488233313",
+    "name": "ATMO NORMANDIE",
+    "siren": "488233313",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-324465632",
+    "name": "ATMOSUD PROVENCE ALPES COTE D'AZUR",
+    "siren": "324465632",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-831373717",
+    "name": "PREDITOX",
+    "siren": "831373717",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-394251466",
+    "name": "ARELEC",
+    "siren": "394251466",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180092355",
+    "name": "CNPF SERVICES GENERAUX",
+    "siren": "180092355",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-823549522",
+    "name": "DOREMI",
+    "siren": "823549522",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130021918",
+    "name": "CLERMONT AUVERGNE INP",
+    "siren": "130021918",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-814698098",
+    "name": "MUNDAO",
+    "siren": "814698098",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130029754",
+    "name": "UNIVERSITE DE LILLE",
+    "siren": "130029754",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-927250217",
+    "name": "BRETAGNE ANGLETERRE IRLANDE",
+    "siren": "927250217",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-807867890",
+    "name": "COLSON BREIZH ECO ENTREPRISE",
+    "siren": "807867890",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-383935582",
+    "name": "KEOLIS MARITIME BREST",
+    "siren": "383935582",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-879745982",
+    "name": "MONGE",
+    "siren": "879745982",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-838887263",
+    "name": "WALTR",
+    "siren": "838887263",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-833485204",
+    "name": "ARGALY",
+    "siren": "833485204",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-901644989",
+    "name": "SUEZ",
+    "siren": "901644989",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-213300635",
+    "name": "COMMUNE DE BORDEAUX",
+    "siren": "213300635",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-410034607",
+    "name": "SUEZ EAU FRANCE",
+    "siren": "410034607",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-682008222",
+    "name": "GINGER BURGEAP",
+    "siren": "682008222",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193113818",
+    "name": "INSTITUT NATIONAL POLYTECHNIQUE DE TOULOUSE",
+    "siren": "193113818",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-412442519",
+    "name": "GINGER CEBTP",
+    "siren": "412442519",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-391967924",
+    "name": "AUREA",
+    "siren": "391967924",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-502640824",
+    "name": "VALORHIZ",
+    "siren": "502640824",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-345038244",
+    "name": "INSAVALOR",
+    "siren": "345038244",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-198608564",
+    "name": "UNIVERSITE DE POITIERS",
+    "siren": "198608564",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-827897711",
+    "name": "OBSERVATOIRE REGIONAL DE LA SANTE AUVERGNE-RHONE-ALPES",
+    "siren": "827897711",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-817828502",
+    "name": "CHALEUR BOIS QUALITE PLUS - CBQ+",
+    "siren": "817828502",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-834524456",
+    "name": "EDIT PROCESS CONTROL",
+    "siren": "834524456",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-353969348",
+    "name": "CENTRE TECHNIQUE INDUSTRIEL DE LA PLASTURGIE ET DES COMPOSITES",
+    "siren": "353969348",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775664113",
+    "name": "ASS RECHERCHE DEVEL METHODE PROCES INDUS",
+    "siren": "775664113",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130026024",
+    "name": "UNIVERSITE PARIS-SACLAY",
+    "siren": "130026024",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197619042",
+    "name": "UNIVERSITE DE ROUEN-NORMANDIE",
+    "siren": "197619042",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-342382637",
+    "name": "ASSOCIATION GROUPE ESA",
+    "siren": "342382637",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-334593613",
+    "name": "FERMES DE FIGEAC",
+    "siren": "334593613",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-493371074",
+    "name": "DEGRAVE JOHANN",
+    "siren": "493371074",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199411117",
+    "name": "UNIVERSITE PARIS EST CRETEIL VAL DE MARNE",
+    "siren": "199411117",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-311059257",
+    "name": "MAISONS PAYSANNES DE FRANCE MPF",
+    "siren": "311059257",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-442381802",
+    "name": "COOP'ACTION",
+    "siren": "442381802",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-882097892",
+    "name": "SOLENEOS",
+    "siren": "882097892",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-422200212",
+    "name": "ADDENDA",
+    "siren": "422200212",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-813991841",
+    "name": "TRACE DIGITAL SERVICES",
+    "siren": "813991841",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-353363880",
+    "name": "GROUPE TRACE",
+    "siren": "353363880",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130026081",
+    "name": "UNIVERSITE GRENOBLE ALPES",
+    "siren": "130026081",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-398271577",
+    "name": "TAUW FRANCE",
+    "siren": "398271577",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-417922689",
+    "name": "ORTEC GENERALE DE DEPOLLUTION",
+    "siren": "417922689",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-509711099",
+    "name": "PARTENARIALE PARIS DAUPHINE",
+    "siren": "509711099",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130021363",
+    "name": "COMUE LYON SAINT-ETIENNE",
+    "siren": "130021363",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-839948429",
+    "name": "ALLICE",
+    "siren": "839948429",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-214900078",
+    "name": "COMMUNE D'ANGERS",
+    "siren": "214900078",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775685779",
+    "name": "ARVALIS INSTITUT DU VEGETAL",
+    "siren": "775685779",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-844435883",
+    "name": "TOTALENERGIES ONETECH",
+    "siren": "844435883",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-845192418",
+    "name": "ODEYS",
+    "siren": "845192418",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-813002045",
+    "name": "ARCH AB",
+    "siren": "813002045",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-890899883",
+    "name": "L'ASSOCIATION DE L'OASIS DU COQ A L'AME",
+    "siren": "890899883",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-353859580",
+    "name": "ECOSPHERE",
+    "siren": "353859580",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-398731489",
+    "name": "AQUITANIS OFFICE PUBLIC DE L'HABITAT DE BORDEAUX METROPOLE",
+    "siren": "398731489",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200000693",
+    "name": "REGIE ECOLE INGENIEURS VILLE PARIS",
+    "siren": "200000693",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-217500016",
+    "name": "VILLE DE PARIS",
+    "siren": "217500016",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-799403050",
+    "name": "AVRIL",
+    "siren": "799403050",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197534597",
+    "name": "ECOLE NORMALE SUPERIEURE",
+    "siren": "197534597",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-211300553",
+    "name": "COMMUNE DE MARSEILLE",
+    "siren": "211300553",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-572232411",
+    "name": "SIKA FRANCE",
+    "siren": "572232411",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-514156413",
+    "name": "AKTA SAS",
+    "siren": "514156413",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-419059688",
+    "name": "LA GUILDE DES METIERS DE LA CHAUX",
+    "siren": "419059688",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-057505539",
+    "name": "VICAT",
+    "siren": "057505539",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-813609930",
+    "name": "BIOBUILD CONCEPT",
+    "siren": "813609930",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-479939209",
+    "name": "REFOOD BIOGAZ",
+    "siren": "479939209",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-354096885",
+    "name": "INSTITUT REGIONAL DES MATERIAUX AVANCES",
+    "siren": "354096885",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-449628098",
+    "name": "REFOOD ILE-DE-FRANCE",
+    "siren": "449628098",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-441508017",
+    "name": "RECH INNOV TRANSFERT TECHN MAT FERT ORG",
+    "siren": "441508017",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-407839745",
+    "name": "ASS D'INITIATIVES LOCALES POUR L ENERGIE ET L ENVIRONNEMENT",
+    "siren": "407839745",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-822734307",
+    "name": "ATMO GRAND EST",
+    "siren": "822734307",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-488947607",
+    "name": "FEDERATION ATMO",
+    "siren": "488947607",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-311059422",
+    "name": "ATMO NOUVELLE AQUITAINE",
+    "siren": "311059422",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-802102699",
+    "name": "OSMANTHE",
+    "siren": "802102699",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-323266205",
+    "name": "AIR PAYS DE LA LOIRE",
+    "siren": "323266205",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200046977",
+    "name": "METROPOLE DE LYON",
+    "siren": "200046977",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784617334",
+    "name": "GROUPE ECOLE SUPERIEURE DES PROFESSIONS IMMOBILIERES",
+    "siren": "784617334",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-198013443",
+    "name": "UNIVERSITE AMIENS PICARDIE JULES VERNE",
+    "siren": "198013443",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775729155",
+    "name": "IFP ENERGIES NOUVELLES",
+    "siren": "775729155",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-313523235",
+    "name": "UNION NAT CTRE PERMANEN INITIATI ENVIRON",
+    "siren": "313523235",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130021660",
+    "name": "CHAMBRE REGIONALE D'AGRICULTURE GRAND EST",
+    "siren": "130021660",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-344069935",
+    "name": "HYDREKA",
+    "siren": "344069935",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-522932508",
+    "name": "INTERA",
+    "siren": "522932508",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-625780135",
+    "name": "INOVYN FRANCE",
+    "siren": "625780135",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-552081317",
+    "name": "ELECTRICITE DE FRANCE",
+    "siren": "552081317",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130003759",
+    "name": "UNIVERSITE DE NIMES",
+    "siren": "130003759",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-932491574",
+    "name": "NIMES UNIVERSITE",
+    "siren": "932491574",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-393206735",
+    "name": "ANTEA FRANCE",
+    "siren": "393206735",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-392367041",
+    "name": "SIXENSE ENGINEERING",
+    "siren": "392367041",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-403280308",
+    "name": "ADERA",
+    "siren": "403280308",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-795233345",
+    "name": "EFFICACITY",
+    "siren": "795233345",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-484032594",
+    "name": "INSTITUT EUROPLACE DE FINANCE",
+    "siren": "484032594",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-380129866",
+    "name": "ORANGE",
+    "siren": "380129866",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-304849094",
+    "name": "ARCORA",
+    "siren": "304849094",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-794031278",
+    "name": "OBSERVATOIRE DE L'IMMOBILIER DURABLE",
+    "siren": "794031278",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-189209117",
+    "name": "GIP EUROPE DES PROJETS ARCHITECTURAUX ET URBAINS",
+    "siren": "189209117",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-504136920",
+    "name": "FONDATION DU RISQUE",
+    "siren": "504136920",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-379677636",
+    "name": "EDF POWER SOLUTIONS",
+    "siren": "379677636",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-488524919",
+    "name": "CABINET D'ETUDES SUR LES DECHETS ET L'ENERGIE",
+    "siren": "488524919",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-440251130",
+    "name": "SCLE SYSTEMES POUR FERROVIAIRE ET ENERGIE",
+    "siren": "440251130",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-399311315",
+    "name": "INTERNATIONAL COOKWARE",
+    "siren": "399311315",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-830589107",
+    "name": "NKAD PRINTERS",
+    "siren": "830589107",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-542051826",
+    "name": "HUTCHINSON",
+    "siren": "542051826",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-319632790",
+    "name": "ARKEMA FRANCE",
+    "siren": "319632790",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-807841234",
+    "name": "OPMOBILITY H2-POWER FRANCE",
+    "siren": "807841234",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-818246316",
+    "name": "ENTECH",
+    "siren": "818246316",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-392468278",
+    "name": "CORNING SAS",
+    "siren": "392468278",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-811377613",
+    "name": "FEBUS OPTICS",
+    "siren": "811377613",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-891548042",
+    "name": "CARBON IMPACT",
+    "siren": "891548042",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-834225609",
+    "name": "ARCELORMITTAL PROJECTS EXOSUN",
+    "siren": "834225609",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196917744",
+    "name": "UNIVERSITE CLAUDE BERNARD LYON 1",
+    "siren": "196917744",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-632037982",
+    "name": "IDEX SERVICES",
+    "siren": "632037982",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-898756440",
+    "name": "REM TEC SAS",
+    "siren": "898756440",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-493389670",
+    "name": "EGIS STRUCTURES ET ENVIRONNEMENT",
+    "siren": "493389670",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-321512170",
+    "name": "AQUASSYS DOL FORAGE",
+    "siren": "321512170",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-450328315",
+    "name": "ECO-MED",
+    "siren": "450328315",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-440117620",
+    "name": "NATRAN",
+    "siren": "440117620",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-722043858",
+    "name": "AGC GLASS FRANCE",
+    "siren": "722043858",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-344436225",
+    "name": "SAINT-GOBAIN CENTRE DE RECHERCHES ET D'ETUDES EUROPEEN",
+    "siren": "344436225",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-314119504",
+    "name": "AIR LIQUIDE FRANCE INDUSTRIE",
+    "siren": "314119504",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-538296211",
+    "name": "STARKLAB",
+    "siren": "538296211",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-534793609",
+    "name": "IDEX",
+    "siren": "534793609",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-383433117",
+    "name": "CATHILD INDUSTRIE",
+    "siren": "383433117",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-830911061",
+    "name": "BLD-FRANCE",
+    "siren": "830911061",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-821748845",
+    "name": "CLUS'TER JURA",
+    "siren": "821748845",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-417939857",
+    "name": "OPTIMEX",
+    "siren": "417939857",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130025752",
+    "name": "INSTITUT NATIONAL DES SCIENCES APPLIQUEES HAUTS-DE-FRANCE",
+    "siren": "130025752",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-811941467",
+    "name": "ZERM",
+    "siren": "811941467",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-909287278",
+    "name": "NETCARBON",
+    "siren": "909287278",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-841181282",
+    "name": "LES AILES DE L'OCEAN",
+    "siren": "841181282",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-884276494",
+    "name": "CRISALID",
+    "siren": "884276494",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130005457",
+    "name": "UNIVERSITE DE STRASBOURG",
+    "siren": "130005457",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-306138900",
+    "name": "DECATHLON",
+    "siren": "306138900",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-910924166",
+    "name": "THE POLYFLOSS FACTORY",
+    "siren": "910924166",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197534936",
+    "name": "ECOLE NATIONALE SUPERIEURE DES MINES DE PARIS",
+    "siren": "197534936",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-342721073",
+    "name": "CYLERGIE",
+    "siren": "342721073",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-899954945",
+    "name": "SQUAIR TECH",
+    "siren": "899954945",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-310071477",
+    "name": "CTRE ETUDE EVALUAT PROTECT DOMAIN NUCLEA",
+    "siren": "310071477",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-404453110",
+    "name": "ASSOCIATION AIR BREIZH",
+    "siren": "404453110",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-811041367",
+    "name": "NEOECO DEVELOPPEMENT",
+    "siren": "811041367",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-326233913",
+    "name": "SERPOL",
+    "siren": "326233913",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-499732212",
+    "name": "NEXESS",
+    "siren": "499732212",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-501607865",
+    "name": "CHOMARAT TEXTILES INDUSTRIES",
+    "siren": "501607865",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-512211640",
+    "name": "BRC",
+    "siren": "512211640",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-382506137",
+    "name": "ALISEE",
+    "siren": "382506137",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-928390160",
+    "name": "SURYA INGENIERIE",
+    "siren": "928390160",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-833314669",
+    "name": "LUZ'IN",
+    "siren": "833314669",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-521436949",
+    "name": "AKAJOULE",
+    "siren": "521436949",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-879264869",
+    "name": "AUDDICE BIODIVERSITE",
+    "siren": "879264869",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-808831531",
+    "name": "KURITA FRANCE S.A.S.",
+    "siren": "808831531",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-911414290",
+    "name": "ANTHROPILE",
+    "siren": "911414290",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-421436569",
+    "name": "CTRE ETUDE RECHERCH TECHNOL AEROTHERM ..",
+    "siren": "421436569",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-829854181",
+    "name": "ATMO BOURGOGNE-FRANCHE-COMTE",
+    "siren": "829854181",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130031495",
+    "name": "CHAMBRE D'AGRICULTURE DE REGION BRETAGNE",
+    "siren": "130031495",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-904584620",
+    "name": "SOLTIS ENVIRONNEMENT",
+    "siren": "904584620",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-402298624",
+    "name": "AECOM FRANCE",
+    "siren": "402298624",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-325002111",
+    "name": "ESTP - GRANDE ECOLE D'INGENIEURS DE LA CONSTRUCTION",
+    "siren": "325002111",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-302506480",
+    "name": "LASA LABORATOIRE D APPLICATIONS DES SCIENCES ACOUSTIQUES",
+    "siren": "302506480",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-451592224",
+    "name": "VELO VTT CLUB ST  MATHIEU DE TREVIERS",
+    "siren": "451592224",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-923025563",
+    "name": "TRANSITIONS ET MOBILITES EN BRETAGNE",
+    "siren": "923025563",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-893269670",
+    "name": "COLLECTIF ENERGIE HOLDING",
+    "siren": "893269670",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-801646589",
+    "name": "LLC ET ASSOCIES BUREAU DE PARIS",
+    "siren": "801646589",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-808096119",
+    "name": "OPERA ENERGIE",
+    "siren": "808096119",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-244400404",
+    "name": "METROPOLE NANTES METROPOLE",
+    "siren": "244400404",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-339681850",
+    "name": "DRILLSTAR INDUSTRIES",
+    "siren": "339681850",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-501455448",
+    "name": "ES-GEOTHERMIE",
+    "siren": "501455448",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130025661",
+    "name": "UNIVERSITE COTE D'AZUR",
+    "siren": "130025661",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775684897",
+    "name": "INSTITUT PASTEUR",
+    "siren": "775684897",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-912698529",
+    "name": "QONFLUENS",
+    "siren": "912698529",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-918351503",
+    "name": "ROSA EARTH",
+    "siren": "918351503",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775686967",
+    "name": "CTRE TECH INDUST AERAULIQUE THERMIQUE",
+    "siren": "775686967",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-789680485",
+    "name": "GROUPE TERA",
+    "siren": "789680485",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-522886456",
+    "name": "FEDERATION INTERPROFESSIONNELLE DES  METIERS DE L'ENVIRONNEMENT ATMOSPHERIQUE(FIMEA)",
+    "siren": "522886456",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-819124900",
+    "name": "TIPEE",
+    "siren": "819124900",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-815243852",
+    "name": "CORSICA LINEA",
+    "siren": "815243852",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-800804668",
+    "name": "EKOPOLIS",
+    "siren": "800804668",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-903301794",
+    "name": "CHARRIER THOMAS",
+    "siren": "903301794",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-449208164",
+    "name": "INES PLATEFORME FORMATION & EVALUATION",
+    "siren": "449208164",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-980765390",
+    "name": "ENEVILLE",
+    "siren": "980765390",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197518772",
+    "name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE DE PARIS-BELLEVILLE",
+    "siren": "197518772",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-522806934",
+    "name": "BELLASTOCK SCIC",
+    "siren": "522806934",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-191700327",
+    "name": "LA ROCHELLE UNIVERSITE",
+    "siren": "191700327",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-908953870",
+    "name": "HORS SITE CONSEIL",
+    "siren": "908953870",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-954043915",
+    "name": "RESSORTS",
+    "siren": "954043915",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-327215695",
+    "name": "AGENCE QUALITE CONSTRUCTION",
+    "siren": "327215695",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-480478502",
+    "name": "ENERGIES DEMAIN",
+    "siren": "480478502",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-834328411",
+    "name": "INGEN INNOVATION GEOSCIENCES",
+    "siren": "834328411",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-494737976",
+    "name": "FONDATION JEAN JACQUES LAFFONT TOULOUSE SCIENCES ECONOMIQUES",
+    "siren": "494737976",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-849098124",
+    "name": "AFLEYA",
+    "siren": "849098124",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-903869071",
+    "name": "APAVE INFRASTRUCTURES ET CONSTRUCTION FRANCE",
+    "siren": "903869071",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-399689389",
+    "name": "GINGER DELEO",
+    "siren": "399689389",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196924377",
+    "name": "UNIVERSITE LYON 3 JEAN MOULIN",
+    "siren": "196924377",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-512308321",
+    "name": "ENVISOL",
+    "siren": "512308321",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196701890",
+    "name": "ECOLE NATIONALE DU GENIE DE L'EAU ET DE L'ENVIRONNEMENT DE STRASBOURG",
+    "siren": "196701890",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-753785252",
+    "name": "TERROIKO",
+    "siren": "753785252",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-198706699",
+    "name": "UNIVERSITE DE LIMOGES",
+    "siren": "198706699",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-198406852",
+    "name": "AVIGNON UNIVERSITE",
+    "siren": "198406852",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199870015",
+    "name": "UNIVERSITE DE LA POLYNESIE FRANCAISE",
+    "siren": "199870015",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-314526617",
+    "name": "OUEST AMENAGEMENT SCOP",
+    "siren": "314526617",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-811051333",
+    "name": "CABINET X-AEQUO",
+    "siren": "811051333",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-922242375",
+    "name": "NALDEO DIGITAL FOR CLIMATE",
+    "siren": "922242375",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-911365823",
+    "name": "DRILLHEAT",
+    "siren": "911365823",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-848234399",
+    "name": "C.H.A.B",
+    "siren": "848234399",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-183000041",
+    "name": "CHAMBRE D AGRICULTURE DU GARD",
+    "siren": "183000041",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-535136741",
+    "name": "CYBELETECH",
+    "siren": "535136741",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-950016204",
+    "name": "SUDEXPE",
+    "siren": "950016204",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200069680",
+    "name": "PETR SELESTAT-ALSACE CENTRALE",
+    "siren": "200069680",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-812353050",
+    "name": "COLLECTIF DES PAYSAGES DE L'APRES PETROLE",
+    "siren": "812353050",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200013050",
+    "name": "COMMUNAUTE DE COMMUNES SAUER - PECHELBRONN",
+    "siren": "200013050",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-542066113",
+    "name": "SERVICES PETROLIERS SCHLUMBERGER",
+    "siren": "542066113",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-539971838",
+    "name": "ENCIS ENVIRONNEMENT BY SETEC ET PAR ABREVIATION \" ENCIS \"",
+    "siren": "539971838",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-302984158",
+    "name": "INSTITUT DE L'ELEVAGE",
+    "siren": "302984158",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-343088134",
+    "name": "VINCI CONSTRUCTION GRANDS PROJETS",
+    "siren": "343088134",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-953835915",
+    "name": "SPUMA",
+    "siren": "953835915",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-380160796",
+    "name": "COLAS ENVIRONNEMENT",
+    "siren": "380160796",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200071454",
+    "name": "CA EVREUX PORTES DE NORMANDIE",
+    "siren": "200071454",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-191414085",
+    "name": "UNIVERSITE DE CAEN NORMANDIE",
+    "siren": "191414085",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197534282",
+    "name": "INSTITUT DE PHYSIQUE DU GLOBE DE PARIS",
+    "siren": "197534282",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-482886694",
+    "name": "QUALITAIR CORSE",
+    "siren": "482886694",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-519037584",
+    "name": "SNCF VOYAGEURS",
+    "siren": "519037584",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-438590390",
+    "name": "TECHNOLOGIES EXPERTISES RECHERCHES ANALYTIQUES EN ENVIRONNEMENT",
+    "siren": "438590390",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-323420349",
+    "name": "SCOPING - SOCIETE DE COORDINATION D'ORDONNANCEMENT DE PILOTAGE ET D'INGENIERIE",
+    "siren": "323420349",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-379180474",
+    "name": "SUEZ ARIA TECHNOLOGIES",
+    "siren": "379180474",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-830347027",
+    "name": "SCIENCE PARTNERS",
+    "siren": "830347027",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197819444",
+    "name": "UNIVERSITE DE VERSAILLES-SAINT-QUENTIN-EN-YVELINES",
+    "siren": "197819444",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-480178862",
+    "name": "POLYVIA",
+    "siren": "480178862",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-512693888",
+    "name": "UNICLIMA",
+    "siren": "512693888",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-895369932",
+    "name": "OBERON SCIENCES",
+    "siren": "895369932",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "benef-cd37adb8",
+    "name": "UNIVERSITE DE SEVILLE",
+    "siren": "",
+    "type": "Company/Research",
+    "confidenceScore": 0.4
+  },
+  {
+    "beneficiaryId": "benef-6a7bdff2",
+    "name": "HEPIA (Haute Ecole du Paysage, d'ingenierie et d'architecture de Genève)",
+    "siren": "",
+    "type": "Company/Research",
+    "confidenceScore": 0.4
+  },
+  {
+    "beneficiaryId": "siren-913080859",
+    "name": "UNIVERSITEIT TWENTE",
+    "siren": "913080859",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-319331849",
+    "name": "LES ATELIERS DU GOUT",
+    "siren": "319331849",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-219101748",
+    "name": "COMMUNE DE CORBEIL ESSONNES",
+    "siren": "219101748",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-504640749",
+    "name": "ID ET S",
+    "siren": "504640749",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-188600027",
+    "name": "CHAMBRE DEPARTEMENTALE D'AGRICULTURE",
+    "siren": "188600027",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196604375",
+    "name": "UNIVERSITE DE PERPIGNAN VIA DOMITIA",
+    "siren": "196604375",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180006025",
+    "name": "INSTITUT DE RECHERCHE POUR LE DEVELOPPEMENT",
+    "siren": "180006025",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-510244270",
+    "name": "AGROOF",
+    "siren": "510244270",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180092215",
+    "name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE DE PARIS-MALAQUAIS",
+    "siren": "180092215",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-494529613",
+    "name": "VIRAGE ENERGIE",
+    "siren": "494529613",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-194909701",
+    "name": "UNIVERSITE D'ANGERS",
+    "siren": "194909701",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199513763",
+    "name": "ECOLE NATIONALE SUPERIEURE DE L'ELECTRONIQUE ET DE SES APPLICATIONS",
+    "siren": "199513763",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-379578883",
+    "name": "SARPI REMEDIATION FRANCE",
+    "siren": "379578883",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-393898325",
+    "name": "ERM FRANCE",
+    "siren": "393898325",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-500232210",
+    "name": "MICROHUMUS",
+    "siren": "500232210",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-839407624",
+    "name": "SEINE ET YVELINES ENVIRONNEMENT",
+    "siren": "839407624",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-844609115",
+    "name": "ENOGRID",
+    "siren": "844609115",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-930462569",
+    "name": "CRYSTAL ENERGY",
+    "siren": "930462569",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-825223647",
+    "name": "ISPIRA",
+    "siren": "825223647",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-932133382",
+    "name": "CELLUOL",
+    "siren": "932133382",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180037020",
+    "name": "INSTITUT NATIONAL D'ETUDES DEMOGRAPHIQUES",
+    "siren": "180037020",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784280737",
+    "name": "INSTITUT CATHOLIQUE DE PARIS",
+    "siren": "784280737",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-383812666",
+    "name": "EODD INGENIEURS CONSEILS",
+    "siren": "383812666",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-484498852",
+    "name": "EURL S2M OUEST",
+    "siren": "484498852",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-907455034",
+    "name": "MOBIUSPACK",
+    "siren": "907455034",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-984320853",
+    "name": "ENVIRELLE",
+    "siren": "984320853",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-572221034",
+    "name": "VEOLIA PROPRETE",
+    "siren": "572221034",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-384600318",
+    "name": "CIVAM AGROBIOLOGIE MAYENNE (CENTRE D'INITIATIVES ET DE VALORISATION DE L'AGRICULTURE BIOLOGIQUE ET DU MILIEU RURAL)",
+    "siren": "384600318",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-401483821",
+    "name": "AGROBIO 35",
+    "siren": "401483821",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-788492494",
+    "name": "AKUO ENERGY INDIAN OCEAN",
+    "siren": "788492494",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-852153428",
+    "name": "SUN'AGRI",
+    "siren": "852153428",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-889405957",
+    "name": "ARVIVA - ARTS VIVANTS, ARTS DURABLES",
+    "siren": "889405957",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-443216593",
+    "name": "RESEAU DES MUSIQUES ACTUELLES EN ILE-DE-FRANCE",
+    "siren": "443216593",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-894491281",
+    "name": "INSTITUT FRANCAIS DU MONDE ASSOCIATIF",
+    "siren": "894491281",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-900693227",
+    "name": "GREUS - GROUPE DE RECHERCHE ACTION SUR L'EVALUATION DE L'UTILITE SOCIALE",
+    "siren": "900693227",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-852597376",
+    "name": "SOL &CO",
+    "siren": "852597376",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-843752437",
+    "name": "ROSEAU TECHNOLOGIES",
+    "siren": "843752437",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193819125",
+    "name": "INSTITUT POLYTECHNIQUE DE GRENOBLE",
+    "siren": "193819125",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-519011878",
+    "name": "CORPLEX FRANCE KAYSERSBERG",
+    "siren": "519011878",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-833378789",
+    "name": "ACTIERRA",
+    "siren": "833378789",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-405158312",
+    "name": "HOLCIM INNOVATION CENTER",
+    "siren": "405158312",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130017791",
+    "name": "VOIES NAVIGABLES DE FRANCE",
+    "siren": "130017791",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775688492",
+    "name": "TERRES INOVIA",
+    "siren": "775688492",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775878390",
+    "name": "INS. FRANCAIS VIGNE ET DU VIN",
+    "siren": "775878390",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-904872967",
+    "name": "TERRIFLUX",
+    "siren": "904872967",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180089047",
+    "name": "INSTITUT NATIONAL DE RECHERCHE EN INFORMATIQUE ET EN AUTOMATIQUE",
+    "siren": "180089047",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199406075",
+    "name": "ECOLE NORMALE SUPERIEURE PARIS-SACLAY",
+    "siren": "199406075",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775688450",
+    "name": "MOBILIANS",
+    "siren": "775688450",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-719805772",
+    "name": "SYNDEX",
+    "siren": "719805772",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784671497",
+    "name": "ASS NATIONALE FORMATION AUTOMOBILE",
+    "siren": "784671497",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-922914528",
+    "name": "INSTITUT MOBILITES EN TRANSITION",
+    "siren": "922914528",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-786116723",
+    "name": "ESSCA",
+    "siren": "786116723",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197209166",
+    "name": "UNIVERSITE DU MANS",
+    "siren": "197209166",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-849329107",
+    "name": "LA FRESQUE DU CLIMAT",
+    "siren": "849329107",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-891135477",
+    "name": "2TONNES COMPAGNIE",
+    "siren": "891135477",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-493902662",
+    "name": "ECOLE D ECONOMIE DE PARIS",
+    "siren": "493902662",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-326367943",
+    "name": "INST RECHERCHES ECONOMIQUE SOCIALES",
+    "siren": "326367943",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-895021038",
+    "name": "ADALTYS",
+    "siren": "895021038",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-794797753",
+    "name": "SYRIUS SOLAR INDUSTRY",
+    "siren": "794797753",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-819814484",
+    "name": "FORESTENER",
+    "siren": "819814484",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-444572044",
+    "name": "COMPAGNIE FRANCAISE DE GEOTHERMIE",
+    "siren": "444572044",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-504715863",
+    "name": "I CARE ENVIRONNEMENT",
+    "siren": "504715863",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-542107651",
+    "name": "ENGIE",
+    "siren": "542107651",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130025737",
+    "name": "UNIVERSITE PARIS CITE",
+    "siren": "130025737",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-815176128",
+    "name": "NEWHEAT",
+    "siren": "815176128",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-850611302",
+    "name": "BOITES A VELO - FRANCE",
+    "siren": "850611302",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-903859833",
+    "name": "RESILIENS",
+    "siren": "903859833",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-883245243",
+    "name": "AUTO CONSOMMATION REUNION",
+    "siren": "883245243",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-838262871",
+    "name": "GONE ENVIRONNEMENT",
+    "siren": "838262871",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784285611",
+    "name": "FONDATION MINES PARIS",
+    "siren": "784285611",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-533416681",
+    "name": "FONDATION DE L'ECOLE NATIONALE DES PONTS ET CHAUSSEES",
+    "siren": "533416681",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-890219520",
+    "name": "MAG REESOURCE",
+    "siren": "890219520",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-410829477",
+    "name": "OXALIS",
+    "siren": "410829477",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-829765189",
+    "name": "TABET ALEXEI",
+    "siren": "829765189",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-341175404",
+    "name": "COMITE COORD NATIO ASS AIDE CHOMEURS EMP",
+    "siren": "341175404",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-509850939",
+    "name": "SOCIETE FRANCOPHONE DE SANTE ET ENVIRONNEMENT",
+    "siren": "509850939",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-508151735",
+    "name": "INSTITUT LOUIS BACHELIER",
+    "siren": "508151735",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-752064485",
+    "name": "SCORE LCA",
+    "siren": "752064485",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-827517699",
+    "name": "HARGASSNER FRANCE",
+    "siren": "827517699",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-402250427",
+    "name": "INITIATIVE POUR LE DEVELOPPEMENT DURABLE - INGENIERIE ET ORGANISATION",
+    "siren": "402250427",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-489869941",
+    "name": "FROLING",
+    "siren": "489869941",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-392294252",
+    "name": "GINGER LECES",
+    "siren": "392294252",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-504276171",
+    "name": "LE RAMEAU",
+    "siren": "504276171",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-809803497",
+    "name": "RESEAU ECO CONCEPTION DE SYSTEMES POUR UN DEVELOPPEMENT DURABLE",
+    "siren": "809803497",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-820295871",
+    "name": "PLATE-FORME MOBILITE ET INSERTIONS",
+    "siren": "820295871",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-804961068",
+    "name": "I-ENER",
+    "siren": "804961068",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-186409058",
+    "name": "GIP DSU DE BAYONNE ET DU PAYS BASQUE",
+    "siren": "186409058",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-308401090",
+    "name": "FEDERATION DES ACTEURS DE LA SOLIDARITE",
+    "siren": "308401090",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-500539549",
+    "name": "TESORA",
+    "siren": "500539549",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-944581586",
+    "name": "AGROPARISTECH INNOVATION",
+    "siren": "944581586",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-753130921",
+    "name": "GROUP ELASTOTECK",
+    "siren": "753130921",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-538172404",
+    "name": "LA 27E REGION",
+    "siren": "538172404",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-982647638",
+    "name": "MUTASCALAB",
+    "siren": "982647638",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199115684",
+    "name": "ECOLE POLYTECHNIQUE",
+    "siren": "199115684",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-423221795",
+    "name": "ASS REGION SURVEIL QUALITE DE L'AIR",
+    "siren": "423221795",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-832321756",
+    "name": "ENVIROBAT OCCITANIE",
+    "siren": "832321756",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-802796698",
+    "name": "ANTOFENOL",
+    "siren": "802796698",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-311865513",
+    "name": "OBSERVATOIRE REGION SANTE BRETAGNE",
+    "siren": "311865513",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-328921911",
+    "name": "OBSERVATOIRE REGIONAL DE LA SANTE DU GRAND EST",
+    "siren": "328921911",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200034528",
+    "name": "CENTRE HOSPITALIER UNIVERSITAIRE DE LA MARTINIQUE",
+    "siren": "200034528",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-520944182",
+    "name": "ETHERA",
+    "siren": "520944182",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-798928214",
+    "name": "RECYCLO'BAT",
+    "siren": "798928214",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-840793285",
+    "name": "MERCI RENE",
+    "siren": "840793285",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-893939322",
+    "name": "BUREAU TOURNESOL",
+    "siren": "893939322",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-534157235",
+    "name": "MEDIECO CONSEIL & FORMATION",
+    "siren": "534157235",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-350992707",
+    "name": "SCALIAN",
+    "siren": "350992707",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-312097280",
+    "name": "AGROPARISTECH INNOVATION",
+    "siren": "312097280",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-848757381",
+    "name": "CONFEDERATION DE LA CONSTRUCTION EN TERRE CRUE",
+    "siren": "848757381",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-750244725",
+    "name": "LA BRANCHE STEPHANE",
+    "siren": "750244725",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-530424647",
+    "name": "GREEASE",
+    "siren": "530424647",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-420554677",
+    "name": "ASS FRANCAISE POUR L'ETUDE DU SOL",
+    "siren": "420554677",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-493247555",
+    "name": "RHIZOBIOME",
+    "siren": "493247555",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-438649352",
+    "name": "SCOP SAGNE",
+    "siren": "438649352",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-914621701",
+    "name": "LES DECOMPACTE.E.S DE L'ABC",
+    "siren": "914621701",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-850866302",
+    "name": "MARAICHAGE SOL VIVANT GRAND EST",
+    "siren": "850866302",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-498294594",
+    "name": "LES YEUX D IZO",
+    "siren": "498294594",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130008121",
+    "name": "ECOLE NORMALE SUPERIEURE DE LYON",
+    "siren": "130008121",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-919189571",
+    "name": "CRISS : CENTRE DE RECHERCHE ET D'INTERVENTION EN SCIENCES SOCIALES",
+    "siren": "919189571",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-438557597",
+    "name": "EXTRACITE",
+    "siren": "438557597",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200057875",
+    "name": "EST ENSEMBLE",
+    "siren": "200057875",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-343829263",
+    "name": "APPLICATIONS DES SCIENCES DE L'ACTION",
+    "siren": "343829263",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-924371602",
+    "name": "FONDATION AGROPARISTECH",
+    "siren": "924371602",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-383747243",
+    "name": "JONCOUX",
+    "siren": "383747243",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-509580973",
+    "name": "IXSANE",
+    "siren": "509580973",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-510634983",
+    "name": "ECO - TECHNILIN SAS",
+    "siren": "510634983",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-195903380",
+    "name": "ECOLE NATIONALE SUPERIEURE DES ARTS ET INDUSTRIES TEXTILES",
+    "siren": "195903380",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-384420766",
+    "name": "CTRE REG INNOVATIO TRANSFERT TECHNOLOG..",
+    "siren": "384420766",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-390220119",
+    "name": "SCIENCES & COMPUTERS CONSULTANTS",
+    "siren": "390220119",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-393253588",
+    "name": "SOC DE RECYCLAGE DES BETONS",
+    "siren": "393253588",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-343220679",
+    "name": "CTRE REG INNOV TRANSF TECHNO INDUS BOIS",
+    "siren": "343220679",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200005312",
+    "name": "SYNDICAT MIXTE AEROPORT CLERMONT FERRAND AUVERGNE",
+    "siren": "200005312",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130006356",
+    "name": "INSTITUT POLYTECHNIQUE DE BORDEAUX",
+    "siren": "130006356",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-780129987",
+    "name": "RENAULT SAS",
+    "siren": "780129987",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-349428755",
+    "name": "WSP FRANCE",
+    "siren": "349428755",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-889562484",
+    "name": "E.M.S. FOCUS",
+    "siren": "889562484",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-477524490",
+    "name": "E.M.S.",
+    "siren": "477524490",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-803488014",
+    "name": "MESO-STAR",
+    "siren": "803488014",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-562021097",
+    "name": "VILLEROY ET BOCH",
+    "siren": "562021097",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-987811957",
+    "name": "CVE HYDROGENE",
+    "siren": "987811957",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-959502832",
+    "name": "NOVOCERAM PRODUITS CERAMIQUES",
+    "siren": "959502832",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784601783",
+    "name": "SOCIETE FRANCAISE CERAMIQUE",
+    "siren": "784601783",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196901870",
+    "name": "ECOLE CENTRALE DE LYON",
+    "siren": "196901870",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-433190501",
+    "name": "BIOBASIC ENVIRONNEMENT",
+    "siren": "433190501",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-423257542",
+    "name": "ALS FRANCE",
+    "siren": "423257542",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130031503",
+    "name": "CHAMBRE D'AGRICULTURE DE REGION NORMANDIE",
+    "siren": "130031503",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-394160576",
+    "name": "EURALIS CEREALES",
+    "siren": "394160576",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-812560316",
+    "name": "CULTURES EN VILLE",
+    "siren": "812560316",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-819699893",
+    "name": "INALVE",
+    "siren": "819699893",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-532260379",
+    "name": "AGROSOLUTIONS",
+    "siren": "532260379",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130010440",
+    "name": "INSTITUT FRANCAIS DU CHEVAL ET DE L'EQUITATION",
+    "siren": "130010440",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-539568279",
+    "name": "BUREAU SATORI SAS",
+    "siren": "539568279",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775675796",
+    "name": "CENTRE TECHNIQ INTERPROF FRUITS LEGUMES",
+    "siren": "775675796",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-894547868",
+    "name": "TOUT TERRAIN",
+    "siren": "894547868",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-900630914",
+    "name": "LA VIGOTTE LAB",
+    "siren": "900630914",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775676489",
+    "name": "MOUVEMENT RURAL DE JEUNESSE CHRETIENNE",
+    "siren": "775676489",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784263790",
+    "name": "FED. NATION. CUMA",
+    "siren": "784263790",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199212044",
+    "name": "UNIVERSITE PARIS NANTERRE",
+    "siren": "199212044",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200051548",
+    "name": "POLE D'EQUILIBRE TERRITORIAL ET RURAL NIVERNAIS MORVAN",
+    "siren": "200051548",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200066744",
+    "name": "CC HAUTE-CORREZE COMMUNAUTE",
+    "siren": "200066744",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130014228",
+    "name": "GROUPE DES ECOLES NATIONALES D ECONOMIE ET STATISTIQUE",
+    "siren": "130014228",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-985145275",
+    "name": "WORLD SUFFICIENCY LAB - LABORATOIRE DES SOBRIETES-",
+    "siren": "985145275",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-824165609",
+    "name": "ARTS & SCIENCES INTERNATIONAL INSTITUT",
+    "siren": "824165609",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-884119397",
+    "name": "SOLREM",
+    "siren": "884119397",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-503376014",
+    "name": "TECSOL ANTILLES & GUYANE",
+    "siren": "503376014",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-781446521",
+    "name": "POUJOULAT",
+    "siren": "781446521",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-451299598",
+    "name": "CERQUAL",
+    "siren": "451299598",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-391974177",
+    "name": "LORFLAM",
+    "siren": "391974177",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-887630531",
+    "name": "LAFOND LAURE",
+    "siren": "887630531",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-254400955",
+    "name": "SYND MIXTE PARC NATUREL REGION BRIERE",
+    "siren": "254400955",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-897725024",
+    "name": "ROOFSCAPES STUDIO",
+    "siren": "897725024",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-840459879",
+    "name": "LA MAIN, FONCIEREMENT CULTURELLE",
+    "siren": "840459879",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-502062383",
+    "name": "FRICHE LA BELLE DE MAI",
+    "siren": "502062383",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130021421",
+    "name": "ECOLE NATIONALE SUPERIEURE DE CHIMIE DE PARIS",
+    "siren": "130021421",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-933570350",
+    "name": "IRONFLOW BATTERIES",
+    "siren": "933570350",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-433271905",
+    "name": "IZUBA ENERGIES",
+    "siren": "433271905",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-908519093",
+    "name": "SWAN-H",
+    "siren": "908519093",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-492130653",
+    "name": "ASS NEGAWATT COMPAGNIE DES NEGAWATTS",
+    "siren": "492130653",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-804838506",
+    "name": "FONDATION UNIVERSITE GRENOBLE ALPES",
+    "siren": "804838506",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197820194",
+    "name": "ECOLE NATIONALE SUPERIEURE DE PAYSAGE DE VERSAILLES",
+    "siren": "197820194",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-911643294",
+    "name": "ASH'UP",
+    "siren": "911643294",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-302698873",
+    "name": "SPIE BATIGNOLLES MALET",
+    "siren": "302698873",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130023815",
+    "name": "CHAMBRE D'AGRICULTURE DE REGION ILE-DE-FRANCE",
+    "siren": "130023815",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-440607307",
+    "name": "TERRE ET CITE",
+    "siren": "440607307",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-908480593",
+    "name": "ABERACTIVES",
+    "siren": "908480593",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196500482",
+    "name": "UNIVERSITE DE TECHNOLOGIE DE TARBES",
+    "siren": "196500482",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-412375438",
+    "name": "TEILLAGE VANDECANDELAERE",
+    "siren": "412375438",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-410264048",
+    "name": "CHAUX DE SAINT ASTIER",
+    "siren": "410264048",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-451849434",
+    "name": "INTERCHANVRE",
+    "siren": "451849434",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-779845056",
+    "name": "GROUPE ISARA ISEMA",
+    "siren": "779845056",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775596885",
+    "name": "OXYANE",
+    "siren": "775596885",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-952956555",
+    "name": "PIWEE",
+    "siren": "952956555",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-302518667",
+    "name": "FONDS MONDIAL POUR LA NATURE FRANCE",
+    "siren": "302518667",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-254503048",
+    "name": "SYND MIXTE INTEREG MISSION VAL DE LOIRE",
+    "siren": "254503048",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-542051180",
+    "name": "TOTALENERGIES SE",
+    "siren": "542051180",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-379095342",
+    "name": "LES CELLULOSES DE BROCELIANDE",
+    "siren": "379095342",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-817389141",
+    "name": "ETABLISSEMENT D'ENSEIGNEMENT SUPERIEUR CONSULAIRE GRENOBLE ECOLE DE MANAGEMENT",
+    "siren": "817389141",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-810156018",
+    "name": "PLATEFORME INDUSTRIELLE ET D'INNOVATION DE CABAN TONKIN",
+    "siren": "810156018",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-410750392",
+    "name": "ARCANNE",
+    "siren": "410750392",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-881487128",
+    "name": "RECTO",
+    "siren": "881487128",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-534741897",
+    "name": "[ND]",
+    "siren": "534741897",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-844272575",
+    "name": "VERSO",
+    "siren": "844272575",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-492203666",
+    "name": "COLLECTIF EFFINERGIE",
+    "siren": "492203666",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-833129539",
+    "name": "DUPRET MURIEL",
+    "siren": "833129539",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-481885374",
+    "name": "SOBEN",
+    "siren": "481885374",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-912839362",
+    "name": "AVA",
+    "siren": "912839362",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-904537263",
+    "name": "L'USINE A VELO",
+    "siren": "904537263",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-953106580",
+    "name": "ACTI4CLIMATE",
+    "siren": "953106580",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-334055902",
+    "name": "ECOLE DE DESIGN NANTES ATLANTIQUE",
+    "siren": "334055902",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-378697320",
+    "name": "CPM INDUSTRIES",
+    "siren": "378697320",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-818942963",
+    "name": "LES VAGABOND.ES DE L'ENERGIE",
+    "siren": "818942963",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-401343637",
+    "name": "ADDEV MICEL",
+    "siren": "401343637",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-844473199",
+    "name": "CISCA, CENTRE DE RECHERCHE ET DEVELOPPEMENT ET TRANSFERT EN INNOVATIONS SOCIALES CLERMONT AUVERGNE",
+    "siren": "844473199",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-923787501",
+    "name": "LA FRESQUE DE LA CONSTRUCTION",
+    "siren": "923787501",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-824258347",
+    "name": "MAURUS PAULINE",
+    "siren": "824258347",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-834173775",
+    "name": "HUGLO LEPAGE AVOCATS",
+    "siren": "834173775",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-842619967",
+    "name": "RENOUVEAU PAYSAN",
+    "siren": "842619967",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-802033548",
+    "name": "COORDIN'ACTION DU MOUVEMENT NATIONAL DE L'HABITAT PARTICIPATIF",
+    "siren": "802033548",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-491125589",
+    "name": "KNAUF INDUSTRIES GESTION",
+    "siren": "491125589",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-910484674",
+    "name": "SAS SWOOP ENERGY",
+    "siren": "910484674",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-256203845",
+    "name": "SYNDICAT MIXTE DU PARC NATUREL REGIONAL DES CAPS ET MARAIS D'OPALE",
+    "siren": "256203845",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-390395671",
+    "name": "AEROPHILE",
+    "siren": "390395671",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-484964036",
+    "name": "ARAMIS GROUP",
+    "siren": "484964036",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-843458209",
+    "name": "MEOSS",
+    "siren": "843458209",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-443982566",
+    "name": "6T- BUREAU DE RECHERCHE",
+    "siren": "443982566",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-818070153",
+    "name": "RBX CREATIONS",
+    "siren": "818070153",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-552046955",
+    "name": "ENGIE ENERGIE SERVICES",
+    "siren": "552046955",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-328071170",
+    "name": "APL DATA CENTER",
+    "siren": "328071170",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-539270280",
+    "name": "ALLIANCE GREEN IT",
+    "siren": "539270280",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-408363174",
+    "name": "LABORATOIRE CENTRAL INDUSTRIE ELECTRIQUE",
+    "siren": "408363174",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-883134157",
+    "name": "GOODFLOOW",
+    "siren": "883134157",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-479576449",
+    "name": "ARECO FINANCES TECHNOLOGIE - ARFITEC",
+    "siren": "479576449",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-818353021",
+    "name": "EOLE RACING",
+    "siren": "818353021",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-899938450",
+    "name": "OUTRE-LOIRE",
+    "siren": "899938450",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-947983847",
+    "name": "KAORI CONCEPT",
+    "siren": "947983847",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-352636922",
+    "name": "ICAM OUEST",
+    "siren": "352636922",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-381431337",
+    "name": "LG INDUSTRIE",
+    "siren": "381431337",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-528071939",
+    "name": "GREENSPECTOR",
+    "siren": "528071939",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-562016774",
+    "name": "SIEMENS S.A.S",
+    "siren": "562016774",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-348607417",
+    "name": "ALTEN",
+    "siren": "348607417",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-420611386",
+    "name": "ELKEM SILICONES FRANCE SAS",
+    "siren": "420611386",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-445091754",
+    "name": "AUTOROUTES TRAFIC",
+    "siren": "445091754",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "benef-a78dd6b2",
+    "name": "PAUL SCHERRER INSTITUT",
+    "siren": "",
+    "type": "Company/Research",
+    "confidenceScore": 0.4
+  },
+  {
+    "beneficiaryId": "siren-794554782",
+    "name": "GEOFLUID",
+    "siren": "794554782",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-923395909",
+    "name": "FONDATION OPEN-C",
+    "siren": "923395909",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-494549686",
+    "name": "POWELTEC",
+    "siren": "494549686",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775697196",
+    "name": "CENTRE TECHNIQUE DE MATERIAUX NATURELS DE CONSTRUCTION",
+    "siren": "775697196",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-891861916",
+    "name": "SOCIETE TECHNOLOGIQUE D'ECHANGEURS MEMBRANAIRES",
+    "siren": "891861916",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-897652673",
+    "name": "DEEPRUN",
+    "siren": "897652673",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-790596282",
+    "name": "PERSEE",
+    "siren": "790596282",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-852462688",
+    "name": "BATCONNECT",
+    "siren": "852462688",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-398618140",
+    "name": "SOCIETE D'INGENIERIE DE REALISATIONS ELECTRIQUES ET D'AUTOMATISMES",
+    "siren": "398618140",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-524724820",
+    "name": "IDEOL",
+    "siren": "524724820",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-194401006",
+    "name": "ECOLE CENTRALE DE NANTES",
+    "siren": "194401006",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-403256944",
+    "name": "CGG SERVICES SAS",
+    "siren": "403256944",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-833718653",
+    "name": "STORENGY",
+    "siren": "833718653",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-518290853",
+    "name": "CLEIA",
+    "siren": "518290853",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-833771181",
+    "name": "H2V INDUSTRY",
+    "siren": "833771181",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-507405009",
+    "name": "BKE",
+    "siren": "507405009",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-880583844",
+    "name": "PROMETHEE EARTH INTELLIGENCE",
+    "siren": "880583844",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-820003093",
+    "name": "AMVALOR",
+    "siren": "820003093",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-796220069",
+    "name": "LES BOIS PROFILES",
+    "siren": "796220069",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-878690361",
+    "name": "LIXO",
+    "siren": "878690361",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-392928826",
+    "name": "SERFIM RECYCLAGE",
+    "siren": "392928826",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-813755949",
+    "name": "OPH DE LA METROPOLE DE LYON",
+    "siren": "813755949",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-809272610",
+    "name": "LE CENT SEPT",
+    "siren": "809272610",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-408076933",
+    "name": "TREMPLIN BATIMENT",
+    "siren": "408076933",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-825369689",
+    "name": "MINEKA, MATERIAUX DE CONSTRUCTION A REUTILISER",
+    "siren": "825369689",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-811346568",
+    "name": "ERA",
+    "siren": "811346568",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-808368997",
+    "name": "4 R CONCEPT",
+    "siren": "808368997",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-830735320",
+    "name": "AIR&D",
+    "siren": "830735320",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-879095370",
+    "name": "TRAPAPART",
+    "siren": "879095370",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-562094425",
+    "name": "ARCELORMITTAL FRANCE",
+    "siren": "562094425",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-423837897",
+    "name": "LUMIVER",
+    "siren": "423837897",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-899646038",
+    "name": "THE 8 IMPACT",
+    "siren": "899646038",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-258502962",
+    "name": "SYNDICAT MIXTE ETUDES POUR COORDINATION DEPARTEMENTALE DE TRAITEMENT DECHETS MENAGERS DE VENDEE",
+    "siren": "258502962",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-805365749",
+    "name": "AUX PETITS ACTEURS L'AVENIR",
+    "siren": "805365749",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-433027638",
+    "name": "GREENCELL",
+    "siren": "433027638",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-316520048",
+    "name": "COMPTE R",
+    "siren": "316520048",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-504879842",
+    "name": "RAGT ENERGIE",
+    "siren": "504879842",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784663544",
+    "name": "CITEPA",
+    "siren": "784663544",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-954506077",
+    "name": "RENAULT TRUCKS",
+    "siren": "954506077",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-383430279",
+    "name": "E RE CA INGENIER ELECTRON INFORMAT INDUS",
+    "siren": "383430279",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-314538513",
+    "name": "AUVERGNE-RHONE-ALPES ENERGIE ENVIRONNEMENT",
+    "siren": "314538513",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-200040715",
+    "name": "METROPOLE GRENOBLE-ALPES-METROPOLE (METRO)",
+    "siren": "200040715",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-528786288",
+    "name": "ANIMINE",
+    "siren": "528786288",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-817612401",
+    "name": "COOPERL INNOVATION S.A.S",
+    "siren": "817612401",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775682784",
+    "name": "CERIB",
+    "siren": "775682784",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-333554897",
+    "name": "CARRIERES BIALLAIS",
+    "siren": "333554897",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-196244016",
+    "name": "UNIVERSITE D ARTOIS",
+    "siren": "196244016",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-534865159",
+    "name": "TERENVI ESPACES VERTS EN ABREGE TEV",
+    "siren": "534865159",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-330201997",
+    "name": "STRATIFORME INDUSTRIES",
+    "siren": "330201997",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197627623",
+    "name": "UNIVERSITE LE HAVRE NORMANDIE",
+    "siren": "197627623",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-817439201",
+    "name": "CARGONAUTES",
+    "siren": "817439201",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-783696834",
+    "name": "INSTITUT PASTEUR DE LILLE",
+    "siren": "783696834",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-887860377",
+    "name": "LOWIT",
+    "siren": "887860377",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-341351088",
+    "name": "GRAVITEC",
+    "siren": "341351088",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-477785711",
+    "name": "OMEGAWATT",
+    "siren": "477785711",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-753435692",
+    "name": "DE LAAGE REMI",
+    "siren": "753435692",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-530435718",
+    "name": "LITVINE DORIAN",
+    "siren": "530435718",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-888395787",
+    "name": "BRAMKAMP UWE",
+    "siren": "888395787",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-530676360",
+    "name": "ELISOL ENVIRONNEMENT",
+    "siren": "530676360",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-443933791",
+    "name": "SPHEREX.AMC",
+    "siren": "443933791",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-494056765",
+    "name": "TERAO",
+    "siren": "494056765",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-812490159",
+    "name": "WILD",
+    "siren": "812490159",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-827757329",
+    "name": "COLLECTIF DES FILIERES BIOSOURCEES DU BATIMENTO",
+    "siren": "827757329",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-840381990",
+    "name": "(AICB) ASSOCIATION DES INDUSTRIELS DE LA CONSTRUCTION BIOSOURCEE",
+    "siren": "840381990",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-183500016",
+    "name": "CHAMBRE REGIONALE D AGRICULTURE",
+    "siren": "183500016",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-784523318",
+    "name": "ASSOCIATION COORDINATION TECHNIQUE AGRICOLE",
+    "siren": "784523318",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-828271791",
+    "name": "SERVICES ECUSSON VERT",
+    "siren": "828271791",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-828174359",
+    "name": "APPLICOLIS",
+    "siren": "828174359",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-788961167",
+    "name": "ATLANTECH",
+    "siren": "788961167",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-338329469",
+    "name": "OTEIS",
+    "siren": "338329469",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-180067019",
+    "name": "INSTITUT NATIONAL DE L'INFORMATION GEOGRAPHIQUE ET FORESTIERE",
+    "siren": "180067019",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-542021829",
+    "name": "SAFEGE",
+    "siren": "542021829",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775697907",
+    "name": "UNION NATIONALE FEDERATION H L M",
+    "siren": "775697907",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-438076200",
+    "name": "CREA LEAD",
+    "siren": "438076200",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-095580841",
+    "name": "TEREGA",
+    "siren": "095580841",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-490572161",
+    "name": "CV ASSOCIES ENGINEERING",
+    "siren": "490572161",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-353150261",
+    "name": "AKKODIS DIGITAL SAS",
+    "siren": "353150261",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-434023032",
+    "name": "GEOSTOCK",
+    "siren": "434023032",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-498793850",
+    "name": "AVENIR ENERGIE ENVIRONNEMENT AVENIA/POLE AVENIA",
+    "siren": "498793850",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-884439274",
+    "name": "PURENAT",
+    "siren": "884439274",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-904623212",
+    "name": "GENEOMAT",
+    "siren": "904623212",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775724818",
+    "name": "ASSOCIATION FRANCAISE DE NORMALISATION",
+    "siren": "775724818",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-812440493",
+    "name": "KARIBATI",
+    "siren": "812440493",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-841805286",
+    "name": "PLASTIC@SEA",
+    "siren": "841805286",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-811665181",
+    "name": "SYNOX",
+    "siren": "811665181",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-805068152",
+    "name": "MEDINE TECHNOLOGY",
+    "siren": "805068152",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-851387225",
+    "name": "ATOPTIMA",
+    "siren": "851387225",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193500774",
+    "name": "ECOLE NATIONALE SUPERIEURE DE CHIMIE",
+    "siren": "193500774",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-838270098",
+    "name": "CAMPUS DE LA TRANSITION",
+    "siren": "838270098",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-500201983",
+    "name": "I4CE INSTITUTE FOR CLIMATE ECONOMICS",
+    "siren": "500201983",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-890977580",
+    "name": "CAREMAG",
+    "siren": "890977580",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-792817876",
+    "name": "SEGTON ADVANCED TECHNOLOGY",
+    "siren": "792817876",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-911979201",
+    "name": "ELHYTE ENERGIES",
+    "siren": "911979201",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-479538571",
+    "name": "ASS DE SANTE AU TRAVAIL INTER SCE",
+    "siren": "479538571",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-821847381",
+    "name": "ASSOCIATION CLIMATE CHANCE",
+    "siren": "821847381",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-531755346",
+    "name": "DEMETA",
+    "siren": "531755346",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-399664846",
+    "name": "SALVECO",
+    "siren": "399664846",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-401449855",
+    "name": "QUALICONSULT",
+    "siren": "401449855",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-832333710",
+    "name": "MOBIUS INDUSTRIE",
+    "siren": "832333710",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-881717318",
+    "name": "A4MT",
+    "siren": "881717318",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-422808311",
+    "name": "AG PLAST",
+    "siren": "422808311",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775728785",
+    "name": "CTRE TECH INDUSTRIEL CONSTRUCTION METALL",
+    "siren": "775728785",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-791078025",
+    "name": "PALANCA",
+    "siren": "791078025",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-844466607",
+    "name": "L'ECHAPPEE DES COPROPRIETES",
+    "siren": "844466607",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-501963326",
+    "name": "AGENCE TORRES BORREDON",
+    "siren": "501963326",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-399252154",
+    "name": "INSTITUT CATHOLIQUE D'ARTS ET METIERS SITE DE TOULOUSE",
+    "siren": "399252154",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-504463191",
+    "name": "GANDEMER JACQUES",
+    "siren": "504463191",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-327932034",
+    "name": "AERODYNAMIQUE EIFFEL",
+    "siren": "327932034",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-194401048",
+    "name": "ECOLE NATIONALE SUPERIEURE D'ARCHITECTURE DE NANTES",
+    "siren": "194401048",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-449989573",
+    "name": "L'OUVRE-BOITES",
+    "siren": "449989573",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-403786817",
+    "name": "DE LATAULADE BENEDICTE",
+    "siren": "403786817",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-840247274",
+    "name": "GLOBEO",
+    "siren": "840247274",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-512241456",
+    "name": "RESEAU ENVIRONNEMENT SANTE",
+    "siren": "512241456",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-130003627",
+    "name": "ECOLE DES HAUTES ETUDES EN SANTE PUBLIQUE",
+    "siren": "130003627",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-507990364",
+    "name": "TERRE DE LIENS MIDI PYRENEES",
+    "siren": "507990364",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-193113834",
+    "name": "UNIVERSITE TOULOUSE II",
+    "siren": "193113834",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-428425995",
+    "name": "ASS  SOL ET CIVILISATION",
+    "siren": "428425995",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-480136100",
+    "name": "MAISON D'ECONOMIE SOLIDAIRE DU BRAY",
+    "siren": "480136100",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-199318270",
+    "name": "UNIVERSITE DE PARIS VIII.PARIS VINCENNES",
+    "siren": "199318270",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-197534712",
+    "name": "CONSERVATOIRE NATIONAL DES ARTS ET METIERS",
+    "siren": "197534712",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-499942134",
+    "name": "INSTITUT JEAN BAPTISTE ANDRE GODIN",
+    "siren": "499942134",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-401161070",
+    "name": "HALAGE",
+    "siren": "401161070",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-388964520",
+    "name": "ECOLE ELEC PROD METHODES INDUSTRIELLES",
+    "siren": "388964520",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
+  },
+  {
+    "beneficiaryId": "siren-775624240",
+    "name": "INSTITUT CATHOLIQUE DE LILLE",
+    "siren": "775624240",
+    "type": "Company/Research",
+    "confidenceScore": 0.8
   }
 ]

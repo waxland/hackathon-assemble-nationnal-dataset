@@ -265,20 +265,20 @@ Critere d'acceptation :
 
 #### P1.3 Ingestion des projets ADEME
 
-- [ ] Creer `scripts/16_ingest_ademe_research_projects.py`.
-- [ ] Recuperer la vue agregee ADEME depuis 2021.
-- [ ] Produire `data/research_projects.json`.
-- [ ] Conserver `identifier`, `title`, `keywords`, `budgetAmount`, `grantAmount`, `startDate`, `endDate`, `status`, `granteeName`.
-- [ ] Tenter une reconciliation `granteeName -> SIREN` seulement si le score est suffisant.
-- [ ] Eviter l'homonymie : ne jamais valider automatiquement un SIREN trouve par nom seul si plusieurs candidats existent.
-- [ ] Mapper `keywords` vers `themeId`.
-- [ ] Ajouter `sourceDatasetId`, `sourceResourceId`, `sourceUrl`.
-- [ ] Ajouter les correlations `researchProject -> theme`, `researchProject -> beneficiary`.
+- [x] Creer `scripts/16_ingest_ademe_research_projects.py`.
+- [x] Recuperer la vue agregee ADEME depuis 2021.
+- [x] Produire `data/research_projects.json` (On utilise directement la table unifiée `projects.json`).
+- [x] Conserver `identifier`, `title`, `keywords`, `budgetAmount`, `grantAmount`, `startDate`, `endDate`, `status`, `granteeName`.
+- [x] Tenter une reconciliation `granteeName -> SIREN` seulement si le score est suffisant.
+- [x] Eviter l'homonymie : ne jamais valider automatiquement un SIREN trouve par nom seul si plusieurs candidats existent.
+- [x] Mapper `keywords` vers `themeId`.
+- [x] Ajouter `sourceDatasetId`, `sourceResourceId`, `sourceUrl`.
+- [x] Ajouter les correlations `researchProject -> theme`, `researchProject -> beneficiary`.
 
 Critere d'acceptation :
 
-- [ ] Les projets ADEME enrichissent les themes avec des montants reels de subvention.
-- [ ] Les beneficiaires incertains sont marques `to_validate`.
+- [x] Les projets ADEME enrichissent les themes avec des montants reels de subvention.
+- [x] Les beneficiaires incertains sont marques `to_validate`.
 
 #### P1.4 Ingestion brevets par SIREN
 

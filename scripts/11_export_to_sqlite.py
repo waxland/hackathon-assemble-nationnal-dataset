@@ -228,3 +228,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # Update des tables pour ajouter le siret/siren potentiel aux beneficiaires
+    # Si besoin de forcer, on ne supprime pas la base mais on ajoute si manquantes dans le futur
+    # Pour le moment, project_beneficiaries reste comme défini

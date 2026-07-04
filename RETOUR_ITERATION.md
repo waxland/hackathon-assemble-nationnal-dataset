@@ -62,3 +62,12 @@
 - **Commandes lancées + résultats** : Exécution du script 15. Export réussi de 39 projets, 39 bénéficiaires, 39 territoires et 156 corrélations déterministes générées. Upsert SQLite réussi sans supprimer la base.
 - **Blocages / observations** : Rien de bloquant. La taxonomie d'origine pour les villes durables est rattachée empiriquement au programme 425 et au thème "Pôles et territoires d'innovation" (Score de confiance = 0.8).
 - **Prochaine tâche recommandée** : P1.3 Ingestion des projets ADEME
+
+## [2026-07-04] Tâche P1.3 : Ingestion des projets ADEME
+
+- **Tâche traitée** : P1.3 Ingestion des projets ADEME
+- **Fichiers modifiés** : `scripts/16_ingest_ademe_research_projects.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Création du script d'ingestion des projets de recherche de l'ADEME. Extraction des montants financés (grant) et du coût total (budget). Mise en relation lexicale des mots-clés ADEME avec la taxonomie locale (score abaissé à 0.6 + validationStatus à "to_validate"). Extraction de plus de 600 nouveaux projets et 700 nouveaux bénéficiaires consolidés dans `projects.json`.
+- **Commandes lancées + résultats** : Exécution du script 16. Le nombre de corrélations dans la base SQLite a explosé pour atteindre +2100 relations, ce qui prouve la richesse de ce jeu de données open data.
+- **Blocages / observations** : Beaucoup de SIRET partiels ou manquants dans la base ADEME, le fallback a été fait sur un hash du nom du bénéficiaire.
+- **Prochaine tâche recommandée** : P1.4 Ingestion brevets par SIREN
