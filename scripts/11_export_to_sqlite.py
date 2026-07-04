@@ -109,6 +109,29 @@ def init_db(db_path):
         confidenceScore REAL,
         FOREIGN KEY (programmeCode) REFERENCES programs (programmeCode)
     );
+    CREATE TABLE IF NOT EXISTS projects (
+        projectId TEXT PRIMARY KEY,
+        projectName TEXT,
+        description TEXT,
+        operator TEXT,
+        grantAmount REAL,
+        sourceUrl TEXT,
+        confidenceScore REAL
+    );
+    CREATE TABLE IF NOT EXISTS project_beneficiaries (
+        beneficiaryId TEXT PRIMARY KEY,
+        name TEXT,
+        type TEXT,
+        confidenceScore REAL
+    );
+    CREATE TABLE IF NOT EXISTS territories (
+        territoryId TEXT PRIMARY KEY,
+        communeCode TEXT,
+        communeName TEXT,
+        departement TEXT,
+        region TEXT,
+        confidenceScore REAL
+    );
     CREATE TABLE IF NOT EXISTS ingestion_runs (
         runId TEXT PRIMARY KEY,
         startedAt TEXT,
@@ -175,7 +198,10 @@ def main():
             ("data/naf_codes.json", "naf_codes", ["nafCode", "nafLabel", "confidenceScore"]),
             ("data/companies.json", "companies", ["companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale", "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale", "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"]),
             ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"]),
-            ("data/green_budget_lines.json", "green_budget_lines", ["id", "programmeCode", "actionCode", "actionName", "globalRating", "amount2026", "sourceUrl", "confidenceScore"])
+            ("data/green_budget_lines.json", "green_budget_lines", ["id", "programmeCode", "actionCode", "actionName", "globalRating", "amount2026", "sourceUrl", "confidenceScore"]),
+            ("data/projects.json", "projects", ["projectId", "projectName", "description", "operator", "grantAmount", "sourceUrl", "confidenceScore"]),
+            ("data/project_beneficiaries.json", "project_beneficiaries", ["beneficiaryId", "name", "type", "confidenceScore"]),
+            ("data/territories.json", "territories", ["territoryId", "communeCode", "communeName", "departement", "region", "confidenceScore"])
         ]
         
         for filepath, table, keys in files_and_tables:

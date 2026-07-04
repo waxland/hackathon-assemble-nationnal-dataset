@@ -246,22 +246,22 @@ Critere d'acceptation :
 
 #### P1.2 Ingestion des laureats Demonstrateurs ville durable
 
-- [ ] Creer `scripts/15_ingest_fr2030_laureates.py`.
-- [ ] Telecharger CSV ou JSON depuis la Caisse des Depots.
-- [ ] Produire `data/projects.json`.
-- [ ] Produire `data/project_beneficiaries.json`.
-- [ ] Produire `data/territories.json`.
-- [ ] Normaliser `region`, `departement`, `communeCode`, `communeName`.
-- [ ] Extraire `grantAmount` depuis montants incubation/realisation.
-- [ ] Extraire les indicateurs d'impact : CO2 evite, kWh evites, EnR, surfaces renaturees, surfaces depolluees.
-- [ ] Mapper les thematiques source vers `themeId` avec un `confidenceScore`.
-- [ ] Mettre `validationStatus: "to_validate"` si le mapping thematique est seulement lexical.
-- [ ] Ajouter les correlations `project -> theme`, `project -> territory`, `project -> beneficiary`, `project -> programme`.
+- [x] Creer `scripts/15_ingest_fr2030_laureates.py`.
+- [x] Telecharger CSV ou JSON depuis la Caisse des Depots.
+- [x] Produire `data/projects.json`.
+- [x] Produire `data/project_beneficiaries.json`.
+- [x] Produire `data/territories.json`.
+- [x] Normaliser `region`, `departement`, `communeCode`, `communeName`.
+- [x] Extraire `grantAmount` depuis montants incubation/realisation.
+- [x] Extraire les indicateurs d'impact : CO2 evite, kWh evites, EnR, surfaces renaturees, surfaces depolluees.
+- [x] Mapper les thematiques source vers `themeId` avec un `confidenceScore`.
+- [x] Mettre `validationStatus: "to_validate"` si le mapping thematique est seulement lexical.
+- [x] Ajouter les correlations `project -> theme`, `project -> territory`, `project -> beneficiary`, `project -> programme`.
 
 Critere d'acceptation :
 
-- [ ] Au moins un fichier front mocke peut etre remplace par de vraies donnees territoriales/projets.
-- [ ] Chaque projet a une source et un ID deterministe.
+- [x] Au moins un fichier front mocke peut etre remplace par de vraies donnees territoriales/projets.
+- [x] Chaque projet a une source et un ID deterministe.
 
 #### P1.3 Ingestion des projets ADEME
 

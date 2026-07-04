@@ -1,0 +1,314 @@
+[
+  {
+    "territoryId": "terr-b6801900",
+    "communeCode": "89024",
+    "communeName": "Auxerre",
+    "departement": "Yonne",
+    "region": "Bourgogne-Franche-Comté",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-6f53f6d0",
+    "communeCode": "41018",
+    "communeName": "Blois",
+    "departement": "Loir-et-Cher",
+    "region": "Centre-Val de Loire",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-51407c3d",
+    "communeCode": "29038",
+    "communeName": "Commana",
+    "departement": "Finistère",
+    "region": "Bretagne",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-75b4af0d",
+    "communeCode": "77307",
+    "communeName": "Montévrain",
+    "departement": "Seine-et-Marne",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-d12e7046",
+    "communeCode": "91471",
+    "communeName": "Orsay",
+    "departement": "Essonne",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-a1490f03",
+    "communeCode": "42218",
+    "communeName": "Saint-Etienne",
+    "departement": "Loire",
+    "region": "Auvergne-Rhône-Alpes",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-195efe4c",
+    "communeCode": "59350",
+    "communeName": "Lille",
+    "departement": "Nord",
+    "region": "Hauts-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-60191cef",
+    "communeCode": "68224",
+    "communeName": "Mulhouse",
+    "departement": "Haut-Rhin",
+    "region": "Grand Est",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-91730030",
+    "communeCode": "44109",
+    "communeName": "Nantes",
+    "departement": "Loire-Atlantique",
+    "region": "Pays de la Loire",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-cfb63b9e",
+    "communeCode": "01160",
+    "communeName": "Ferney-Voltaire",
+    "departement": "Ain",
+    "region": "Auvergne-Rhône-Alpes",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-f289b509",
+    "communeCode": "30259",
+    "communeName": "Saint-Hilaire-de-Brethmas",
+    "departement": "Gard",
+    "region": "Occitanie",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-f35537cb",
+    "communeCode": "26323",
+    "communeName": "Saint-Paul-lès-Romans",
+    "departement": "Drôme",
+    "region": "Auvergne-Rhône-Alpes",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-f0f717db",
+    "communeCode": "31254",
+    "communeName": "Labège",
+    "departement": "Haute-Garonne",
+    "region": "Occitanie",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-c5c34781",
+    "communeCode": "25040",
+    "communeName": "Badevel",
+    "departement": "Doubs",
+    "region": "Bourgogne-Franche-Comté",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-917c5ffe",
+    "communeCode": "17300",
+    "communeName": "Aytré",
+    "departement": "Charente-Maritime",
+    "region": "Nouvelle-Aquitaine",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-e2dcbeb2",
+    "communeCode": "54580",
+    "communeName": "Villerupt",
+    "departement": "Meurthe-et-Moselle",
+    "region": "Grand Est",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-0a908c9c",
+    "communeCode": "94033",
+    "communeName": "Fontenay-sous-Bois",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-62ef6dc6",
+    "communeCode": "14333",
+    "communeName": "Honfleur",
+    "departement": "Calvados",
+    "region": "Normandie",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-3dd8d2d7",
+    "communeCode": "69123",
+    "communeName": "Lyon",
+    "departement": "Rhône",
+    "region": "Auvergne-Rhône-Alpes",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-6558c7e9",
+    "communeCode": "92050",
+    "communeName": "Nanterre",
+    "departement": "Hauts-de-Seine",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-98df4e0c",
+    "communeCode": "35238",
+    "communeName": "Rennes",
+    "departement": "Ille-et-Vilaine",
+    "region": "Bretagne",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-f9bef216",
+    "communeCode": "35315",
+    "communeName": "Saint-Sulpice-la-Forêt",
+    "departement": "Ille-et-Vilaine",
+    "region": "Bretagne",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-0790335a",
+    "communeCode": "83137",
+    "communeName": "Toulon",
+    "departement": "Var",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-b9b5c1ac",
+    "communeCode": "29019",
+    "communeName": "Brest",
+    "departement": "Finistère",
+    "region": "Bretagne",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-0ce85892",
+    "communeCode": "44184",
+    "communeName": "Trignac",
+    "departement": "Loire-Atlantique",
+    "region": "Pays de la Loire",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-2bab68d1",
+    "communeCode": "94016",
+    "communeName": "Cachan",
+    "departement": "Val-de-Marne",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-d71aa82c",
+    "communeCode": "97302",
+    "communeName": "Cayenne",
+    "departement": "Guyane",
+    "region": "Guyane",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-6e2c22ab",
+    "communeCode": "14431",
+    "communeName": "Mézidon-Canon",
+    "departement": "Calvados",
+    "region": "Normandie",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-5c04545b",
+    "communeCode": "97407",
+    "communeName": "Le Port",
+    "departement": "La Réunion",
+    "region": "La Réunion",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-5f9ec9a8",
+    "communeCode": "80021",
+    "communeName": "Amiens",
+    "departement": "Somme",
+    "region": "Hauts-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-a46841e0",
+    "communeCode": "67482",
+    "communeName": "Strasbourg",
+    "departement": "Bas-Rhin",
+    "region": "Grand Est",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-1582166a",
+    "communeCode": "90010",
+    "communeName": "Belfort",
+    "departement": "Territoire de Belfort",
+    "region": "Bourgogne-Franche-Comté",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-639a9bd0",
+    "communeCode": "91286",
+    "communeName": "Grigny",
+    "departement": "Essonne",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-a995b410",
+    "communeCode": "13055",
+    "communeName": "Marseille",
+    "departement": "Bouches-du-Rhône",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-b14d48ed",
+    "communeCode": "33281",
+    "communeName": "Mérignac",
+    "departement": "Gironde",
+    "region": "Nouvelle-Aquitaine",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-5e946476",
+    "communeCode": "63113",
+    "communeName": "Clermont-Ferrand",
+    "departement": "Puy-de-Dôme",
+    "region": "Auvergne-Rhône-Alpes",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-b16cfbfa",
+    "communeCode": "06088",
+    "communeName": "Nice",
+    "departement": "Alpes-Maritimes",
+    "region": "Provence-Alpes-Côte d'Azur",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-ba7237b1",
+    "communeCode": "95585",
+    "communeName": "Sarcelles",
+    "departement": "Val-d'Oise",
+    "region": "Île-de-France",
+    "confidenceScore": 1.0
+  },
+  {
+    "territoryId": "terr-7a37a2f3",
+    "communeCode": "31555",
+    "communeName": "Toulouse",
+    "departement": "Haute-Garonne",
+    "region": "Occitanie",
+    "confidenceScore": 1.0
+  }
+]

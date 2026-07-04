@@ -53,3 +53,12 @@
 - **Commandes lancées + résultats** : Exécution des scripts. La jointure exacte avec les "Titres" de dépenses classiques (T3/T6) de `budget_lines.json` s'est avérée impossible sans risque de doublons, donc `amount2026` est laissé à `null` conformément aux consignes.
 - **Blocages / observations** : La qualité du CSV fourni par data.gouv est médiocre. Le nettoyage des headers a été obligatoire.
 - **Prochaine tâche recommandée** : Passer à la suite des tâches P1, potentiellement P1.2 (Lauréats Démonstrateurs).
+
+## [2026-07-04] Tâche P1.2 : Ingestion des lauréats Démonstrateurs ville durable
+
+- **Tâche traitée** : P1.2 Ingestion des laureats Demonstrateurs ville durable
+- **Fichiers modifiés** : `scripts/15_ingest_fr2030_laureates.py`, `scripts/11_export_to_sqlite.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Création du script d'ingestion pour le fichier de la Caisse des Dépôts. Nettoyage des montants de subventions (incubation + réalisation) pour générer le `grantAmount`. Extraction des indicateurs écologiques. Décomposition en trois entités propres (Projects, Beneficiaries, Territories) qui sont liées aux thèmes et aux programmes via `correlations.json`. Ajout des trois nouvelles tables dans le schéma SQLite.
+- **Commandes lancées + résultats** : Exécution du script 15. Export réussi de 39 projets, 39 bénéficiaires, 39 territoires et 156 corrélations déterministes générées. Upsert SQLite réussi sans supprimer la base.
+- **Blocages / observations** : Rien de bloquant. La taxonomie d'origine pour les villes durables est rattachée empiriquement au programme 425 et au thème "Pôles et territoires d'innovation" (Score de confiance = 0.8).
+- **Prochaine tâche recommandée** : P1.3 Ingestion des projets ADEME

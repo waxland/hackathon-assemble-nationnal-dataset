@@ -1,0 +1,587 @@
+[
+  {
+    "projectId": "proj-c7430d8e",
+    "projectName": "Auxerre ambitieuse",
+    "description": "Transformer une friche industrielle à proximité directe du centre-ville en un quartier durable avec des forts enjeux sur l’autonomie énergétique et la valorisation du patrimoine industriel.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "970",
+      "kwhSavedPerYear": "9200000",
+      "renaturedSurfaceHa": "5.1",
+      "depollutedSurfaceHa": "5.1"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-3db5f98e",
+    "projectName": "Reconquête de l’Îlot Denis Papin",
+    "description": "Rendre à nouveau attractif des logements dans un cœur historique et sans accès indépendants, en mobilisant les propriétaires et commerçants de l'ilot.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 197188.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-aa1cffcd",
+    "projectName": "Des hameaux légers pour des territoires plus sobres, résilients et inclusifs",
+    "description": "La commune rurale de Commana, en proie à la dévitalisation, accueille sur une friche, en partenariat avec l'association \"Hameaux Légers\" et le Cerema, un hameau léger (constitué d'un collectif citoyens et d'habitats réversibles) portant un projet de revitalisation du territoire.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 390910.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "0.0",
+      "depollutedSurfaceHa": "0.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-87164d1f",
+    "projectName": "Les Lisières : l'hybridation fertile d'un centre commercial et de son quartier en grande couronne francilienne",
+    "description": "L'EPA Marne, en partenariat avec le groupe Frey, souhaite créer les conditions permettant la construction des logements dans une zone commerciale périurbaine pour éviter la consommation de nouvelles terres agricoles.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-9738552c",
+    "projectName": "Démonstrateur agro-urbain de Corbeville",
+    "description": "Développer une vision intégrée de l'urbanisme dans le but de renforcer les synergies ville, nature et agriculture.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 462394.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "500",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-1c77f52e",
+    "projectName": "Neyron : refaire quartier autour d’une centralité populaire",
+    "description": "L'EPA Saint-Etienne souhaite combiner des innovations sociales et environnementales par strates (sous-sol, sol, rdc, bâti) dans un projet d'aménagement global de réhabilitation d'une friche polluée en centre de Saint-Etienne.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 499695.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-fa179503",
+    "projectName": "Iéna-Mexico : pour des quartiers anciens plus sobres et inclusifs",
+    "description": "La Métropole Européenne de Lille, la SPLA La Fabrique des quartiers, la Régie régionale du Service Public de l'Efficacité Énergétique et leurs partenaires souhaitent développer une nouvelle approche de la rénovation urbaine, pour transformer des quartiers d’habitat ancien en quartiers sobres, sains et inclusifs.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "882",
+      "kwhSavedPerYear": "1885000",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-4aa87821",
+    "projectName": "Quartier DMC - La reconquête d'un patrimoine industriel d'exception",
+    "description": "Développer un jumeau numérique qui soit le support de la conception et de la gestion du quartier du DMC.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-73216031",
+    "projectName": "Démonstrateur Basse Île :  la décarbonation de la fabrique de la ville",
+    "description": "Nantes Métropole et Nantes Métropole Aménagement souhaitent faire la preuve qu'une conception urbaine peut limiter radicalement l'impact carbone d'un projet d'aménagement.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "12800",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "3.98",
+      "depollutedSurfaceHa": "41.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-d712b344",
+    "projectName": "Quartier Bas Carbone de la ZAC Ferney-Genève Innovation à Ferney-Voltaire",
+    "description": "Réaliser un quartier mixte bas carbone avec un modèle d'aménagement résilient dans le cadre d'une ZAC située aux portes de l’aéroport international de Genève sur la commune de Ferney-Voltaire et au cœur du projet économique international du Grand Genève.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "520",
+      "kwhSavedPerYear": "2500000",
+      "renaturedSurfaceHa": "16.0",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-07829d50",
+    "projectName": "La Jasse de Bernard : L’HABITAT PERIURBAIN AUTREMENT",
+    "description": "Refonder la chaîne de conception de l'habitat périurbain et développer des filières locales.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 312375.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "1",
+      "kwhSavedPerYear": "51",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-b4eb1a1b",
+    "projectName": "Re-Sources",
+    "description": "Créer un lieu de vie intergénérationnel et solidaire en zone périurbaine.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 360917.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "1",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-4355228c",
+    "projectName": "Parc d'activités du Rivel, un quartier durable à énergie positive bas carbone",
+    "description": "Faire du parc d'activités du Rivel un quartier durable à énergie positive bas carbone.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 493500.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-d347d91b",
+    "projectName": "Living Lab Badevel village durable",
+    "description": "Revitaliser la commune en agissant concomitamment sur l’habitat, l’autonomie énergétique, le maintien et la restructuration d’équipements publics et le déploiement d’activités en milieu rural .",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 185000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "71",
+      "kwhSavedPerYear": "237669",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-95701271",
+    "projectName": "Bongraine, territoire en transition",
+    "description": "Mettre en place un modèle d’écoquartier qui donne des réponses opérationnelles à l’objectif de neutralité carbone porté par l’agglomération tout en ciblant les enjeux de pénurie de logements et de spéculation foncière.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "1688",
+      "kwhSavedPerYear": "0",
+      "renaturedSurfaceHa": "17.0",
+      "depollutedSurfaceHa": "34.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-e14434a9",
+    "projectName": "Milleville : faire de la friche industrielle le laboratoire d'un nouvel écosystème résilient, naturel et urbain",
+    "description": "L'EPA Alzette-Belval souhaite transformer une ancienne friche sidérurgique en écoquartier.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 479809.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-67bf119f",
+    "projectName": "Val de Fontenay Alouettes : faire de Val-de-Fontenay le laboratoire urbain de la décarbonation",
+    "description": "Portée par la Ville de Fontenay-sous-Bois et la SPL Marne-au-Bois, démarche bas carbone à l'échelle d'une grande opération de renouvellement d'un centre tertiaire.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 391425.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "2464",
+      "kwhSavedPerYear": "3200000",
+      "renaturedSurfaceHa": "4.3",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-380fe117",
+    "projectName": "Honfleur 2030 : ville réconciliée avec ses habitants, ses visiteurs et la planète",
+    "description": "Préfigurer de nouveaux modes de stationnement et tester de nouvelles offres de services (transports innovants) en entrée de ville touristique.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 281940.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-c5e83a68",
+    "projectName": "La logistique apaisée en quartier dense",
+    "description": "La Métropole de Lyon, la SEM SERL et la Société villeurbannaise d'urbanisme (SVU) souhaitent promouvoir des logistiques urbaine et de chantier sobres.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 399380.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "0.42",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-8357da1f",
+    "projectName": "Nanterre Parc Sud : un quartier sobre, résilient et vivant",
+    "description": "L'EPT Paris-Ouest-La-Défense, la SEMNA et ses partenaires souhaitent coordonner, à l'échelle d'une opération de renouvellement urbain associant plusieurs maîtres d'ouvrage, une boucle circulaire de réemploi.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 492500.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "15",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-a5db7059",
+    "projectName": "Les Halles en Commun",
+    "description": "Préserver les activités économiques pérennes dans un ancien patrimoine industriel en cœur de ville à Rennes dans une logique de sobriété foncière avec des préfiguration d'installations grâce à une stratégie d'urbanisme transitoire.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 499578.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-3dcbebfe",
+    "projectName": "La fabrique du village métropolitain",
+    "description": "Renforcer la centralité du village métropolitain en fonction des appropriations existantes et usages des habitants.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 155000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-5ce0a40b",
+    "projectName": "De Mayol à Pipady – Avenir de la Rade de Toulon",
+    "description": "Renaturer à grande échelle un site portuaire.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 318080.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-748eed63",
+    "projectName": "Siamorphose : régénération urbaine d'une ville de la Reconstruction",
+    "description": "Redévelopper le centre reconstruit de Brest (quartier Siam) en mettant fin au processus de fragilisation en cours et en impulsant une nouvelle démarche d'attractivité. Concrètement, la Métropole de Brest vise la réhabilitation de deux séquences d'îlots démonstrateurs (environ 73 logements) en facilitant la mobilisation des copropriétaires par des outils juridiques, économiques et organisationnels.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "54",
+      "kwhSavedPerYear": "56200",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-d9a53391",
+    "projectName": "Puissance 4 : produire un habitat durable et abordable par la construction hors-site",
+    "description": "La Ville de Trignac, Saint-Nazaire Agglomération et les Chantiers de l'Atlantique notamment souhaitent soutenir la production de logements collectifs abordables et de qualité en structurant une filière locale de construction de logements hors-site.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 317610.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "0.3",
+      "depollutedSurfaceHa": "0.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-1669cd40",
+    "projectName": "Campus Cachan",
+    "description": "Renouveler un site universitaire vieillissant, en valorisant son cadre de vie et en l'ouvrant sur la ville.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 320588.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "32.0",
+      "depollutedSurfaceHa": "18.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-303c8818",
+    "projectName": "Tigre-Maringouins",
+    "description": "Concevoir un écoquartier amazonien adapté aux enjeux de l'environnement naturel guyanais et à l'hétérogénéité d'une friche urbanisée.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "50",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-a0bf975b",
+    "projectName": "Sur les rails de la sobriété : la transition de la ville ferroviaire vers la ville de demain",
+    "description": "Développer une nouvelle forme d'habitat pour limiter l'imperméabilisation des sols.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 165685.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-7caa2ae0",
+    "projectName": "ZAC Cambaie-Oméga : Démonstrateur de la ville durable, insulaire et tropicale",
+    "description": "Développer l'aménagement et la construction bioclimatique : limiter l'importantion de matériaux et capitaliser sur les ressources locales (procédés constructifs innovants).",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 312329.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-15332482",
+    "projectName": "Eau désirable : penser la ville incertaine et imprévisible",
+    "description": "Amiens Métropole et la SPL Vallée idéale développement souhaitent poursuivre le développement urbain à proximité de zones fluviales, dans des espaces inondables sources de risques mais aussi pourvoyeurs de ressources. Le projet interroge le rôle de la zone humide dans la résilience des espaces urbains, en faisant du sol et de l’eau des fils directeurs : parc urbain inondable, gestion raisonnée des terres, construction d’un bâtiment tiers-lieu alimentaire en matériaux bio/géosourcés et adapté au risque inondation; mobilisation de la population.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 497000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-3ef76fdf",
+    "projectName": "Citadelle, un quartier bas carbone, résilient, accélérateur de transitions",
+    "description": "Travailler avec la filière de la construction et les futurs habitants pour développer un modèle de quartier bas carbone dans une friche portuaire.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "450",
+      "kwhSavedPerYear": "7294519",
+      "renaturedSurfaceHa": "24.0",
+      "depollutedSurfaceHa": "24.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-994b94b1",
+    "projectName": "Belfort E-Start, communauté d'énergie renouvelable",
+    "description": "Grand Belfort agglomération, l'UTBM et la SEM TANDEM souhaitent transformer une zone d'activités économiques à patrimoine historique et industriel en un quartier d'affaires de la Ville durable producteur d'énergie renouvelable, en combinant rénovation énergétique et production d’énergie renouvelable locale, afin de constituer la plus grande communauté d’énergie renouvelable (CER) tertiaire de France.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "1538",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-30d5ad06",
+    "projectName": "Grande Borne Ouest",
+    "description": "Concevoir sous un angle bioclimatique des espaces publics pour rendre le quartier résilient et réutiliser les matériaux de démolition.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 496537.5,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-bff89d1e",
+    "projectName": "Ville durable, productive et inclusive en Méditerranée",
+    "description": "Transformer un tissu ancien mixte dégradé en centre urbain dense en développant un modèle de ville durable, productive et inclusive.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "290",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "16.0",
+      "depollutedSurfaceHa": "16.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-70b9be88",
+    "projectName": "Mérignac Soleil – Penser la ville, panser les sols",
+    "description": "Transformer une zone commerciale monofonctionnelle en un quartier agréable à vivre dans une logique d'urbanisme partenarial.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "2300",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "10.3",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-0efc1cca",
+    "projectName": "BAMBA La Grande Plaine",
+    "description": "Réinventer le terrain à bâtir en ville en vendant l'expérience du sur-mesure plutôt qu'une surface de terrain.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 430751.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "0",
+      "renaturedSurfaceHa": "0.0",
+      "depollutedSurfaceHa": "0.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-e96a6412",
+    "projectName": "La ville productive comme projet de développement environnemental",
+    "description": "Développer des activités économiques productives et technologiques en milieu urbain dense.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 490688.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "",
+      "depollutedSurfaceHa": ""
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-c0971d3b",
+    "projectName": "Trajectoire : régénérer l’îlot de copropriétés dégradées \"Entrée de ville\"",
+    "description": "La ville de Sarcelles souhaite développer des outils innovants, d'ingénierie financière notamment, pour débloquer la situation de copropriétés aujourd'hui dégradées, et ainsi permettre aux copropriétaires modestes d'engager des travaux de réhabilitation.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "",
+      "kwhSavedPerYear": "",
+      "renaturedSurfaceHa": "0.5",
+      "depollutedSurfaceHa": "0.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  },
+  {
+    "projectId": "proj-3bf6f8c5",
+    "projectName": "Grand Matabiau quais d'Oc",
+    "description": "Déployer un ensemble d’expérimentations sur le projet Grand Matabiau quais d’Oc pour préfigurer des politiques publiques de grande ampleur sur diverses thématiques.",
+    "operator": "Caisse des Dépôts",
+    "grantAmount": 500000.0,
+    "impactIndicators": {
+      "co2SavedPerYear": "2400",
+      "kwhSavedPerYear": "81510",
+      "renaturedSurfaceHa": "4.0",
+      "depollutedSurfaceHa": "0.0"
+    },
+    "sourceUrl": "https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030",
+    "confidenceScore": 1.0
+  }
+]

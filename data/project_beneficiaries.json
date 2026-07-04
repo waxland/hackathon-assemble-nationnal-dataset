@@ -1,0 +1,236 @@
+[
+  {
+    "beneficiaryId": "benef-1b918660",
+    "name": "AUXERRE",
+    "type": "Auxerre",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-794fbc77",
+    "name": "BLOIS",
+    "type": "Ville de Blois",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-80d65145",
+    "name": "COMMANA",
+    "type": "Ville de Commana",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-448092ff",
+    "name": "EPA MARNE",
+    "type": "EpaMarne",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-6e27d4ca",
+    "name": "EPA Paris Saclay",
+    "type": "EPA Paris-Saclay",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-1e8d3f5d",
+    "name": "EPA SAINT-ETIENNE",
+    "type": "EPASE (Etablissement Public d’Aménagement de Saint Etienne)",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-b4d6f6a9",
+    "name": "METROPOLE DE LILLE",
+    "type": "Métropole européenne de Lille",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-bcc41e67",
+    "name": "MULHOUSE",
+    "type": "Ville de Mulhouse",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-3170dbc6",
+    "name": "NANTES METROPOLE",
+    "type": "Nantes Métropole",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-db07592f",
+    "name": "PAYS DE GEX",
+    "type": "Communauté d’Agglomération du Pays de Gex",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-c7262995",
+    "name": "SAINT HILAIRE DE BRETHMAS",
+    "type": "Commune de Saint-Hilaire-de-Brethmas",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-ab57f5de",
+    "name": "SAINT PAUL LES ROMANS",
+    "type": "Commune de Saint-Paul-lès-Romans",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-b2a4ee7d",
+    "name": "SICOVAL",
+    "type": "Communauté d’Agglomération du SICOVAL",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-665c8df3",
+    "name": "BADEVEL",
+    "type": "Badevel",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-cfbf705a",
+    "name": "CA DE LA ROCHELLE",
+    "type": "La Rochelle Communauté d’agglomération",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-fb8953df",
+    "name": "EPA ALZETTE BELVAL",
+    "type": "Établissement public d’aménagement  Alzette-Belval",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-d2d069d4",
+    "name": "FONTENAY SOUS BOIS",
+    "type": "SPL Marne-au-Bois\nVille de Fontenay-sous-Bois",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-26702bfb",
+    "name": "HONFLEUR",
+    "type": "Ville de Honfleur",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-67fc6a5c",
+    "name": "METROPOLE LYON",
+    "type": "Métropole de Lyon",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-0b703d9d",
+    "name": "PARIS OUEST LA DEFENSE",
+    "type": "Paris-Ouest-la Défense – Ville de Nanterre",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-3cd40d02",
+    "name": "RENNES METROPLE",
+    "type": "Rennes Métropole",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-da0aae2e",
+    "name": "SAINT SULPICE LA FORET",
+    "type": "Commune de Saint-Sulpice-la-Forêt",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-53c3818a",
+    "name": "TOULON",
+    "type": "Métropole Toulon Provence Méditerranée",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-a018799e",
+    "name": "BREST METROPOLE",
+    "type": "Brest Métropole",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-b83e31eb",
+    "name": "CARENE SAINT-NAZAIRE AGGLOMERATION",
+    "type": "CARENE Saint-Nazaire agglomération",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-98581ebb",
+    "name": "GRAND ORLY SEINE BIEVRE",
+    "type": "Etablissement public territorial Grand-Orly Seine Bièvre",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-49005bb9",
+    "name": "GUYANE",
+    "type": "EPFAG (Etablissement Public Foncier et d’Aménagement de la Guyane)",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-f8928215",
+    "name": "MEZIDON-VALLE-D'AUGE",
+    "type": "Commune de Mézidon-Vallée-d ’Auge",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-1e276fbd",
+    "name": "TO (LA REUNION)",
+    "type": "Communauté d’Agglomération du Territoire de la Côte Ouest",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-ca697636",
+    "name": "CA AMIENS METROPOLE",
+    "type": "SPL Vallée Idéale Développement\nAmiens Métropole",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-fe9edcda",
+    "name": "EUROMETROPOLE DE STRASBOURG",
+    "type": "Eurométropole de Strasbourg",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-59f55d02",
+    "name": "GRAND BELFORT",
+    "type": "Grand Belfort",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-06247e9d",
+    "name": "GRAND PARIS AMENAGEMENT (Grande Borne)",
+    "type": "Grand Paris Aménagement",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-58d938fa",
+    "name": "AIX MARSEILLE PROVENCE",
+    "type": "Métropole Aix-Marseille-Provence",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-4ba12fbc",
+    "name": "BORDEAUX METROPOLE",
+    "type": "Bordeaux Métropole",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-2edf360f",
+    "name": "CLERMONT FERRAND",
+    "type": "Ville de Clermont-Ferrand",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-a798f802",
+    "name": "EPA NICE ECOVALLEE",
+    "type": "EPA Nice Écovallée",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-c5b6c241",
+    "name": "SARCELLES",
+    "type": "Ville de Sarcelles",
+    "confidenceScore": 1.0
+  },
+  {
+    "beneficiaryId": "benef-e85d7a49",
+    "name": "TOULOUSE METROPOLE",
+    "type": "Toulouse Métropole",
+    "confidenceScore": 1.0
+  }
+]
