@@ -27,6 +27,50 @@ def get_base_program_skeleton(prog_code):
         "notes": ""
     }
 
+# --- CALCUL ANALYTIQUE (P3.3) ---
+def calculate_dimensions(prog, cursor, weights):
+    # 1. financialWeight (Budget CP 2025 normalisé sur max 5 Milliards)
+    budg = cursor.execute("SELECT SUM(amount2025) FROM budget_lines WHERE programmeCode=?", (prog,)).fetchone()[0] or 0
+    budg_mds = max(budg / 1e9, 0.1)
+    financial_score = min((budg_mds / 5.0) * 100, 100)
+    
+    # 2. politicalAttention (Mentions / Milliard, normalisé sur max 20)
+    mentions = cursor.execute("SELECT COUNT(*) FROM parliament_mentions WHERE relatedProgrammeCode=?", (prog,)).fetchone()[0] or 0
+    political_score = min(((mentions / budg_mds) / 20.0) * 100, 100)
+    
+    # 3. greenBudget (Green Budget vs Total, normalisé sur 100%)
+    green_budg = cursor.execute("SELECT SUM(amount2026) FROM green_budget_lines WHERE programmeCode=?", (prog,)).fetchone()[0] or 0
+    green_score = min(((green_budg / 1e9) / budg_mds) * 100, 100)
+    
+    # 4. innovationSignal (Nb Brevets, normalisé sur max 50)
+    brevets = cursor.execute("""
+        SELECT COUNT(*) FROM patent_depositors pd
+        JOIN correlations c ON pd.patentFamilyId = c.targetEntityId AND c.correlationType = 'company_patent'
+        JOIN correlations c2 ON c.sourceEntityId = c2.sourceEntityId AND c2.correlationType = 'company_theme'
+        JOIN correlations c3 ON c2.targetEntityId = c3.targetEntityId AND c3.correlationType = 'programme_theme'
+        WHERE c3.sourceEntityId = ?
+    """, (prog,)).fetchone()[0] or 0
+    innovation_score = min((brevets / 50.0) * 100, 100)
+    
+    # 5. territorialDeployment (Nb de projets ADEME/CDC, normalisé sur max 100)
+    projets = cursor.execute("""
+        SELECT COUNT(DISTINCT targetEntityId) FROM correlations 
+        WHERE correlationType = 'project_programme' AND targetEntityId = ?
+    """, (prog,)).fetchone()[0] or 0
+    territorial_score = min((projets / 100.0) * 100, 100)
+    
+    dims = {
+        "financialWeight": round(financial_score, 1),
+        "politicalAttention": round(political_score, 1),
+        "greenBudget": round(green_score, 1),
+        "innovationSignal": round(innovation_score, 1),
+        "territorialDeployment": round(territorial_score, 1)
+    }
+    
+    overall = sum(dims[k] * w.get("weight", 0.2) for k, w in weights.items())
+    
+    return round(overall, 1), dims
+
 def main():
     print("🚀 Démarrage de la passerelle d'export vers le contrat Front (Minerve)...")
     
@@ -225,29 +269,25 @@ def main():
     # =========================================================================
     # 6. dataset/metrics/programme-alignment-scores.json
     # =========================================================================
-    print(" -> Calcul des scores d'alignement (Metrics)...")
+    print(" -> Calcul des scores d'alignement (Metrics Multi-Dimensionnelles)...")
+    
+    with open("config/scoring_weights.json", "r") as f:
+        weights = json.load(f)
+        
     align_scores_front = []
     
     for prog in programs:
         item = get_base_program_skeleton(prog)
-        item["confidence"] = 0.85
+        item["confidence"] = 0.90
         
-        budg = cursor.execute("SELECT SUM(amount2025) FROM budget_lines WHERE programmeCode=?", (prog,)).fetchone()[0] or 0
-        budg_mds = max(budg / 1e9, 0.1) # Eviter division par zéro
-        
-        mentions = cursor.execute("SELECT COUNT(*) FROM parliament_mentions WHERE relatedProgrammeCode=?", (prog,)).fetchone()[0] or 0
-        
-        score = min(round((mentions * 10) / budg_mds, 1), 100)
+        overall, dimensions = calculate_dimensions(prog, cursor, weights)
         
         item["data"] = {
-            "overallScore": score,
-            "dimensions": {
-                "politicalAttention": min(mentions * 5, 100),
-                "financialWeight": min(budg_mds * 20, 100)
-            }
+            "overallScore": overall,
+            "dimensions": dimensions
         }
         item["isMock"] = False 
-        item["notes"] = "Calcul dynamique : (Mentions * 10) / Budget(Mds)"
+        item["notes"] = f"Calcul basé sur 5 dimensions pondérées. Configuration: {json.dumps({k: v['weight'] for k,v in weights.items()})}"
         align_scores_front.append(item)
         
     save_front_json(export_dir, "programme-alignment-scores.json", format_front_json(align_scores_front))

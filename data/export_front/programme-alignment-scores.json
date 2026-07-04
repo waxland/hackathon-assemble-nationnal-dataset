@@ -4,14 +4,17 @@
       "programmeCode": "421",
       "isMock": false,
       "sourceUrl": null,
-      "confidence": 0.85,
-      "updatedAt": "2026-07-04T01:13:44.501193+00:00Z",
-      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:23:35.583912+00:00Z",
+      "notes": "Calcul basé sur 5 dimensions pondérées. Configuration: {\"financialWeight\": 0.2, \"politicalAttention\": 0.3, \"greenBudget\": 0.1, \"innovationSignal\": 0.2, \"territorialDeployment\": 0.2}",
       "data": {
-        "overallScore": 0.0,
+        "overallScore": 10.0,
         "dimensions": {
-          "politicalAttention": 0,
-          "financialWeight": 4.38
+          "financialWeight": 4.4,
+          "politicalAttention": 0.0,
+          "greenBudget": 91.6,
+          "innovationSignal": 0.0,
+          "territorialDeployment": 0.0
         }
       }
     },
@@ -19,14 +22,17 @@
       "programmeCode": "422",
       "isMock": false,
       "sourceUrl": null,
-      "confidence": 0.85,
-      "updatedAt": "2026-07-04T01:13:44.501243+00:00Z",
-      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:23:35.584274+00:00Z",
+      "notes": "Calcul basé sur 5 dimensions pondérées. Configuration: {\"financialWeight\": 0.2, \"politicalAttention\": 0.3, \"greenBudget\": 0.1, \"innovationSignal\": 0.2, \"territorialDeployment\": 0.2}",
       "data": {
-        "overallScore": 0.0,
+        "overallScore": 2.3,
         "dimensions": {
-          "politicalAttention": 0,
-          "financialWeight": 4.864
+          "financialWeight": 4.9,
+          "politicalAttention": 0.0,
+          "greenBudget": 13.2,
+          "innovationSignal": 0.0,
+          "territorialDeployment": 0.0
         }
       }
     },
@@ -34,14 +40,17 @@
       "programmeCode": "423",
       "isMock": false,
       "sourceUrl": null,
-      "confidence": 0.85,
-      "updatedAt": "2026-07-04T01:13:44.501261+00:00Z",
-      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:23:35.584554+00:00Z",
+      "notes": "Calcul basé sur 5 dimensions pondérées. Configuration: {\"financialWeight\": 0.2, \"politicalAttention\": 0.3, \"greenBudget\": 0.1, \"innovationSignal\": 0.2, \"territorialDeployment\": 0.2}",
       "data": {
-        "overallScore": 0.0,
+        "overallScore": 8.1,
         "dimensions": {
-          "politicalAttention": 0,
-          "financialWeight": 3.7152000000000003
+          "financialWeight": 3.7,
+          "politicalAttention": 0.0,
+          "greenBudget": 73.6,
+          "innovationSignal": 0.0,
+          "territorialDeployment": 0.0
         }
       }
     },
@@ -49,14 +58,17 @@
       "programmeCode": "424",
       "isMock": false,
       "sourceUrl": null,
-      "confidence": 0.85,
-      "updatedAt": "2026-07-04T01:13:44.501311+00:00Z",
-      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:23:35.584713+00:00Z",
+      "notes": "Calcul basé sur 5 dimensions pondérées. Configuration: {\"financialWeight\": 0.2, \"politicalAttention\": 0.3, \"greenBudget\": 0.1, \"innovationSignal\": 0.2, \"territorialDeployment\": 0.2}",
       "data": {
-        "overallScore": 100,
+        "overallScore": 40.6,
         "dimensions": {
-          "politicalAttention": 100,
-          "financialWeight": 87.46811797999999
+          "financialWeight": 87.5,
+          "politicalAttention": 62.9,
+          "greenBudget": 42.0,
+          "innovationSignal": 0.0,
+          "territorialDeployment": 0.0
         }
       }
     },
@@ -64,14 +76,17 @@
       "programmeCode": "425",
       "isMock": false,
       "sourceUrl": null,
-      "confidence": 0.85,
-      "updatedAt": "2026-07-04T01:13:44.501330+00:00Z",
-      "notes": "Calcul dynamique : (Mentions * 10) / Budget(Mds)",
+      "confidence": 0.9,
+      "updatedAt": "2026-07-04T01:23:35.584856+00:00Z",
+      "notes": "Calcul basé sur 5 dimensions pondérées. Configuration: {\"financialWeight\": 0.2, \"politicalAttention\": 0.3, \"greenBudget\": 0.1, \"innovationSignal\": 0.2, \"territorialDeployment\": 0.2}",
       "data": {
-        "overallScore": 0.0,
+        "overallScore": 13.1,
         "dimensions": {
-          "politicalAttention": 0,
-          "financialWeight": 15.572682019999998
+          "financialWeight": 15.6,
+          "politicalAttention": 0.0,
+          "greenBudget": 100,
+          "innovationSignal": 0.0,
+          "territorialDeployment": 0.0
         }
       }
     }

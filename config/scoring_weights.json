@@ -1,0 +1,22 @@
+{
+  "financialWeight": {
+    "weight": 0.2,
+    "description": "Poids budgétaire global (CP 2025)."
+  },
+  "politicalAttention": {
+    "weight": 0.3,
+    "description": "Mentions parlementaires qualifiées."
+  },
+  "greenBudget": {
+    "weight": 0.1,
+    "description": "Part favorable du Budget vert 2026."
+  },
+  "innovationSignal": {
+    "weight": 0.2,
+    "description": "Brevets déposés et projets ADEME R&D financés."
+  },
+  "territorialDeployment": {
+    "weight": 0.2,
+    "description": "Nombre de territoires uniques financés (Projets Caisse des Dépôts / ADEME)."
+  }
+}

@@ -134,3 +134,12 @@
 - **Commandes lancées + résultats** : Exécution des scripts `10` et `11`. Les 132 corrélations possèdent toutes un dictionnaire imbriqué explicatif.
 - **Blocages / observations** : Un conflit a été détecté lors du rechargement des anciennes corrélations (la nouvelle version de la corrélation était écrasée par l'ancienne lors du dédoublonnage). Cela a été corrigé (les anciennes sont écrasées par les fraîches).
 - **Prochaine tâche recommandée** : Fin de la section P3. Le blocage principal réside maintenant sur le besoin d'affiner encore plus les `correlations` ou de passer aux étapes de packaging front-end.
+
+## [2026-07-04] Tâche P3.3 : Scores analytiques multi-dimensions
+
+- **Tâche traitée** : P3.3 Scores analytiques
+- **Fichiers modifiés** : `config/scoring_weights.json`, `scripts/13_export_to_front_contract.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Création d'un fichier de configuration externe `scoring_weights.json` pour stocker les pondérations (ex: 30% pour les mentions parlementaires, 10% pour le budget vert). Le script d'export JSON calcule désormais un score global sur 100 décomposé en 5 dimensions requêtées en direct depuis SQLite : `financialWeight`, `politicalAttention`, `greenBudget`, `innovationSignal`, et `territorialDeployment`. L'attribut `isMock` est officiellement à `false`.
+- **Commandes lancées + résultats** : Exécution de `make export-front`. Le fichier JSON `programme-alignment-scores.json` contient bien un "overallScore" de 40.6/100 pour le programme 424, ce qui le rend exploitable immédiatement en Front.
+- **Blocages / observations** : L'outil interactif de la page Streamlit `4_Data_Quality.py` créé précédemment est parfaitement en adéquation avec ce fichier de configuration JSON pour pouvoir éditer ces poids depuis le navigateur.
+- **Prochaine tâche recommandée** : La section P3 est terminée ! Prochaine étape : P4.1 (Exports front à democker en priorité).

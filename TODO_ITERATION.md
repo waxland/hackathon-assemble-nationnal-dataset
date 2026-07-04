@@ -407,19 +407,19 @@ Critere d'acceptation :
 
 #### P3.3 Scores analytiques
 
-- [ ] Recalculer `programme-alignment-scores.json` avec plusieurs dimensions.
-- [ ] Dimension `financialWeight`: poids budgetaire.
-- [ ] Dimension `politicalAttention`: mentions parlementaires qualifiees par milliard d'euros.
-- [ ] Dimension `greenBudget`: part favorable Budget vert.
-- [ ] Dimension `innovationSignal`: brevets et projets R&D.
-- [ ] Dimension `territorialDeployment`: nombre de projets/territoires relies.
-- [ ] Documenter la formule dans `notes`.
-- [ ] Sauvegarder les poids dans un fichier de configuration, pas en dur dans le script.
+- [x] Recalculer `programme-alignment-scores.json` avec plusieurs dimensions.
+- [x] Dimension `financialWeight`: poids budgetaire.
+- [x] Dimension `politicalAttention`: mentions parlementaires qualifiees par milliard d'euros.
+- [x] Dimension `greenBudget`: part favorable Budget vert.
+- [x] Dimension `innovationSignal`: brevets et projets R&D.
+- [x] Dimension `territorialDeployment`: nombre de projets/territoires relies.
+- [x] Documenter la formule dans `notes`.
+- [x] Sauvegarder les poids dans un fichier de configuration, pas en dur dans le script.
 
 Critere d'acceptation :
 
-- [ ] Le score d'alignement devient explicable et rejouable.
-- [ ] Le Streamlit peut simuler les poids et exporter la configuration retenue.
+- [x] Le score d'alignement devient explicable et rejouable.
+- [x] Le Streamlit peut simuler les poids et exporter la configuration retenue.
 
 ---
 
