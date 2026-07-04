@@ -8,6 +8,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -19,6 +24,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "422"
+    },
     "validationStatus": "validated"
   },
   {
@@ -30,6 +40,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "422"
+    },
     "validationStatus": "validated"
   },
   {
@@ -41,6 +56,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "422"
+    },
     "validationStatus": "validated"
   },
   {
@@ -52,6 +72,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "423"
+    },
     "validationStatus": "validated"
   },
   {
@@ -63,6 +88,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "423"
+    },
     "validationStatus": "validated"
   },
   {
@@ -74,6 +104,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "423"
+    },
     "validationStatus": "validated"
   },
   {
@@ -85,6 +120,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -96,6 +136,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -107,6 +152,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -118,6 +168,11 @@
     "correlationType": "finance",
     "confidenceScore": 1.0,
     "evidenceSource": "budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -129,6 +184,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "423"
+    },
     "validationStatus": "validated"
   },
   {
@@ -140,6 +200,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -151,6 +216,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -162,6 +232,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "422"
+    },
     "validationStatus": "validated"
   },
   {
@@ -173,6 +248,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -184,6 +264,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -195,6 +280,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -206,6 +296,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "423"
+    },
     "validationStatus": "validated"
   },
   {
@@ -217,6 +312,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -228,6 +328,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -239,6 +344,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -250,6 +360,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -261,6 +376,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -272,6 +392,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -283,6 +408,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -294,6 +424,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -305,6 +440,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -316,6 +456,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -327,6 +472,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -338,6 +488,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -349,6 +504,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -360,6 +520,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -371,6 +536,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -382,6 +552,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -393,6 +568,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -404,6 +584,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -415,6 +600,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -426,6 +616,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "423"
+    },
     "validationStatus": "validated"
   },
   {
@@ -437,6 +632,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -448,6 +648,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "425"
+    },
     "validationStatus": "validated"
   },
   {
@@ -459,6 +664,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "424"
+    },
     "validationStatus": "validated"
   },
   {
@@ -470,6 +680,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "421"
+    },
     "validationStatus": "validated"
   },
   {
@@ -481,6 +696,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "422"
+    },
     "validationStatus": "validated"
   },
   {
@@ -492,6 +712,11 @@
     "correlationType": "green_finance",
     "confidenceScore": 1.0,
     "evidenceSource": "green_budget_lines.json",
+    "evidence": {
+      "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2026-budget-vert",
+      "matchMethod": "exact_programme_code",
+      "matchedValue": "422"
+    },
     "validationStatus": "validated"
   },
   {
@@ -503,6 +728,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "1.-petits-reacteurs-nucleaires-innovants-(smr)"
+    },
     "validationStatus": "validated"
   },
   {
@@ -514,6 +744,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "2.-leader-de-l-hydrogene-vert"
+    },
     "validationStatus": "validated"
   },
   {
@@ -525,6 +760,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "3.-decarbonation-de-l-industrie"
+    },
     "validationStatus": "validated"
   },
   {
@@ -536,6 +776,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "4.-vehicules-electriques-et-hybrides"
+    },
     "validationStatus": "validated"
   },
   {
@@ -547,6 +792,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "5.-premier-avion-bas-carbone"
+    },
     "validationStatus": "validated"
   },
   {
@@ -558,6 +808,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "6.-alimentation-saine-durable-et-tracable"
+    },
     "validationStatus": "validated"
   },
   {
@@ -569,6 +824,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "7.-production-de-biomedicaments-et-dispositifs-medicaux"
+    },
     "validationStatus": "validated"
   },
   {
@@ -580,6 +840,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "8.-production-de-contenus-culturels-et-creatifs"
+    },
     "validationStatus": "validated"
   },
   {
@@ -591,6 +856,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "9.-nouvelle-aventure-spatiale"
+    },
     "validationStatus": "validated"
   },
   {
@@ -602,6 +872,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "10.-exploration-des-fonds-marins"
+    },
     "validationStatus": "validated"
   },
   {
@@ -613,6 +888,11 @@
     "correlationType": "thematic_mapping",
     "confidenceScore": 1.0,
     "evidenceSource": "themes.json",
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "levier-:-composants-cloud-ia-et-quantique"
+    },
     "validationStatus": "validated"
   },
   {
@@ -622,9 +902,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "soutien-aux-startups-et-deeptech",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "soutien-aux-startups-et-deeptech"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-20b7e1e5",
@@ -633,9 +918,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "poles-et-territoires-d-innovation",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "poles-et-territoires-d-innovation"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-f020a26c",
@@ -644,9 +934,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "soutien-a-la-french-tech",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "soutien-a-la-french-tech"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-c3db4599",
@@ -655,9 +950,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "valorisation-de-la-recherche-publique",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "valorisation-de-la-recherche-publique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-9c9a7cd5",
@@ -666,9 +966,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "transfert-technologique",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "transfert-technologique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-b21f229d",
@@ -677,9 +982,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "modernisation-de-l-outil-de-production",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "modernisation-de-l-outil-de-production"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-5a7ac813",
@@ -688,9 +998,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "digitalisation-des-pme-eti",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "digitalisation-des-pme-eti"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-a9929a5a",
@@ -699,9 +1014,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "soutien-de-la-recherche-fondamentale",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "soutien-de-la-recherche-fondamentale"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-042bd92c",
@@ -710,9 +1030,14 @@
     "targetEntityType": "theme",
     "targetEntityId": "formation-aux-metiers-d-avenir",
     "correlationType": "thematic_mapping",
-    "confidenceScore": 1.0,
+    "confidenceScore": 0.8,
     "evidenceSource": "themes.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "config/taxonomy.json",
+      "matchMethod": "manual_expert_mapping",
+      "matchedValue": "formation-aux-metiers-d-avenir"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-dee9c327",
@@ -723,6 +1048,11 @@
     "correlationType": "call_classification",
     "confidenceScore": 0.9,
     "evidenceSource": "calls_for_projects.json",
+    "evidence": {
+      "sourceUrl": "https://www.bpifrance.fr/catalogue-offres/france-2030/premiere-usine",
+      "matchMethod": "keyword_matching",
+      "matchedValue": "3.-decarbonation-de-l-industrie"
+    },
     "validationStatus": "validated"
   },
   {
@@ -734,6 +1064,11 @@
     "correlationType": "call_classification",
     "confidenceScore": 0.9,
     "evidenceSource": "calls_for_projects.json",
+    "evidence": {
+      "sourceUrl": "https://agirpourlatransition.ademe.fr/entreprises/aides-financieres",
+      "matchMethod": "keyword_matching",
+      "matchedValue": "2.-leader-de-l-hydrogene-vert"
+    },
     "validationStatus": "validated"
   },
   {
@@ -745,6 +1080,11 @@
     "correlationType": "call_classification",
     "confidenceScore": 0.9,
     "evidenceSource": "calls_for_projects.json",
+    "evidence": {
+      "sourceUrl": "https://www.bpifrance.fr/catalogue-offres/france-2030/i-nov",
+      "matchMethod": "keyword_matching",
+      "matchedValue": "soutien-aux-startups-et-deeptech"
+    },
     "validationStatus": "validated"
   },
   {
@@ -756,6 +1096,11 @@
     "correlationType": "call_classification",
     "confidenceScore": 0.9,
     "evidenceSource": "calls_for_projects.json",
+    "evidence": {
+      "sourceUrl": "https://anr.fr/fr/france-2030",
+      "matchMethod": "keyword_matching",
+      "matchedValue": "7.-production-de-biomedicaments-et-dispositifs-medicaux"
+    },
     "validationStatus": "validated"
   },
   {
@@ -767,7 +1112,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF2948A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "pile à combustible"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-f9bba65b",
@@ -778,7 +1128,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF2985A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "pile à combustible"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-e4ea58a0",
@@ -789,7 +1144,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CD449A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "pile à combustible"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-e6dfc5f7",
@@ -800,7 +1160,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CD136A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "pile à combustible"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-80079755",
@@ -811,7 +1176,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF403A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "pile à combustible"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-9c49b007",
@@ -822,7 +1192,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CE809",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène vert"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-83df118b",
@@ -833,7 +1208,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CE810",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène vert"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-b5b19936",
@@ -844,7 +1224,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1512/508",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène vert"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-ec1a8445",
@@ -855,7 +1240,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/144/368",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "réacteur nucléaire"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-748993d8",
@@ -866,7 +1256,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/762/CE359",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "réacteur nucléaire"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-e530a479",
@@ -877,7 +1272,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/958/CE463",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "réacteur nucléaire"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-f0ec65d0",
@@ -888,7 +1288,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1512/1380",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "décarbonation"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-51de833d",
@@ -899,7 +1304,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2436/CE1575",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "décarbonation"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-63dd358b",
@@ -910,7 +1320,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/762/CE620",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "décarbonation"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-e32b8d9f",
@@ -921,7 +1336,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2228/CE90",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "décarbonation"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-c784f40c",
@@ -932,7 +1352,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/762/CD129",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "gestion des déchets radioactifs"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-596532ce",
@@ -943,7 +1368,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/762/CE444",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "gestion des déchets radioactifs"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-ccfb848c",
@@ -954,7 +1384,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/762/CE623",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "petits réacteurs modulaires"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-b2a394c5",
@@ -965,7 +1400,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/762/CE488",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "petits réacteurs modulaires"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-a1d0cadf",
@@ -976,7 +1416,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2126/CD50",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule électrique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-867d6d16",
@@ -987,7 +1432,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/273/2407C",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule électrique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-9080ca88",
@@ -998,7 +1448,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF325C",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule électrique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-8fc23d7d",
@@ -1009,7 +1464,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/598/127",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule électrique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-ae0cad60",
@@ -1020,7 +1480,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/1524C",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule électrique"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-9d7374a0",
@@ -1031,7 +1496,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/4626A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène décarboné"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-c2a8c81a",
@@ -1042,7 +1512,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/273/2747A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène décarboné"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-53f84451",
@@ -1053,7 +1528,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CD440A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène décarboné"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-265127b3",
@@ -1064,7 +1544,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF3015A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "hydrogène décarboné"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-629f13f7",
@@ -1075,7 +1560,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/917/169",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "gigafactory hydrogène"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-f145694c",
@@ -1086,7 +1576,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1985/CF427",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "électrolyseur"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-71c9d851",
@@ -1097,7 +1592,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF301A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "électrolyseur"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-7095f018",
@@ -1108,7 +1608,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF1873A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "industrie bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-c2b4d8da",
@@ -1119,7 +1624,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/3041A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "industrie bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-88a6a6e1",
@@ -1130,7 +1640,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1512/1",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "industrie bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-95e5c685",
@@ -1141,7 +1656,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF2214A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "industrie bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-9a700bde",
@@ -1152,7 +1672,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF2467A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "industrie bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-a1918c28",
@@ -1163,7 +1688,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2126/CD77",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "borne de recharge"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-89ebf150",
@@ -1174,7 +1704,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CD369",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "borne de recharge"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-418f2b18",
@@ -1185,7 +1720,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2126/CD5",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "borne de recharge"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-2434eadb",
@@ -1196,7 +1736,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/4584A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "borne de recharge"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-41f181cd",
@@ -1207,7 +1752,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/4108C",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "chaleur bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-a08a3ef3",
@@ -1218,7 +1768,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/4464A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "chaleur bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-41f003b7",
@@ -1229,7 +1784,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CD217A",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "chaleur bas-carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-3465d76e",
@@ -1240,7 +1800,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1512/945",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "capture carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-8d2b0f56",
@@ -1251,7 +1816,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/526/788",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "capture carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-4806d49e",
@@ -1262,7 +1832,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/273/CF1589C",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "capture carbone"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-3471bfe5",
@@ -1273,7 +1848,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CD1125",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "efficacité énergétique industrielle"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-e4d1c875",
@@ -1284,7 +1864,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/443/CD573",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "efficacité énergétique industrielle"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-ae950112",
@@ -1295,7 +1880,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2126/CD74",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule hybride"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-3094f273",
@@ -1306,7 +1896,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2452/171",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule hybride"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-cb8df258",
@@ -1317,7 +1912,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2452/129",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "véhicule hybride"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-ebab543b",
@@ -1328,7 +1928,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/17/231",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "mobilité durable"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-1629b266",
@@ -1339,7 +1944,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2334/54",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "batteries"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-51cb4e87",
@@ -1350,7 +1960,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2334/78",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "batteries"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-4a6aec52",
@@ -1361,7 +1976,12 @@
     "correlationType": "parliamentary_debate",
     "confidenceScore": 0.85,
     "evidenceSource": "parliament_mentions.json",
-    "validationStatus": "validated"
+    "evidence": {
+      "sourceUrl": "https://www.nosdeputes.fr/16/amendement/2126/CD4",
+      "matchMethod": "keyword_with_context",
+      "matchedValue": "batteries"
+    },
+    "validationStatus": "to_validate"
   },
   {
     "correlationId": "corr-c5aba0a6",
@@ -1372,6 +1992,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1383,6 +2008,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1394,6 +2024,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1405,6 +2040,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1416,6 +2056,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1427,6 +2072,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1438,6 +2088,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   },
   {
@@ -1449,6 +2104,11 @@
     "correlationType": "company_activity",
     "confidenceScore": 1.0,
     "evidenceSource": "companies.json",
+    "evidence": {
+      "sourceUrl": "https://recherche-entreprises.api.gouv.fr/",
+      "matchMethod": "inherited_from_project_or_laureate",
+      "matchedValue": "Sample POC"
+    },
     "validationStatus": "validated"
   }
 ]

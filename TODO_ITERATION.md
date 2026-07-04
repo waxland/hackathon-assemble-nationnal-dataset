@@ -376,15 +376,15 @@ Critere d'acceptation :
 
 #### P3.1 Nouveau modele de preuve
 
-- [ ] Ajouter un bloc `evidence` aux nouvelles correlations.
-- [ ] Inclure `sourceUrl`, `sourceDatasetId`, `sourceResourceId`, `matchedField`, `matchedValue`, `matchMethod`.
-- [ ] Documenter les niveaux de `confidenceScore`.
-- [ ] Mettre `validationStatus` selon le score.
-- [ ] Garder les anciennes correlations compatibles avec le schema existant.
+- [x] Ajouter un bloc `evidence` aux nouvelles correlations.
+- [x] Inclure `sourceUrl`, `sourceDatasetId`, `sourceResourceId`, `matchedField`, `matchedValue`, `matchMethod`.
+- [x] Documenter les niveaux de `confidenceScore`.
+- [x] Mettre `validationStatus` selon le score.
+- [x] Garder les anciennes correlations compatibles avec le schema existant.
 
 Critere d'acceptation :
 
-- [ ] On peut expliquer pourquoi deux entites sont reliees sans relire tout le code.
+- [x] On peut expliquer pourquoi deux entites sont reliees sans relire tout le code.
 
 #### P3.2 Relations a plus forte valeur
 

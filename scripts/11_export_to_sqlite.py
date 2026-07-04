@@ -99,7 +99,8 @@ def init_db(db_path):
         correlationType TEXT,
         confidenceScore REAL,
         evidenceSource TEXT,
-        validationStatus TEXT
+        validationStatus TEXT,
+        evidence TEXT
     );
     CREATE TABLE IF NOT EXISTS green_budget_lines (
         id TEXT PRIMARY KEY,
@@ -175,7 +176,18 @@ def insert_data(conn, table_name, data_list, keys):
     columns = ", ".join(keys)
     query = f"INSERT OR REPLACE INTO {table_name} ({columns}) VALUES ({placeholders})"
     
-    values_list = [[item.get(k) for k in keys] for item in data_list]
+    # Convert objects (like evidence) to JSON strings for SQLite TEXT fields
+    values_list = []
+    for item in data_list:
+        row = []
+        for k in keys:
+            val = item.get(k)
+            if isinstance(val, dict) or isinstance(val, list):
+                row.append(json.dumps(val))
+            else:
+                row.append(val)
+        values_list.append(row)
+        
     cursor.executemany(query, values_list)
     conn.commit()
 
@@ -221,7 +233,7 @@ def main():
             ("data/parliament_mentions.json", "parliament_mentions", ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "matchMethod", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore", "validationStatus"]),
             ("data/naf_codes.json", "naf_codes", ["nafCode", "nafLabel", "confidenceScore"]),
             ("data/companies.json", "companies", ["companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale", "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale", "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"]),
-            ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"]),
+            ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus", "evidence"]),
             ("data/green_budget_lines.json", "green_budget_lines", ["id", "programmeCode", "actionCode", "actionName", "globalRating", "amount2026", "sourceUrl", "confidenceScore"]),
             ("data/projects.json", "projects", ["projectId", "projectName", "description", "operator", "grantAmount", "sourceUrl", "confidenceScore"]),
             ("data/project_beneficiaries.json", "project_beneficiaries", ["beneficiaryId", "name", "type", "confidenceScore"]),

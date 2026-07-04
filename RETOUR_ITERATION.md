@@ -125,3 +125,12 @@
 - **Commandes lancées + résultats** : Exécution d'un script éphémère de migration JSON (`scripts/migrate_taxonomy.py`), puis exécution des scripts 04 et 05 pour s'assurer que le pipeline Python gère la nouvelle structure (les mots-clés d'exclusion sont correctement exportés avec le `type: "exclusion"`).
 - **Blocages / observations** : Rien de bloquant. L'ajout des mots-clés d'exclusion ("nucléaire iranien", "bombe", "aménagement spatial") va permettre au script d'ingestion de l'Assemblée nationale de drastiquement réduire les faux positifs lors du NLP.
 - **Prochaine tâche recommandée** : La section P2 "Fiabiliser les extractions" est terminée ! Il est temps de passer à l'amélioration de la valeur des corrélations (P3.1).
+
+## [2026-07-04] Tâche P3.1 : Nouveau modèle de preuve (Evidence Block)
+
+- **Tâche traitée** : P3.1 Nouveau modele de preuve
+- **Fichiers modifiés** : `scripts/10_generate_correlations.py`, `scripts/11_export_to_sqlite.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Refonte du JSON de corrélations pour y inclure systématiquement un dictionnaire `"evidence"`. Ce dictionnaire contient l'URL source de la preuve, la méthode utilisée (`matchMethod` ex: `keyword_matching` ou `manual_expert_mapping`) et la valeur exacte qui a *matché*. Ajout d'une fonction pour définir le statut (`validated` si confiance >= 0.9, sinon `to_validate`). Une boucle a été ajoutée pour garantir que les "anciennes" corrélations héritent aussi d'un bloc `evidence` vide (`legacy`) pour ne pas casser le typage. Ajout de cette colonne JSON stringifiée dans SQLite.
+- **Commandes lancées + résultats** : Exécution des scripts `10` et `11`. Les 132 corrélations possèdent toutes un dictionnaire imbriqué explicatif.
+- **Blocages / observations** : Un conflit a été détecté lors du rechargement des anciennes corrélations (la nouvelle version de la corrélation était écrasée par l'ancienne lors du dédoublonnage). Cela a été corrigé (les anciennes sont écrasées par les fraîches).
+- **Prochaine tâche recommandée** : Fin de la section P3. Le blocage principal réside maintenant sur le besoin d'affiner encore plus les `correlations` ou de passer aux étapes de packaging front-end.
