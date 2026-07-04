@@ -12,37 +12,22 @@ st.markdown("---")
 
 st.header("1. Schéma Global d'Ingestion (ETL)")
 
-# Schéma Mermaid rendu nativement par Streamlit
-st.markdown("""
-```mermaid
-graph TD
-    subgraph Sources de données externes
-        BGT[Open Data Economie<br/>Budget PLF]
-        ND[NosDéputés.fr<br/>Débats Parlementaires]
-        SIR[INSEE Sirene<br/>Entreprises & NAF]
-        AAP[Caisse des Dépôts / ADEME<br/>Lauréats & AAP]
-        INPI[INPI<br/>Brevets]
-    end
-
-    subgraph Pipeline Python
-        SQL[(Base SQLite Centrale<br/>france2030.sqlite)]
-    end
-
-    subgraph Exports Minerve
-        FRONT[JSON Contrat Front-end]
-        NEO4J[CSV Graphe<br/>Neo4j]
-    end
-
-    BGT -->|Lignes Budgétaires| SQL
-    ND -->|Scraping Mots-Clés| SQL
-    SIR -->|Streaming CSV Massif| SQL
-    AAP -->|Projets & Subventions| SQL
-    INPI -->|Corrélation Entreprises| SQL
-
-    SQL -->|Gateway Export| FRONT
-    SQL -->|Gateway Export| NEO4J
-```
-""")
+# Schéma statique en texte brut si Mermaid ne s'affiche pas correctement
+st.code("""
+[ SOURCES EXTERNES ]
+  ├─ Open Data Economie (Budget PLF)
+  ├─ NosDéputés.fr (Débats Parlementaires)
+  ├─ INSEE Sirene (Entreprises & NAF)
+  ├─ Caisse des Dépôts / ADEME (Lauréats & AAP)
+  └─ INPI (Brevets)
+        │
+        ▼
+[ PIPELINE PYTHON ]
+  └─ Base SQLite Centrale (france2030.sqlite)
+        │
+        ├─► [ EXPORTS MINERVE ] (JSON Contrat Front-end)
+        └─► [ NEO4J ] (CSV Graphe Neo4j)
+""", language="")
 
 st.markdown("---")
 st.header("2. Analyse Détaillée des Datasets")
