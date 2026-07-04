@@ -71,11 +71,21 @@ python3 scripts/10_generate_correlations.py
 python3 scripts/11_export_to_sqlite.py
 ```
 
-Ou utiliser le Makefile :
+Ou utiliser le Makefile pour orchestrer l'ensemble du pipeline :
 ```bash
 make install
-make run-scraping
-make export-front
+
+# Lancer l'itération complète (scraping, sqlite, export front, export graphe, validation)
+make export-all
+
+# Lancer la validation de la donnée (schémas et rapport de qualité)
+make validate-data
+
+# Lancer avec un bypass des gros téléchargements (échantillons)
+FAST=1 make export-all
+
+# Nettoyer l'environnement
+make clean
 ```
 
 ## 📊 Base SQLite

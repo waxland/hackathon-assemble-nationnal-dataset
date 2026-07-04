@@ -47,7 +47,23 @@ def main():
                     "confidenceScore": 1.0
                 })
             
+
+    # Déduplication
+    unique_keywords = {}
+    for kw in keywords:
+        label = kw["label"].lower().strip()
+        if label not in unique_keywords:
+            unique_keywords[label] = kw
+        else:
+            # Fusion
+            for prog in kw["relatedProgrammes"]:
+                if prog not in unique_keywords[label]["relatedProgrammes"]:
+                    unique_keywords[label]["relatedProgrammes"].append(prog)
+
+    keywords = list(unique_keywords.values())
+
     os.makedirs("data", exist_ok=True)
+
     output_path = "data/keywords.json"
     
     with open(output_path, "w", encoding="utf-8") as f:

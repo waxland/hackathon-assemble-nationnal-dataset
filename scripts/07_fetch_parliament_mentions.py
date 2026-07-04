@@ -149,7 +149,8 @@ async def main_async():
     mentions_ids = set()
     
     # Selection plus large de keywords pour enrichir divers programmes
-    keywords_to_test = [k for k in keywords if len(k["label"]) > 5][:20]
+    limit = 2 if os.environ.get("FAST") == "1" else 20
+    keywords_to_test = [k for k in keywords if len(k["label"]) > 5][:limit]
             
     print(f"📡 Interrogation de l'API pour {len(keywords_to_test)} mots-clés...")
     

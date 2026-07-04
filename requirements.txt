@@ -11,3 +11,4 @@ wordcloud==1.9.3
 pydantic==2.8.2
 folium==0.16.0
 streamlit-folium==0.21.0
+pytest

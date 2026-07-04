@@ -1,6 +1,6 @@
 # 🇫🇷 Makefile - Hackathon Assemblée Nationale - France 2030
 
-.PHONY: help install run-scraping export-front export-neo4j clean run-dashboard quality-report validate-schema
+.PHONY: help install run-scraping export-front export-neo4j clean run-dashboard quality-report validate-schema validate-data export-all
 
 EXPORT_DIR=dataset
 
@@ -15,19 +15,19 @@ install: ## Installe l'environnement virtuel et les dépendances
 	./venv/bin/pip install -r requirements.txt
 	@echo "✅ Installation terminée. N'oubliez pas d'activer l'environnement avec 'source venv/bin/activate'."
 
-run-scraping: ## Lance la pipeline complète d'extraction des données et génère la base SQLite
-	@echo "🚀 Démarrage de la pipeline d'extraction des données..."
-	./venv/bin/python scripts/01_extract_programs.py
-	./venv/bin/python scripts/02_extract_budget_lines.py
-	./venv/bin/python scripts/03_parse_pap.py
-	./venv/bin/python scripts/04_generate_themes.py
-	./venv/bin/python scripts/05_generate_keywords.py
-	./venv/bin/python scripts/06_scrape_calls_for_projects.py
-	./venv/bin/python scripts/07_fetch_parliament_mentions.py
-	./venv/bin/python scripts/08_map_naf_codes.py
-	./venv/bin/python scripts/09_fetch_companies.py
-	./venv/bin/python scripts/10_generate_correlations.py
-	./venv/bin/python scripts/11_export_to_sqlite.py
+run-scraping: ## Lance la pipeline complète d'extraction des données et génère la base SQLite (FAST=1 pour bypasser gros downloads)
+	@echo "🚀 Démarrage de la pipeline d'extraction des données (FAST=$(FAST))..."
+	FAST=$(FAST) ./venv/bin/python scripts/01_extract_programs.py
+	FAST=$(FAST) ./venv/bin/python scripts/02_extract_budget_lines.py
+	FAST=$(FAST) ./venv/bin/python scripts/03_parse_pap.py
+	FAST=$(FAST) ./venv/bin/python scripts/04_generate_themes.py
+	FAST=$(FAST) ./venv/bin/python scripts/05_generate_keywords.py
+	FAST=$(FAST) ./venv/bin/python scripts/06_scrape_calls_for_projects.py
+	FAST=$(FAST) ./venv/bin/python scripts/07_fetch_parliament_mentions.py
+	FAST=$(FAST) ./venv/bin/python scripts/08_map_naf_codes.py
+	FAST=$(FAST) ./venv/bin/python scripts/09_fetch_companies.py
+	FAST=$(FAST) ./venv/bin/python scripts/10_generate_correlations.py
+	FAST=$(FAST) ./venv/bin/python scripts/11_export_to_sqlite.py
 	@echo "✅ Base de données france2030.sqlite générée avec succès."
 
 export-front: ## Traduit la BDD au format du Front et l'exporte dans le dossier 'dataset'
@@ -63,6 +63,12 @@ quality-report: ## Génère un rapport de qualité des données
 validate-schema: ## Valide les schémas JSON internes via Pydantic
 	@echo "🛡️ Validation des schémas JSON..."
 	./venv/bin/python scripts/19_validate_json_contracts.py
+
+validate-data: validate-schema quality-report ## Alias pour exécuter la validation de schéma et le rapport de qualité
+	@echo "✅ Validation des données terminée."
+
+export-all: run-scraping export-front export-neo4j validate-data ## Lance l'itération complète : extraction, SQLite, front, Neo4j, quality report
+	@echo "🚀 Itération complète terminée !"
 
 clean: ## Supprime l'environnement virtuel, les caches et le dossier data/
 	@echo "🧹 Nettoyage du projet..."

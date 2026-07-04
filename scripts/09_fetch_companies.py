@@ -60,7 +60,35 @@ def main():
                             "source": "Project Dataset (ADEME/CDC)"
                         }
 
+
+    if os.environ.get("FAST") == "1":
+        print("⚡ FAST=1 : Bypass du téléchargement Sirene (1.5Go) et utilisation d'un échantillon.")
+        companies = []
+        naf_codes_seen = {}
+        for siren, info in TARGET_COMPANIES.items():
+            companies.append({
+                "companyId": f"siren-{siren}",
+                "siren": siren,
+                "denominationUniteLegale": f"Entreprise {siren} (FAST MOCK)",
+                "nomUniteLegale": "",
+                "prenom1UniteLegale": "",
+                "categorieJuridiqueUniteLegale": "",
+                "activitePrincipaleUniteLegale": "71.12B",
+                "nomenclatureActivitePrincipaleUniteLegale": "",
+                "etatAdministratifUniteLegale": "A",
+                "dateCreationUniteLegale": "2020-01-01",
+                "adresseSiege": "Inconnue",
+                "relatedThemeIds": [info["theme"]] if info["theme"] != "à_qualifier" else [],
+                "relatedProgrammeCodes": [info["prog"]] if info["prog"] else [],
+                "source": info["source"],
+                "confidenceScore": 1.0
+            })
+        with open(os.path.join(DATA_DIR, "companies.json"), "w", encoding="utf-8") as f:
+            json.dump(companies, f, indent=2, ensure_ascii=False)
+        return
+
     os.makedirs(os.path.dirname(RAW_FILE), exist_ok=True)
+
     if not os.path.exists(RAW_FILE):
         url = get_latest_sirene_url()
         download_sirene_zip(url, RAW_FILE)

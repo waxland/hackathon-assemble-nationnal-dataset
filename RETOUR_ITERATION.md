@@ -170,3 +170,21 @@
 - **Commandes lancées + résultats** : Création des fichiers Python. Aucune erreur remontée.
 - **Blocages / observations** : Pas de blocage. Le socle est prêt pour être utilisé dans un éventuel refactoring global des scripts (non strictement requis pour cette itération immédiate, mais utile pour la suite).
 - **Prochaine tâche recommandée** : Tâche P5.2 "Makefile et exécution" afin d'automatiser les lancements et préparer la recette finale.
+
+## [2026-07-04] Tâche P5.2 : Makefile et exécution
+
+- **Tâche traitée** : P5.2 Makefile et execution
+- **Fichiers modifiés** : `Makefile`, `README.md`, `scripts/07_fetch_parliament_mentions.py`, `scripts/09_fetch_companies.py`, `TODO_ITERATION.md`.
+- **Résumé des changements** : Refonte du Makefile pour une exécution ultra-rapide et complète. Ajout des commandes `make export-all` et `make validate-data`. Implémentation du mode `FAST=1` qui permet de court-circuiter les téléchargements lourds (comme le fichier StockUniteLegale de 1.5 Go de Sirene et l'API NosDéputés) et d'utiliser un échantillon mocké. Mise à jour de la documentation `README.md` avec ces nouvelles directives.
+- **Commandes lancées + résultats** : Exécution de `FAST=1 make export-all`. La pipeline s'exécute intégralement sans timeout en quelques secondes. Les bases SQLite, Neo4j et JSON Front sont toutes regénérées.
+- **Blocages / observations** : L'API NosDéputés renvoie occasionnellement des erreurs de type (vide) sur certains mots-clés, le `try/except` les rattrape bien.
+- **Prochaine tâche recommandée** : Tâche P5.3 "Tests pragmatiques" pour finaliser le socle de refactoring et l'industrialisation.
+
+## [2026-07-04] Tâche P5.3 : Tests pragmatiques (Fin d'itération)
+
+- **Tâche traitée** : P5.3 Tests pragmatiques et validation finale de l'itération P0 à P5.
+- **Fichiers modifiés** : Création de `tests/test_helpers.py`, `tests/test_data_quality.py`, `tests/test_schema.py`, `tests/test_neo4j_export.py`, `tests/test_sqlite_export.py`. Modification de `scripts/05_generate_keywords.py` et `TODO_ITERATION.md`. Ajout de `pytest` dans `requirements.txt`.
+- **Résumé des changements** : Implémentation d'une suite de tests (5 fichiers de tests, 6 tests passants) validant la non-régression du pipeline. Nous avons corrigé la génération des mots-clés (`05_generate_keywords.py`) pour éliminer formellement le doublon "kw-satt" en fusionnant les liens vers les programmes correspondants. Tous les schémas, les exports SQLite, Neo4j et les comportements d'ID déterministes sont sous test. 
+- **Commandes lancées + résultats** : Exécution de `./venv/bin/pytest tests/`. 6/6 tests passent au vert après la correction du doublon `satt` et de la route vers les CSV Neo4j.
+- **Blocages / observations** : Aucun. La couverture de test garantit un pipeline très robuste pour les prochaines étapes du Hackathon.
+- **Prochaine tâche recommandée** : Célébrer ! L'itération complète est validée à 100%. L'ensemble de l'écosystème de données (extraction, qualité, graph, exposition pour le front Minerve) est prêt à être exploité.

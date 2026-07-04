@@ -472,41 +472,41 @@ Critere d'acceptation :
 
 #### P5.2 Makefile et execution
 
-- [ ] Ajouter `make quality-report`.
-- [ ] Ajouter `make validate-data`.
-- [ ] Ajouter `make export-all` qui lance scraping, SQLite, front, Neo4j, quality report.
-- [ ] Ajouter un mode `FAST=1` ou `--sample` pour eviter les gros downloads lors des tests.
-- [ ] Documenter les commandes dans `README.md`.
+- [x] Ajouter `make quality-report`.
+- [x] Ajouter `make validate-data`.
+- [x] Ajouter `make export-all` qui lance scraping, SQLite, front, Neo4j, quality report.
+- [x] Ajouter un mode `FAST=1` ou `--sample` pour eviter les gros downloads lors des tests.
+- [x] Documenter les commandes dans `README.md`.
 
 Critere d'acceptation :
 
-- [ ] Un repreneur peut lancer une iteration complete avec des commandes simples.
+- [x] Un repreneur peut lancer une iteration complete avec des commandes simples.
 
 #### P5.3 Tests pragmatiques
 
-- [ ] Ajouter des tests unitaires sur `generate_id`, nettoyage texte, hash correlation.
-- [ ] Ajouter un test de non-regression sur le doublon `kw-satt`.
-- [ ] Ajouter un test de schema sur les JSON critiques.
-- [ ] Ajouter un test de generation SQLite sur un petit jeu de fixtures.
-- [ ] Ajouter un test de l'export Neo4j avec le schema courant.
+- [x] Ajouter des tests unitaires sur `generate_id`, nettoyage texte, hash correlation.
+- [x] Ajouter un test de non-regression sur le doublon `kw-satt`.
+- [x] Ajouter un test de schema sur les JSON critiques.
+- [x] Ajouter un test de generation SQLite sur un petit jeu de fixtures.
+- [x] Ajouter un test de l'export Neo4j avec le schema courant.
 
 Critere d'acceptation :
 
-- [ ] Les regressions de schema et d'IDs sont detectees avant de regenerer tous les exports.
+- [x] Les regressions de schema et d'IDs sont detectees avant de regenerer tous les exports.
 
 ---
 
 ## 6. Ordre conseille d'execution
 
-1. [ ] Corriger les contradictions et creer `quality_report`.
-2. [ ] Corriger `kw-satt`, SQLite non destructif et export Neo4j.
-3. [ ] Integrer Budget vert 2026.
-4. [ ] Integrer brevets par SIREN pour democker `inpi-patent-families.json`.
-5. [ ] Integrer laureats Demonstrateurs ville durable.
-6. [ ] Integrer projets ADEME.
-7. [ ] Recalculer correlations et scores.
-8. [ ] Regenerer SQLite, front, Neo4j et quality report.
-9. [ ] Mettre a jour documentation et README.
+1. [x] Corriger les contradictions et creer `quality_report`.
+2. [x] Corriger `kw-satt`, SQLite non destructif et export Neo4j.
+3. [x] Integrer Budget vert 2026.
+4. [x] Integrer brevets par SIREN pour democker `inpi-patent-families.json`.
+5. [x] Integrer laureats Demonstrateurs ville durable.
+6. [x] Integrer projets ADEME.
+7. [x] Recalculer correlations et scores.
+8. [x] Regenerer SQLite, front, Neo4j et quality report.
+9. [x] Mettre a jour documentation et README.
 
 ---
 
