@@ -1,32 +1,272 @@
 {
-  "424": {
-    "1. Petits réacteurs nucléaires innovants (SMR)": ["SMR", "petits réacteurs modulaires", "nucléaire", "EPR", "réacteur nucléaire", "gestion des déchets radioactifs"],
-    "2. Leader de l'hydrogène vert": ["hydrogène vert", "hydrogène décarboné", "électrolyseur", "pile à combustible", "gigafactory hydrogène", "H2"],
-    "3. Décarbonation de l'industrie": ["décarbonation", "industrie bas-carbone", "capture carbone", "efficacité énergétique industrielle", "chaleur bas-carbone", "CCUS"],
-    "4. Véhicules électriques et hybrides": ["véhicule électrique", "batteries", "gigafactory de batteries", "borne de recharge", "véhicule hybride", "mobilité durable"],
-    "5. Premier avion bas-carbone": ["avion bas-carbone", "aéronautique décarbonée", "carburant d'aviation durable", "SAF", "moteur à hydrogène"],
-    "6. Alimentation saine, durable et traçable": ["alimentation durable", "agriculture de précision", "agroécologie", "foodtech", "agritech", "protéines alternatives", "traçabilité alimentaire"],
-    "7. Production de biomédicaments et dispositifs médicaux": ["biomédicament", "biothérapie", "santé numérique", "dispositif médical", "thérapie génique", "healthtech"],
-    "8. Production de contenus culturels et créatifs": ["industries culturelles et créatives", "ICC", "métavers", "studios de tournage", "effets visuels", "jeux vidéo", "billetterie"],
-    "9. Nouvelle aventure spatiale": ["spatial", "micro-lanceurs", "constellation de satellites", "new space", "orbite", "CNES"],
-    "10. Exploration des fonds marins": ["fonds marins", "grands fonds marins", "exploration océanique", "robotique sous-marine", "AUV", "ROV"],
-    "Levier : Composants, Cloud, IA et Quantique": ["intelligence artificielle", "IA", "quantique", "ordinateur quantique", "cloud souverain", "semi-conducteurs", "composants électroniques", "puces électroniques"]
-  },
-  "425": {
-    "Soutien aux startups et DeepTech": ["startup", "deeptech", "licorne", "innovation de rupture", "levée de fonds"],
-    "Pôles et territoires d'innovation": ["pôles de compétitivité", "territoires d'innovation", "incubateur", "SATT", "écosystème d'innovation"],
-    "Soutien à la French Tech": ["French Tech", "mission French Tech", "French Tech 2030", "Next40", "FT120"]
-  },
-  "422": {
-    "Valorisation de la recherche publique": ["valorisation de la recherche", "transfert technologique", "propriété intellectuelle", "brevet"],
-    "Transfert technologique": ["SATT", "transfert de technologie", "recherche appliquée"]
-  },
-  "423": {
-    "Modernisation de l'outil de production": ["modernisation des entreprises", "industrie 4.0", "robotisation", "automatisation"],
-    "Digitalisation des PME-ETI": ["numérique", "PME", "ETI", "transformation numérique"]
-  },
-  "421": {
-    "Soutien de la recherche fondamentale": ["recherche", "enseignement supérieur", "laboratoire", "ANR"],
-    "Formation aux métiers d'avenir": ["doctorat", "université", "formation", "compétences"]
+  "taxonomyVersion": "1.1",
+  "lastUpdated": "2026-07-04",
+  "description": "Taxonomie officielle de la mission France 2030, couplée à des mots-clés de recherche et d'exclusion (NLP).",
+  "programmes": {
+    "424": {
+      "1. Petits réacteurs nucléaires innovants (SMR)": {
+        "keywords": [
+          "SMR",
+          "petits réacteurs modulaires",
+          "nucléaire",
+          "EPR",
+          "réacteur nucléaire",
+          "gestion des déchets radioactifs"
+        ],
+        "negativeKeywords": [
+          "nucléaire iranien",
+          "arme nucléaire",
+          "bombe"
+        ],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "2. Leader de l'hydrogène vert": {
+        "keywords": [
+          "hydrogène vert",
+          "hydrogène décarboné",
+          "électrolyseur",
+          "pile à combustible",
+          "gigafactory hydrogène",
+          "H2"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "3. Décarbonation de l'industrie": {
+        "keywords": [
+          "décarbonation",
+          "industrie bas-carbone",
+          "capture carbone",
+          "efficacité énergétique industrielle",
+          "chaleur bas-carbone",
+          "CCUS"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "4. Véhicules électriques et hybrides": {
+        "keywords": [
+          "véhicule électrique",
+          "batteries",
+          "gigafactory de batteries",
+          "borne de recharge",
+          "véhicule hybride",
+          "mobilité durable"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "5. Premier avion bas-carbone": {
+        "keywords": [
+          "avion bas-carbone",
+          "aéronautique décarbonée",
+          "carburant d'aviation durable",
+          "SAF",
+          "moteur à hydrogène"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "6. Alimentation saine, durable et traçable": {
+        "keywords": [
+          "alimentation durable",
+          "agriculture de précision",
+          "agroécologie",
+          "foodtech",
+          "agritech",
+          "protéines alternatives",
+          "traçabilité alimentaire"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "7. Production de biomédicaments et dispositifs médicaux": {
+        "keywords": [
+          "biomédicament",
+          "biothérapie",
+          "santé numérique",
+          "dispositif médical",
+          "thérapie génique",
+          "healthtech"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "8. Production de contenus culturels et créatifs": {
+        "keywords": [
+          "industries culturelles et créatives",
+          "ICC",
+          "métavers",
+          "studios de tournage",
+          "effets visuels",
+          "jeux vidéo",
+          "billetterie"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "9. Nouvelle aventure spatiale": {
+        "keywords": [
+          "spatial",
+          "micro-lanceurs",
+          "constellation de satellites",
+          "new space",
+          "orbite",
+          "CNES"
+        ],
+        "negativeKeywords": [
+          "aménagement spatial"
+        ],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "10. Exploration des fonds marins": {
+        "keywords": [
+          "fonds marins",
+          "grands fonds marins",
+          "exploration océanique",
+          "robotique sous-marine",
+          "AUV",
+          "ROV"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      },
+      "Levier : Composants, Cloud, IA et Quantique": {
+        "keywords": [
+          "intelligence artificielle",
+          "IA",
+          "quantique",
+          "ordinateur quantique",
+          "cloud souverain",
+          "semi-conducteurs",
+          "composants électroniques",
+          "puces électroniques"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 1.0
+      }
+    },
+    "425": {
+      "Soutien aux startups et DeepTech": {
+        "keywords": [
+          "startup",
+          "deeptech",
+          "licorne",
+          "innovation de rupture",
+          "levée de fonds"
+        ],
+        "negativeKeywords": [
+          "start-up nation (ironique)"
+        ],
+        "description": "",
+        "mappingConfidence": 0.8
+      },
+      "Pôles et territoires d'innovation": {
+        "keywords": [
+          "pôles de compétitivité",
+          "territoires d'innovation",
+          "incubateur",
+          "SATT",
+          "écosystème d'innovation"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      },
+      "Soutien à la French Tech": {
+        "keywords": [
+          "French Tech",
+          "mission French Tech",
+          "French Tech 2030",
+          "Next40",
+          "FT120"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      }
+    },
+    "422": {
+      "Valorisation de la recherche publique": {
+        "keywords": [
+          "valorisation de la recherche",
+          "transfert technologique",
+          "propriété intellectuelle",
+          "brevet"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      },
+      "Transfert technologique": {
+        "keywords": [
+          "SATT",
+          "transfert de technologie",
+          "recherche appliquée"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      }
+    },
+    "423": {
+      "Modernisation de l'outil de production": {
+        "keywords": [
+          "modernisation des entreprises",
+          "industrie 4.0",
+          "robotisation",
+          "automatisation"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      },
+      "Digitalisation des PME-ETI": {
+        "keywords": [
+          "numérique",
+          "PME",
+          "ETI",
+          "transformation numérique"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      }
+    },
+    "421": {
+      "Soutien de la recherche fondamentale": {
+        "keywords": [
+          "recherche",
+          "enseignement supérieur",
+          "laboratoire",
+          "ANR"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      },
+      "Formation aux métiers d'avenir": {
+        "keywords": [
+          "doctorat",
+          "université",
+          "formation",
+          "compétences"
+        ],
+        "negativeKeywords": [],
+        "description": "",
+        "mappingConfidence": 0.8
+      }
+    }
   }
 }

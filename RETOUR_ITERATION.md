@@ -116,3 +116,12 @@
 - **Commandes lancées + résultats** : Exécution du script 09. 747 entreprises sur 748 ont été identifiées formellement avec leur SIREN dans le fichier Open Data de l'INSEE ! Les codes NAF et dates de création sont rattachés.
 - **Blocages / observations** : L'adresse siège précise ("AdresseUniteLegale") n'est pas présente dans le fichier *StockUniteLegale* (qui gère l'entité mère). Pour avoir la commune de l'entreprise, il faudrait croiser avec un autre fichier de 1.5 Go (*StockEtablissement*), ce qui ralentirait énormément l'ingestion pour le POC actuel. La commune est donc définie sur "Inconnue".
 - **Prochaine tâche recommandée** : P2.4 Taxonomie et mapping métier
+
+## [2026-07-04] Tâche P2.4 : Taxonomie et mapping métier
+
+- **Tâche traitée** : P2.4 Taxonomie et mapping metier
+- **Fichiers modifiés** : `config/taxonomy.json`, `scripts/04_generate_themes.py`, `scripts/05_generate_keywords.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Refonte de la structure du fichier `taxonomy.json` pour y inclure des métadonnées globales (`taxonomyVersion`, `description`, `lastUpdated`). Chaque thème est désormais un objet complet avec `keywords`, `negativeKeywords` et un `mappingConfidence`.
+- **Commandes lancées + résultats** : Exécution d'un script éphémère de migration JSON (`scripts/migrate_taxonomy.py`), puis exécution des scripts 04 et 05 pour s'assurer que le pipeline Python gère la nouvelle structure (les mots-clés d'exclusion sont correctement exportés avec le `type: "exclusion"`).
+- **Blocages / observations** : Rien de bloquant. L'ajout des mots-clés d'exclusion ("nucléaire iranien", "bombe", "aménagement spatial") va permettre au script d'ingestion de l'Assemblée nationale de drastiquement réduire les faux positifs lors du NLP.
+- **Prochaine tâche recommandée** : La section P2 "Fiabiliser les extractions" est terminée ! Il est temps de passer à l'amélioration de la valeur des corrélations (P3.1).

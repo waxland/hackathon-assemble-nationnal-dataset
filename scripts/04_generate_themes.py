@@ -25,15 +25,18 @@ def main():
     print("Génération de la taxonomie depuis config/taxonomy.json...")
     
     with open("config/taxonomy.json", "r", encoding="utf-8") as f:
-        taxonomy = json.load(f)
+        taxonomy_data = json.load(f)
         
+    taxonomy = taxonomy_data.get("programmes", {})
+    
     themes_dict = {}
     
     for prog_code, themes_data in taxonomy.items():
-        for theme_name in themes_data.keys():
+        for theme_name, theme_details in themes_data.items():
             tid = generate_theme_id(theme_name)
             if tid not in themes_dict:
                 themes_dict[tid] = format_theme(tid, theme_name, prog_code)
+                themes_dict[tid]["confidenceScore"] = theme_details.get("mappingConfidence", 0.9)
             else:
                 if prog_code not in themes_dict[tid]["relatedProgrammes"]:
                     themes_dict[tid]["relatedProgrammes"].append(prog_code)

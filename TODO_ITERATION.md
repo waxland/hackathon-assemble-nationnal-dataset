@@ -359,16 +359,16 @@ Critere d'acceptation :
 
 #### P2.4 Taxonomie et mapping metier
 
-- [ ] Garder `config/taxonomy.json` comme source principale editable.
-- [ ] Ajouter `description`, `officialObjective`, `programmeCode`, `keywords`, `negativeKeywords` si necessaire.
-- [ ] Ajouter des mots-cles d'exclusion pour reduire les faux positifs parlementaires.
-- [ ] Documenter les mappings theme -> programme.
-- [ ] Ajouter un champ `taxonomyVersion`.
+- [x] Garder `config/taxonomy.json` comme source principale editable.
+- [x] Ajouter `description`, `officialObjective`, `programmeCode`, `keywords`, `negativeKeywords` si necessaire.
+- [x] Ajouter des mots-cles d'exclusion pour reduire les faux positifs parlementaires.
+- [x] Documenter les mappings theme -> programme.
+- [x] Ajouter un champ `taxonomyVersion`.
 
 Critere d'acceptation :
 
-- [ ] Un changement de taxonomie est versionne et explique.
-- [ ] Les mappings ambigus sont identifies.
+- [x] Un changement de taxonomie est versionne et explique.
+- [x] Les mappings ambigus sont identifies.
 
 ---
 

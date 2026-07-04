@@ -66,6 +66,39 @@
     "confidenceScore": 0.95
   },
   {
+    "keywordId": "nkw-1.-petits-react-nucleaire-iranien",
+    "label": "nucléaire iranien",
+    "type": "exclusion",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 1.0
+  },
+  {
+    "keywordId": "nkw-1.-petits-react-arme-nucleaire",
+    "label": "arme nucléaire",
+    "type": "exclusion",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 1.0
+  },
+  {
+    "keywordId": "nkw-1.-petits-react-bombe",
+    "label": "bombe",
+    "type": "exclusion",
+    "relatedThemeId": "1.-petits-reacteurs-nucleaires-innovants-(smr)",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 1.0
+  },
+  {
     "keywordId": "kw-2.-leader-de-l--hydrogene-vert",
     "label": "hydrogène vert",
     "type": "concept",
@@ -605,6 +638,17 @@
     "confidenceScore": 0.95
   },
   {
+    "keywordId": "nkw-9.-nouvelle-ave-amenagement-spatial",
+    "label": "aménagement spatial",
+    "type": "exclusion",
+    "relatedThemeId": "9.-nouvelle-aventure-spatiale",
+    "relatedProgrammes": [
+      "424"
+    ],
+    "synonyms": [],
+    "confidenceScore": 1.0
+  },
+  {
     "keywordId": "kw-10.-exploration-fonds-marins",
     "label": "fonds marins",
     "type": "concept",
@@ -812,6 +856,17 @@
     ],
     "synonyms": [],
     "confidenceScore": 0.95
+  },
+  {
+    "keywordId": "nkw-soutien-aux-sta-start-up-nation-(ironique)",
+    "label": "start-up nation (ironique)",
+    "type": "exclusion",
+    "relatedThemeId": "soutien-aux-startups-et-deeptech",
+    "relatedProgrammes": [
+      "425"
+    ],
+    "synonyms": [],
+    "confidenceScore": 1.0
   },
   {
     "keywordId": "kw-poles-et-territ-poles-de-competitivite",

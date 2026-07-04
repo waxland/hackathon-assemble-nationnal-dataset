@@ -165,7 +165,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "poles-et-territoires-d-innovation",
@@ -179,7 +179,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "soutien-a-la-french-tech",
@@ -193,7 +193,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "valorisation-de-la-recherche-publique",
@@ -207,7 +207,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "transfert-technologique",
@@ -221,7 +221,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "modernisation-de-l-outil-de-production",
@@ -235,7 +235,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "digitalisation-des-pme-eti",
@@ -249,7 +249,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "soutien-de-la-recherche-fondamentale",
@@ -263,7 +263,7 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   },
   {
     "themeId": "formation-aux-metiers-d-avenir",
@@ -277,6 +277,6 @@
     "nafCodes": [],
     "companies": [],
     "parliamentMentions": [],
-    "confidenceScore": 1.0
+    "confidenceScore": 0.8
   }
 ]

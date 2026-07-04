@@ -11,13 +11,17 @@ def main():
     print("Génération des mots-clés depuis config/taxonomy.json...")
     
     with open("config/taxonomy.json", "r", encoding="utf-8") as f:
-        taxonomy = json.load(f)
+        taxonomy_data = json.load(f)
+        
+    taxonomy = taxonomy_data.get("programmes", {})
 
     keywords = []
     
     for prog_code, themes_data in taxonomy.items():
-        for theme_name, kw_list in themes_data.items():
+        for theme_name, theme_details in themes_data.items():
             theme_id = generate_id(theme_name)
+            kw_list = theme_details.get("keywords", [])
+            neg_kw_list = theme_details.get("negativeKeywords", [])
             
             for kw in kw_list:
                 kw_id = f"kw-{theme_id[:15]}-{generate_id(kw)}"
@@ -29,6 +33,18 @@ def main():
                     "relatedProgrammes": [prog_code],
                     "synonyms": [],
                     "confidenceScore": 0.95
+                })
+                
+            for nkw in neg_kw_list:
+                kw_id = f"nkw-{theme_id[:15]}-{generate_id(nkw)}"
+                keywords.append({
+                    "keywordId": kw_id,
+                    "label": nkw,
+                    "type": "exclusion",
+                    "relatedThemeId": theme_id,
+                    "relatedProgrammes": [prog_code],
+                    "synonyms": [],
+                    "confidenceScore": 1.0
                 })
             
     os.makedirs("data", exist_ok=True)
