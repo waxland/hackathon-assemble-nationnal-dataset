@@ -4,8 +4,8 @@
       "programmeCode": "421",
       "isMock": true,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:50:15.144817+00:00Z",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-04T01:30:36.270276+00:00Z",
       "notes": "",
       "data": []
     },
@@ -13,8 +13,8 @@
       "programmeCode": "422",
       "isMock": true,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:50:15.144819+00:00Z",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-04T01:30:36.270398+00:00Z",
       "notes": "",
       "data": []
     },
@@ -22,8 +22,8 @@
       "programmeCode": "423",
       "isMock": true,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:50:15.144820+00:00Z",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-04T01:30:36.270477+00:00Z",
       "notes": "",
       "data": []
     },
@@ -31,8 +31,8 @@
       "programmeCode": "424",
       "isMock": true,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:50:15.144821+00:00Z",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-04T01:30:36.270553+00:00Z",
       "notes": "",
       "data": []
     },
@@ -40,8 +40,8 @@
       "programmeCode": "425",
       "isMock": true,
       "sourceUrl": null,
-      "confidence": null,
-      "updatedAt": "2026-07-03T23:50:15.144822+00:00Z",
+      "confidence": 1.0,
+      "updatedAt": "2026-07-04T01:30:36.270630+00:00Z",
       "notes": "",
       "data": []
     }

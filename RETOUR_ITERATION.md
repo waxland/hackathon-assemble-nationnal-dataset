@@ -197,3 +197,21 @@
 - **Commandes lancées + résultats** : Examen approfondi des scripts d'ingestion (notamment `10_generate_correlations.py` et `15_ingest_fr2030_laureates.py` qui génèrent bien l'ensemble du maillage). Le tout est au vert.
 - **Blocages / observations** : Aucun. Le travail est terminé.
 - **Prochaine tâche recommandée** : Lancement en production, pitch devant le jury, ou intégration de l'interface Minerve sur le dataset SQLite exporté. 
+
+## [2026-07-04] Tâche de cadrage : Cour des comptes
+
+- **Tâche traitée** : Recherche documentaire Cour des comptes et remise au propre de `TODO_ITERATION.md` pour expliciter les attentes d'une future ingestion audit/recommandations.
+- **Fichiers modifiés** : `TODO_ITERATION.md`, `RETOUR_ITERATION.md`.
+- **Résumé des changements** : Ajout d'une source prioritaire `3.7 Cour des comptes - rapports d'audit et d'evaluation France 2030`, avec les cinq documents officiels a exploiter : NEB 2024, NEB 2025, rapport decarbonation industrie, observations definitives AAP PIA4 culture/ICC, rapport agences de programmes. Ajout de la tache `P1.6 Cour des comptes - audit, risques et recommandations` avec fichiers attendus, champs JSON, schemas cibles, criteres d'acceptation et prudences de sourcing.
+- **Commandes lancées + résultats** : Recherche web officielle sur `ccomptes.fr`; lecture de `TODO_ITERATION.md`; patch documentaire applique. Les URLs officielles des pages et PDF Cour des comptes sont maintenant referencees dans la TODO.
+- **Blocages / observations** : Aucun blocage technique. Je n'ai pas encore cree les JSON ni le script d'ingestion, conformement a la demande de commencer par la recherche documentaire et la clarification des attentes.
+- **Prochaine tâche recommandée** : Implementer `scripts/20_ingest_cour_des_comptes.py` en version minimale : creation de `data/audit_documents.json` avec les cinq documents references, puis ajout des sources dans `data/sources.json`.
+
+## [2026-07-04] Tâche P1.6 : Cour des comptes - référentiel documentaire
+
+- **Tâche traitée** : P1.6 Cour des comptes - creation du referentiel `audit_documents.json` et du script d'ingestion documentaire minimal.
+- **Fichiers modifiés** : `scripts/20_ingest_cour_des_comptes.py`, `data/audit_documents.json`, `TODO_ITERATION.md`, `RETOUR_ITERATION.md`.
+- **Résumé des changements** : Ajout d'un script idempotent qui produit `data/audit_documents.json` avec les cinq documents Cour des comptes prioritaires identifies dans la TODO : NEB 2024, NEB 2025, rapport decarbonation industrie, observations AAP PIA4 culture/ICC et rapport agences de programmes. Chaque entree contient un `auditDocumentId` deterministe, le titre, l'editeur, la date de publication, le type documentaire, les URLs officielles, les rattachements explicites programme/theme, `confidenceScore` et `validationStatus`.
+- **Commandes lancées + résultats** : `./venv/bin/python scripts/20_ingest_cour_des_comptes.py` -> 5 documents exportes ; `./venv/bin/python -m py_compile scripts/20_ingest_cour_des_comptes.py` -> OK ; `jq length data/audit_documents.json` -> 5 ; `jq -r '.[].auditDocumentId' data/audit_documents.json` -> 5 IDs listes ; controle Python des champs requis et de l'unicite des IDs -> OK.
+- **Blocages / observations** : Aucun blocage. Les recommandations, constats/risques, cache PDF, registre `data/sources.json`, tables SQLite et exports qualite restent volontairement ouverts car ils demandent une extraction de contenu plus profonde depuis les PDF.
+- **Prochaine tâche recommandée** : Continuer P1.6 en creant `data/audit_recommendations.json` a partir des recommandations explicites des PDF Cour des comptes, avec `sourcePage`, extrait court ou `evidenceSummary`, et `validationStatus: "to_review"`.

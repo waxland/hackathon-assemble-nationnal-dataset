@@ -4,13 +4,13 @@
     "programmeCode": "421",
     "programmeName": "Soutien des progrès de l'enseignement et de la recherche",
     "expenseCategoryName": "Dépenses d'intervention",
-    "amount2024": null,
+    "amount2024": 255000000,
     "amount2025": 219000000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142056+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.263981+00:00Z",
     "notes": ""
   },
   {
@@ -18,13 +18,13 @@
     "programmeCode": "422",
     "programmeName": "Valorisation de la recherche",
     "expenseCategoryName": "Dépenses de fonctionnement",
-    "amount2024": null,
+    "amount2024": 50000000,
     "amount2025": 200000000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142147+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264103+00:00Z",
     "notes": ""
   },
   {
@@ -32,13 +32,13 @@
     "programmeCode": "422",
     "programmeName": "Valorisation de la recherche",
     "expenseCategoryName": "Dépenses d'intervention",
-    "amount2024": null,
+    "amount2024": 38200000,
     "amount2025": 38200000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142150+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264106+00:00Z",
     "notes": ""
   },
   {
@@ -50,9 +50,9 @@
     "amount2025": 5000000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142152+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264107+00:00Z",
     "notes": ""
   },
   {
@@ -64,9 +64,9 @@
     "amount2025": 100000000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142153+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264109+00:00Z",
     "notes": ""
   },
   {
@@ -74,13 +74,13 @@
     "programmeCode": "423",
     "programmeName": "Accélération de la modernisation des entreprises",
     "expenseCategoryName": "Dépenses d'intervention",
-    "amount2024": null,
+    "amount2024": 14260000,
     "amount2025": 50010000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142155+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264111+00:00Z",
     "notes": ""
   },
   {
@@ -92,9 +92,9 @@
     "amount2025": 35750000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142156+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264112+00:00Z",
     "notes": ""
   },
   {
@@ -102,13 +102,13 @@
     "programmeCode": "424",
     "programmeName": "Financement des investissements stratégiques",
     "expenseCategoryName": "Dépenses de fonctionnement",
-    "amount2024": null,
+    "amount2024": 210000000,
     "amount2025": 810005899,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142158+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264114+00:00Z",
     "notes": ""
   },
   {
@@ -116,13 +116,13 @@
     "programmeCode": "424",
     "programmeName": "Financement des investissements stratégiques",
     "expenseCategoryName": "Dépenses d'intervention",
-    "amount2024": null,
+    "amount2024": 5481750000,
     "amount2025": 3563400000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142159+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264116+00:00Z",
     "notes": ""
   },
   {
@@ -130,13 +130,13 @@
     "programmeCode": "425",
     "programmeName": "Financement structurel des écosystèmes d'innovation",
     "expenseCategoryName": "Dépenses de fonctionnement",
-    "amount2024": null,
+    "amount2024": 705000000,
     "amount2025": 195000000,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142161+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264117+00:00Z",
     "notes": ""
   },
   {
@@ -144,13 +144,13 @@
     "programmeCode": "425",
     "programmeName": "Financement structurel des écosystèmes d'innovation",
     "expenseCategoryName": "Dépenses d'intervention",
-    "amount2024": null,
+    "amount2024": 947500000,
     "amount2025": 583634101,
     "amount2026": null,
     "isMock": false,
-    "sourceUrl": "https://www.data.gouv.fr/datasets/plf-2025-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature",
+    "sourceUrl": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/plf25-depenses-2025-du-bg-et-des-ba-selon-nomenclatures-destination-et-nature/exports/csv?use_labels=true",
     "confidence": 1.0,
-    "updatedAt": "2026-07-03T23:50:15.142162+00:00Z",
+    "updatedAt": "2026-07-04T01:30:36.264118+00:00Z",
     "notes": ""
   }
 ]

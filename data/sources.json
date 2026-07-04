@@ -148,5 +148,12 @@
     "producer": "SGPI / info.gouv.fr",
     "url": "https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list",
     "license": "Licence Ouverte / Open Licence version 2.0"
+  },
+  {
+    "id": "ccomptes-france2030",
+    "name": "Rapports de la Cour des comptes sur France 2030",
+    "producer": "Cour des comptes",
+    "url": "https://www.ccomptes.fr",
+    "license": "Licence Ouverte / Open Licence version 2.0"
   }
 ]

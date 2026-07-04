@@ -45,14 +45,15 @@ Le Streamlit doit servir d'outil de **Data Quality Assurance (DQA)** pour l'équ
 - [ ] Afficher une jauge (progress bar) : *Décaissements Réels / Enveloppe Globale*.
 
 ### 2.2 Enrichissement de la Page : Rapports Programmes
-- [ ] Modifier `app/pages/3_Rapport_Programme.py`.
-- [ ] Ajouter une section "Alertes & Audits" qui charge `audit_findings.json` et affiche les risques soulevés par la Cour des Comptes pour le programme sélectionné.
-- [ ] Afficher les "Stratégies Nationales d'Accélération" (SNA) liées à ce programme (issues de `acceleration_strategies.json`).
+- [x] Modifier `app/pages/3_Rapport_Programme.py`.
+- [x] Ajouter une section "Alertes & Audits" qui charge `audit_findings.json` et affiche les risques soulevés par la Cour des Comptes pour le programme sélectionné.
+- [x] Afficher les "Stratégies Nationales d'Accélération" (SNA) liées à ce programme (issues de `acceleration_strategies.json`).
 
 ### 2.3 Amélioration de la Page : Data Quality
-- [ ] Modifier `app/pages/4_Data_Quality.py`.
-- [ ] Afficher spécifiquement la métrique `"unresolved_audit_recommendations"` (déjà préparée dans le code) avec un tableau listant ces recommandations (`audit_recommendations.json`).
-- [ ] S'assurer que le taux de "Missing URLs" (traçabilité manquante) est visible et reste à zéro.
+- [x] Modifier `app/pages/4_Data_Quality.py`.
+- [x] Afficher spécifiquement la métrique `"unresolved_audit_recommendations"` (déjà préparée dans le code) avec un tableau listant ces recommandations (`audit_recommendations.json`).
+- [x] Afficher le taux de "Missing URLs" (traçabilité manquante) dans la page Data Quality.
+- [ ] Ramener le taux de "Missing URLs" à zéro dans les données sources.
 
 ---
 

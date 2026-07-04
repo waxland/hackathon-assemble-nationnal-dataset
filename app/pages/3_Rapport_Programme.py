@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import json
+import os
 from app import load_front_dataset
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
@@ -30,6 +32,19 @@ def classify_tone(text):
         return "critique"
     return "neutre"
 
+
+@st.cache_data
+def load_local_json(path):
+    if not os.path.exists(path):
+        return []
+    with open(path, "r", encoding="utf-8") as file:
+        return json.load(file)
+
+
+def programme_in_list(item, programme_code):
+    codes = item.get("relatedProgrammeCodes") or []
+    return str(programme_code) in [str(code) for code in codes]
+
 col_img, col_text = st.columns([1, 10])
 with col_img:
     st.image("app/content/icon-minerve.png", width=80)
@@ -40,6 +55,8 @@ programs_data = load_front_dataset("catalog/investment-programmes.json")
 budget_data = load_front_dataset("budget/france-2030-budget-lines.json")
 parliament_data = load_front_dataset("sources/parliamentary-documents.json")
 companies_data = load_front_dataset("sources/sirene-companies.json")
+audit_findings = load_local_json("data/audit_findings.json")
+acceleration_strategies = load_local_json("data/acceleration_strategies.json")
 
 if programs_data:
     prog_options = {p.get("programmeCode"): f"Programme {p.get('programmeCode')} - {p.get('programmeName')}" for p in programs_data}
@@ -178,5 +195,77 @@ if programs_data:
                     st.info(doc.get('text'))
         else:
             st.write("Aucun écho parlementaire trouvé.")
+
+    st.divider()
+    st.subheader("Alertes, audits et strategies nationales")
+
+    audit_matches = [
+        finding
+        for finding in audit_findings
+        if programme_in_list(finding, selected_prog_code)
+    ]
+
+    col_audit, col_sna = st.columns([3, 2])
+
+    with col_audit:
+        st.markdown("### Alertes & Audits")
+        if audit_matches:
+            for finding in audit_matches:
+                risk_level = (finding.get("riskLevel") or "unknown").lower()
+                message = (
+                    f"**{finding.get('findingType', 'constat')} - risque {risk_level}**\n\n"
+                    f"{finding.get('findingText', 'Constat non renseigne')}"
+                )
+                if risk_level == "high":
+                    st.error(message)
+                elif risk_level == "medium":
+                    st.warning(message)
+                else:
+                    st.info(message)
+
+                st.caption(
+                    " | ".join(
+                        [
+                            f"Document: {finding.get('auditDocumentId', 'n/a')}",
+                            f"Page: {finding.get('sourcePage', 'n/a')}",
+                            f"Confiance: {finding.get('confidenceScore', 'n/a')}",
+                        ]
+                    )
+                )
+                if finding.get("evidenceSummary"):
+                    st.write(finding.get("evidenceSummary"))
+        else:
+            st.success("Aucune alerte Cour des comptes explicitement rattachee a ce programme.")
+
+    with col_sna:
+        st.markdown("### Strategies Nationales d'Acceleration")
+        linked_strategies = [
+            strategy
+            for strategy in acceleration_strategies
+            if programme_in_list(strategy, selected_prog_code)
+        ]
+
+        if linked_strategies:
+            st.dataframe(
+                pd.DataFrame(linked_strategies),
+                use_container_width=True,
+                hide_index=True,
+            )
+        else:
+            st.info(
+                "Aucune liaison explicite `strategy -> programme` n'est presente dans les donnees."
+            )
+            if acceleration_strategies:
+                with st.expander("Voir le referentiel SNA disponible"):
+                    cols = [
+                        col
+                        for col in ["strategyId", "strategyName", "sourceScope", "sourceUrl"]
+                        if col in pd.DataFrame(acceleration_strategies).columns
+                    ]
+                    st.dataframe(
+                        pd.DataFrame(acceleration_strategies)[cols],
+                        use_container_width=True,
+                        hide_index=True,
+                    )
 else:
     st.warning("Veuillez générer les fichiers JSON du contrat front d'abord.")

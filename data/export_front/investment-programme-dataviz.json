@@ -5,7 +5,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.043537+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.271227+00:00Z",
       "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
       "data": {
         "budgetBreakdown": [
@@ -23,7 +23,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.043839+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.271386+00:00Z",
       "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
       "data": {
         "budgetBreakdown": [
@@ -49,7 +49,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.043947+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.271486+00:00Z",
       "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
       "data": {
         "budgetBreakdown": [
@@ -75,7 +75,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.044031+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.271579+00:00Z",
       "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
       "data": {
         "budgetBreakdown": [
@@ -150,7 +150,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.044188+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.271692+00:00Z",
       "notes": "Agrégats calculés dynamiquement depuis SQLite pour la dataviz.",
       "data": {
         "budgetBreakdown": [

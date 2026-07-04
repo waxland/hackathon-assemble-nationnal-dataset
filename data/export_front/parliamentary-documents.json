@@ -5,7 +5,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.037982+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.266103+00:00Z",
       "notes": "",
       "documents": []
     },
@@ -14,7 +14,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.039180+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.266690+00:00Z",
       "notes": "",
       "documents": []
     },
@@ -23,7 +23,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.039195+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.266701+00:00Z",
       "notes": "",
       "documents": []
     },
@@ -32,7 +32,7 @@
       "isMock": false,
       "sourceUrl": "https://www.nosdeputes.fr/16/amendement/1680/CF2948A",
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.039205+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.266709+00:00Z",
       "notes": "",
       "documents": [
         {
@@ -592,7 +592,7 @@
       "isMock": true,
       "sourceUrl": null,
       "confidence": 0.9,
-      "updatedAt": "2026-07-04T01:24:55.039414+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.266915+00:00Z",
       "notes": "",
       "documents": []
     }

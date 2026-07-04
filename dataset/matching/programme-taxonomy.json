@@ -5,7 +5,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:50:15.143629+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.267906+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -35,7 +35,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:50:15.143679+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.268027+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -64,7 +64,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:50:15.143704+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.268117+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -94,7 +94,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:50:15.143728+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.268206+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -106,7 +106,10 @@
             "nucléaire",
             "EPR",
             "réacteur nucléaire",
-            "gestion des déchets radioactifs"
+            "gestion des déchets radioactifs",
+            "nucléaire iranien",
+            "arme nucléaire",
+            "bombe"
           ]
         },
         {
@@ -203,7 +206,8 @@
             "constellation de satellites",
             "new space",
             "orbite",
-            "CNES"
+            "CNES",
+            "aménagement spatial"
           ]
         },
         {
@@ -239,7 +243,7 @@
       "isMock": false,
       "sourceUrl": null,
       "confidence": 1.0,
-      "updatedAt": "2026-07-03T23:50:15.143887+00:00Z",
+      "updatedAt": "2026-07-04T01:30:36.268373+00:00Z",
       "notes": "",
       "themes": [
         {
@@ -250,7 +254,8 @@
             "deeptech",
             "licorne",
             "innovation de rupture",
-            "levée de fonds"
+            "levée de fonds",
+            "start-up nation (ironique)"
           ]
         },
         {
@@ -260,6 +265,7 @@
             "pôles de compétitivité",
             "territoires d'innovation",
             "incubateur",
+            "SATT",
             "écosystème d'innovation"
           ]
         },

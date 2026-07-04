@@ -1,64 +1,56 @@
 id:ID(Mention),speaker,group,:LABEL
-an-amendement-68847,Mme Ménard,NI,ParliamentMention
-an-amendement-66544,"Mme Jourdan, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
-an-amendement-26976,Mme Bassire,LIOT,ParliamentMention
-an-amendement-27059,Mme Bassire,LIOT,ParliamentMention
-an-amendement-93360,"M. Olive, M. Vojetta, Mme Agresti-Roubache, M. Fugit, M. Ghomi, Mme Brulebois, M. Lamirault, M. Patrier-Leitus, M. Ledoux, Mme Félicie Gérard, M. Pellerin, M. Buchou, M. Abad, M. Cosson, M. Pacquot, M. Lovisolo, Mme Pouzyreff, Mme Spillebout",REN,ParliamentMention
-an-amendement-31431,Mme Pouzyreff,REN,ParliamentMention
-an-amendement-33207,"Mme Meynier-Millefert, M. Reda, M. Vuilletet, M. Vojetta",REN,ParliamentMention
-an-amendement-26307,Mme Pouzyreff,REN,ParliamentMention
-an-amendement-24354,"M. Castellani, Mme Bassire, M. Guy Bricout, M. Jean-Louis Bricout, M. Molac, M. Saint-Huile, M. Taupiac",LIOT,ParliamentMention
-an-amendement-31673,"M. Pancher, Mme Bassire, M. Castellani, Mme Descamps, M. Mathiasin, M. Molac, M. Morel-À-L'Huissier, M. Panifous, Mme Youssouffa",LIOT,ParliamentMention
 an-amendement-101636,M. Lacresse,REN,ParliamentMention
 an-amendement-103818,M. Fugit,Inconnu,ParliamentMention
 an-amendement-103926,M. Fugit,REN,ParliamentMention
 an-amendement-102447,M. Guy Bricout,LIOT,ParliamentMention
 an-amendement-103768,"M. Taite, Mme Périgault, M. Neuder, M. Kamardine, Mme Bazin-Malgras, Mme Anthoine, M. Vatin",LR,ParliamentMention
-an-amendement-102764,"Mme Louwagie, Mme Genevard, M. Gosselin, M. Ray, M. Vincendet",LR,ParliamentMention
-an-amendement-110493,"Mme Corneloup, M. Bony, M. Brigand, M. Bourgeaux, M. Descoeur, M. Cinieri, Mme Duby-Muller, Mme Gruet, M. Dubois, Mme Frédérique Meunier, M. Ray, M. Vatin",LR,ParliamentMention
-an-amendement-111648,"Mme Valentin, M. Jean-Pierre Vigier, Mme Périgault, M. Brigand, M. Taite, M. Ray",LR,ParliamentMention
-an-amendement-112931,"M. Taupiac, M. Saint-Huile, M. Panifous, Mme Froger, M. Jean-Louis Bricout",LIOT,ParliamentMention
-an-amendement-5560,M. Fugit,REN,ParliamentMention
+an-amendement-26976,Mme Bassire,LIOT,ParliamentMention
+an-amendement-27059,Mme Bassire,LIOT,ParliamentMention
+an-amendement-93360,"M. Olive, M. Vojetta, Mme Agresti-Roubache, M. Fugit, M. Ghomi, Mme Brulebois, M. Lamirault, M. Patrier-Leitus, M. Ledoux, Mme Félicie Gérard, M. Pellerin, M. Buchou, M. Abad, M. Cosson, M. Pacquot, M. Lovisolo, Mme Pouzyreff, Mme Spillebout",REN,ParliamentMention
 an-amendement-1679,Mme Ménard,NI,ParliamentMention
 an-amendement-66312,"Mme Florence Goulet, les membres du groupe Rassemblement National",RN,ParliamentMention
 an-amendement-87721,"M. Jumel, M. Chassaigne, M. Monnet",GDR,ParliamentMention
-an-amendement-68773,M. Dupont-Aignan,NI,ParliamentMention
-an-amendement-67135,Mme Bregeon,REN,ParliamentMention
-an-amendement-66518,"M. Marleix, M. Nury, Mme Blin, M. Bourgeaux, M. Cinieri, M. Dive, Mme Duby-Muller, M. Rolland, M. Jean-Pierre Vigier",LR,ParliamentMention
-an-amendement-134677,M. Lefèvre,REN,ParliamentMention
-an-amendement-103793,M. Sitzenstuhl,REN,ParliamentMention
-an-amendement-68942,"Mme Engrand, les membres du groupe Rassemblement National",RN,ParliamentMention
-an-amendement-100921,"M. Vatin, M. Emmanuel Maquet, M. Bony, M. Descoeur, Mme Petex-Levet, M. Ray, M. Taite, M. Vermorel-Marques",LR,ParliamentMention
-an-amendement-101257,"Mme Magnier, Mme Félicie Gérard, M. Jolivet, M. Plassard, M. Lamirault, M. Albertini, M. Patrier-Leitus, Mme Le Hénanff, M. Valletoux, M. Pradal, M. Larsonneur",HOR,ParliamentMention
-an-amendement-103029,"M. de Courson, M. Jean-Louis Bricout, M. Castellani, M. Molac, M. Morel-À-L'Huissier, M. Taupiac, Mme Youssouffa",LIOT,ParliamentMention
 an-amendement-93518,Mme Battistel,SOC,ParliamentMention
 an-amendement-148194,M. Villedieu,RN,ParliamentMention
 an-amendement-67163,Mme Bregeon,REN,ParliamentMention
 an-amendement-143319,"Mme Bregeon, M. Bothorel, M. Buchou, Mme Buffet, M. Descrozaille, M. Girardin, M. Izard, M. Lavergne, Mme Le Meur, Mme Le Peih, M. Marchive, Mme Marsaud, M. Midy, M. Pacquot, M. Perrot, Mme Petel, M. Rodwell, M. Vojetta",REN,ParliamentMention
-an-amendement-107801,Mme Serre,LR,ParliamentMention
-an-amendement-145277,M. Villedieu,RN,ParliamentMention
-an-amendement-145721,"Mme Laporte, les membres du groupe Rassemblement National",RN,ParliamentMention
-an-amendement-150844,"Mme Mette, M. Berta, M. Esquenet-Goxes",MODEM,ParliamentMention
-an-amendement-152310,"Mme Mette, M. Berta, M. Esquenet-Goxes",MODEM,ParliamentMention
+an-amendement-65835,"M. Leseul, Mme Jourdan, M. Delautrette, M. Bertrand Petit, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
+an-amendement-66230,"Mme Pic, Mme Battistel, M. Leseul, M. Delautrette, Mme Jourdan, M. Potier, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
+an-amendement-67138,Mme Bregeon,REN,ParliamentMention
+an-amendement-66559,"M. Meizonnet, M. de Fournas, M. de Lépinau, Mme Menache, Mme Sabatini, M. Tivoli, M. Lopez-Liguori, Mme Laporte, Mme Florence Goulet, Mme Grangier, Mme Engrand",RN,ParliamentMention
+an-amendement-144421,M. Jean-Louis Bricout,LIOT,ParliamentMention
+an-amendement-18066,"M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",RN,ParliamentMention
+an-amendement-118594,"M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",RN,ParliamentMention
+an-amendement-34204,"M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",RN,ParliamentMention
+an-amendement-126122,"M. Jean-Philippe Tanguy, les membres du groupe Rassemblement National",RN,ParliamentMention
 an-amendement-112260,"Mme Battistel, M. Potier, M. Aviragnet",SOC,ParliamentMention
 an-amendement-10836,M. Fugit,REN,ParliamentMention
 an-amendement-103961,M. Fugit,REN,ParliamentMention
 an-amendement-104076,M. Fugit,Inconnu,ParliamentMention
-an-amendement-33926,M. Fugit,REN,ParliamentMention
-an-amendement-34342,M. Fugit,REN,ParliamentMention
-an-amendement-26948,Mme Morel,MODEM,ParliamentMention
-an-amendement-67138,Mme Bregeon,REN,ParliamentMention
-an-amendement-66559,"M. Meizonnet, M. de Fournas, M. de Lépinau, Mme Menache, Mme Sabatini, M. Tivoli, M. Lopez-Liguori, Mme Laporte, Mme Florence Goulet, Mme Grangier, Mme Engrand",RN,ParliamentMention
-an-amendement-66354,"Mme Battistel, M. Leseul, M. Delautrette, Mme Pic, Mme Jourdan, M. Potier, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
-an-amendement-134418,M. Jean-René Cazeneuve,REN,ParliamentMention
-an-amendement-66259,"M. Saint-Huile, M. Mathiasin",LIOT,ParliamentMention
-an-amendement-66286,"M. Jumel, M. Chassaigne",GDR,ParliamentMention
-an-amendement-68590,"Mme Sas, Mme Laernoes, Mme Arrighi, M. Bayou, Mme Belluco, Mme Chatelain, M. Fournier, Mme Garin, M. Iordanoff, M. Julien-Laferrière, M. Lucas, Mme Pasquini, M. Peytavie, Mme Pochon, M. Raux, Mme Regol, Mme Rousseau, Mme Sebaihi, M. Taché, Mme Taillé-Polian, M. Thierry",ECO,ParliamentMention
-an-amendement-68926,"M. Jumel, M. Chassaigne, Mme Bourouaha, M. Brotherson, M. Castor, M. Chailloux, M. Dharréville, Mme Faucillon, Mme K/Bidi, M. Le Gayic, Mme Lebon, M. Lecoq, M. Maillot, M. Monnet, M. Nadeau, M. Peu, M. Rimane, M. Roussel, M. Sansu, M. Tellier, M. William, M. Wulfranc",GDR,ParliamentMention
-an-amendement-101424,"M. Dragon, M. Barthès, M. Beaurain, M. Blairy, M. Bovet, Mme Cousin, M. Grenon, M. Marchio, Mme Alexandra Masson, M. Meurin, M. Villedieu",RN,ParliamentMention
-an-amendement-65835,"M. Leseul, Mme Jourdan, M. Delautrette, M. Bertrand Petit, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
-an-amendement-66230,"Mme Pic, Mme Battistel, M. Leseul, M. Delautrette, Mme Jourdan, M. Potier, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
-an-amendement-66170,"M. Jumel, M. Chassaigne",GDR,ParliamentMention
-an-amendement-68789,"M. Leseul, Mme Battistel, Mme Pic, M. Delautrette, M. Potier, Mme Jourdan, M. Aviragnet, M. Baptiste, M. Mickaël Bouloux, M. Philippe Brun, M. Califer, M. David, M. Delaporte, M. Echaniz, M. Olivier Faure, M. Garot, M. Guedj, M. Hajjar, Mme Karamanli, Mme Keloua Hachi, M. Naillet, M. Bertrand Petit, M. Bertrand Petit, Mme Pires Beaune, Mme Rabault, Mme Rouaux, Mme Santiago, M. Saulignac, Mme Thomin, Mme Untermaier, M. Vallaud, M. Vicot, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
-an-amendement-68760,"Mme Pic, Mme Battistel, Mme Jourdan, M. Delautrette, M. Delaporte, M. Leseul, M. Potier, M. Aviragnet, M. Baptiste, M. Mickaël Bouloux, M. Philippe Brun, M. Califer, M. David, M. Echaniz, M. Olivier Faure, M. Garot, M. Guedj, M. Hajjar, Mme Karamanli, Mme Keloua Hachi, M. Naillet, M. Bertrand Petit, M. Bertrand Petit, Mme Pires Beaune, Mme Rabault, Mme Rouaux, Mme Santiago, M. Saulignac, Mme Thomin, Mme Untermaier, M. Vallaud, M. Vicot, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
-an-amendement-125703,Mme Robert-Dehault,RN,ParliamentMention
+an-amendement-68847,Mme Ménard,NI,ParliamentMention
+an-amendement-134677,M. Lefèvre,REN,ParliamentMention
+an-amendement-103793,M. Sitzenstuhl,REN,ParliamentMention
+an-amendement-101516,"M. Castellani, M. de Courson",LIOT,ParliamentMention
+an-amendement-107566,"M. Castellani, M. de Courson, Mme Bassire, M. Guy Bricout, M. Jean-Louis Bricout, M. Colombani, M. Acquaviva, Mme Froger, M. Lenormand, M. Mathiasin, M. Molac, M. Morel-À-L'Huissier, M. Naegelen, M. Pancher, M. Panifous, M. Saint-Huile, M. Serva, M. Taupiac, M. Warsmann, Mme Descamps, Mme Youssouffa",LIOT,ParliamentMention
+an-amendement-92753,"Mme Bonnivard, M. Neuder, M. Bourgeaux, M. Hetzel, M. Portier, Mme Corneloup, Mme Dalloz, Mme Gruet, M. Jean-Pierre Vigier, Mme Louwagie, Mme Valentin, Mme Bazin-Malgras, Mme Petex-Levet, M. Boucard, M. Cinieri, M. Ray, Mme Duby-Muller, Mme Anthoine, Mme Genevard, M. Marleix, M. Brigand, M. Gosselin",LR,ParliamentMention
+an-amendement-101283,Mme Anthoine,LR,ParliamentMention
+an-amendement-101282,"Mme Boyer, M. Giraud, M. Lamirault, M. Lemaire, M. Haury",REN,ParliamentMention
+an-amendement-144419,"M. Taite, M. Bony, M. Descoeur, M. Emmanuel Maquet, Mme Petex, M. Ray, M. Vatin, M. Vermorel-Marques",LR,ParliamentMention
+an-amendement-24216,"M. Dive, Mme Louwagie, M. Bourgeaux, M. Emmanuel Maquet, M. Dubois, M. Bony, M. Schellenberger, M. Bazin, M. Fabrice Brun",LR,ParliamentMention
+an-amendement-144257,Mme Bonnet,LR,ParliamentMention
+an-amendement-109641,"Mme Battistel, M. Potier, M. Aviragnet",SOC,ParliamentMention
+an-amendement-125897,le Gouvernement,Inconnu,ParliamentMention
+an-amendement-111725,Mme Bazin-Malgras,LR,ParliamentMention
+an-amendement-100452,"M. Delautrette, Mme Battistel",SOC,ParliamentMention
+an-amendement-93063,"Mme Clapot, Mme Dupont, Mme Pompili, Mme Rilhac, M. Vojetta, M. Pacquot, M. Giraud, M. Bordat, Mme Boyer",REN,ParliamentMention
+an-amendement-31156,M. Zgainski,MODEM,ParliamentMention
+an-amendement-19639,"Mme Pires Beaune, M. Baptiste, M. Mickaël Bouloux, M. Philippe Brun, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
+an-amendement-25262,"M. Delautrette, Mme Jourdan, M. Hajjar, M. Leseul, M. Naillet, M. Bertrand Petit, Mme Battistel, M. Potier, M. Garot, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
+an-amendement-24623,"Mme Battistel, M. Delautrette, Mme Jourdan, M. Hajjar, M. Leseul, M. Naillet, M. Bertrand Petit, M. Potier, M. Garot, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
+an-amendement-144237,"M. Taite, M. Bony, M. Descoeur, M. Emmanuel Maquet, Mme Petex, M. Ray, M. Vatin",LR,ParliamentMention
+an-amendement-147771,Mme Lingemann,MODEM,ParliamentMention
+an-amendement-147360,"Mme Magnier, Mme Firmin Le Bodo, M. Lamirault, Mme Félicie Gérard, M. Plassard, M. Albertini, M. Alfandari",HOR,ParliamentMention
+an-amendement-2630,M. Favennec-Bécot,HOR,ParliamentMention
+an-amendement-142583,"Mme Boyer, M. Armand, Mme Métayer, Mme Decodts, M. Giraud, Mme Tiegna, M. Larsonneur, M. Haury",REN,ParliamentMention
+an-amendement-142790,"Mme Jourdan, Mme Karamanli, les membres du groupe Socialistes et apparentés",SOC,ParliamentMention
+an-amendement-144271,Mme Bonnet,LR,ParliamentMention

@@ -20,6 +20,7 @@ st.subheader("0. Audit de Données & Sources")
 
 report_path = "data/quality_report.json"
 sources_path = "data/sources.json"
+audit_recommendations_path = "data/audit_recommendations.json"
 
 col_q1, col_q2 = st.columns(2)
 
@@ -31,10 +32,35 @@ with col_q1:
         
         st.write("Fichiers front contenant des mocks :", len(qr.get("front_files_with_mocks", [])))
         st.write("Champs critiques manquants :", sum(qr.get("missing_critical_fields", {}).values()))
+
+        missing_fields = qr.get("missing_critical_fields", {})
+        missing_urls = int(missing_fields.get("missing_any_url", 0) or 0)
+        total_records = sum(int(value or 0) for value in qr.get("volumes", {}).values())
+        missing_url_rate = missing_urls / total_records if total_records else 0
+        st.metric("Taux de provenance URL manquante", f"{missing_url_rate:.1%}", f"{missing_urls} enregistrements")
+        if missing_urls > 0:
+            st.error("Des enregistrements n'ont pas encore de `sourceUrl`, `datasetUrl` ou `resourceUrl` complet.")
+        else:
+            st.success("Traçabilité URL complète sur les enregistrements contrôlés.")
         
         recs_non_traitees = qr.get("unresolved_audit_recommendations", 0)
         if recs_non_traitees > 0:
             st.error(f"⚠️ {recs_non_traitees} recommandation(s) Cour des Comptes non traitées !")
+            if os.path.exists(audit_recommendations_path):
+                with open(audit_recommendations_path, "r", encoding="utf-8") as f:
+                    audit_recommendations = json.load(f)
+                pending_recommendations = [
+                    rec
+                    for rec in audit_recommendations
+                    if rec.get("status") in {"to_review", "to_validate", "open", None}
+                ]
+                if pending_recommendations:
+                    with st.expander("Voir les recommandations Cour des comptes à traiter", expanded=True):
+                        st.dataframe(
+                            pd.DataFrame(pending_recommendations),
+                            use_container_width=True,
+                            hide_index=True,
+                        )
         else:
             st.success("✅ Aucune recommandation d'audit en attente.")
 

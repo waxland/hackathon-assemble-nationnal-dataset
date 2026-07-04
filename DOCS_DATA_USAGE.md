@@ -1,0 +1,58 @@
+# Docs Data Usage - URLs recherchees
+
+Document court de tracabilite des URLs consultees ou resolues pour enrichir le socle France 2030.
+
+Regle d'usage : chaque donnee issue de ces sources doit conserver au minimum `sourceUrl`, `datasetUrl`, `resourceUrl`, `sourceDatasetId`, `sourceResourceId` quand disponible, et `sourceRetrievedAt`.
+
+---
+
+## Synthese rapide
+
+| Source | URLs / ressources | Elements recuperes ou reperes | JSON cibles |
+|---|---|---|---|
+| SGPI - strategies nationales d'acceleration | `https://www.info.gouv.fr/organisation/secretariat-general-pour-l-investissement-sgpi/strategies-d-acceleration-pour-l-innovation` | Source exogene de cadrage : liste des strategies nationales, objectifs, themes, liens possibles avec France 2030. | `acceleration_strategies.json`, `correlations.json` |
+| SGPI - bilan financier France 2030 / PIA | `https://www.info.gouv.fr/upload/media/mixed/0001/17/e92490502bafcbdf2bedde2d0f6961d3f2bcf924.pdf` | PDF identifie comme bilan financier T1 2026 : fonds alloues aux SNA, vecteurs de distribution, fonds par programmes, engagements, contractualisations, decaissements. | `france2030_financial_execution.json`, `strategy_funding_allocations.json`, `strategy_distribution_vectors.json` |
+| Budget.gouv - PLF 2026 | `https://www.budget.gouv.fr/documentation/documents-budgetaires-lois/exercice-2026/projet-loi-finances-les/plf-2026-donnees-chiffrees` | Page source officielle des donnees chiffrees PLF 2026. Page protegee cote scraping, mais fichiers XLS directs resolus. | `budget_lines.json`, `programme_pluriannual_expenses.json`, `programs.json` |
+| PLF 2026 - depenses destination/nature | `https://www.budget.gouv.fr/documentation/file-download/31618` | XLS resolu : `PLF26 - Depenses 2026 du BG et des BA selon nomenclatures destination et nature.xls`. Source endogene pour les credits votes par programme/action/nature. | `budget_lines.json` |
+| PLF 2026 - depenses pluriannuelles | `https://www.budget.gouv.fr/documentation/file-download/31639` | XLS resolu : `PLF26 - Depenses pluriannuelles par titre des programmes.xls`. Source endogene pour la trajectoire pluriannuelle par programme/titre. | `programme_pluriannual_expenses.json` |
+| Google Sheet utilisateur PLF 2026 | `https://docs.google.com/spreadsheets/d/1AyxTVL4296XFw-HIz0iI8RdJWjHPmWQ5c9Hk3IGHUIY/edit?usp=sharing` | Lien fourni comme support de lecture. A ne pas utiliser comme source canonique si budget.gouv suffit. | Aucun JSON canonique directement |
+| ADEME - projets finances | `https://data.ademe.fr/data-fair/api/v1/datasets/programmes-detat-projets-finances-par-lademe` | Dataset confirme : `Programmes d'Etat - Projets finances par l'ADEME`, 2645 lignes. Champs reperes : `dossier_code`, `nom_du_projet`, `dossier_objet`, `pia_france_2030_reporting`, `axe_strategique_objet_reporting`, `aap_objet_reporting`, `date_contractualisation`, `date_engagement_juridique`, `duree_projet_en_mois`, `tiers_coordinateur`, `nombre_de_tiers_ej`, `montant_dpm`. | `projects.json`, `project_beneficiaries.json`, `project_funding_lines.json` |
+| ADEME - projets finances raw/lines | `https://data.ademe.fr/data-fair/api/v1/datasets/programmes-detat-projets-finances-par-lademe/raw` ; `https://data.ademe.fr/data-fair/api/v1/datasets/programmes-detat-projets-finances-par-lademe/lines` | Ressources a utiliser pour ingestion tabulaire. | `projects.json`, `project_beneficiaries.json` |
+| ADEME - recherche vue agregee | `https://data.ademe.fr/data-fair/api/v1/datasets/projets-de-recherche-ademe-vue-agregee-depuis-2021` | Dataset confirme : 654 lignes. Champs reperes : `callid`, `callprogrammeid`, `callprogramme`, `callprogrammetype`, `callopening_date`, `callending_date`, `identifier`, `title`, `keywords`, `budgetamount`, `budgetgrant`, `start_date`. | `projects.json`, `project_beneficiaries.json` |
+| ADEME - recherche vue detaillee | `https://data.ademe.fr/data-fair/api/v1/datasets/projets-de-recherche-ademe-vue-detaillee-depuis-2021` | Dataset confirme : 3793 lignes. Champs reperes : `callid`, `callprogrammeid`, `callprogramme`, `callprogrammetype`, `callacronym`, `identifier`, `acronym`, `title`, `context`, `description`. | `projects.json`, `project_beneficiaries.json` |
+| ANR - cofinancements France 2030 | `https://dataanr.opendatasoft.com/api/explore/v2.1/catalog/datasets/public-france2030-indicateurs-cofinancements/records` | API Opendatasoft confirmee avec `dataset_id: public-france2030-indicateurs-cofinancements`. Source pour indicateurs de cofinancement France 2030. | `anr_cofinancing_indicators.json` |
+| ANR - projets IA France 2030 | `https://dataanr.opendatasoft.com/api/explore/v2.1/catalog/datasets/projetsia/records` | API Opendatasoft confirmee avec `dataset_id: projetsia`. Source projet ANR/IA France 2030 a croiser avec PEPR/themes si explicitement expose. | `anr_france2030_projects.json`, `projects.json` |
+| CDC - demonstrateurs ville durable | `https://www.data.gouv.fr/datasets/liste-des-laureats-demonstrateurs-ville-durable-france-2030` | Dataset data.gouv confirme : `636c418c159330f20df64c85`. Ressources CSV, JSON, GeoJSON, SHP identifiees. | `projects.json`, `territories.json`, `project_beneficiaries.json` |
+| CDC - demonstrateurs CSV | `https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/liste-des-laureats/exports/csv?use_labels=true` | Ressource CSV : `ce6c67d2-7539-4e2a-89d5-8a8df72ac1c8`, liste des laureats. | `projects.json`, `territories.json` |
+| CDC - demonstrateurs JSON | `https://opendata.caissedesdepots.fr/api/explore/v2.1/catalog/datasets/liste-des-laureats/exports/json` | Ressource JSON : `a691a628-a524-43ff-83b6-53e77bbbae8f`, alternative a la ressource CSV. | `projects.json`, `territories.json` |
+| DGE / ANCT - sites cles en main | `https://www.data.gouv.fr/datasets/les-sites-cles-en-main-france-2030` | Dataset data.gouv confirme : `662a4bc173fcdf4bab4ef1b6`. Ressources CSV et PDF metadata identifiees. | `industrial_sites.json`, `territories.json`, `correlations.json` |
+| DGE / ANCT - sites cles CSV | `https://static.data.gouv.fr/resources/les-sites-cles-en-main-france-2030/20250924-160343/liste-sites-cles-en-main-com2025-20250919.csv` | Ressource CSV : `5f2e1413-552a-43fc-9669-74169cbca87d`, communes laureates sites cles en main, COG 2025. | `industrial_sites.json`, `territories.json` |
+| DGE / ANCT - metadata sites cles | `https://static.data.gouv.fr/resources/les-sites-cles-en-main-france-2030/20250924-160404/liste-sites-cles-en-main-metadata.pdf` | Ressource PDF metadata : `8459ef6c-0476-44e0-8bc7-f4cfbf891269`, documentation du fichier. | `sources.json`, `industrial_sites.json` |
+| i-Nov - laureats concours innovation | `https://www.data.gouv.fr/datasets/laureats-du-concours-dinnovation-i-nov` | Dataset data.gouv confirme : `686bade5bf26c9a85acf7a77`. Ressources CSV, JSON, GeoJSON, SHP identifiees. | `projects.json`, `project_beneficiaries.json` |
+| i-Nov CSV | `https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-laureats-concours-i-nov/exports/csv?use_labels=true` | Ressource CSV : `e2ef6aac-3c7d-42d2-9097-f705187c8c76`, laureats i-Nov. | `projects.json`, `project_beneficiaries.json` |
+| i-Nov JSON | `https://data.enseignementsup-recherche.gouv.fr/api/explore/v2.1/catalog/datasets/fr-esr-laureats-concours-i-nov/exports/json` | Ressource JSON : `56f305cc-b89f-4236-b630-e1fee17e0b02`, alternative a la ressource CSV. | `projects.json`, `project_beneficiaries.json` |
+| Info.gouv - laureats France 2030 | `https://www.info.gouv.fr/grand-dossier/france-2030/laureats?segmented-laureate=laureate-button-list` | Source fournie pour l'annuaire public des laureats France 2030. A traiter comme source de restitution publique, potentiellement partielle si aucun export tabulaire stable n'est expose. | `projects.json`, `project_beneficiaries.json` |
+| Bpifrance - recueil AAP France 2030 | `https://www.bpifrance.fr/sites/default/files/inline-files/Recueil%20AAP%20France%202030%20Bpifrance.pdf` | PDF fourni pour documenter les AAP Bpifrance. Usage documentaire/descriptif, pas source exhaustive de montants si ceux-ci ne sont pas tabulaires. | `calls_for_projects.json`, `calls_for_projects_sources.json` |
+| MCP Koumoul Open Data | `https://opendata.koumoul.com/mcp-server/datasets/mcp` | Endpoint MCP ajoute a la configuration Codex sous `koumoul_opendata`. Pas une source metier directe tant qu'aucun dataset n'est interroge via ce MCP. | Aucun JSON metier directement |
+
+---
+
+## Sources Cour des comptes deja referencees
+
+| Source | URLs / ressources | Elements recuperes ou reperes | JSON cibles |
+|---|---|---|---|
+| Cour des comptes - NEB 2024 France 2030 | `https://www.ccomptes.fr/sites/default/files/2025-04/NEB-2024-Investir-pour-France-2030.pdf` | Document d'audit budgetaire : gouvernance, execution, suivi financier, retours financiers, controle interne. Metadata ajoutee dans `audit_documents.json`. | `audit_documents.json`, puis `audit_findings.json`, `audit_recommendations.json` |
+| Cour des comptes - NEB 2025 France 2030 | `https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Investir-pour-France-2030.pdf` | Document d'audit budgetaire : engagements et decaissements au 31/12/2025, avancement PIA 3 / France 2030, evaluation, circuit financier. Metadata ajoutee dans `audit_documents.json`. | `audit_documents.json`, puis `audit_findings.json`, `audit_recommendations.json` |
+| Cour des comptes - decarbonation industrie | `https://www.ccomptes.fr/fr/publications/les-aides-la-decarbonation-de-lindustrie-du-plan-de-relance-et-de-france-2030` ; `https://www.ccomptes.fr/sites/default/files/2026-03/20260311-Aides-a-decarbonation-de-l-industrie-du-plan-de-relance-et-de-France-2030.pdf` | Rapport thematique : ciblage des aides, effets investissement/innovation/emissions, recommandations de suivi. Metadata ajoutee dans `audit_documents.json`. | `audit_documents.json`, puis `audit_findings.json`, `audit_recommendations.json` |
+| Cour des comptes - AAP PIA4 culture / ICC | `https://www.ccomptes.fr/fr/publications/les-appels-projets-du-4e-programme-dinvestissement-davenir-pia4-sur-lexperience` ; `https://www.ccomptes.fr/sites/default/files/2025-10/20251015-S2025-1409-Appels-a-projets-4e-programme-investissement-avenir-PIA4.pdf` | Observations definitives : gouvernance AAP, transparence, controle interne, suivi d'execution, viabilite des porteurs. Metadata ajoutee dans `audit_documents.json`. | `audit_documents.json`, puis `audit_findings.json`, `audit_recommendations.json` |
+| Cour des comptes - agences de programmes | `https://www.ccomptes.fr/fr/publications/les-agences-de-programmes` ; `https://www.ccomptes.fr/sites/default/files/2025-11/20251119-Agences%20de%20programmes.pdf` | Rapport sur PEPR/agences de programmes : gouvernance recherche dirigee, enveloppe France 2030, frais de gestion, lien recherche/innovation. Metadata ajoutee dans `audit_documents.json`. | `audit_documents.json`, puis `audit_findings.json`, `audit_recommendations.json` |
+
+---
+
+## Points d'attention
+
+- Les sources PLF 2026 sont **endogenes** : elles correspondent aux credits votes ou presentes dans le PLF.
+- Les strategies nationales d'acceleration sont **exogenes** : elles decrivent des objectifs et axes d'action, pas un vote budgetaire direct par les deputes.
+- Le PDF SGPI de bilan financier est une source d'**execution / avancement**, pas une source de credits votes.
+- Les sources projet-par-projet doivent rester separees par operateur : ADEME, ANR, CDC, DGE/ANCT, Bpifrance.
+- Si une source n'expose pas de montant tabulaire explicite, ne pas inventer de montant. Utiliser `null`, `dataCompleteness: "partial"` et `validationStatus: "to_validate"`.
