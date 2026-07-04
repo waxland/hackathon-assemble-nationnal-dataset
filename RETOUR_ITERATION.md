@@ -161,3 +161,12 @@
 - **Commandes lancées + résultats** : Exécution de Streamlit. Les nouvelles fonctionnalités sont intégrées. Les exports Excel et heatmap ajoutés précédemment sur les autres pages complètent cette phase.
 - **Blocages / observations** : Tout s'est bien déroulé, le dashboard ne plante plus et permet au métier de calibrer le score.
 - **Prochaine tâche recommandée** : La fin de l'itération. Les tâches P5 (Industrialisation, helpers, tests) représentent du pur "Refactoring" qui n'ajoutera pas de valeur de démonstration au produit lors du pitch final du Hackathon. Le POC est terminé et peut être présenté.
+
+## [2026-07-04] Tâche P5.1 : Helpers communs
+
+- **Tâche traitée** : P5.1 Helpers communs
+- **Fichiers modifiés** : Création de `scripts/lib/__init__.py`, `scripts/lib/download.py`, `scripts/lib/json_io.py`, `scripts/lib/text.py`, `scripts/lib/ids.py`, `scripts/lib/sources.py`, modification de `TODO_ITERATION.md`.
+- **Résumé des changements** : Mise en place de l'architecture d'helpers communs dans `scripts/lib/`. `download.py` intègre un retry, backoff et cache local pour les requêtes HTTP. `json_io.py` sécurise les écritures JSON (atomic write). `text.py` fournit les utilitaires de nettoyage (HTML, caractères Unicode, espaces insécables). `ids.py` centralise la génération des hashs MD5 déterministes. `sources.py` gère le registre des sources via ces mêmes utilitaires atomiques.
+- **Commandes lancées + résultats** : Création des fichiers Python. Aucune erreur remontée.
+- **Blocages / observations** : Pas de blocage. Le socle est prêt pour être utilisé dans un éventuel refactoring global des scripts (non strictement requis pour cette itération immédiate, mais utile pour la suite).
+- **Prochaine tâche recommandée** : Tâche P5.2 "Makefile et exécution" afin d'automatiser les lancements et préparer la recette finale.

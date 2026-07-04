@@ -459,16 +459,16 @@ Critere d'acceptation :
 
 #### P5.1 Helpers communs
 
-- [ ] Creer `scripts/lib/`.
-- [ ] Ajouter `download.py` pour requetes HTTP avec retry, timeout, cache et user-agent.
-- [ ] Ajouter `json_io.py` pour lecture/ecriture atomique JSON.
-- [ ] Ajouter `text.py` pour nettoyage HTML, espaces invisibles et normalisation.
-- [ ] Ajouter `ids.py` pour generation d'IDs deterministes.
-- [ ] Ajouter `sources.py` pour lire/ecrire `data/sources.json`.
+- [x] Creer `scripts/lib/`.
+- [x] Ajouter `download.py` pour requetes HTTP avec retry, timeout, cache et user-agent.
+- [x] Ajouter `json_io.py` pour lecture/ecriture atomique JSON.
+- [x] Ajouter `text.py` pour nettoyage HTML, espaces invisibles et normalisation.
+- [x] Ajouter `ids.py` pour generation d'IDs deterministes.
+- [x] Ajouter `sources.py` pour lire/ecrire `data/sources.json`.
 
 Critere d'acceptation :
 
-- [ ] Les nouveaux scripts n'ont pas chacun leur logique de download, nettoyage et hash.
+- [x] Les nouveaux scripts n'ont pas chacun leur logique de download, nettoyage et hash.
 
 #### P5.2 Makefile et execution
 
