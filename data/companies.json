@@ -17,7 +17,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "1 RUE PIERRE FONTAINE 91000 EVRY-COURCOURONNES",
+    "codePostalSiege": "91000",
+    "communeCodeSiege": "91228",
+    "communeSiege": "EVRY-COURCOURONNES",
+    "departementSiege": "91",
+    "regionSiege": "11",
+    "latitude": 48.621031736,
+    "longitude": 2.4516456704,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=534948617&per_page=1"
   },
   {
     "companyId": "siren-788658946",
@@ -37,7 +46,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "13-17 13 RUE PAGES 92150 SURESNES",
+    "codePostalSiege": "92150",
+    "communeCodeSiege": "92073",
+    "communeSiege": "SURESNES",
+    "departementSiege": "92",
+    "regionSiege": "11",
+    "latitude": 48.8718437865043,
+    "longitude": 2.22960694643595,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=788658946&per_page=1"
   },
   {
     "companyId": "siren-794598813",
@@ -57,7 +75,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "54 QUAI CHARLES PASQUA 92300 LEVALLOIS-PERRET",
+    "codePostalSiege": "92300",
+    "communeCodeSiege": "92044",
+    "communeSiege": "LEVALLOIS-PERRET",
+    "departementSiege": "92",
+    "regionSiege": "11",
+    "latitude": 48.900771302,
+    "longitude": 2.2849148026,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=794598813&per_page=1"
   },
   {
     "companyId": "siren-831241179",
@@ -77,7 +104,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "3 RUE GALVANI 91300 MASSY",
+    "codePostalSiege": "91300",
+    "communeCodeSiege": "91377",
+    "communeSiege": "MASSY",
+    "departementSiege": "91",
+    "regionSiege": "11",
+    "latitude": 48.7226329941574,
+    "longitude": 2.27211513545958,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=831241179&per_page=1"
   },
   {
     "companyId": "siren-849441522",
@@ -97,7 +133,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "24 RUE EMILE BAUDOT 91120 PALAISEAU",
+    "codePostalSiege": "91120",
+    "communeCodeSiege": "91477",
+    "communeSiege": "PALAISEAU",
+    "departementSiege": "91",
+    "regionSiege": "11",
+    "latitude": 48.7183131273681,
+    "longitude": 2.26556822934781,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=849441522&per_page=1"
   },
   {
     "companyId": "siren-850415290",
@@ -117,7 +162,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "66 BOULEVARD DE BERLIN 44000 NANTES",
+    "codePostalSiege": "44000",
+    "communeCodeSiege": "44109",
+    "communeSiege": "NANTES",
+    "departementSiege": "44",
+    "regionSiege": "52",
+    "latitude": 47.2162327421589,
+    "longitude": -1.5405670423136,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=850415290&per_page=1"
   },
   {
     "companyId": "siren-888047792",
@@ -137,7 +191,16 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "2-4 2 RUE CHARLES BERTIER 38000 GRENOBLE",
+    "codePostalSiege": "38000",
+    "communeCodeSiege": "38185",
+    "communeSiege": "GRENOBLE",
+    "departementSiege": "38",
+    "regionSiege": "84",
+    "latitude": 45.2005590269413,
+    "longitude": 5.71060501367283,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=888047792&per_page=1"
   },
   {
     "companyId": "siren-952418325",
@@ -157,6 +220,15 @@
       "424"
     ],
     "source": "French Tech 2030 / France 2030 Lauréat",
-    "confidenceScore": 1.0
+    "confidenceScore": 1.0,
+    "adresseSiege": "15 RUE DES HALLES 75001 PARIS",
+    "codePostalSiege": "75001",
+    "communeCodeSiege": "75101",
+    "communeSiege": "PARIS",
+    "departementSiege": "75",
+    "regionSiege": "11",
+    "latitude": 48.860171758,
+    "longitude": 2.3461942259,
+    "geoSourceUrl": "https://recherche-entreprises.api.gouv.fr/search?q=952418325&per_page=1"
   }
 ]

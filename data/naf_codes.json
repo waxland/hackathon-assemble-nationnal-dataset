@@ -1,51 +1,51 @@
 [
   {
-    "nafCode": "27.20Z",
-    "nafLabel": "Inconnu",
-    "relatedThemeIds": [
-      "4.-vehicules-electriques-et-hybrides"
-    ],
-    "confidenceScore": 0.9
-  },
-  {
     "nafCode": "10.89Z",
-    "nafLabel": "Inconnu",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "relatedThemeIds": [
       "6.-alimentation-saine-durable-et-tracable"
     ],
     "confidenceScore": 0.9
   },
   {
-    "nafCode": "82.11Z",
-    "nafLabel": "Inconnu",
+    "nafCode": "71.12B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "relatedThemeIds": [
-      "levier-:-composants-cloud-ia-et-quantique"
+      "5.-premier-avion-bas-carbone",
+      "levier-:-composants-cloud-ia-et-quantique",
+      "2.-leader-de-l-hydrogene-vert"
     ],
     "confidenceScore": 0.9
   },
   {
-    "nafCode": "71.12B",
-    "nafLabel": "Inconnu",
+    "nafCode": "62.01Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "relatedThemeIds": [
-      "levier-:-composants-cloud-ia-et-quantique",
-      "2.-leader-de-l-hydrogene-vert",
-      "5.-premier-avion-bas-carbone"
+      "7.-production-de-biomedicaments-et-dispositifs-medicaux"
     ],
     "confidenceScore": 0.9
   },
   {
     "nafCode": "74.90B",
-    "nafLabel": "Inconnu",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "relatedThemeIds": [
       "9.-nouvelle-aventure-spatiale"
     ],
     "confidenceScore": 0.9
   },
   {
-    "nafCode": "62.01Z",
-    "nafLabel": "Inconnu",
+    "nafCode": "27.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "relatedThemeIds": [
-      "7.-production-de-biomedicaments-et-dispositifs-medicaux"
+      "4.-vehicules-electriques-et-hybrides"
+    ],
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "82.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "relatedThemeIds": [
+      "levier-:-composants-cloud-ia-et-quantique"
     ],
     "confidenceScore": 0.9
   }

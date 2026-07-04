@@ -196,30 +196,30 @@ Critere d'acceptation :
 
 #### P0.4 SQLite incremental et non destructif
 
-- [ ] Supprimer le `os.remove(db_path)` de `scripts/11_export_to_sqlite.py`.
-- [ ] Garder `CREATE TABLE IF NOT EXISTS`.
-- [ ] Utiliser `INSERT OR REPLACE` sur toutes les tables.
-- [ ] Ajouter une option explicite `--reset` si une reconstruction totale est necessaire.
-- [ ] Ajouter une table `ingestion_runs` avec `runId`, `startedAt`, `completedAt`, `status`, `sourceFiles`.
-- [ ] Ne pas perdre l'historique si un JSON intermediaire est temporairement absent.
+- [x] Supprimer le `os.remove(db_path)` de `scripts/11_export_to_sqlite.py`.
+- [x] Garder `CREATE TABLE IF NOT EXISTS`.
+- [x] Utiliser `INSERT OR REPLACE` sur toutes les tables.
+- [x] Ajouter une option explicite `--reset` si une reconstruction totale est necessaire.
+- [x] Ajouter une table `ingestion_runs` avec `runId`, `startedAt`, `completedAt`, `status`, `sourceFiles`.
+- [x] Ne pas perdre l'historique si un JSON intermediaire est temporairement absent.
 
 Critere d'acceptation :
 
-- [ ] Relancer `scripts/11_export_to_sqlite.py` deux fois ne supprime pas les tables ni les donnees valides.
-- [ ] Une reconstruction destructive n'est possible que via une option explicite.
+- [x] Relancer `scripts/11_export_to_sqlite.py` deux fois ne supprime pas les tables ni les donnees valides.
+- [x] Une reconstruction destructive n'est possible que via une option explicite.
 
 #### P0.5 Export Neo4j realigne
 
-- [ ] Modifier `scripts/12_export_graph_neo4j.py` pour utiliser `denominationUniteLegale` comme nom entreprise.
-- [ ] Modifier `scripts/12_export_graph_neo4j.py` pour utiliser `activitePrincipaleUniteLegale` comme code NAF.
-- [ ] Echaper proprement les virgules, guillemets et retours ligne via `csv.writer`.
-- [ ] Conserver `weight:float` depuis `confidenceScore`.
-- [ ] Ajouter les nouveaux types de noeuds si crees : `Project`, `Territory`, `PatentFamily`, `SourceDataset`.
+- [x] Modifier `scripts/12_export_graph_neo4j.py` pour utiliser `denominationUniteLegale` comme nom entreprise.
+- [x] Modifier `scripts/12_export_graph_neo4j.py` pour utiliser `activitePrincipaleUniteLegale` comme code NAF.
+- [x] Echaper proprement les virgules, guillemets et retours ligne via `csv.writer`.
+- [x] Conserver `weight:float` depuis `confidenceScore`.
+- [x] Ajouter les nouveaux types de noeuds si crees : `Project`, `Territory`, `PatentFamily`, `SourceDataset`.
 
 Critere d'acceptation :
 
-- [ ] `make export-neo4j` fonctionne avec le schema SQLite courant.
-- [ ] Les CSV produits sont importables dans Neo4j ou Gephi sans correction manuelle.
+- [x] `make export-neo4j` fonctionne avec le schema SQLite courant.
+- [x] Les CSV produits sont importables dans Neo4j ou Gephi sans correction manuelle.
 
 ---
 

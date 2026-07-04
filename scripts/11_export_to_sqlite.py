@@ -1,6 +1,9 @@
 import json
 import os
 import sqlite3
+import argparse
+from datetime import datetime, timezone
+import uuid
 
 def init_db(db_path):
     conn = sqlite3.connect(db_path)
@@ -95,6 +98,13 @@ def init_db(db_path):
         evidenceSource TEXT,
         validationStatus TEXT
     );
+    CREATE TABLE IF NOT EXISTS ingestion_runs (
+        runId TEXT PRIMARY KEY,
+        startedAt TEXT,
+        completedAt TEXT,
+        status TEXT,
+        sourceFiles TEXT
+    );
     """)
     conn.commit()
     return conn
@@ -117,32 +127,66 @@ def load_json(filepath):
             return json.load(f)
     return []
 
+def log_ingestion_run(conn, run_id, started_at, completed_at, status, source_files):
+    cursor = conn.cursor()
+    cursor.execute("""
+        INSERT INTO ingestion_runs (runId, startedAt, completedAt, status, sourceFiles)
+        VALUES (?, ?, ?, ?, ?)
+    """, (run_id, started_at, completed_at, status, json.dumps(source_files)))
+    conn.commit()
+
 def main():
+    parser = argparse.ArgumentParser(description="Export JSON data to SQLite")
+    parser.add_argument("--reset", action="store_true", help="Recreate the database from scratch")
+    args = parser.parse_args()
+
     print("🚀 Upsert des JSON vers la base de données SQLite...")
     db_path = "data/france2030.sqlite"
-    # Pour s'assurer de bien modifier le schéma si besoin (car on vient d'ajouter des colonnes)
-    if os.path.exists(db_path):
+    
+    if args.reset and os.path.exists(db_path):
+        print("Suppression de la base existante (--reset)...")
         os.remove(db_path)
-    conn = init_db(db_path)
+        
+    run_id = str(uuid.uuid4())
+    started_at = datetime.now(timezone.utc).isoformat()
+    source_files_loaded = []
     
-    insert_data(conn, "programs", load_json("data/programs.json"), ["programmeCode", "programmeName", "missionName"])
-    insert_data(conn, "budget_lines", load_json("data/budget_lines.json"), ["id", "programmeCode", "expenseCategoryCode", "expenseCategoryName", "amount2024", "amount2025", "amount2026", "sourceUrl", "sourceDocument", "qualityStatus"])
-    insert_data(conn, "themes", load_json("data/themes.json"), ["themeId", "themeName", "confidenceScore"])
-    insert_data(conn, "keywords", load_json("data/keywords.json"), ["keywordId", "label", "type", "relatedThemeId", "confidenceScore"])
-    insert_data(conn, "calls_for_projects", load_json("data/calls_for_projects.json"), ["callId", "title", "description", "operator", "openingDate", "closingDate", "sourceUrl", "themeId"])
-    insert_data(conn, "parliament_mentions", load_json("data/parliament_mentions.json"), ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore"])
-    insert_data(conn, "naf_codes", load_json("data/naf_codes.json"), ["nafCode", "nafLabel", "confidenceScore"])
-    
-    insert_data(conn, "companies", load_json("data/companies.json"), [
-        "companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale",
-        "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale",
-        "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"
-    ])
-    
-    insert_data(conn, "correlations", load_json("data/correlations.json"), ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"])
-    
-    conn.close()
-    print(f"✅ Upsert SQLite terminé : {db_path}")
+    try:
+        conn = init_db(db_path)
+        
+        files_and_tables = [
+            ("data/programs.json", "programs", ["programmeCode", "programmeName", "missionName"]),
+            ("data/budget_lines.json", "budget_lines", ["id", "programmeCode", "expenseCategoryCode", "expenseCategoryName", "amount2024", "amount2025", "amount2026", "sourceUrl", "sourceDocument", "qualityStatus"]),
+            ("data/themes.json", "themes", ["themeId", "themeName", "confidenceScore"]),
+            ("data/keywords.json", "keywords", ["keywordId", "label", "type", "relatedThemeId", "confidenceScore"]),
+            ("data/calls_for_projects.json", "calls_for_projects", ["callId", "title", "description", "operator", "openingDate", "closingDate", "sourceUrl", "themeId"]),
+            ("data/parliament_mentions.json", "parliament_mentions", ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore"]),
+            ("data/naf_codes.json", "naf_codes", ["nafCode", "nafLabel", "confidenceScore"]),
+            ("data/companies.json", "companies", ["companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale", "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale", "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"]),
+            ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"])
+        ]
+        
+        for filepath, table, keys in files_and_tables:
+            data = load_json(filepath)
+            if data:
+                insert_data(conn, table, data, keys)
+                source_files_loaded.append(filepath)
+            else:
+                print(f"⚠️ Fichier {filepath} ignoré car vide ou inexistant.")
+                
+        completed_at = datetime.now(timezone.utc).isoformat()
+        log_ingestion_run(conn, run_id, started_at, completed_at, "success", source_files_loaded)
+        
+        conn.close()
+        print(f"✅ Upsert SQLite terminé : {db_path} (Run ID: {run_id})")
+        
+    except Exception as e:
+        print(f"❌ Erreur lors de l'upsert : {e}")
+        completed_at = datetime.now(timezone.utc).isoformat()
+        if 'conn' in locals():
+            log_ingestion_run(conn, run_id, started_at, completed_at, f"error: {str(e)}", source_files_loaded)
+            conn.close()
+        raise
 
 if __name__ == "__main__":
     main()
