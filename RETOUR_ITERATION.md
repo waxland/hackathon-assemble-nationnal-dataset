@@ -107,3 +107,12 @@
 - **Commandes lancées + résultats** : Reset de SQLite pour valider la nouvelle colonne `dataCompleteness`. Le champ est bien intégré au modèle de données.
 - **Blocages / observations** : Toujours ce blocage avec l'anti-bot de Cloudflare. Le fait de marquer explicitement le jeu de données comme un échantillon est une très bonne pratique évitant d'induire en erreur le frontend (Minerve).
 - **Prochaine tâche recommandée** : P2.3 Entreprises et SIREN
+
+## [2026-07-04] Tâche P2.3 : Fiabilisation des Entreprises et SIREN
+
+- **Tâche traitée** : P2.3 Entreprises et SIREN
+- **Fichiers modifiés** : `scripts/09_fetch_companies.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Refonte de l'ingestion INSEE Sirene. Au lieu d'utiliser une liste hardcodée, le script lit désormais `project_beneficiaries.json` (issu de l'ADEME et de la CDC) pour extraire la liste complète des SIREN liés aux subventions. Le script scanne ensuite les 28 millions de lignes de la Base Sirene en streaming (en mémoire) et ne conserve que les attributs des bénéficiaires exacts.
+- **Commandes lancées + résultats** : Exécution du script 09. 747 entreprises sur 748 ont été identifiées formellement avec leur SIREN dans le fichier Open Data de l'INSEE ! Les codes NAF et dates de création sont rattachés.
+- **Blocages / observations** : L'adresse siège précise ("AdresseUniteLegale") n'est pas présente dans le fichier *StockUniteLegale* (qui gère l'entité mère). Pour avoir la commune de l'entreprise, il faudrait croiser avec un autre fichier de 1.5 Go (*StockEtablissement*), ce qui ralentirait énormément l'ingestion pour le POC actuel. La commune est donc définie sur "Inconnue".
+- **Prochaine tâche recommandée** : P2.4 Taxonomie et mapping métier

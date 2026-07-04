@@ -345,17 +345,17 @@ Critere d'acceptation :
 
 #### P2.3 Entreprises et SIREN
 
-- [ ] Remplacer progressivement la liste hardcodee de SIREN dans `09_fetch_companies.py` par des SIREN issus des sources laureats/projets.
-- [ ] Conserver les 8 entreprises actuelles comme echantillon de reference.
-- [ ] Ajouter une table `company_aliases.json` si les sources utilisent des noms differents.
-- [ ] Ajouter une reconciliation prudente nom -> SIREN avec score et statut de validation.
-- [ ] Ajouter l'adresse siege ou commune si disponible dans Sirene pour enrichir la dimension territoriale.
-- [ ] Ajouter `nafLabel` depuis une source officielle NAF si possible.
+- [x] Remplacer progressivement la liste hardcodee de SIREN dans `09_fetch_companies.py` par des SIREN issus des sources laureats/projets.
+- [x] Conserver les 8 entreprises actuelles comme echantillon de reference.
+- [x] Ajouter une table `company_aliases.json` si les sources utilisent des noms differents (Non nécessaire : on filtre purement sur les SIREN officiels).
+- [x] Ajouter une reconciliation prudente nom -> SIREN avec score et statut de validation.
+- [x] Ajouter l'adresse siege ou commune si disponible dans Sirene pour enrichir la dimension territoriale.
+- [x] Ajouter `nafLabel` depuis une source officielle NAF si possible.
 
 Critere d'acceptation :
 
-- [ ] Une entreprise reliee a un projet a une preuve de provenance autre qu'une liste hardcodee.
-- [ ] Les reconciliations incertaines ne sont pas marquees `validated`.
+- [x] Une entreprise reliee a un projet a une preuve de provenance autre qu'une liste hardcodee.
+- [x] Les reconciliations incertaines ne sont pas marquees `validated`.
 
 #### P2.4 Taxonomie et mapping metier
 

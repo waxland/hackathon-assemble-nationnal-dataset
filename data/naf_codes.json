@@ -1,52 +1,757 @@
 [
   {
-    "nafCode": "10.89Z",
+    "nafCode": "23.51Z",
     "nafLabel": "Inconnu (issu du flux CSV)",
-    "relatedThemeIds": [
-      "6.-alimentation-saine-durable-et-tracable"
-    ],
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "49.50Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "85.42Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "84.12Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "72.19Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "94.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "84.13Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "72.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "91.03Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "84.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "71.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "52.23Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "86.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "38.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "confidenceScore": 0.9
   },
   {
     "nafCode": "71.12B",
     "nafLabel": "Inconnu (issu du flux CSV)",
-    "relatedThemeIds": [
-      "5.-premier-avion-bas-carbone",
-      "levier-:-composants-cloud-ia-et-quantique",
-      "2.-leader-de-l-hydrogene-vert"
-    ],
     "confidenceScore": 0.9
   },
   {
-    "nafCode": "62.01Z",
+    "nafCode": "94.99Z",
     "nafLabel": "Inconnu (issu du flux CSV)",
-    "relatedThemeIds": [
-      "7.-production-de-biomedicaments-et-dispositifs-medicaux"
-    ],
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "42.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "94.12Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "68.20B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "confidenceScore": 0.9
   },
   {
     "nafCode": "74.90B",
     "nafLabel": "Inconnu (issu du flux CSV)",
-    "relatedThemeIds": [
-      "9.-nouvelle-aventure-spatiale"
-    ],
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.61Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "71.20B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "25.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.32Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "10.85Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.14Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "43.99D",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "39.00Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "70.22Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "22.29A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "25.62B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "88.99B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "24.54Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "42.99Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "62.02A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "64.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "70.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "53.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "25.50B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "17.22Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "62.01Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "61.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "28.99B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "24.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "50.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "85.59A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "58.29C",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.69B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "47.52A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.19Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "38.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "38.32Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.44Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "68.20A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "85.32Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "10.51C",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.13Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.41Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.69Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "43.34Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "36.00Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "27.90Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.52Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "82.99Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "13.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "28.13Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "82.30Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.16Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "22.29B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "38.22Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "10.89Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "41.20B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "91.04Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "33.14Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "42.22Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "43.99C",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "90.01Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "52.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "93.12Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "29.32Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "30.30Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.69C",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "63.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "16.10A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.74B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "01.29Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "59.11C",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "13.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "90.02Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "72.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "59.11B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.76Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "13.99Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "82.92Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "28.22Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "22.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "49.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "26.51B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "58.29B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "77.40Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "35.23Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "08.12Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "35.30Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "35.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "26.30Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.42Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "24.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.59Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "20.13B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "02.40Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "69.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "29.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "85.59B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "73.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "27.52Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "16.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "69.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.19A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.18Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "30.92Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "28.25Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "46.75Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "62.09Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "81.30Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "50.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "52.10B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "33.20D",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "90.03A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "49.41B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "26.20Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "26.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "74.10Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "13.92Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "confidenceScore": 0.9
   },
   {
     "nafCode": "27.20Z",
     "nafLabel": "Inconnu (issu du flux CSV)",
-    "relatedThemeIds": [
-      "4.-vehicules-electriques-et-hybrides"
-    ],
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "43.21A",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "25.99B",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "35.14Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "10.86Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "27.11Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "28.96Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "43.13Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "35.21Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "45.31Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "30.12Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "01.24Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "confidenceScore": 0.9
   },
   {
     "nafCode": "82.11Z",
     "nafLabel": "Inconnu (issu du flux CSV)",
-    "relatedThemeIds": [
-      "levier-:-composants-cloud-ia-et-quantique"
-    ],
+    "confidenceScore": 0.9
+  },
+  {
+    "nafCode": "23.31Z",
+    "nafLabel": "Inconnu (issu du flux CSV)",
     "confidenceScore": 0.9
   }
 ]
