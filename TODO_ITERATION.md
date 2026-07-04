@@ -313,22 +313,22 @@ Critere d'acceptation :
 
 #### P2.1 Mentions parlementaires
 
-- [ ] Appliquer reellement `is_relevant_mention()` dans `scripts/07_fetch_parliament_mentions.py`.
-- [ ] Remplacer le filtre actuel par un filtre de proximite plus strict : `France 2030`, `PIA`, `investissement`, `subvention`, `budget`, `milliard`, ou nom de dispositif dans une fenetre de mots.
-- [ ] Nettoyer le HTML avec BeautifulSoup ou un helper de nettoyage texte.
-- [ ] Extraire `contextBefore` et `contextAfter` a partir de phrases voisines, pas seulement du sujet.
-- [ ] Ajouter `matchedSentence`.
-- [ ] Ajouter `matchMethod`: `exact_keyword`, `keyword_with_context`, `manual_source`, `llm_classifier`.
-- [ ] Ajouter `validationStatus`.
-- [ ] Gerer la pagination NosDeputes si l'API l'expose.
-- [ ] Limiter le debit pour respecter la source.
+- [x] Appliquer reellement `is_relevant_mention()` dans `scripts/07_fetch_parliament_mentions.py`.
+- [x] Remplacer le filtre actuel par un filtre de proximite plus strict : `France 2030`, `PIA`, `investissement`, `subvention`, `budget`, `milliard`, ou nom de dispositif dans une fenetre de mots.
+- [x] Nettoyer le HTML avec BeautifulSoup ou un helper de nettoyage texte.
+- [x] Extraire `contextBefore` et `contextAfter` a partir de phrases voisines, pas seulement du sujet.
+- [x] Ajouter `matchedSentence` (nommé `interventionText` en base de données pour ce hackathon).
+- [x] Ajouter `matchMethod`: `exact_keyword`, `keyword_with_context`, `manual_source`, `llm_classifier`.
+- [x] Ajouter `validationStatus`.
+- [x] Gerer la pagination NosDeputes si l'API l'expose (Remplacé par la gestion en `asyncio` sur les résultats initiaux).
+- [x] Limiter le debit pour respecter la source.
 - [ ] Prevoir une alternative LesTricoteuses ou Open Data Assemblee si NosDeputes devient limitant.
 
 Critere d'acceptation :
 
-- [ ] Les mentions hors sujet sont reduites.
-- [ ] Les programmes autres que `424` peuvent recevoir des mentions si leurs themes sont detectes.
-- [ ] Les verbatims sont lisibles sans balises HTML.
+- [x] Les mentions hors sujet sont reduites.
+- [x] Les programmes autres que `424` peuvent recevoir des mentions si leurs themes sont detectes.
+- [x] Les verbatims sont lisibles sans balises HTML.
 
 #### P2.2 AAP et dispositifs
 

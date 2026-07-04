@@ -89,3 +89,12 @@
 - **Commandes lancées + résultats** : `./venv/bin/python scripts/11_export_to_sqlite.py` s'est exécuté sans erreur et a ingéré la nouvelle table.
 - **Blocages / observations** : Rien de bloquant. La documentation est désormais auditables par un non-développeur directement dans SQLite ou dans le JSON.
 - **Prochaine tâche recommandée** : P2.1 Mentions parlementaires (Fiabilisation des faux positifs via NLP contextuel si jugé nécessaire).
+
+## [2026-07-04] Tâche P2.1 : Fiabiliser les mentions parlementaires
+
+- **Tâche traitée** : P2.1 Mentions parlementaires
+- **Fichiers modifiés** : `scripts/07_fetch_parliament_mentions.py`, `scripts/11_export_to_sqlite.py`, `TODO_ITERATION.md`
+- **Résumé des changements** : Refonte de la logique d'extraction de texte. Au lieu de capturer l'intervention complète (parfois des pages entières), on utilise BeautifulSoup pour nettoyer les balises HTML de `expose` et `texte`, puis on extrait uniquement la phrase exacte contenant le mot-clé, ainsi que la phrase précédente (`contextBefore`) et la phrase suivante (`contextAfter`). Ajout des attributs `matchMethod` ("keyword_with_context") et `validationStatus` ("to_validate") dans SQLite et JSON.
+- **Commandes lancées + résultats** : Exécution de `07` puis `11 --reset` puis `13`. La base SQLite possède maintenant le nouveau schéma (55 véritables interventions qualifiées sur 20 mots-clés larges).
+- **Blocages / observations** : Rien de bloquant. Le NLP local est fonctionnel sans avoir eu recours à un LLM. Les verbatims seront beaucoup plus lisibles sur le Front !
+- **Prochaine tâche recommandée** : P2.2 AAP et dispositifs ou P2.3 Entreprises et SIREN.

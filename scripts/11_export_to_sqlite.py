@@ -59,6 +59,7 @@ def init_db(db_path):
         speakerName TEXT,
         politicalGroup TEXT,
         matchedKeyword TEXT,
+        matchMethod TEXT,
         relatedThemeId TEXT,
         relatedProgrammeCode TEXT,
         interventionText TEXT,
@@ -66,6 +67,7 @@ def init_db(db_path):
         contextAfter TEXT,
         sourceUrl TEXT,
         confidenceScore REAL,
+        validationStatus TEXT,
         FOREIGN KEY (relatedThemeId) REFERENCES themes (themeId)
     );
     CREATE TABLE IF NOT EXISTS companies (
@@ -215,7 +217,7 @@ def main():
             ("data/themes.json", "themes", ["themeId", "themeName", "confidenceScore"]),
             ("data/keywords.json", "keywords", ["keywordId", "label", "type", "relatedThemeId", "confidenceScore"]),
             ("data/calls_for_projects.json", "calls_for_projects", ["callId", "title", "description", "operator", "openingDate", "closingDate", "sourceUrl", "themeId"]),
-            ("data/parliament_mentions.json", "parliament_mentions", ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore"]),
+            ("data/parliament_mentions.json", "parliament_mentions", ["mentionId", "date", "chamber", "speakerName", "politicalGroup", "matchedKeyword", "matchMethod", "relatedThemeId", "relatedProgrammeCode", "interventionText", "contextBefore", "contextAfter", "sourceUrl", "confidenceScore", "validationStatus"]),
             ("data/naf_codes.json", "naf_codes", ["nafCode", "nafLabel", "confidenceScore"]),
             ("data/companies.json", "companies", ["companyId", "siren", "denominationUniteLegale", "nomUniteLegale", "prenom1UniteLegale", "categorieJuridiqueUniteLegale", "activitePrincipaleUniteLegale", "nomenclatureActivitePrincipaleUniteLegale", "etatAdministratifUniteLegale", "dateCreationUniteLegale", "source", "confidenceScore"]),
             ("data/correlations.json", "correlations", ["correlationId", "sourceEntityType", "sourceEntityId", "targetEntityType", "targetEntityId", "correlationType", "confidenceScore", "evidenceSource", "validationStatus"]),
